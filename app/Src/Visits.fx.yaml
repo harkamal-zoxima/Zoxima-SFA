@@ -2,7 +2,7 @@
     Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnHidden: =Set(VarDialogOpen, false);
-    OnVisible: |-
+    OnVisible: |
         =Clear(PrimaryCart);
         Set(
             varOpen,
@@ -21,14 +21,32 @@
             VarVisit,
             false
         );
-        Set(VarDialogOpen, false);
-        ClearCollect(SelectedVisitForEdit, First(Visits_1));
+        Set(
+            VarDialogOpen,
+            false
+        );
+        ClearCollect(
+            SelectedVisitForEdit,
+            First(Visits_1)
+        );
+        ClearCollect(
+            Subordinates,
+            ShowColumns(
+                Filter(
+                    Users,
+                    Manager.'Primary Email' = User().Email
+                ),
+                "fullname",
+                "systemuserid",
+                "internalemailaddress"
+            )
+        );
 
     Canvas2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =901
+        Height: =834
         Width: =Parent.Width
-        Y: =138
+        Y: =204
         ZIndex: =1
 
         DataCard2 As dataCard:
@@ -559,30 +577,6 @@
         Height: =74
         ZIndex: =3
 
-    "'Visit DatePicker' As datepicker":
-        BorderColor: =RGBA(65, 76, 96, 1)
-        BorderThickness: =1
-        CalendarHeaderFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(103, 204, 107, 0.02)
-        FocusedBorderThickness: =2
-        Font: =Font.Lato
-        Height: =41
-        HoverDateFill: =RGBA(144, 144, 144, 1)
-        IconBackground: |-
-            =ColorValue("#414C60")
-        IconFill: =RGBA(255,255,255,1)
-        OnChange: =Set(SelectedVisitDate, 'Visit DatePicker'.SelectedDate)
-        PaddingTop: =5
-        SelectedDateFill: =RGBA(255, 200, 61, 1)
-        Width: =274
-        X: =349
-        Y: =82
-        ZIndex: =4
-
     Circle_1 As circle:
         BorderColor: =RGBA(109, 109, 109, 1)
         BorderStyle: =BorderStyle.None
@@ -678,57 +672,6 @@
         X: =290
         Y: =806
         ZIndex: =9
-
-    Gallery4_1 As gallery.galleryHorizontal:
-        BorderColor: =RGBA(109, 109, 109, 1)
-        Height: =64
-        Items: |-
-            =[
-                {
-                    title: "Today",
-                    date: Today()
-                },
-                 {
-                    title: "Yesterday",
-                    date: Today()+1
-                }
-                
-            ]
-        OnSelect: =Set(SelectedVisitDate, ThisItem.Value.date)
-        ShowScrollbar: =false
-        TemplateSize: =157
-        Width: =334
-        X: =3
-        Y: =74
-        ZIndex: =10
-
-        Button4_1 As button:
-            BorderColor: =RGBA(65, 76, 96, 1)
-            Color: |-
-                =If(ThisItem.IsSelected, ColorValue("#414C60"),RGBA(255, 255, 255, 1))
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: |-
-                =If(ThisItem.IsSelected, White,ColorValue("#414C60") )
-            FocusedBorderColor: =
-            FocusedBorderThickness: =2
-            Font: =Font.Lato
-            FontWeight: =FontWeight.Semibold
-            Height: =36
-            HoverBorderColor: =RGBA(210, 210, 210, 1)
-            HoverColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            OnSelect: =Select(Parent)
-            PressedBorderColor: =
-            PressedColor: =RGBA(31, 31, 31, 1)
-            PressedFill: =
-            Size: =14
-            Text: =ThisItem.Value.title
-            Width: =130
-            X: =15
-            Y: =6
-            ZIndex: =1
 
     EditBackdrop As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -947,6 +890,39 @@
         Y: =543
         ZIndex: =29
 
+    Dropdown1 As dropdown:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        ChevronBackground: =RGBA(31, 31, 31, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(218, 218, 218, 1)
+        ChevronHoverBackground: =RGBA(79, 79, 79, 1)
+        ChevronHoverFill: =RGBA(218, 218, 218, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(31, 31, 31, 1)
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(79, 79, 79, 1)
+        Items: =Subordinates
+        PaddingBottom: =5
+        PaddingLeft: =12
+        PaddingRight: =5
+        PaddingTop: =5
+        PressedBorderColor: =
+        PressedColor: =RGBA(31, 31, 31, 1)
+        PressedFill: =RGBA(31, 31, 31, 1)
+        SelectionColor: =RGBA(31, 31, 31, 1)
+        SelectionFill: =RGBA(28, 28, 28, 1)
+        Size: =21
+        Width: =600
+        X: =23
+        Y: =145
+        ZIndex: =30
+
     EditModal As group:
         Height: =5
         Width: =5
@@ -1136,6 +1112,88 @@
             X: =252
             Y: =597
             ZIndex: =15
+
+    Group4 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =30
+
+        "'Visit DatePicker' As datepicker":
+            BorderColor: =RGBA(65, 76, 96, 1)
+            BorderThickness: =1
+            CalendarHeaderFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(103, 204, 107, 0.02)
+            FocusedBorderThickness: =2
+            Font: =Font.Lato
+            Height: =41
+            HoverDateFill: =RGBA(144, 144, 144, 1)
+            IconBackground: |-
+                =ColorValue("#414C60")
+            IconFill: =RGBA(255,255,255,1)
+            OnChange: =Set(SelectedVisitDate, 'Visit DatePicker'.SelectedDate)
+            PaddingTop: =5
+            SelectedDateFill: =RGBA(255, 200, 61, 1)
+            Width: =274
+            X: =349
+            Y: =82
+            ZIndex: =4
+
+        Gallery4_1 As gallery.galleryHorizontal:
+            BorderColor: =RGBA(109, 109, 109, 1)
+            Height: =64
+            Items: |-
+                =[
+                    {
+                        title: "Today",
+                        date: Today()
+                    },
+                     {
+                        title: "Yesterday",
+                        date: Today()+1
+                    }
+                    
+                ]
+            OnSelect: =Set(SelectedVisitDate, ThisItem.Value.date)
+            ShowScrollbar: =false
+            TemplateSize: =157
+            Width: =334
+            X: =3
+            Y: =74
+            ZIndex: =10
+
+            Button4_1 As button:
+                BorderColor: =RGBA(65, 76, 96, 1)
+                Color: |-
+                    =If(ThisItem.IsSelected, ColorValue("#414C60"),RGBA(255, 255, 255, 1))
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: |-
+                    =If(ThisItem.IsSelected, White,ColorValue("#414C60") )
+                FocusedBorderColor: =
+                FocusedBorderThickness: =2
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =36
+                HoverBorderColor: =RGBA(210, 210, 210, 1)
+                HoverColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                OnSelect: =Select(Parent)
+                PressedBorderColor: =
+                PressedColor: =RGBA(31, 31, 31, 1)
+                PressedFill: =
+                Size: =14
+                Text: =ThisItem.Value.title
+                Width: =130
+                X: =15
+                Y: =6
+                ZIndex: =1
 
     Group15 As group:
         Height: =5
