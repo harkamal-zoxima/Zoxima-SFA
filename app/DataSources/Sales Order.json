@@ -68,30 +68,6 @@
     }
   },
   {
-    "DisplayName": "Order Type1",
-    "Name": "cr431_ordertype",
-    "OptionSetInfoNameMapping": {
-      "254460000": "Primary Order",
-      "254460001": "Secondary Order"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": true,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "cr431_ordertype",
-        "OptionSetReferenceEntityName": "Sales Order"
-      },
-      "OptionSetReferenceItem1": {
-        "OptionSetReferenceColumnName": "cr431_ordertype",
-        "OptionSetReferenceEntityName": "Sales Orders"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "cr431_ordertype",
-    "RelatedEntityName": "Sales Order",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "Cancelled Order (Sales Order)",
     "Name": "cr431_salesorder_cr431_cancelledorder",
     "OptionSetInfoNameMapping": {
@@ -108,28 +84,6 @@
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "cr431_cancelledorder",
-    "RelatedEntityName": "Sales Order",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Order Status (Sales Order)",
-    "Name": "cr431_salesorder_cr431_orderstatus",
-    "OptionSetInfoNameMapping": {
-      "254460000": "Open",
-      "254460001": "Accepted",
-      "254460002": "Shipped",
-      "254460003": "Partially Shipped"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "cr431_orderstatus",
-        "OptionSetReferenceEntityName": "Sales Order"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "cr431_orderstatus",
     "RelatedEntityName": "Sales Order",
     "Type": "OptionSetInfo"
   },
