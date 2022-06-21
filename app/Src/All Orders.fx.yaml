@@ -740,7 +740,7 @@
         Height: =64
         Items: |-
             =[
-                "Last Month",
+                "Last 30 Days",
                 "Last 7 Days",
                 "Today's Orders"
             ]
