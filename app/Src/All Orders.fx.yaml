@@ -709,7 +709,7 @@
         ZIndex: =21
 
         Button4_4 As button:
-            BorderColor: =RGBA(53, 166, 57, 1)
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderThickness: =0
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -754,7 +754,7 @@
         ZIndex: =22
 
         Button4_7 As button:
-            BorderColor: =RGBA(53, 166, 57, 1)
+            BorderColor: =RGBA(184, 0, 0, 1)
             BorderThickness: =0
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
