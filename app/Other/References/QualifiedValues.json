@@ -148,6 +148,29 @@
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
+    },
+    {
+      "Kind": "default.cds_cr431_sites_forms",
+      "Namespace": "Sites (Forms)",
+      "Values": {
+        "Information": "96d6af78-d41b-4995-9641-f05e05509a24"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_area_forms",
+      "Namespace": "Areas (Forms)",
+      "Values": {
+        "Information": "a5c4fa1d-61f3-457a-a770-c4f568b15ef9"
+      }
+    },
+    {
+      "Kind": "default.cds_team_forms",
+      "Namespace": "Teams (Forms)",
+      "Values": {
+        "Information": "f5cfab6a-d4c2-4519-b68f-6e7485432e29",
+        "Team": "7ba7fac1-1418-4335-935f-f7f8dfd73fcc",
+        "Team form – Business": "4aabf594-b30a-490d-bf97-89c67c6777fe"
+      }
     }
   ]
 }
