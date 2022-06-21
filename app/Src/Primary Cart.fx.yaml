@@ -234,7 +234,7 @@
         Height: =46
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(31, 31, 31, 1)
-        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+        HoverFill: =
         OnSelect: |
             =ClearCollect(
                 CreateOrderRecord,
@@ -293,9 +293,9 @@
                 )
             );
             Navigate('Primary Order Success', ScreenTransition.Fade)
-        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+        PressedBorderColor: =
         PressedColor: =RGBA(31, 31, 31, 1)
-        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedFill: =
         Size: =18
         Text: ="CONFIRM ORDER"
         Visible: =If(CountRows(PrimaryCart)>0, true, false)
