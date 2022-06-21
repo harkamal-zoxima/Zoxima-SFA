@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_salesorder",
-    "MaxGetRowsCount": 500,
     "Name": "Sales Order",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
@@ -95,30 +94,6 @@
       "ba4df384-b9ce-4c5f-9fa9-023068393d50": "Active Sales Order",
       "efb856e6-f6ac-4723-907c-66bb79823a56": "Inactive Sales Order"
     }
-  },
-  {
-    "DisplayName": "Order Type1",
-    "Name": "cr431_ordertype",
-    "OptionSetInfoNameMapping": {
-      "254460000": "Primary Order",
-      "254460001": "Secondary Order"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": true,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "cr431_ordertype",
-        "OptionSetReferenceEntityName": "Sales Order"
-      },
-      "OptionSetReferenceItem1": {
-        "OptionSetReferenceColumnName": "cr431_ordertype",
-        "OptionSetReferenceEntityName": "Sales Orders"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "cr431_ordertype",
-    "RelatedEntityName": "Sales Order",
-    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Cancelled Order (Sales Order)",

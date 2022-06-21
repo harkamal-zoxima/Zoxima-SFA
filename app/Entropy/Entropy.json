@@ -1347,7 +1347,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/21/2022 11:57:35",
+  "HeaderLastSavedDateTimeUTC": "06/21/2022 12:16:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/3d3303b9c30543d884499e3c24ffb277\""
@@ -1560,13 +1560,13 @@
     "Product Price List\\default.cds_cr431_productpricelist_views": 159,
     "RadioSample": 169,
     "Sales Order": 181,
-    "Sales Order\\cr431_ordertype": 108,
     "Sales Order\\cr431_salesorder_cr431_cancelledorder": 106,
     "Sales Order\\cr431_salesorder_cr431_orderstatus": 107,
     "Sales Order\\cr431_salesorder_statecode": 109,
     "Sales Order\\cr431_salesorder_statuscode": 110,
     "Sales Order\\default.cds_cr431_salesorder_views": 160,
     "Sales Orders": 182,
+    "Sales Orders\\cr431_ordertype": 108,
     "Sales Orders\\cr431_sales_order_cr431_orderstatus": 111,
     "Sales Orders\\cr431_sales_order_statecode": 112,
     "Sales Orders\\cr431_sales_order_statuscode": 113,
@@ -3770,7 +3770,7 @@
       "toggleSwitch": 2
     },
     "DeserializationLoadTime": 8.7286903,
-    "ErrorCount": 137
+    "ErrorCount": 144
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

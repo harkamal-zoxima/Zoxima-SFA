@@ -239,11 +239,11 @@
             =ClearCollect(
                 CreateOrderRecord,
                 Patch(
-                    'Sales Order',
-                    Defaults('Sales Order'),
+                    'Sales Orders',
+                    Defaults('Sales Orders'),
                     {
                         'Order Date': Today(),
-                        'Order Status': 'Order Status (Sales Order)'.Open,
+                        'Order Status': 'Order Status (Sales Orders)'.Open,
                         'Order Type': 'Order Type1'.'Primary Order',
                         'Before Tax Amount': Sum(
                             PrimaryCart,
@@ -257,8 +257,6 @@
                             PrimaryCart,
                             price
                         ) * 0.09,
-                        'CGST %': 9,
-                        'SGST %': 9,
                         'Bill Amoount': Sum(
                             PrimaryCart,
                             price
@@ -269,27 +267,6 @@
                         ),
                         'Order From': LookUp(Accounts, Account = First(SelectedRetailerForPriOrder).Account)
                     }
-                )
-            );
-            If(
-                !IsBlank(CreateOrderRecord),
-                ClearCollect(
-                    CreateItemsRecord,
-                    ForAll(
-                        PrimaryCart,
-                        Patch(
-                            'Order Line',
-                            Defaults('Order Line'),
-                            {
-                                Quantity: Value(ThisRecord.qty),
-                                'Bill Amoount': ThisRecord.price,
-                                'Order No': LookUp(
-                                    'Sales Order',
-                                    'Order ID' = First(CreateOrderRecord).'Order ID'
-                                )
-                            }
-                        )
-                    )
                 )
             );
             Navigate('Primary Order Success', ScreenTransition.Fade)
