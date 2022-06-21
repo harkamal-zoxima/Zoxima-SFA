@@ -1,11 +1,5 @@
 "'Primary Cart' As screen":
-    Fill: |-
-        =RGBA(
-            255,
-            255,
-            255,
-            1
-        )
+    Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
@@ -423,10 +417,10 @@
             BorderColor: =RGBA(230, 230, 230, 1)
             BorderThickness: =1
             DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(237, 237, 237, 0.36)
+            Fill: =RGBA(237, 237, 237, 0.35)
             FocusedBorderThickness: =4
             Height: =201
-            HoverFill: =RGBA(255, 200, 61, 1)
+            HoverFill: =
             OnSelect: =Select(Parent)
             PressedFill: =
             Width: =630
@@ -455,7 +449,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(103, 204, 107, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -493,7 +487,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(103, 204, 107, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -528,7 +522,7 @@
             ZIndex: =6
 
         TextInput5_2 As text:
-            BorderColor: =RGBA(103, 204, 107, 1)
+            BorderColor: =RGBA(121, 121, 121, 1)
             Color: =RGBA(255, 255, 255, 1)
             Default: =ThisItem.qty
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -588,7 +582,7 @@
 
         Icon9_2 As icon.Trash:
             BorderColor: =RGBA(109, 109, 109, 1)
-            Color: =RGBA(103, 204, 107, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
@@ -617,7 +611,7 @@
             HtmlText1_89 As htmlViewer:
                 Height: =56
                 HtmlText: |-
-                    ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                    ="<div style='border-radius:10px; background-color:#586782; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                 OnSelect: |-
                     =Update(
                         PrimaryCart,
@@ -640,7 +634,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -676,7 +670,7 @@
             HtmlText1_90 As htmlViewer:
                 Height: =56
                 HtmlText: |-
-                    ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                    ="<div style='border-radius:10px; background-color:#586782; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                 OnSelect: |-
                     =Update(
                         PrimaryCart,
@@ -699,7 +693,7 @@
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
