@@ -1,0 +1,132 @@
+App As appinfo:
+    BackEnabled: =true
+    ConfirmExit: =true
+    ConfirmExitMessage: ="Do you want to exit?"
+    OnStart: |
+        =//For Attendance Marking, Setting Variable (Start for "Not start day", end for "Started day but not ended", done for "started and ended your day"
+        If(
+            IsBlank(
+                LookUp(
+                    Attendences,
+                    IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                        Users,
+                        'Primary Email' = User().Email
+                    ).User
+                )
+            ),
+            Set(
+                varAttendance,
+                "start"
+            ),
+            IsBlank(
+                LookUp(
+                    Attendences,
+                    IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                        Users,
+                        'Primary Email' = User().Email
+                    ).User
+                ).'End Time'
+            ),
+            Set(
+                varAttendance,
+                "end"
+            ),
+            Set(
+                varAttendance,
+                "done"
+            )
+        );
+        ClearCollect(
+            PrimaryCart,
+            []
+        );
+        
+        //For visits in collection****************************************************************************************************
+        ClearCollect(
+            OfflineVisits,
+            Filter(
+                Visits_1,
+                'Created By'.User = LookUp(
+                    Users,
+                    'Primary Email' = User().Email
+                ).User
+            )
+        );
+        
+        //For offline visits in local****************************************************************************************************
+        ClearData("LocalVisits");
+        SaveData(
+            OfflineVisits,
+            "LocalVisits"
+        );
+        
+        //For Local Accounts****************************************************************************************************
+        If(
+            Connection.Connected,
+            ClearCollect(
+                colMyAccounts,
+                Accounts
+            ),
+            LoadData(
+                colMyAccounts,
+                "My Offline Accounts",
+                false
+            )
+        );
+        SaveData(
+            colMyAccounts,
+            "My Offline Accounts"
+        );
+        Set(
+            VarVisit,
+            true
+        );
+        
+        
+        //For Local Products****************************************************************************************************
+        If(
+            Connection.Connected,
+            ClearCollect(
+                OfflineProducts,
+                'Product Items'
+            ),
+            LoadData(
+                OfflineProducts,
+                "My Offline Products",
+                false
+            )
+        );
+        SaveData(
+            OfflineProducts,
+            "My Offline Products"
+        );
+        
+        
+        //For Local Price List****************************************************************************************************
+        If(
+            Connection.Connected,
+            ClearCollect(
+                OfflinePriceList,
+                'Product Price List'
+            ),
+            LoadData(
+                OfflinePriceList,
+                "My Offline Price List",
+                false
+            )
+        );
+        SaveData(
+            OfflinePriceList,
+            "My Offline Price List"
+        );
+        
+        
+        //To get Sales Order Schema in "OfflineSalesHeader" collection
+        ClearCollect(OfflineSalesHeader, First('Sales Order'));
+        Clear(OfflineSalesHeader);
+        
+        //To get Sales Orderline Schema in "OfflineSalesOrderLines" collection
+        ClearCollect(OfflineSalesOrderLines, First('Order Line'));
+        Clear(OfflineSalesOrderLines);
+    StartScreen: ='Start Screen'
+

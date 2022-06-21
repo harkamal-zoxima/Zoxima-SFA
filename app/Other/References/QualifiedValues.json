@@ -1,0 +1,139 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_account_forms",
+      "Namespace": "Accounts (Forms)",
+      "Values": {
+        "Account": "8448b78f-8f42-454e-8e2a-f8196b0419af",
+        "account card": "b028db32-3619-48a5-ac51-cf3f947b0ef3",
+        "Account Card form": "cccff382-2b92-467e-bf1b-3db179512af8",
+        "Account for Interactive experience": "a72c7955-442b-4ea4-9499-b10cd18b4256",
+        "Account Hierarchy Tile Form": "69cff312-cfb6-4289-9631-249ab85d2c62",
+        "Account Quick Create": "c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b",
+        "Account Reference Panel": "098ae145-1567-41ec-8398-86dbaac70c9b",
+        "Information": "b053a39a-041a-4356-acef-ddf00182762b",
+        "Social Profiles": "2205c86d-ed88-4a2f-a447-3b86a8781f2e"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_attendence_forms",
+      "Namespace": "Attendences (Forms)",
+      "Values": {
+        "Information": "2bb1e1c3-867f-4d68-ba39-ad45c132ca01"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_category_forms",
+      "Namespace": "Categories (Forms)",
+      "Values": {
+        "Information": "21a748cc-578f-4515-9a35-a4b515029233"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_complaints_forms",
+      "Namespace": "Complaints_1 (Forms)",
+      "Values": {
+        "Information": "a1814dad-cbb4-4631-ba62-9ed58277f53a"
+      }
+    },
+    {
+      "Kind": "default.cds_contact_forms",
+      "Namespace": "Contacts (Forms)",
+      "Values": {
+        "account contact card": "29de27bc-a257-4f29-99cf-bab4a84e688f",
+        "Contact": "1fed44d1-ae68-4a41-bd2b-f13acac4acfa",
+        "contact card": "707fc57b-c5e6-471b-a180-e37ed28a38e2",
+        "Contact Card form": "bc0f68dd-a4b1-4a8f-bed3-c8f5db2f89cf",
+        "Contact Quick Create": "661157fe-2fc9-4eaa-835f-5bfa2f7b64f7",
+        "Contact Quick Form": "bdb0ae1c-32fa-4374-b637-8dafe107bc44",
+        "Contact Reference Panel": "d880c3cf-80e2-42f3-82f9-24d040d09f17",
+        "Information": "894cc46a-b0cb-4ab0-8bf6-200544e46a2d",
+        "Live Persona Card Form": "449faa0e-f471-48ec-87d0-4719909546d2",
+        "Recent Cases and Entitlements": "f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e",
+        "Social Profiles": "7bb87dfd-ec3e-4ed9-8e3e-5725d3067295",
+        "Update Contact": "26843818-6508-4afe-9342-5fae2ebf15ca"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_invoiceline_forms",
+      "Namespace": "Invoice Line (Forms)",
+      "Values": {
+        "Information": "417b568b-1cfa-4fac-aa44-c84432e56daa"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_invoice_forms",
+      "Namespace": "Invoices (Forms)",
+      "Values": {
+        "Information": "6c6af38e-306b-43a0-aa77-e646398483d5"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_orderline_forms",
+      "Namespace": "Order Line (Forms)",
+      "Values": {
+        "Information": "f53ebce1-3b06-46d1-b4e4-af9376d3bb70"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_productitem_forms",
+      "Namespace": "Product Items (Forms)",
+      "Values": {
+        "Information": "4f545c00-9e58-46ef-b084-bf7c123ba116"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_productpricelist_forms",
+      "Namespace": "Product Price List (Forms)",
+      "Values": {
+        "Information": "626f4f57-fa01-441e-bb61-c833f16359bc"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_salesorder_forms",
+      "Namespace": "Sales Order (Forms)",
+      "Values": {
+        "Information": "60b5fc45-b543-4525-baf0-9968ff93fcec"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_sales_order_forms",
+      "Namespace": "Sales Orders (Forms)",
+      "Values": {
+        "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Users (Forms)",
+      "Values": {
+        "Application User": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "Information": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "User": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "User form – Business": "c2413504-7eb2-4c59-a087-95d819866114",
+        "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_visit_forms",
+      "Namespace": "Visits_1 (Forms)",
+      "Values": {
+        "Information": "572c74d3-bedf-4c59-bde0-fffb425ed89e"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_expenseheader_forms",
+      "Namespace": "Expense Header (Forms)",
+      "Values": {
+        "Information": "d54aff83-3c61-43a9-826e-a9b184eb3a21"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_expenseline_forms",
+      "Namespace": "Expense Line (Forms)",
+      "Values": {
+        "Information": "ac448f22-720c-43b0-9768-3db01d07dad6"
+      }
+    }
+  ]
+}

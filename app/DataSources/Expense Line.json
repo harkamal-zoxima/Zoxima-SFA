@@ -1,0 +1,130 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr431_expenselines",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr431_expenseline",
+    "Name": "Expense Line",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr431_expenseallowedasperpolicy": "Expense Allowed as Per Policy",
+      "cr431_expenseallowedasperpolicy_base": "Expense Allowed as Per Policy (Base)",
+      "cr431_expenseapproved": "Expense Approved",
+      "cr431_expenseapproved_base": "Expense Approved (Base)",
+      "cr431_expensedone": "Expense Done",
+      "cr431_expensedone_base": "Expense Done (Base)",
+      "cr431_expenseline": "Expense Line (cr431_expenseline)",
+      "cr431_expenseline_AsyncOperations": "System Jobs",
+      "cr431_expenseline_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr431_expenseline_DuplicateBaseRecord": "Duplicate Records (cr431_expenseline_DuplicateBaseRecord)",
+      "cr431_expenseline_DuplicateMatchingRecord": "Duplicate Records (cr431_expenseline_DuplicateMatchingRecord)",
+      "cr431_expenseline_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr431_expenseline_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr431_expenseline_ProcessSession": "Process Sessions",
+      "cr431_expenseline_SyncErrors": "Sync Errors",
+      "cr431_expenselineid": "Expense Line (cr431_expenselineid)",
+      "cr431_expnsetype": "Expnse Type",
+      "cr431_kilometertravelled": "Kilometer Travelled",
+      "cr431_name": "Name",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Expense Line",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Expense Line (Views)",
+    "Name": "_cr431_expenseline_views",
+    "RelatedEntityName": "Expense Line",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0af43e6f-4afa-416f-9032-55886dc5dc23": "Inactive Expense Line",
+      "2a564c08-bcf1-4d27-bc80-e07f6a955dca": "Expense Line Associated View",
+      "3dbaa15d-062d-41fe-b850-7925740715e0": "Expense Line Lookup View",
+      "5c8b2738-8aa0-4ceb-9b09-fcd52f9c34cf": "Active Expense Line",
+      "bef75475-b810-4949-bbaa-e60594f39802": "Expense Line Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Expnse Type (Expense Line)",
+    "Name": "cr431_expenseline_cr431_expnsetype",
+    "OptionSetInfoNameMapping": {
+      "254460000": "Travelling",
+      "254460001": "Toll",
+      "254460002": "Hotel",
+      "254460003": "Others",
+      "254460004": "DA"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr431_expnsetype",
+        "OptionSetReferenceEntityName": "Expense Line"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr431_expnsetype",
+    "RelatedEntityName": "Expense Line",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Expense Line)",
+    "Name": "cr431_expenseline_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Expense Line"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Expense Line",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Expense Line)",
+    "Name": "cr431_expenseline_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Expense Line"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Expense Line",
+    "Type": "OptionSetInfo"
+  }
+]
