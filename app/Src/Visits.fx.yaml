@@ -1208,13 +1208,12 @@
 
             Button4_1 As button:
                 BorderColor: =RGBA(65, 76, 96, 1)
-                Color: |-
-                    =If(ThisItem.IsSelected, ColorValue("#414C60"),RGBA(255, 255, 255, 1))
+                Color: =White
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 Fill: |-
-                    =If(ThisItem.IsSelected, White,ColorValue("#414C60") )
+                    =If(ThisItem.IsSelected, ColorValue("#A00002"),ColorValue("#414C60") )
                 FocusedBorderColor: =
                 FocusedBorderThickness: =2
                 Font: =Font.Lato
