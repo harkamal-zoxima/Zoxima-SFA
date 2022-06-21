@@ -58,7 +58,7 @@
         "Name": "Rectangle1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1349,
+        "PublishOrderIndex": 1425,
         "Rules": [
           {
             "Category": "Design",
@@ -230,7 +230,7 @@
         "Name": "Icon1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1350,
+        "PublishOrderIndex": 1426,
         "Rules": [
           {
             "Category": "Design",
@@ -448,7 +448,7 @@
         "Name": "Image3",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1351,
+        "PublishOrderIndex": 1427,
         "Rules": [
           {
             "Category": "Data",
@@ -669,7 +669,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1353,
+            "PublishOrderIndex": 1429,
             "Rules": [
               {
                 "Category": "Design",
@@ -822,7 +822,7 @@
             "Name": "Label5",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1354,
+            "PublishOrderIndex": 1430,
             "Rules": [
               {
                 "Category": "Data",
@@ -1129,7 +1129,7 @@
             "Name": "Rectangle2",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1355,
+            "PublishOrderIndex": 1431,
             "Rules": [
               {
                 "Category": "Design",
@@ -1306,7 +1306,7 @@
         "Name": "Gallery1_1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1352,
+        "PublishOrderIndex": 1428,
         "Rules": [
           {
             "Category": "Data",
@@ -1513,12 +1513,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637914341895753779",
+    "LastModifiedTimestamp": "637914350571486257",
     "Name": "Side Bar",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "[\r\n    {\r\n        title: \"Profile\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Primary Orders\",\r\n        screen: 'All Orders'\r\n    },\r\n    {\r\n        title: \"Secondary Orders\",\r\n        screen: 'Secondary Orders'\r\n    },\r\n    {\r\n        title:\"Expense\",\r\n        screen:Expenses\r\n    }\r\n]",
+        "InvariantScript": "[\r\n    {\r\n        title: \"Profile\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Primary Orders\",\r\n        screen: 'All Orders'\r\n    },\r\n    {\r\n        title: \"Secondary Orders\",\r\n        screen: 'Secondary Orders'\r\n    },\r\n    {\r\n        title:\"Expense\",\r\n        screen:Expenses\r\n    },\r\n    {\r\n        title:\"Site\",\r\n        screen:'Create Site'\r\n    },\r\n     {\r\n        title:\"Influencer\"\r\n      //  screen:\r\n    }\r\n    \r\n]",
         "Property": "NavItems",
         "RuleProviderType": "System"
       },
@@ -1588,7 +1588,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637914341895753779",
+  "LastModifiedTimestamp": "637914350571486257",
   "Name": "69894502ba10475d874bab19096f81b6",
   "OverridableProperties": {},
   "TemplateOriginalName": "44296e90674643d98cbafda09bd9f5fa",

@@ -18,7 +18,16 @@
             {
                 title:"Expense",
                 screen:Expenses
+            },
+            {
+                title:"Site",
+                screen:'Create Site'
+            },
+             {
+                title:"Influencer"
+              //  screen:
             }
+            
         ]
     Width: =If(varOpen, 320, 70)
     X: =0

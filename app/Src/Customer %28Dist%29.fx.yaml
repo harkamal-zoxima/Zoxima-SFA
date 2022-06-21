@@ -14,18 +14,18 @@
             );
         );
 
-    Gallery3_1 As gallery.galleryVertical:
+    Gallery3_6 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =886
-        Items: =Filter(Filter(colMyAccounts, 'Account Type' = Gallery4.Selected.Value), 'Customer Search'.Text in 'Account Name (name)') 
+        Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_5.Selected.Value), 'Customer Search_2'.Text in 'Account Name (name)') 
         Layout: =Layout.Vertical
-        TemplateSize: =177
+        TemplateSize: =199
         Y: =140
         ZIndex: =1
 
-        HtmlText1_71 As htmlViewer:
+        HtmlText1_92 As htmlViewer:
             Color: =RGBA(242, 242, 242, 1)
-            Height: =188
+            Height: =198
             HtmlText: |-
                 ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:590px; height:175px'></div>"
             OnSelect: =Select(Parent)
@@ -33,7 +33,7 @@
             X: =15
             ZIndex: =1
 
-        Label1_3 As label:
+        Label1_11 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -51,7 +51,7 @@
             Y: =12
             ZIndex: =2
 
-        Label2_62 As label:
+        Label2_132 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -70,7 +70,7 @@
             Y: =19
             ZIndex: =14
 
-        Label2_72 As label:
+        Label2_133 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -89,7 +89,7 @@
             Y: =50
             ZIndex: =21
 
-        Icon11 As icon.Waypoint:
+        Icon11_4 As icon.Waypoint:
             BorderColor: =RGBA(109, 109, 109, 1)
             Color: =RGBA(255, 200, 61, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -111,14 +111,14 @@
             Y: =21
             ZIndex: =22
 
-        Group12 As group:
+        Group12_4 As group:
             Height: =5
             Width: =5
             X: =40
             Y: =40
             ZIndex: =22
 
-            HtmlText1_72 As htmlViewer:
+            HtmlText1_98 As htmlViewer:
                 Color: =RGBA(242, 242, 242, 1)
                 Height: =52
                 HtmlText: |-
@@ -129,7 +129,7 @@
                 Y: =103
                 ZIndex: =8
 
-            Label2_65 As label:
+            Label2_135 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -148,7 +148,7 @@
                 Y: =110
                 ZIndex: =9
 
-            Label2_68 As label:
+            Label2_137 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -166,14 +166,14 @@
                 Y: =138
                 ZIndex: =12
 
-        Group13 As group:
+        Group13_4 As group:
             Height: =5
             Width: =5
             X: =40
             Y: =40
             ZIndex: =22
 
-            HtmlText1_73 As htmlViewer:
+            HtmlText1_93 As htmlViewer:
                 Color: =RGBA(242, 242, 242, 1)
                 Height: =52
                 HtmlText: |-
@@ -184,7 +184,7 @@
                 Y: =102
                 ZIndex: =4
 
-            Label2_63 As label:
+            Label2_134 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -203,7 +203,7 @@
                 Y: =110
                 ZIndex: =5
 
-            Label2_66 As label:
+            Label2_136 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -221,14 +221,14 @@
                 Y: =133
                 ZIndex: =10
 
-        Group11 As group:
+        Group11_3 As group:
             Height: =5
             Width: =5
             X: =40
             Y: =40
             ZIndex: =25
 
-            Button2 As button:
+            Button2_10 As button:
                 Align: =Align.Left
                 BorderColor: =RGBA(0, 0, 0, 0)
                 Color: =RGBA(31, 31, 31, 1)
@@ -268,7 +268,7 @@
                 Y: =114
                 ZIndex: =23
 
-            Icon13 As icon.Add:
+            Icon13_3 As icon.Add:
                 BorderColor: =RGBA(109, 109, 109, 1)
                 Color: =RGBA(31, 31, 31, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -302,7 +302,7 @@
                 Y: =122
                 ZIndex: =24
 
-    HtmlText1_65 As htmlViewer:
+    HtmlText1_68 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
         Height: =82
         HtmlText: |-
@@ -314,7 +314,7 @@
         Width: =640
         ZIndex: =2
 
-    Label11_1 As label:
+    Label11_7 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -332,7 +332,7 @@
         Y: =12
         ZIndex: =3
 
-    "'Customer Search' As text":
+    "'Customer Search_4' As text":
         BorderColor: =RGBA(109, 109, 109, 1)
         Color: =RGBA(255, 255, 255, 1)
         Default: =""
@@ -359,10 +359,10 @@
         Y: =21
         ZIndex: =4
 
-    Gallery4 As gallery.galleryHorizontal:
+    Gallery4_5 As gallery.galleryHorizontal:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =64
-        Items: =['Account Type (Accounts)'.Distributer, 'Account Type (Accounts)'.Retailer, 'Account Type (Accounts)'.Wholesaler, 'Account Type (Accounts)'.Constructor, 'Account Type (Accounts)'.Plumber]
+        Items: =['Account Type (Accounts)'.Distributer, 'Account Type (Accounts)'.Retailer, 'Account Type (Accounts)'.Wholesaler, 'Account Type (Accounts)'.Constructor, 'Account Type (Accounts)'.Plumber,'Account Type (Accounts)'.Influencer,'Account Type (Accounts)'.Sites]
         OnSelect: =
         ShowScrollbar: =false
         TemplateSize: =143
@@ -371,7 +371,7 @@
         Y: =80
         ZIndex: =5
 
-        Button4 As button:
+        Button4_17 As button:
             BorderColor: =RGBA(65, 76, 96, 1)
             Color: |-
                 =If(ThisItem.IsSelected, ColorValue("#414C60"),RGBA(255, 255, 255, 1))
@@ -399,7 +399,7 @@
             Y: =6
             ZIndex: =1
 
-    Rectangle5 As rectangle:
+    Rectangle5_6 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -413,7 +413,7 @@
         Width: =640
         ZIndex: =6
 
-    "'Bottom Navigation_5' As 'Bottom Navigation'":
+    "'Bottom Navigation_32' As 'Bottom Navigation'":
         NavItems: |-
             =Table( {
                     Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
@@ -445,19 +445,19 @@
         Y: =1056
         ZIndex: =11
 
-    "'Side Bar_12' As 'Side Bar'":
+    "'Side Bar_19' As 'Side Bar'":
         Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
         Height: =If(varOpen, 1136, 60)
         ZIndex: =12
 
-    Group14 As group:
+    Group14_4 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =13
 
-        Rectangle7 As rectangle:
+        Rectangle7_8 As rectangle:
             BorderColor: =RGBA(219, 219, 219, 1)
             BorderThickness: =2
             DisabledFill: =RGBA(166, 166, 166, 1)
@@ -480,7 +480,7 @@
             Y: =320
             ZIndex: =7
 
-        Icon10 As icon.Cancel:
+        Icon10_8 As icon.Cancel:
             BorderColor: =RGBA(109, 109, 109, 1)
             Color: =RGBA(255, 200, 61, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -502,7 +502,7 @@
             Y: =333
             ZIndex: =8
 
-        Label7 As label:
+        Label7_8 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -523,7 +523,7 @@
             Y: =426
             ZIndex: =9
 
-        Button2_1 As button:
+        Button2_12 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
             Color: =RGBA(31, 31, 31, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
