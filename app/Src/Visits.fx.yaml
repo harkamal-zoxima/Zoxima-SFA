@@ -44,7 +44,7 @@
 
     Canvas2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =834
+        Height: =852
         Width: =Parent.Width
         Y: =204
         ZIndex: =1
