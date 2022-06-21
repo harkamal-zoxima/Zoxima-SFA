@@ -15,7 +15,7 @@
         Items: |-
             =Sort(Switch(
                 filter_2.Selected.Value,
-                "Last Month",
+                "Last 30 Days",
                 Filter(
                     Filter(
                         'SalesOrders',
@@ -159,7 +159,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =32
             Size: =13
-            Text: =ThisItem.cr431_dealer
+            Text: =ThisItem.'Order ID'
             Width: =116
             X: =60
             Y: =103
@@ -364,7 +364,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =50
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(53, 166, 57, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =
             OnSelect: |-
                 =Navigate('Order Info', ScreenTransition.Fade, {order: ThisItem})
