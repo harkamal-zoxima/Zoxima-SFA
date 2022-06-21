@@ -18,7 +18,7 @@
                 "Last Month",
                 Filter(
                     Filter(
-                        'Sales Orders',
+                        'SalesOrders',
                         'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'Primary Order' && 'Order Status'= filter.Selected.Value
                     ),
                     'Order Date' > Today() - 30
@@ -26,7 +26,7 @@
                 "Last 7 Days",
                 Filter(
                     Filter(
-                        'Sales Orders',
+                        'SalesOrders',
                         'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'Primary Order' && 'Order Status'= filter.Selected.Value
                     ),
                    'Order Date' > Today() - 7
@@ -34,12 +34,12 @@
                 "Today's Orders",
                 Filter(
                     Filter(
-                        'Sales Order',
+                        'SalesOrders',
                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'Primary Order' && 'Order Status'= filter.Selected.Value
                     ),
                     IsToday('Order Date' )
                 )
-            ), cr431_dealer, Descending)
+            ), 'Created On', Descending)
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =192
@@ -699,7 +699,7 @@
     filter As gallery.galleryHorizontal:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =64
-        Items: =['Order Status (Sales Order)'.Open, 'Order Status (Sales Order)'.Accepted, 'Order Status (Sales Order)'.'Partially Shipped', 'Order Status (Sales Order)'.Shipped]
+        Items: =Choices('Order Status (SalesOrders)')
         OnSelect: =
         ShowScrollbar: =false
         TemplateSize: =143
