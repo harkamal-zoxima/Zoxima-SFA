@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "team",
+    "MaxGetRowsCount": 500,
     "Name": "Teams",
     "NativeCDSDataSourceInfoNameMapping": {
       "administratorid": "Administrator",
@@ -200,6 +201,7 @@
       "team_msdyn_customcontrolextendedsettings": "CustomControl Extended Settings",
       "team_msdyn_dataflow": "Dataflows",
       "team_msdyn_dataflowrefreshhistory": "DataflowRefreshHistories",
+      "team_msdyn_entitylinkchatconfiguration": "Entity link chat configurations",
       "team_msdyn_entityrefreshhistory": "EntityRefreshHistories",
       "team_msdyn_federatedarticle": "Knowledge Federated Articles",
       "team_msdyn_healthcare_feedback": "Healthcare Feedback",

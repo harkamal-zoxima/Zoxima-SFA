@@ -127,7 +127,7 @@ App As appinfo:
         
         
         //To get Sales Order Schema in "OfflineSalesHeader" collection
-        ClearCollect(OfflineSalesHeader, First('Sales Order'));
+        ClearCollect(OfflineSalesHeader, First('SalesOrders'));
         Clear(OfflineSalesHeader);
         
         //To get Sales Orderline Schema in "OfflineSalesOrderLines" collection
