@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_expenseheader",
+    "MaxGetRowsCount": 500,
     "Name": "Expense Header",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

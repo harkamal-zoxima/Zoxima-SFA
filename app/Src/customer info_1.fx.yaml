@@ -2699,7 +2699,7 @@
                         Height: =70
                         OnSelect: =Select(Parent)
                         Size: =21
-                        Text: =ThisItem.'Bill Amoount'
+                        Text: =ThisItem.cr431_billamoount
                         Width: =187
                         X: =22
                         Y: =16

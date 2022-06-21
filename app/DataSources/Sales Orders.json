@@ -86,30 +86,6 @@
     }
   },
   {
-    "DisplayName": "Order Type1",
-    "Name": "cr431_ordertype",
-    "OptionSetInfoNameMapping": {
-      "254460000": "Primary Order",
-      "254460001": "Secondary Order"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": true,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "cr431_ordertype",
-        "OptionSetReferenceEntityName": "Sales Orders"
-      },
-      "OptionSetReferenceItem1": {
-        "OptionSetReferenceColumnName": "cr431_ordertype",
-        "OptionSetReferenceEntityName": "Sales Order"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "cr431_ordertype",
-    "RelatedEntityName": "Sales Orders",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "Order Status (Sales Orders)",
     "Name": "cr431_sales_order_cr431_orderstatus",
     "OptionSetInfoNameMapping": {

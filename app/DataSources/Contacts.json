@@ -132,9 +132,14 @@
       "cr431_Area": "Area",
       "cr431_AttachedDealer": "Attached Dealer",
       "cr431_AttachedRetailer": "Attached Retailer",
-      "cr431_businesssofar": "Business So Far",
+      "cr431_businessthismonth": "Business this month",
+      "cr431_businessthismonth_base": "Business this month (Base)",
+      "cr431_bussinesssofar": "Bussiness So Far",
+      "cr431_bussinesssofar_base": "Bussiness So Far (Base)",
+      "cr431_category": "Category",
       "cr431_cr431_response_cr431_ContactId_cont": "Responses",
       "cr431_meetattend": "Meet attend",
+      "cr431_PSM": "PSM",
       "cr431_tittle": "Tittle",
       "createdby": "Created By",
       "createdon": "Created On",
@@ -1060,6 +1065,29 @@
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Category (Contacts)",
+    "Name": "cr431_contact_cr431_category",
+    "OptionSetInfoNameMapping": {
+      "254460000": "Contractor",
+      "254460001": "Electrician",
+      "254460002": "Plumber",
+      "254460003": "Builder",
+      "254460004": "Plasterer"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr431_category",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr431_category",
     "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   }
