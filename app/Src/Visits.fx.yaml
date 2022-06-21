@@ -2,8 +2,21 @@
     Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnHidden: =Set(VarDialogOpen, false);
-    OnVisible: |
-        =Clear(PrimaryCart);
+    OnVisible: |-
+        =ClearCollect(
+            Subordinates,
+            ShowColumns(
+                Filter(
+                    Users,
+                    Manager.'Primary Email' = CurrentUserEmail
+                ),
+                "fullname",
+                "systemuserid",
+                "internalemailaddress"
+            )
+        );
+        
+        Clear(PrimaryCart);
         Set(
             varOpen,
             false
@@ -15,7 +28,6 @@
                 OfflineVisits,
                 Visits_1
             );
-            
         );
         Set(
             VarVisit,
@@ -28,13 +40,6 @@
         ClearCollect(
             SelectedVisitForEdit,
             First(Visits_1)
-        );
-        ClearCollect(
-            Subordinates,
-            Filter(
-                Users,
-                Manager.'Primary Email' = User().Email
-            )
         );
 
     Canvas2 As fluidGrid.fluidGridWithBlankCard:
@@ -894,6 +899,7 @@
         ChevronHoverBackground: =RGBA(79, 79, 79, 1)
         ChevronHoverFill: =RGBA(218, 218, 218, 1)
         Color: =RGBA(255, 255, 255, 1)
+        Default: =""
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)

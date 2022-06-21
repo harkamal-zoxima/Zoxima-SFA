@@ -120,6 +120,11 @@ App As appinfo:
             "My Offline Price List"
         );
         
+        Set(
+            CurrentUserEmail,
+            User().Email
+        );
+        
         
         //To get Sales Order Schema in "OfflineSalesHeader" collection
         ClearCollect(OfflineSalesHeader, First('Sales Order'));

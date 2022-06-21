@@ -614,12 +614,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'End day'.HtmlText2_10.OnSelect"
+                  "fullyQualifiedName": "'End day'.Button9.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'End day'.HtmlText2_10.OnSelect",
+                  "fullyQualifiedName": "'End day'.Button9.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -633,7 +633,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "End day",
-                "type": "'End day'.HtmlText2_10"
+                "type": "'End day'.Button9"
               }
             }
           ],
@@ -654,12 +654,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'End day'.HtmlText2_10.OnSelect"
+                  "fullyQualifiedName": "'End day'.Button9.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'End day'.HtmlText2_10.OnSelect",
+                  "fullyQualifiedName": "'End day'.Button9.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -673,87 +673,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "End day",
-                "type": "'End day'.HtmlText2_10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'End day'.Label3_32.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'End day'.Label3_32.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 26,
-                  "charOffset": 69,
-                  "snippet": {
-                    "text": "IsToday('Attendance Date')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "End day",
-                "type": "'End day'.Label3_32"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'End day'.Label3_32.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'End day'.Label3_32.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 96,
-                  "snippet": {
-                    "text": "&&"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "End day",
-                "type": "'End day'.Label3_32"
+                "type": "'End day'.Button9"
               }
             }
           ],
