@@ -375,7 +375,7 @@
                     FontWeight: =FontWeight.Semibold
                     Height: =31
                     HoverBorderColor: =RGBA(0, 0, 0, 0)
-                    HoverColor: =
+                    HoverColor: =RGBA(255, 255, 255, 1)
                     HoverFill: =
                     OnSelect: |-
                         =If(
