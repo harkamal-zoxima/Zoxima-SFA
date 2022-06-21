@@ -17093,19 +17093,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Visits.Dropdown1.AccessibleLabel"
+                  "fullyQualifiedName": "Visits.ComboBox1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Visits.Dropdown1.AccessibleLabel",
+                  "fullyQualifiedName": "Visits.ComboBox1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Visits",
-                "type": "Visits.Dropdown1"
+                "type": "Visits.ComboBox1"
               }
             }
           ],
