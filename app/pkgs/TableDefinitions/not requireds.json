@@ -1,6 +1,6 @@
 {
   "DatasetName": "default.cds",
-  "EntityName": "Sales Order",
+  "EntityName": "not requireds",
   "InstanceUrl": "https://org2ed0cdbd.crm8.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "cr431_salesorders",

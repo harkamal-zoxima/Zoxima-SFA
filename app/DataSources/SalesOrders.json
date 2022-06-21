@@ -6,8 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_sales_order",
-    "MaxGetRowsCount": 500,
-    "Name": "Sales Orders",
+    "Name": "SalesOrders",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "cr431_amountafterdiscount": "Amount After Discount",
@@ -35,6 +34,7 @@
       "cr431_orderstatus": "Order Status",
       "cr431_OrderTo": "Order To",
       "cr431_ordertype": "Order Type",
+      "cr431_remarks": "Remarks",
       "cr431_sales_order_AsyncOperations": "System Jobs",
       "cr431_sales_order_BulkDeleteFailures": "Bulk Delete Failures",
       "cr431_sales_order_DuplicateBaseRecord": "Duplicate Records (cr431_sales_order_DuplicateBaseRecord)",
@@ -68,13 +68,13 @@
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
       "versionnumber": "Version Number"
     },
-    "PreferredName": "Sales Orders",
+    "PreferredName": "SalesOrders",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "Sales Orders (Views)",
+    "DisplayName": "SalesOrders (Views)",
     "Name": "_cr431_sales_order_views",
-    "RelatedEntityName": "Sales Orders",
+    "RelatedEntityName": "SalesOrders",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
@@ -97,16 +97,16 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "cr431_ordertype",
-        "OptionSetReferenceEntityName": "Sales Orders"
+        "OptionSetReferenceEntityName": "SalesOrders"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "cr431_ordertype",
-    "RelatedEntityName": "Sales Orders",
+    "RelatedEntityName": "SalesOrders",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Order Status (Sales Orders)",
+    "DisplayName": "Order Status (SalesOrders)",
     "Name": "cr431_sales_order_cr431_orderstatus",
     "OptionSetInfoNameMapping": {
       "254460000": "Open",
@@ -119,16 +119,16 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "cr431_orderstatus",
-        "OptionSetReferenceEntityName": "Sales Orders"
+        "OptionSetReferenceEntityName": "SalesOrders"
       }
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "cr431_orderstatus",
-    "RelatedEntityName": "Sales Orders",
+    "RelatedEntityName": "SalesOrders",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status (Sales Orders)",
+    "DisplayName": "Status (SalesOrders)",
     "Name": "cr431_sales_order_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -139,16 +139,16 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Sales Orders"
+        "OptionSetReferenceEntityName": "SalesOrders"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Sales Orders",
+    "RelatedEntityName": "SalesOrders",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Sales Orders)",
+    "DisplayName": "Status Reason (SalesOrders)",
     "Name": "cr431_sales_order_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
@@ -159,12 +159,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Sales Orders"
+        "OptionSetReferenceEntityName": "SalesOrders"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Sales Orders",
+    "RelatedEntityName": "SalesOrders",
     "Type": "OptionSetInfo"
   }
 ]

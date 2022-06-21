@@ -134,6 +134,20 @@
       "Values": {
         "Information": "ac448f22-720c-43b0-9768-3db01d07dad6"
       }
+    },
+    {
+      "Kind": "default.cds_cr431_salesorder_forms",
+      "Namespace": "not requireds (Forms)",
+      "Values": {
+        "Information": "60b5fc45-b543-4525-baf0-9968ff93fcec"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_sales_order_forms",
+      "Namespace": "SalesOrders (Forms)",
+      "Values": {
+        "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
+      }
     }
   ]
 }

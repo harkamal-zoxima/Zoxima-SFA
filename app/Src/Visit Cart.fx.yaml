@@ -16,20 +16,20 @@
         Fill: =RGBA(160, 0, 2, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.Lato
-        FontWeight: =FontWeight.Semibold
+        FontWeight: =FontWeight.Bold
         Height: =46
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(31, 31, 31, 1)
         HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-        OnSelect: |
+        OnSelect: |-
             =ClearCollect(
                 CreateOrderRecord,
                 Patch(
-                    'Sales Order',
-                    Defaults('Sales Order'),
+                    'SalesOrders',
+                    Defaults('SalesOrders'),
                     {
                         'Order Date': Today(),
-                        'Order Status': 'Order Status (Sales Order)'.Open,
+                        'Order Status': 'Order Status (SalesOrders)'.Open,
                         'Order Type': 'Order Type1'.'Primary Order',
                         'Before Tax Amount': Sum(
                             PrimaryCart,
@@ -43,8 +43,6 @@
                             PrimaryCart,
                             price
                         ) * 0.09,
-                        'CGST %': 9,
-                        'SGST %': 9,
                         'Bill Amoount': Sum(
                             PrimaryCart,
                             price
@@ -53,7 +51,10 @@
                             Accounts,
                             Account = GUID("7e239ae8-1fe7-ec11-bb3c-000d3ac9a0fa")
                         ),
-                        'Order From': LookUp(Accounts, Account = First(SelectedRetailerForPriOrder).Account)
+                        'Order From': LookUp(
+                            Accounts,
+                            Account = First(SelectedRetailerForPriOrder).Account
+                        )
                     }
                 )
             );
@@ -69,8 +70,8 @@
                             {
                                 Quantity: Value(ThisRecord.qty),
                                 'Bill Amoount': ThisRecord.price,
-                                'Order No': LookUp(
-                                    'Sales Order',
+                                'Sales Order No': LookUp(
+                                    'SalesOrders',
                                     'Order ID' = First(CreateOrderRecord).'Order ID'
                                 )
                             }
@@ -78,7 +79,10 @@
                     )
                 )
             );
-            Navigate('Primary Order Success', ScreenTransition.Fade)
+            Navigate(
+                'Primary Order Success',
+                ScreenTransition.Fade
+            )
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
         PressedColor: =RGBA(31, 31, 31, 1)
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)

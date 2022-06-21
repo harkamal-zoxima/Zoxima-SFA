@@ -421,7 +421,7 @@
                     DisabledFill: =RGBA(244, 244, 244, 1)
                     DisplayMode: |-
                         =If(
-                            ThisItem.status = 'status (Visits_1)'.Completed || !IsToday(ThisItem.'Visit Date') || varAttendance="done",
+                            ThisItem.status = 'status (Visits_1)'.Completed || !IsToday(ThisItem.'Visit Date') || varAttendance = "done" || Not(IsBlank(ComboBox1.Selected)),
                             DisplayMode.Disabled,
                             DisplayMode.Edit
                         )
@@ -523,7 +523,7 @@
                     DisabledFill: =RGBA(244, 244, 244, 1)
                     DisplayMode: |-
                         =If(
-                            ThisItem.status = 'status (Visits_1)'.Completed || !IsToday(ThisItem.'Visit Date') || varAttendance="done",
+                            ThisItem.status = 'status (Visits_1)'.Completed || !IsToday(ThisItem.'Visit Date') || varAttendance="done"  || Not(IsBlank(ComboBox1.Selected)),
                             DisplayMode.Disabled,
                             DisplayMode.Edit
                         )
