@@ -369,7 +369,7 @@
             OnSelect: |-
                 =Navigate('Order Info', ScreenTransition.Fade, {order: ThisItem})
             PressedBorderColor: =
-            PressedColor: =RGBA(53, 166, 57, 1)
+            PressedColor: =RGBA(255, 191, 0, 1)
             PressedFill: =
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
