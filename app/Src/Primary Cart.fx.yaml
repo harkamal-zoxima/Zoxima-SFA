@@ -241,7 +241,7 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: |
+        OnSelect: |-
             =ClearCollect(
                 CreateOrderRecord,
                 Patch(
@@ -271,11 +271,17 @@
                             Accounts,
                             Account = GUID("7e239ae8-1fe7-ec11-bb3c-000d3ac9a0fa")
                         ),
-                        'Order From': LookUp(Accounts, Account = First(SelectedRetailerForPriOrder).Account)
+                        'Order From': LookUp(
+                            Accounts,
+                            Account = First(SelectedRetailerForPriOrder).Account
+                        )
                     }
                 )
             );
-            Navigate('Primary Order Success', ScreenTransition.Fade)
+            Navigate(
+                'Primary Order Success',
+                ScreenTransition.Fade
+            )
         PressedBorderColor: =
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =
