@@ -796,6 +796,7 @@
         Text: ="No Orders Found"
         Visible: =If(CountRows(Orders.AllItems)>0, false, true)
         Width: =560
+        X: =36
         Y: =470
         ZIndex: =23
 
