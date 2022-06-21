@@ -1,5 +1,5 @@
 "'Visit Products' As screen":
-    Fill: =RGBA(31, 31, 31, 1)
+    Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
