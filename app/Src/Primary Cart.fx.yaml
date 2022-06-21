@@ -233,7 +233,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =46
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(31, 31, 31, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
         OnSelect: |
             =ClearCollect(
@@ -294,7 +294,7 @@
             );
             Navigate('Primary Order Success', ScreenTransition.Fade)
         PressedBorderColor: =
-        PressedColor: =RGBA(31, 31, 31, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =
         Size: =18
         Text: ="CONFIRM ORDER"
