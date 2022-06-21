@@ -831,7 +831,7 @@
             Fill: =RGBA(242, 242, 242, 1)
             FocusedBorderThickness: =4
             Height: =450
-            HoverFill: =RGBA(255, 200, 61, 1)
+            HoverFill: =
             OnSelect: =
             PressedFill: =RGBA(237, 237, 237, 1)
             Visible: =VarRetailerDialog
@@ -842,7 +842,7 @@
 
         Icon10_6 As icon.Cancel:
             BorderColor: =RGBA(109, 109, 109, 1)
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(22, 22, 22, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
@@ -876,14 +876,14 @@
             Height: =51
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(31, 31, 31, 1)
-            HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+            HoverFill: =
             OnSelect: |-
                 =Set(ConfirmButtonClicked, true);
                 Set(SelectedRetailerForPriOrder, Retailer_1.SelectedItems);
                 Navigate('Primary Products', ScreenTransition.Fade)
             PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
-            PressedColor: =RGBA(31, 31, 31, 1)
-            PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            PressedColor: =
+            PressedFill: =
             Size: =16
             Text: ="CONFIRM"
             Visible: =VarRetailerDialog
@@ -896,7 +896,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(22, 22, 22, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -905,7 +905,7 @@
             Height: =51
             OnSelect: =
             Size: =21
-            Text: ="Select Retailer"
+            Text: ="Select Distributor"
             Visible: =VarRetailerDialog
             Width: =484
             X: =72
@@ -917,7 +917,7 @@
             ChevronBackground: =RGBA(31, 31, 31, 1)
             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
             ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-            ChevronFill: =RGBA(53, 166, 57, 1)
+            ChevronFill: =RGBA(237, 237, 237, 1)
             ChevronHoverBackground: =RGBA(79, 79, 79, 1)
             ChevronHoverFill: =RGBA(218, 218, 218, 1)
             Color: =RGBA(255, 255, 255, 1)
@@ -933,14 +933,13 @@
             HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =RGBA(79, 79, 79, 1)
-            InputTextPlaceholder: ="Select Retailer"
-            IsSearchable: =false
+            InputTextPlaceholder: ="Select Distributor"
             Items: =Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Retailer)
             PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
             PressedColor: =RGBA(31, 31, 31, 1)
             PressedFill: =RGBA(255, 200, 61, 1)
             SearchFields: =["name"]
-            SearchItems: =[]
+            SearchItems: =Search(Filter(Accounts, 'Account Type'= 'Account Type (Accounts)'.Retailer),Retailer_1.SearchText,"name")
             SelectionColor: =RGBA(31, 31, 31, 1)
             SelectionFill: =RGBA(255, 200, 61, 1)
             SelectMultiple: =false
