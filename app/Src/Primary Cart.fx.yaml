@@ -54,6 +54,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
+            Size: =15
             Text: =Sum(PrimaryCart, qty)
             Width: =126
             X: =347
@@ -89,6 +90,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
+            Size: =15
             Text: ="16/05/2022"
             Width: =126
             X: =347
@@ -110,7 +112,7 @@
             Text: ="Order Value (Without GST)"
             Width: =229
             X: =109
-            Y: =198
+            Y: =200
             ZIndex: =8
 
         Label4_59 As label:
@@ -122,14 +124,16 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
+            Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
+            Size: =15
             Text: |+
                 =Concatenate("₹",Text(Sum(PrimaryCart, price),"[$-en-US]0.00"))
                 
             Width: =126
             X: =347
-            Y: =198
+            Y: =200
             ZIndex: =9
 
         Label4_60 As label:
@@ -161,6 +165,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
+            Size: =15
             Text: =Concatenate("₹",Text(Sum(PrimaryCart, price)*0.18,"[$-en-US]0.00"))
             Width: =126
             X: =347
@@ -196,6 +201,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
+            Size: =15
             Text: |-
                 =Concatenate(
                     "₹",
