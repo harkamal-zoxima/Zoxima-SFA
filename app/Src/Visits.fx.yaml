@@ -31,14 +31,9 @@
         );
         ClearCollect(
             Subordinates,
-            ShowColumns(
-                Filter(
-                    Users,
-                    Manager.'Primary Email' = User().Email
-                ),
-                "fullname",
-                "systemuserid",
-                "internalemailaddress"
+            Filter(
+                Users,
+                Manager.'Primary Email' = User().Email
             )
         );
 
