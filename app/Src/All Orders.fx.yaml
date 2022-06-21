@@ -864,12 +864,11 @@
 
         Button2_9 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(31, 31, 31, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0.4)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             DisplayMode: =If( CountRows(Retailer_1.SelectedItems)>0, DisplayMode.Edit, DisplayMode.Disabled)
-            Fill: =RGBA(53, 166, 57, 1)
+            Fill: =RGBA(160, 0, 2, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, 75%)
             Font: =Font.Lato
             FontWeight: =FontWeight.Bold

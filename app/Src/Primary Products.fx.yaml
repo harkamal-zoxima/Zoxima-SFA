@@ -25,27 +25,27 @@
         Y: =155
         ZIndex: =1
 
-        HtmlText1 As htmlViewer:
+        HtmlText1_66 As htmlViewer:
             Color: =RGBA(242, 242, 242, 1)
             Height: =416
             HtmlText: |-
-                ="<div style='border-radius:15px 15px 0px 0px; background-color:#F2F2F2; border:2px solid #D3D4D6; width:280px; height:200px'></div>"
+                ="<div style='border-radius:15px 15px 0px 0px; background-color:#F2F2F2; border:2px solid #D3D4D6; width:290px; height:200px'></div>"
             OnSelect: =Select(Parent)
-            Width: =294
-            X: =18
+            Width: =305.5
+            X: =7
             ZIndex: =1
 
-        HtmlText1_1 As htmlViewer:
+        HtmlText1_67 As htmlViewer:
             Color: =RGBA(242, 242, 242, 1)
             Height: =416
             HtmlText: |-
-                ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:280px; height:400px'></div>"
+                ="<div style='border-radius:15px 15px 15px 15px; background-color:#586782; border:2px solid #D3D4D6; width:290px; height:400px'></div>"
             OnSelect: =Select(Parent)
-            Width: =294
-            X: =18
+            Width: =305.5
+            X: =7
             ZIndex: =2
 
-        Image2 As image:
+        Image2_6 As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -60,50 +60,50 @@
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =263
-            X: =30
+            X: =30.5
             Y: =15
             ZIndex: =3
 
-        Label1 As label:
+        Label1_10 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
-            Height: =57
-            Size: =18
+            Height: =60
+            Size: =16
             Text: =ThisItem.'Product Name'
             Width: =263
-            X: =33
+            X: =33.5
             Y: =211
             ZIndex: =4
 
-        Label2 As label:
+        Label2_126 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =37
-            Text: =Concatenate("₹", LookUp('Product Price List', Product.'Product Item'= ThisItem.'Product Item').Price + 55)
+            Text: =Concatenate("₹", LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item').Price + 55)
             Width: =109
-            X: =33
-            Y: =348
+            X: =33.5
+            Y: =335
             ZIndex: =5
 
-        Label2_2 As label:
+        Label2_127 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -112,15 +112,15 @@
             Height: =29
             Text: ="MRP"
             Width: =109
-            X: =33
-            Y: =324
-            ZIndex: =7
+            X: =33.5
+            Y: =311
+            ZIndex: =6
 
-        Label2_3 As label:
+        Label2_128 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -129,32 +129,32 @@
             Height: =29
             Text: ="Special Price"
             Width: =133
-            X: =160
-            Y: =324
-            ZIndex: =8
+            X: =160.5
+            Y: =311
+            ZIndex: =7
 
-        Label2_4 As label:
+        Label2_129 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =37
-            Text: =Concatenate("₹", LookUp('Product Price List', Product.'Product Item'= ThisItem.'Product Item').Price )
+            Text: =Concatenate("₹", LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item').Price)
             Width: =109
-            X: =172
-            Y: =348
-            ZIndex: =9
+            X: =172.5
+            Y: =335
+            ZIndex: =8
 
-        Label2_5 As label:
+        Label2_130 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -164,28 +164,29 @@
             Size: =16
             Text: ="Qty"
             Width: =50
-            X: =33
-            Y: =278
-            ZIndex: =10
+            X: =33.5
+            Y: =271
+            ZIndex: =9
 
-        TextInput1 As text:
+        Bag_1 As text:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(255, 255, 255, 1)
             Default: =""
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Fill: =RGBA(31, 31, 31, 1)
             FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
+            Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
+            Format: =TextFormat.Number
             Height: =34
             HintText: ="0"
             HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =RGBA(31, 31, 31, 1)
-            OnChange: |-
+            OnChange: |
                 =If(
                     !IsBlank(
                         LookUp(
@@ -201,11 +202,11 @@
                         ),
                         {
                             name: ThisItem.'Product Name',
-                            qty: TextInput1.Text,
+                            qty: Bag_1.Text,
                             price: LookUp(
                                 OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
-                            ).Price * TextInput1.Text,
+                            ).Price * Bag_1.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
                                 OfflinePriceList,
@@ -218,11 +219,11 @@
                         PrimaryCart,
                         {
                             name: ThisItem.'Product Name',
-                            qty: TextInput1.Text,
+                            qty: Bag_1.Text,
                             price: LookUp(
                                 OfflinePriceList,
                                 Product.'Product Item' = ThisItem.'Product Item'
-                            ).Price * TextInput1.Text,
+                            ).Price * Bag_1.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
                                 OfflinePriceList,
@@ -233,8 +234,20 @@
                     );
                     
                 );
+                If(
+                    !Connection.Connected,
+                    Set(
+                        varOfflineSales,
+                        true
+                    )
+                );
+                Notify(
+                    "Item added to cart",
+                    NotificationType.Success,
+                    2500
+                );
             OnSelect: =Select(Parent)
-            PaddingLeft: =10
+            PaddingLeft: =5
             PressedBorderColor: =RGBA(255, 200, 61, 1)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(31, 31, 31, 1)
@@ -242,11 +255,10 @@
             RadiusBottomRight: =10
             RadiusTopLeft: =10
             RadiusTopRight: =10
-            Size: =15
-            Width: =67
-            X: =93
-            Y: =278
-            ZIndex: =11
+            Width: =68
+            X: =93.5
+            Y: =271
+            ZIndex: =10
 
     HtmlText1_18 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
