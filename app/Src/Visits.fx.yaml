@@ -68,22 +68,60 @@
                     =Filter(
                         If(
                             IsBlank(SelectedVisitDate),
-                            Filter(
-                                Visits_1,
-                                'Created By'.User = LookUp(
-                                    Users,
-                                    'Primary Email' = User().Email
-                                ).User && IsToday('Visit Date')
+                            If(
+                                IsBlank(ComboBox1.Selected),
+                                Sort(
+                                    Filter(
+                                        Visits_1,
+                                        'Created By'.User = LookUp(
+                                            Users,
+                                            'Primary Email' = User().Email
+                                        ).User && 'Visit Date' = SelectedVisitDate
+                                    ),
+                                    'Created On',
+                                    Descending
+                                ),
+                                Sort(
+                                    Filter(
+                                        Visits_1,
+                                        'Created By'.User = LookUp(
+                                    //Subordinates,
+                                            Users,
+                                            'Primary Email' = ComboBox1.Selected.internalemailaddress
+                                        ).User && 'Visit Date' = SelectedVisitDate
+                                    ),
+                                    'Created On',
+                                    Descending
+                                )
                             ),
-                            Filter(
-                                Visits_1,
-                                'Visit Date' = SelectedVisitDate && 'Created By'.User = LookUp(
-                                    Users,
-                                    'Primary Email' = User().Email
-                                ).User
+                            If(
+                                IsBlank(ComboBox1.Selected),
+                                Sort(
+                                    Filter(
+                                        Visits_1,
+                                        'Created By'.User = LookUp(
+                                            Users,
+                                            'Primary Email' = User().Email
+                                        ).User && 'Visit Date' = SelectedVisitDate
+                                    ),
+                                    'Created On',
+                                    Descending
+                                ),
+                                Sort(
+                                    Filter(
+                                        Visits_1,
+                                        'Created By'.User = LookUp(
+                                    //Subordinates,
+                                            Users,
+                                            'Primary Email' = ComboBox1.Selected.internalemailaddress
+                                        ).User && 'Visit Date' = SelectedVisitDate
+                                    ),
+                                    'Created On',
+                                    Descending
+                                )
                             )
                         ),
-                       'Visit Search'.Text in Customer.'Account Name (name)' 
+                        'Visit Search'.Text in Customer.'Account Name (name)'
                     )
                 Layout: =Layout.Vertical
                 ShowScrollbar: =false
@@ -892,18 +930,17 @@
 
     ComboBox1 As combobox:
         BorderColor: =RGBA(109, 109, 109, 1)
-        ChevronBackground: =RGBA(31, 31, 31, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
         ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
         ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(218, 218, 218, 1)
+        ChevronFill: =RGBA(31, 31, 31, 1)
         ChevronHoverBackground: =RGBA(79, 79, 79, 1)
         ChevronHoverFill: =RGBA(218, 218, 218, 1)
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(22, 22, 22, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayFields: =["fullname"]
-        Fill: =RGBA(31, 31, 31, 1)
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)

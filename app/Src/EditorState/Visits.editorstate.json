@@ -2733,16 +2733,37 @@
           "NameMapSourceSchema": "?"
         },
         "SelectionColor",
-        "ChevronFill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "ChevronFill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ChevronHoverFill",
         "ChevronDisabledFill",
-        "ChevronBackground",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "ChevronBackground",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ChevronHoverBackground",
         "ChevronDisabledBackground",
         "SelectionFill",
         "SelectionTagFill",
         "SelectionTagColor",
-        "Color",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Color",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "HoverColor",
         "PressedColor",
         "DisabledColor",
@@ -2752,7 +2773,14 @@
         "PressedBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        "Fill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledFill",
         "PressedFill",
         "HoverFill",
@@ -2790,6 +2818,14 @@
           "InvariantPropertyName": "InputTextPlaceholder",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Default",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -2802,7 +2838,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox1",
-      "ParentIndex": 0,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2843,6 +2879,11 @@
         {
           "Category": "Data",
           "PropertyName": "InputTextPlaceholder",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Default",
           "RuleProviderType": "Unknown"
         },
         {
@@ -3499,7 +3540,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Edit backdrop",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3688,7 +3729,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "EditBackdrop",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3879,7 +3920,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery4_1",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4465,7 +4506,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Header Component_30",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5321,7 +5362,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon12",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11151,7 +11192,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Side Bar_1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11641,7 +11682,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Visit DatePicker",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12025,7 +12066,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Visit Search",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

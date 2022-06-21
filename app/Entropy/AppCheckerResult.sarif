@@ -5915,7 +5915,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 221,
+                  "charOffset": 332,
                   "snippet": {
                     "text": ".User"
                   }
@@ -5955,7 +5955,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 125,
+                  "charOffset": 215,
                   "snippet": {
                     "text": "="
                   }
@@ -5995,7 +5995,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 227,
+                  "charOffset": 338,
                   "snippet": {
                     "text": "&&"
                   }
@@ -6035,7 +6035,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 467,
+                  "charOffset": 751,
                   "snippet": {
                     "text": ".User"
                   }
@@ -6075,7 +6075,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 371,
+                  "charOffset": 575,
                   "snippet": {
                     "text": "="
                   }
@@ -6115,7 +6115,247 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 350,
+                  "charOffset": 757,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 1174,
+                  "snippet": {
+                    "text": ".User"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 1057,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 1180,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 1593,
+                  "snippet": {
+                    "text": ".User"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 1417,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Visits",
+                "type": "Visits.Canvas2.DataCard2.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visits.Canvas2.DataCard2.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 1599,
                   "snippet": {
                     "text": "&&"
                   }
