@@ -156,15 +156,14 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
+                FontWeight: =FontWeight.Bold
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =16
                 Text: |-
                     ="Total Quantity:"
                 Width: =180
-                X: =36
+                X: =22
                 Y: =219
                 ZIndex: =4
 
@@ -176,14 +175,13 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
+                FontWeight: =FontWeight.Bold
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =18
                 Text: =ThisItem.Quantity
                 Width: =62
-                X: =201
+                X: =194
                 Y: =219
                 ZIndex: =5
 
@@ -202,15 +200,14 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
+                FontWeight: =FontWeight.Bold
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =16
                 Text: |-
                     ="Total Payable Amount:"
                 Width: =265
-                X: =296
+                X: =275
                 Y: =219
                 ZIndex: =6
 
@@ -222,14 +219,13 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
+                FontWeight: =FontWeight.Bold
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =18
                 Text: =ThisItem.'Bill Amoount'
                 Width: =92
-                X: =524
+                X: =531
                 Y: =219
                 ZIndex: =7
 
@@ -248,8 +244,7 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
+                FontWeight: =FontWeight.Bold
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =16
@@ -268,8 +263,7 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
+                FontWeight: =FontWeight.Bold
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =18
