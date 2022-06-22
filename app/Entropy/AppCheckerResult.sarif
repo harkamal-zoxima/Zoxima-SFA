@@ -4100,10 +4100,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 356,
+                  "charLength": 5,
+                  "charOffset": 343,
                   "snippet": {
-                    "text": ".systemuserid"
+                    "text": ".User"
                   }
                 }
               },
@@ -4141,7 +4141,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 231,
+                  "charOffset": 223,
                   "snippet": {
                     "text": "="
                   }
@@ -4181,7 +4181,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 370,
+                  "charOffset": 349,
                   "snippet": {
                     "text": "&&"
                   }
@@ -4220,10 +4220,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 797,
+                  "charLength": 5,
+                  "charOffset": 763,
                   "snippet": {
-                    "text": ".systemuserid"
+                    "text": ".User"
                   }
                 }
               },
@@ -4261,7 +4261,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 612,
+                  "charOffset": 583,
                   "snippet": {
                     "text": "="
                   }
@@ -4301,7 +4301,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 812,
+                  "charOffset": 770,
                   "snippet": {
                     "text": "&&"
                   }
@@ -4340,10 +4340,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 1245,
+                  "charLength": 5,
+                  "charOffset": 1190,
                   "snippet": {
-                    "text": ".systemuserid"
+                    "text": ".User"
                   }
                 }
               },
@@ -4381,7 +4381,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1120,
+                  "charOffset": 1070,
                   "snippet": {
                     "text": "="
                   }
@@ -4421,7 +4421,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1259,
+                  "charOffset": 1196,
                   "snippet": {
                     "text": "&&"
                   }
@@ -4460,10 +4460,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 1697,
+                  "charLength": 5,
+                  "charOffset": 1621,
                   "snippet": {
-                    "text": ".systemuserid"
+                    "text": ".User"
                   }
                 }
               },
@@ -4501,7 +4501,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1512,
+                  "charOffset": 1441,
                   "snippet": {
                     "text": "="
                   }
@@ -4541,7 +4541,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1711,
+                  "charOffset": 1627,
                   "snippet": {
                     "text": "&&"
                   }
@@ -15206,7 +15206,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 307,
+                  "charOffset": 301,
                   "snippet": {
                     "text": "-"
                   }
@@ -15246,7 +15246,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 297,
+                  "charOffset": 291,
                   "snippet": {
                     "text": ">"
                   }
@@ -15286,7 +15286,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 579,
+                  "charOffset": 567,
                   "snippet": {
                     "text": "-"
                   }
@@ -15326,7 +15326,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 569,
+                  "charOffset": 557,
                   "snippet": {
                     "text": ">"
                   }
@@ -15366,7 +15366,7 @@
                 },
                 "region": {
                   "charLength": 21,
-                  "charOffset": 830,
+                  "charOffset": 812,
                   "snippet": {
                     "text": "IsToday('Order Date')"
                   }
@@ -17270,7 +17270,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 314,
+                  "charOffset": 305,
                   "snippet": {
                     "text": "-"
                   }
@@ -17310,7 +17310,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 304,
+                  "charOffset": 295,
                   "snippet": {
                     "text": ">"
                   }
@@ -17350,7 +17350,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 596,
+                  "charOffset": 578,
                   "snippet": {
                     "text": "-"
                   }
@@ -17390,7 +17390,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 586,
+                  "charOffset": 568,
                   "snippet": {
                     "text": ">"
                   }
@@ -17430,7 +17430,7 @@
                 },
                 "region": {
                   "charLength": 22,
-                  "charOffset": 857,
+                  "charOffset": 830,
                   "snippet": {
                     "text": "IsToday('Order Date' )"
                   }
@@ -36413,6 +36413,126 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 15
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Leave'.Icon11_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Leave'.Icon11_13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Select Leave",
+                "type": "'Select Leave'.Icon11_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 15
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Leave'.Icon11_13.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Leave'.Icon11_13.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Select Leave",
+                "type": "'Select Leave'.Icon11_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 16
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Leave'.Label3_24.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Leave'.Label3_24.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Select Leave",
+                "type": "'Select Leave'.Label3_24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 16
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Leave'.Label3_25.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Leave'.Label3_25.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Select Leave",
+                "type": "'Select Leave'.Label3_25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 16
         },
         {
           "locations": [

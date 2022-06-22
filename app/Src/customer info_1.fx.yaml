@@ -2680,7 +2680,7 @@
                 Gallery1 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =607
-                    Items: =Filter(SalesOrders,'Order Status'=customerinfo_3.Selected.Value && 'Order From'.Account = Customer_info.Account )
+                    Items: =Filter(SalesOrders,'Order Status'=customerinfo_3.Selected.Value && 'Order From'.accountid = Customer_info.accountid )
                     Layout: =Layout.Vertical
                     ShowScrollbar: =false
                     TemplateSize: =120

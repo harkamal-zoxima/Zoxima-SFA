@@ -9,7 +9,7 @@
     "MaxGetRowsCount": 500,
     "Name": "Attendences",
     "NativeCDSDataSourceInfoNameMapping": {
-      "_ownerid_value": "Owner",
+      "_ownerid_value": "User",
       "cr431_absentreason": "Absent Reason",
       "cr431_attendancedate": "Attendance Date",
       "cr431_attendanceid": "Attendance Id",

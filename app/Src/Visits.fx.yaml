@@ -73,10 +73,10 @@
                                 Sort(
                                     Filter(
                                         Visits_1,
-                                        'Created By'.systemuserid = LookUp(
+                                        'Created By'.User = LookUp(
                                             Users,
-                                            internalemailaddress = User().Email
-                                        ).systemuserid && IsToday('Visit Date')
+                                            'Primary Email' = User().Email
+                                        ).User && IsToday('Visit Date')
                                     ),
                                     'Created On',
                                     Descending
@@ -84,11 +84,11 @@
                                 Sort(
                                     Filter(
                                         Visits_1,
-                                        'Created By'.systemuserid = LookUp(
+                                        'Created By'.User = LookUp(
                                     //Subordinates,
                                             Users,
-                                            internalemailaddress = ComboBox1.Selected.internalemailaddress
-                                        ).systemuserid  && IsToday('Visit Date')
+                                            'Primary Email' = ComboBox1.Selected.internalemailaddress
+                                        ).User  && IsToday('Visit Date')
                                     ),
                                     'Created On',
                                     Descending
@@ -99,10 +99,10 @@
                                 Sort(
                                     Filter(
                                         Visits_1,
-                                        'Created By'.systemuserid = LookUp(
+                                        'Created By'.User = LookUp(
                                             Users,
-                                            internalemailaddress = User().Email
-                                        ).systemuserid && 'Visit Date' = SelectedVisitDate
+                                            'Primary Email' = User().Email
+                                        ).User && 'Visit Date' = SelectedVisitDate
                                     ),
                                     'Created On',
                                     Descending
@@ -110,18 +110,18 @@
                                 Sort(
                                     Filter(
                                         Visits_1,
-                                        'Created By'.systemuserid = LookUp(
+                                        'Created By'.User = LookUp(
                                     //Subordinates,
                                             Users,
-                                            internalemailaddress = ComboBox1.Selected.internalemailaddress
-                                        ).systemuserid && 'Visit Date' = SelectedVisitDate
+                                            'Primary Email' = ComboBox1.Selected.internalemailaddress
+                                        ).User && 'Visit Date' = SelectedVisitDate
                                     ),
                                     'Created On',
                                     Descending
                                 )
                             )
                         ),
-                        'Visit Search'.Text in Customer.'Account Name (name)'
+                        'Visit Search'.Text in Customer.name
                     )
                 Layout: =Layout.Vertical
                 ShowScrollbar: =false
@@ -155,7 +155,7 @@
                     Height: =54
                     OnSelect: =Select(Parent)
                     Size: =19
-                    Text: = ThisItem.Customer.'Account Name (name)'
+                    Text: = ThisItem.Customer.name
                     Width: =309
                     X: =76
                     ZIndex: =2
@@ -171,8 +171,7 @@
                     Font: =Font.Lato
                     Height: =38
                     OnSelect: =Select(Parent)
-                    Text: |-
-                        =ThisItem.Customer.'Address 1: Street 1'
+                    Text: =ThisItem.Customer.address1_line1
                     Width: =311
                     X: =78
                     Y: =42
@@ -510,7 +509,7 @@
                         Height: =29
                         OnSelect: =Select(Parent)
                         Size: =20
-                        Text: =Left(ThisItem.Customer.'Account Name (name)',1)
+                        Text: =Left(ThisItem.Customer.name,1)
                         Width: =39
                         X: =21
                         Y: =20
@@ -769,7 +768,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =51
         Size: =18
-        Text: =First(SelectedVisitForEdit).Customer.'Account Name (name)'
+        Text: =First(SelectedVisitForEdit).Customer.name
         Visible: =VarEditDialogOpen
         Width: =289
         X: =274

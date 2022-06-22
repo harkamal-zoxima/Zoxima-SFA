@@ -11,7 +11,7 @@
                 Gallery4_7.Selected.Value = "My Expenses",
                 Filter(
                     'Expense Header',
-                    'Created By'.'User Name' = User().Email && 'Expense Date' = 'Date Gallery_1'.Selected.Value
+                    'Created By'.'Primary Email' = User().Email
                 ),
                 If (
                     Gallery4_7.Selected.Value = "Team's Expense",
@@ -262,7 +262,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: =ThisItem.cr431_ExpenseApprover.'Team Member Name'
+                Text: =ThisItem.'Expense Approver'.'Team Member Name'
                 Width: =130
                 X: =85
                 Y: =133

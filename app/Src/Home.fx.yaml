@@ -182,7 +182,7 @@
                 Visible: =If('Dashboard Toptab'.Selected.Title = "Daily Reports", true, false)
                 Width: =600
                 X: =19
-                Y: =515
+                Y: =503
                 ZIndex: =51
 
                 HtmlText1_11 As htmlViewer:
@@ -1169,7 +1169,7 @@
                 TemplateSize: =195
                 Width: =624
                 X: =16
-                Y: =452
+                Y: =446
                 ZIndex: =54
 
                 Rectangle3_2 As rectangle:
@@ -1244,6 +1244,6 @@
         Size: =21
         Width: =572
         X: =24
-        Y: =393
+        Y: =385
         ZIndex: =5
 

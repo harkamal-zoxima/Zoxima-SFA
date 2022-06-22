@@ -89,7 +89,7 @@
     Gallery4 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =785
-        Items: =Filter('Order Line', 'Sales Order No'.'Sales Order' = order.'Sales Order')
+        Items: =Filter('Order Line', cr431_SalesOrderNo.'Sales Order' = order.'Sales Order')
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplateSize: =269
@@ -359,7 +359,7 @@
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =18
-                Text: =ThisItem.'Product-Item'.cr431_productname
+                Text: =ThisItem.cr431_ProductItem.cr431_productname
                 Width: =164
                 X: =169
                 Y: =133
@@ -405,7 +405,7 @@
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =18
-                Text: =ThisItem.'Product-Item'.cr431_name
+                Text: =ThisItem.cr431_ProductItem.cr431_name
                 Width: =164
                 X: =466
                 Y: =83
@@ -506,7 +506,7 @@
         Gallery5_4 As gallery.galleryVertical:
             BorderColor: =RGBA(109, 109, 109, 1)
             Height: =859
-            Items: =Filter('Order Line', 'Sales Order No'.'Sales Order' = order.'Sales Order')
+            Items: =Filter('Order Line', cr431_SalesOrderNo.'Sales Order' = order.'Sales Order')
             Layout: =Layout.Vertical
             TemplateSize: =204
             Visible: =If('Dashboard Toptab_1'.Selected.Title = "Order Info", true, false )
@@ -888,7 +888,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =56
             Size: =19
-            Text: =order.'Order From'.'Account Name (name)'
+            Text: =order.'Order From'.name
             Visible: =If('Dashboard Toptab_1'.Selected.Title = "Order Info", true, false )
             Width: =368
             X: =243
@@ -943,7 +943,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =56
             Size: =19
-            Text: =order.'Order To'.'Account Name (name)'
+            Text: =order.'Order To'.name
             Visible: =If('Dashboard Toptab_1'.Selected.Title = "Order Info", true, false )
             Width: =368
             X: =244

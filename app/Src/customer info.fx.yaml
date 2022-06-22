@@ -2671,7 +2671,7 @@
                 Gallery3 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =615
-                    Items: =Filter(SalesOrders,'Order Status'=customerinfo_2.Selected.Value && 'Order From'.Account = Customer_info.Account)
+                    Items: =Filter(SalesOrders,'Order Status'=customerinfo_2.Selected.Value && 'Order From'.accountid = Customer_info.accountid)
                     Layout: =Layout.Vertical
                     TemplateSize: =290
                     Y: =65
@@ -2780,7 +2780,7 @@
                         Height: =30
                         OnSelect: =Select(Parent)
                         Size: =13
-                        Text: =ThisItem.'Order From'.'Account Name (name)'
+                        Text: =ThisItem.'Order From'.name
                         Width: =145
                         X: =92
                         Y: =187
@@ -2799,7 +2799,7 @@
                         Height: =27
                         OnSelect: =Select(Parent)
                         Size: =12
-                        Text: =ThisItem.'Order To'.'Account Name (name)'
+                        Text: =ThisItem.'Order To'.name
                         Width: =142
                         X: =271
                         Y: =187
