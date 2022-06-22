@@ -113,25 +113,6 @@ Distributorkycform As screen:
                     Y: =146
                     ZIndex: =3
 
-                Radio1_2 As radio:
-                    Color: =RGBA(255, 255, 255, 1)
-                    Default: =datadis.'Constitution of the firm'
-                    Height: =121
-                    HoverColor: =RGBA(89, 0, 0, 1)
-                    Items: =['Constitution of the firm (Distributor Onboardings)'.Private, 'Constitution of the firm (Distributor Onboardings)'.Partner, 'Constitution of the firm (Distributor Onboardings)'.Proprietor, 'Constitution of the firm (Distributor Onboardings)'.Public, 'Constitution of the firm (Distributor Onboardings)'.Others]
-                    Layout: =Layout.Horizontal
-                    OnSelect: =Set(ClearFieldsForDO, false)
-                    PaddingBottom: =ClearFieldsForDO
-                    RadioBorderColor: =RGBA(238, 49, 55, 1)
-                    RadioSelectionFill: =RGBA(255, 0, 0, 1)
-                    RadioSize: =40
-                    Reset: =ClearFieldsForDO
-                    Size: =18
-                    Width: =500
-                    X: =20
-                    Y: =198
-                    ZIndex: =4
-
                 Label52_16 As label:
                     BorderColor: =RGBA(89, 0, 0, 1)
                     Color: =RGBA(255, 255, 255, 1)
@@ -1132,6 +1113,25 @@ Distributorkycform As screen:
                     Y: =2248
                     ZIndex: =72
 
+                Radio1_2 As radio:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Default: =datadis.'Constitution of the firm'
+                    Height: =121
+                    HoverColor: =RGBA(89, 0, 0, 1)
+                    Items: =['Constitution of the firm (Distributor Onboardings)'.Private, 'Constitution of the firm (Distributor Onboardings)'.Partner, 'Constitution of the firm (Distributor Onboardings)'.Proprietor, 'Constitution of the firm (Distributor Onboardings)'.Public, 'Constitution of the firm (Distributor Onboardings)'.Others]
+                    Layout: =Layout.Horizontal
+                    OnSelect: =Set(ClearFieldsForDO, false)
+                    PaddingBottom: =ClearFieldsForDO
+                    RadioBorderColor: =RGBA(238, 49, 55, 1)
+                    RadioSelectionFill: =RGBA(255, 0, 0, 1)
+                    RadioSize: =40
+                    Reset: =ClearFieldsForDO
+                    Size: =18
+                    Width: =500
+                    X: =14
+                    Y: =196
+                    ZIndex: =73
+
             FinancialContainer As groupContainer.manualLayoutContainer:
                 Height: =4067
                 Visible: =If(Gallery15.Selected.Title = "Financial", true, false)
@@ -1151,24 +1151,6 @@ Distributorkycform As screen:
                     Width: =515
                     X: =18
                     ZIndex: =1
-
-                Radio1_3 As radio:
-                    Color: =RGBA(164, 164, 164, 1)
-                    Default: =datadis.'Gross Turnover (Per Annum)'
-                    Height: =106
-                    HoverColor: =RGBA(0, 18, 107, 1)
-                    Items: =['Gross Turnover (Per Annum) (Distributor Onboardings)'.'<2 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'2-3 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'3-5 CR','Gross Turnover (Per Annum) (Distributor Onboardings)'.'5-8 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'>8 CR']
-                    Layout: =Layout.Horizontal
-                    OnSelect: =Set(ClearFieldsForDO, false)
-                    RadioBorderColor: =RGBA(238, 49, 55, 1)
-                    RadioSelectionFill: =RGBA(238, 49, 55, 1)
-                    RadioSize: =40
-                    Reset: =ClearFieldsForDO
-                    Size: =18
-                    Width: =515
-                    X: =18
-                    Y: =55
-                    ZIndex: =2
 
                 Label52_26 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
@@ -1517,6 +1499,24 @@ Distributorkycform As screen:
                                     X: =226
                                     Y: =48
                                     ZIndex: =5
+
+                Radio1_3 As radio:
+                    Color: =RGBA(164, 164, 164, 1)
+                    Default: =datadis.'Gross Turnover (Per Annum)'
+                    Height: =106
+                    HoverColor: =RGBA(0, 18, 107, 1)
+                    Items: =['Gross Turnover (Per Annum) (Distributor Onboardings)'.'<2 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'2-3 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'3-5 CR','Gross Turnover (Per Annum) (Distributor Onboardings)'.'5-8 CR', 'Gross Turnover (Per Annum) (Distributor Onboardings)'.'>8 CR']
+                    Layout: =Layout.Horizontal
+                    OnSelect: =Set(ClearFieldsForDO, false)
+                    RadioBorderColor: =RGBA(238, 49, 55, 1)
+                    RadioSelectionFill: =RGBA(238, 49, 55, 1)
+                    RadioSize: =40
+                    Reset: =ClearFieldsForDO
+                    Size: =18
+                    Width: =515
+                    X: =27
+                    Y: =53
+                    ZIndex: =113
 
             "'Tax/GSTContainer' As groupContainer.manualLayoutContainer":
                 Height: =807

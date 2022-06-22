@@ -34058,19 +34058,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3"
               }
             }
           ],
@@ -34838,19 +34838,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2"
               }
             }
           ],

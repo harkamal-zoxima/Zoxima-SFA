@@ -67,10 +67,11 @@ DistributorOnboarding As screen:
 
         Button18 As button:
             BorderThickness: =1
+            Color: =RGBA(255, 200, 61, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 216, 119, 1)
+            Fill: =RGBA(255, 191, 0, 0.32)
             FontWeight: =FontWeight.Semibold
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
@@ -297,14 +298,14 @@ DistributorOnboarding As screen:
 
         Button22 As button:
             BorderColor: =
-            BorderThickness: =1
-            Color: =RGBA(88, 103, 130, 1)
+            BorderThickness: =0
+            Color: =RGBA(255, 200, 61, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(255, 191, 0, 0.32)
             FontWeight: =FontWeight.Semibold
-            Height: =39
+            Height: =61
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
             OnSelect: |-
@@ -314,7 +315,7 @@ DistributorOnboarding As screen:
             Visible: =If(Gallery14.Selected.Title = "Draft", true, false)
             Width: =328
             X: =174
-            Y: =399
+            Y: =377
             ZIndex: =18
 
         Button26 As button:
