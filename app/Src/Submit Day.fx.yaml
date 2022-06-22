@@ -16,6 +16,7 @@
         ZIndex: =1
 
     "'Bottom Navigation_49' As 'Bottom Navigation'":
+        Fill: =RGBA(59, 59, 59, 1)
         NavItems: |-
             =Table( {
                    // Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),

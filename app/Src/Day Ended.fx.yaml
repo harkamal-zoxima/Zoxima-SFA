@@ -15,38 +15,6 @@
         Width: =640
         ZIndex: =1
 
-    "'Bottom Navigation_47' As 'Bottom Navigation'":
-        NavItems: |-
-            =Table( {
-                   // Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
-                   Title: Start,
-                    //Screen: If(varAttendance= "start" , Start, varAttendance= "end" , Start_3, varAttendance= "done" , Start_5),
-                    Screen: 'Day Ended',
-                    Icon: CalendarBlank,
-                    Active: true
-                },
-                {
-                    Title: "Visits",
-                    Screen: Visits,
-                    Icon: Waypoint,
-                    Active: false
-                },
-                {
-                    Title: "Dashboard",
-                    Screen: Home,
-                    Icon: Waffle,
-                    Active: false
-                },
-                {
-                    Title: "Orders",
-                    Screen: 'All Orders',
-                    Icon: ShoppingCart,
-                    Active: false
-                }
-                )
-        Y: =1056
-        ZIndex: =2
-
     HtmlText1_57 As htmlViewer:
         BorderThickness: =1
         Height: =313
@@ -188,6 +156,53 @@
         X: =95
         Y: =108
         ZIndex: =20
+
+    "'Bottom Navigation_2' As 'Bottom Navigation'":
+        Fill: =RGBA(59, 59, 59, 1)
+        NavItems: |-
+            =Table(
+                {
+                    Title: If(
+                        varAttendance = "end",
+                        "End",
+                        varAttendance = "start",
+                        "Start",
+                        varAttendance = "done",
+                        "Ended"
+                    ),
+                    //Title: Start,
+                    Screen: If(
+                        varAttendance = "start",
+                        StartDay,
+                        varAttendance = "end",
+                        'End day',
+                        varAttendance = "done",
+                        'Day Ended'
+                    ),
+                    Icon: CalendarBlank,
+                    Active: true
+                },
+                {
+                    Title: "Visits",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Orders",
+                    Screen: 'All Orders',
+                    Icon: ShoppingCart,
+                    Active: false
+                }
+            )
+        Y: =1056
+        ZIndex: =23
 
     Group3_8 As group:
         Height: =5

@@ -1,6 +1,7 @@
 {
   "ComponentIndexes": {
     "Bottom Navigation": 54,
+    "Bottom Navigation_2": 54,
     "Bottom Navigation_31": 55,
     "Bottom Navigation_34": 56,
     "Bottom Navigation_42": 57,
@@ -59,6 +60,7 @@
     "Bottom Navigation_17": 1470,
     "Bottom Navigation_18": 1375,
     "Bottom Navigation_19": 1384,
+    "Bottom Navigation_2": 2192,
     "Bottom Navigation_20": 1479,
     "Bottom Navigation_25": 140,
     "Bottom Navigation_26": 1878,
@@ -83,7 +85,6 @@
     "Bottom Navigation_43": 1070,
     "Bottom Navigation_44": 1024,
     "Bottom Navigation_45": 964,
-    "Bottom Navigation_47": 1699,
     "Bottom Navigation_48": 2093,
     "Bottom Navigation_49": 2116,
     "Bottom Navigation_5": 84,
@@ -2133,7 +2134,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/22/2022 11:09:35",
+  "HeaderLastSavedDateTimeUTC": "06/22/2022 11:11:54",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/3d3303b9c30543d884499e3c24ffb277\""
@@ -3308,6 +3309,7 @@
     "Bottom Navigation_17": 126,
     "Bottom Navigation_18": 188,
     "Bottom Navigation_19": 195,
+    "Bottom Navigation_2": 282,
     "Bottom Navigation_20": 202,
     "Bottom Navigation_25": 737,
     "Bottom Navigation_26": 507,
@@ -3332,7 +3334,6 @@
     "Bottom Navigation_43": 1299,
     "Bottom Navigation_44": 1728,
     "Bottom Navigation_45": 1764,
-    "Bottom Navigation_47": 282,
     "Bottom Navigation_48": 305,
     "Bottom Navigation_49": 269,
     "Bottom Navigation_5": 25,
@@ -5411,7 +5412,7 @@
       "acea202265934356bd58014ba9bbd4bb": 1,
       "addMedia": 7,
       "attachments": 3,
-      "b84e901362bb426a9025d47db36cd790": 30,
+      "b84e901362bb426a9025d47db36cd790": 31,
       "button": 117,
       "c24c8cdda8aa4592a2c19c5f7e216f34": 6,
       "c3cb5069657d462d988b819d87f57351": 1,
