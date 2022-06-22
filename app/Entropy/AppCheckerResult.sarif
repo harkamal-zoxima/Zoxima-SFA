@@ -29771,19 +29771,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Submit Day_1'.Icon11_9.AccessibleLabel"
+                  "fullyQualifiedName": "'Day Ended'.Icon11_9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Submit Day_1'.Icon11_9.AccessibleLabel",
+                  "fullyQualifiedName": "'Day Ended'.Icon11_9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Submit Day_1",
-                "type": "'Submit Day_1'.Icon11_9"
+                "module": "Day Ended",
+                "type": "'Day Ended'.Icon11_9"
               }
             }
           ],
@@ -29801,19 +29801,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Submit Day_1'.Icon11_9.TabIndex"
+                  "fullyQualifiedName": "'Day Ended'.Icon11_9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Submit Day_1'.Icon11_9.TabIndex",
+                  "fullyQualifiedName": "'Day Ended'.Icon11_9.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Submit Day_1",
-                "type": "'Submit Day_1'.Icon11_9"
+                "module": "Day Ended",
+                "type": "'Day Ended'.Icon11_9"
               }
             }
           ],

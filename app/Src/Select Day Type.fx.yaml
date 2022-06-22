@@ -21,7 +21,7 @@
                    // Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
                    Title: Start,
                     //Screen: If(varAttendance= "start" , Start, varAttendance= "end" , Start_3, varAttendance= "done" , Start_5),
-                    Screen: 'Submit Day_1',
+                    Screen: 'Day Ended',
                     Icon: CalendarBlank,
                     Active: true
                 },
