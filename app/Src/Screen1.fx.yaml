@@ -1462,7 +1462,7 @@ Screen1 As screen:
         PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =35
-        X: =67
+        X: =16
         Y: =17
         ZIndex: =4
 
@@ -1531,7 +1531,7 @@ Screen1 As screen:
         PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =35
-        X: =508
+        X: =485
         Y: =17
         ZIndex: =6
 
