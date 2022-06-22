@@ -143,8 +143,8 @@
         FontWeight: =FontWeight.Semibold
         Height: =78
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(31, 31, 31, 1)
-        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =
         OnSelect: |+
             =Patch(
                 Attendences,
@@ -169,9 +169,9 @@
                 ScreenTransition.Cover
             )
             
-        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
-        PressedColor: =RGBA(31, 31, 31, 1)
-        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedBorderColor: =
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
