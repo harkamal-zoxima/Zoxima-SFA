@@ -3,18 +3,6 @@
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
-    HtmlText1_53 As htmlViewer:
-        Color: =RGBA(103, 204, 107, 1)
-        Height: =345
-        HtmlText: |-
-            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        Width: =640
-        ZIndex: =1
-
     "'Bottom Navigation_24' As 'Bottom Navigation'":
         NavItems: |-
             =Table( {
@@ -87,7 +75,7 @@
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(255, 191, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -105,7 +93,7 @@
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(242, 123, 68, 1)
+        Color: =RGBA(184, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -138,24 +126,6 @@
         Y: =108
         ZIndex: =7
 
-    Image5_4 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =570
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: ='WhatsApp Image 2022-05-13 at 1.06.35 PM'
-        ImagePosition: =ImagePosition.Fill
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =640
-        Y: =486
-        ZIndex: =8
-
     "'Side Bar_11' As 'Side Bar'":
         Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
         Height: =1136
@@ -171,11 +141,11 @@
         HtmlText2_12 As htmlViewer:
             Height: =136
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:400px; height:120px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#FFBF00; opacity: 0.3; width:400px; height:120px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             Size: =25
             Width: =416
             X: =112
-            Y: =499
+            Y: =507
             ZIndex: =9
 
         Label3_36 As label:
@@ -183,7 +153,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(83, 173, 88, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -194,6 +164,6 @@
             Text: ="Your day has been ended."
             Width: =403
             X: =115
-            Y: =526
+            Y: =534
             ZIndex: =10
 
