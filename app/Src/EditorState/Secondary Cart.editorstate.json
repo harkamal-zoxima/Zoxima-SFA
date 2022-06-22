@@ -40,7 +40,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Bottom Navigation_17",
-      "ParentIndex": 17,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -203,7 +203,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button3_2",
-      "ParentIndex": 16,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -412,24 +412,10 @@
         "HoverBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "HoverColor",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "HoverColor",
         "DisplayMode",
         {
           "AFDDataSourceName": "",
@@ -441,14 +427,7 @@
         },
         "DisabledFill",
         "PressedFill",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ColorFade(RGBA(255, 200, 61, 1), 10%)",
-          "InvariantPropertyName": "HoverFill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "HoverFill",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -537,7 +516,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button3_3",
-      "ParentIndex": 15,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -791,7 +770,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery5_2",
-      "ParentIndex": 13,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1076,7 +1055,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group17_1",
-      "ParentIndex": 18,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3930,7 +3909,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_1",
-      "ParentIndex": 14,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4556,7 +4535,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_44",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4860,7 +4839,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_45",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5157,7 +5136,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_46",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5461,7 +5440,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_47",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5758,7 +5737,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_48",
-      "ParentIndex": 7,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6062,7 +6041,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_49",
-      "ParentIndex": 8,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6359,7 +6338,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_50",
-      "ParentIndex": 10,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6663,7 +6642,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_51",
-      "ParentIndex": 9,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6960,7 +6939,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_52",
-      "ParentIndex": 12,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7264,7 +7243,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_53",
-      "ParentIndex": 11,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
