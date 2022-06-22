@@ -167,7 +167,6 @@
     "'Side Bar_8' As 'Side Bar'":
         Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
         Height: =1136
-        X: =570
         ZIndex: =19
 
     Group2_6 As group:
@@ -209,22 +208,23 @@
 
     Icon11 As icon.BackArrow:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(31, 31, 31, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =40
+        Height: =35
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        HoverColor: =
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.BackArrow
+        OnSelect: =Back()
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =40
-        X: =84
-        Y: =12
+        Width: =35
+        X: =89
+        Y: =108
         ZIndex: =20
 
     Group2_7 As group:
