@@ -7,7 +7,7 @@
         Height: =981
         Items: =Sort(Events,'Created On',Descending)
         Layout: =Layout.Vertical
-        OnSelect: =Navigate(Event_1,ScreenTransition.Cover)
+        OnSelect: =ViewForm(Form1_1);Navigate(Event_1,ScreenTransition.Cover)
         TemplateSize: =234
         Y: =72
         ZIndex: =1
