@@ -1,5 +1,5 @@
 "'Secondary Products' As screen":
-    Fill: =RGBA(31, 31, 31, 1)
+    Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
@@ -68,7 +68,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -86,7 +86,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -103,7 +103,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -120,7 +120,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -137,7 +137,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -154,7 +154,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 0.83)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -171,7 +171,7 @@
         Bags As text:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
-            Color: =RGBA(53, 166, 57, 1)
+            Color: =RGBA(255, 191, 0, 1)
             Default: =""
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -253,7 +253,7 @@
         Color: =RGBA(103, 204, 107, 1)
         Height: =93
         HtmlText: |-
-            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:80px'></div>"
+            ="<div style='border-radius:0; background-color:#A00002; width:640px; height:80px'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
@@ -310,7 +310,7 @@
     Button1_4 As button:
         Align: =Align.Left
         BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(184, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -335,7 +335,7 @@
 
     Icon2_2 As icon.Filter:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(184, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
@@ -388,12 +388,13 @@
         ZIndex: =9
 
         Button4_10 As button:
-            BorderColor: =RGBA(53, 166, 57, 1)
-            Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            BorderColor: =RGBA(237, 237, 237, 1)
+            Color: =RGBA(237, 237, 237, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+            Fill: |-
+                =If(ThisItem.IsSelected, ColorValue("#A00002"), RGBA(103, 204, 107, 0.1))
             FocusedBorderColor: =
             FocusedBorderThickness: =2
             Font: =Font.Lato
@@ -401,7 +402,7 @@
             Height: =46
             HoverBorderColor: =RGBA(53, 166, 57, 1)
             HoverColor: =RGBA(31, 31, 31, 1)
-            HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+            HoverFill: =
             OnSelect: =Select(Parent)
             PressedBorderColor: =
             PressedColor: =RGBA(31, 31, 31, 1)
@@ -414,7 +415,7 @@
 
     Icon3_1 As icon.BackArrow:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Color: =RGBA(53, 166, 57, 1)
+        Color: =RGBA(237, 237, 237, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
@@ -456,7 +457,7 @@
     Button1_5 As button:
         Align: =Align.Left
         BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(184, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -481,7 +482,7 @@
 
     Icon6_1 As icon.ShoppingCart:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(184, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(220, 220, 220, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
@@ -503,7 +504,7 @@
     Button5_1 As button:
         BorderColor: =RGBA(103, 204, 107, 1)
         BorderThickness: =1
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(184, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)

@@ -849,7 +849,7 @@
 
         Icon10_6 As icon.Cancel:
             BorderColor: =RGBA(109, 109, 109, 1)
-            Color: =RGBA(22, 22, 22, 1)
+            Color: =RGBA(184, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
@@ -902,7 +902,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(22, 22, 22, 1)
+            Color: =RGBA(184, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
