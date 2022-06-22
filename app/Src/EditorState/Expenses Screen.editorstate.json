@@ -7514,7 +7514,7 @@
       "StyleName": "defaultRectangleStyle",
       "Type": "ControlInfo"
     },
-    "Side Bar_25": {
+    "Side Bar_8": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -7547,7 +7547,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "[\r\n    {\r\n        title: \"Profile\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Primary Orders\",\r\n        screen: 'All Orders'\r\n    },\r\n    {\r\n        title: \"Secondary Orders\",\r\n        screen: 'Secondary Orders'\r\n    },\r\n    {\r\n        title:\"Expense\",\r\n        screen:'Expense Screen'\r\n    }\r\n]",
+          "AutoRuleBindingString": "[\r\n    {\r\n        title: \"Profile\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Distributor KYC\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Ledger Report\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Primary Orders\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Secondary Orders\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Schemes\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Events\",\r\n        screen: Profile\r\n    }\r\n]",
           "InvariantPropertyName": "NavItems",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -7567,14 +7567,14 @@
         "Description": ""
       },
       "MetaDataIDKey": "",
-      "Name": "Side Bar_25",
+      "Name": "Side Bar_8",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Data",
           "PropertyName": "NavItems",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
@@ -7599,12 +7599,12 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
           "PropertyName": "Fill",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         }
       ],
       "StyleName": "",

@@ -927,8 +927,8 @@ Expenses As screen:
         Fill: =RGBA(88, 103, 130, 1)
         FocusedBorderThickness: =4
         Height: =80
-        HoverFill: =RGBA(255, 200, 61, 1)
-        PressedFill: =RGBA(255, 200, 61, 1)
+        HoverFill: =
+        PressedFill: =
         Width: =640
         ZIndex: =3
 

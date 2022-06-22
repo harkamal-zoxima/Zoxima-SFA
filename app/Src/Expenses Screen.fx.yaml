@@ -599,27 +599,6 @@
         Y: =10
         ZIndex: =14
 
-    "'Side Bar_25' As 'Side Bar_23'":
-        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
-        Height: =1136
-        NavItems: |-
-            =[
-                {
-                    title: "Profile",
-                    screen: Profile
-                },
-                {
-                    title: "Primary Orders",
-                    screen: 'All Orders'
-                },
-                {
-                    title: "Secondary Orders",
-                    screen: 'Secondary Orders'
-                },
-                {
-                    title:"Expense",
-                    screen:'Expenses Screen'
-                }
-            ]
+    "'Side Bar_8' As 'Side Bar'":
         ZIndex: =15
 
