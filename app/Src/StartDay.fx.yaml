@@ -184,8 +184,6 @@ StartDay As screen:
         ZIndex: =14
 
     "'Side Bar_7' As 'Side Bar'":
-        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
-        Height: =1136
         ZIndex: =15
 
     Group2_4 As group:

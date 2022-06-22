@@ -58,7 +58,7 @@
         "Name": "Rectangle1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1963,
+        "PublishOrderIndex": 1962,
         "Rules": [
           {
             "Category": "Design",
@@ -230,7 +230,7 @@
         "Name": "Icon1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1964,
+        "PublishOrderIndex": 1963,
         "Rules": [
           {
             "Category": "Design",
@@ -240,7 +240,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": " If(varOpen,RGBA(255, 255, 255, 1) , ColorValue(\"#586782\"))",
+            "InvariantScript": "RGBA(255, 255, 255, 1)",
             "Property": "Color",
             "RuleProviderType": "Unknown"
           },
@@ -455,7 +455,7 @@
         "Name": "Image3",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1965,
+        "PublishOrderIndex": 1964,
         "Rules": [
           {
             "Category": "Data",
@@ -501,7 +501,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "RGBA(255, 255, 255, 1)",
+            "InvariantScript": "RGBA(0, 0, 0, 0)",
             "Property": "Fill",
             "RuleProviderType": "Unknown"
           },
@@ -676,7 +676,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1967,
+            "PublishOrderIndex": 1966,
             "Rules": [
               {
                 "Category": "Design",
@@ -836,7 +836,7 @@
             "Name": "Label5",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1968,
+            "PublishOrderIndex": 1967,
             "Rules": [
               {
                 "Category": "Data",
@@ -1143,7 +1143,7 @@
             "Name": "Rectangle2",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 1969,
+            "PublishOrderIndex": 1968,
             "Rules": [
               {
                 "Category": "Design",
@@ -1320,7 +1320,7 @@
         "Name": "Gallery1_1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1966,
+        "PublishOrderIndex": 1965,
         "Rules": [
           {
             "Category": "Data",
@@ -1527,7 +1527,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637914873177086400",
+    "LastModifiedTimestamp": "637914874280530552",
     "Name": "Side Bar",
     "Rules": [
       {
@@ -1568,7 +1568,7 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "If(varOpen, ColorValue(\"#586782\"), Transparent)",
+        "InvariantScript": "If(varOpen, ColorValue(\"#414C60\"), Transparent)",
         "Property": "Fill",
         "RuleProviderType": "System"
       }
@@ -1602,7 +1602,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637914873177086400",
+  "LastModifiedTimestamp": "637914874280530552",
   "Name": "69894502ba10475d874bab19096f81b6",
   "OverridableProperties": {},
   "TemplateOriginalName": "44296e90674643d98cbafda09bd9f5fa",
