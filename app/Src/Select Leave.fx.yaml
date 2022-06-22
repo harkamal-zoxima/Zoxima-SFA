@@ -215,7 +215,22 @@
             Height: =93
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#A00002;  width:280px; height:70px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
-            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            OnSelect: |-
+                =Patch(
+                    Attendences,
+                    Defaults(Attendences),
+                    {
+                        'Attendance Date': Today(),
+                        
+                        Type: 'Type (Attendences)'.Absent
+                    }
+                );
+                Set(
+                    varAttendance,
+                    "end"
+                );
+                
+                Notify("Your attendace has been marked for absent", NotificationType.Success,2000)
             Width: =323
             X: =185
             Y: =575

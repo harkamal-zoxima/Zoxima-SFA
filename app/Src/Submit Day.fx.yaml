@@ -226,7 +226,8 @@
                             Location.Longitude,
                             ",",
                             Location.Latitude
-                        )
+                        ),
+                        Type: 'Type (Attendences)'.Present
                     }
                 );
                 Set(
@@ -265,7 +266,8 @@
                             Location.Longitude,
                             ",",
                             Location.Latitude
-                        )
+                        ),
+                        Type: 'Type (Attendences)'.Present
                     }
                 );
                 Set(

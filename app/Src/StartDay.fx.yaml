@@ -254,6 +254,7 @@ StartDay As screen:
             Height: =113
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Select Leave')
             Size: =25
             Width: =378
             X: =131
@@ -272,6 +273,7 @@ StartDay As screen:
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =65
+            OnSelect: =Navigate('Select Leave')
             Size: =24
             Text: ="LEAVE"
             Width: =289
