@@ -2,7 +2,7 @@ App As appinfo:
     BackEnabled: =true
     ConfirmExit: =true
     ConfirmExitMessage: ="Do you want to exit?"
-    OnStart: |
+    OnStart: |+
         =//For Attendance Marking, Setting Variable (Start for "Not start day", end for "Started day but not ended", done for "started and ended your day"
         If(
             IsBlank(
@@ -54,7 +54,7 @@ App As appinfo:
         );
         
         //For offline visits in local****************************************************************************************************
-        ClearData("LocalVisits");
+        //ClearData("LocalVisits");
         SaveData(
             OfflineVisits,
             "LocalVisits"
@@ -133,5 +133,28 @@ App As appinfo:
         //To get Sales Orderline Schema in "OfflineSalesOrderLines" collection
         ClearCollect(OfflineSalesOrderLines, First('Order Line'));
         Clear(OfflineSalesOrderLines);
+        
+        ClearCollect(
+            SalesTerritoryAndUserMappingRecord,
+            LookUp(
+                'Sales Territory and User Mapping',
+                'Sales User'.'Primary Email' = User().Email
+            ).'Sales Territory'
+        );
+        ClearCollect(
+            SalesTerritory,
+            LookUp(
+                'Sales Territory',
+                'Sales Territory (zx_salesterritoryid)' = First(SalesTerritoryAndUserMappingRecord).'Sales Territory (zx_salesterritoryid)'
+            )
+        );
+        ClearCollect(
+            AreaAccounts,
+            Filter(
+                Accounts,
+                'Sub State'.'Sales Territory (zx_salesterritoryid)' = First(SalesTerritoryAndUserMappingRecord).'Sales Territory (zx_salesterritoryid)'
+            )
+        );
+        
     StartScreen: ='Start Screen'
 
