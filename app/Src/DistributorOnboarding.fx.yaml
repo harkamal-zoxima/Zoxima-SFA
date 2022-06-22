@@ -1,0 +1,532 @@
+DistributorOnboarding As screen:
+    Fill: =RGBA(31, 31, 31, 1)
+    LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
+
+    Gallery2_6 As gallery.galleryVertical:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderStyle: =BorderStyle.None
+        Height: =659
+        Items: |-
+            =If(Gallery14.Selected.Title = "Draft", Filter('Distributor Onboardings', statusmain = 'statusmain (Distributor Onboardings)'.Draft), Gallery14.Selected.Title = "Pending for approval", Filter('Distributor Onboardings', statusmain = 'statusmain (Distributor Onboardings)'.Pending),Gallery14.Selected.Title = "Approved", Filter('Distributor Onboardings', statusmain = 'statusmain (Distributor Onboardings)'.Approved),Gallery14.Selected.Title = "Reject", Filter('Distributor Onboardings', statusmain = 'statusmain (Distributor Onboardings)'.Rejected))
+            //, TextInput4.Text in 'Name of the firm')
+        Layout: =Layout.Vertical
+        TemplateSize: =484
+        Y: =372
+        ZIndex: =1
+
+        Button25 As button:
+            BorderColor: =RGBA(255, 0, 0, 1)
+            BorderThickness: =0
+            DisabledBorderColor: =RGBA(255, 0, 0, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(88, 103, 130, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(164, 38, 44, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =468
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: |
+                =50
+            RadiusBottomRight: =50
+            RadiusTopLeft: |
+                =50
+            RadiusTopRight: |
+                =50
+            Size: =24
+            Text: =""
+            Width: =584
+            X: =21
+            ZIndex: =1
+
+        Rectangle19 As rectangle:
+            BorderColor: =RGBA(255, 0, 0, 1)
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =444
+            OnSelect: =Select(Parent)
+            Width: =572
+            X: =21
+            Y: =11
+            ZIndex: =2
+
+        Label45 As label:
+            BorderColor: =RGBA(237, 102, 102, 1)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =74
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: =//ThisItem.'Name of the Firm'
+            Width: =218
+            X: =37
+            Y: =26
+            ZIndex: =3
+
+        Button18 As button:
+            BorderThickness: =1
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(255, 216, 119, 1)
+            FontWeight: =FontWeight.Semibold
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+            OnSelect: =Select(Parent)
+            Size: =16
+            Text: ="Draft"
+            Width: =150
+            X: =282
+            Y: =39
+            ZIndex: =4
+
+        Icon20_1 As icon.Edit:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =39
+            Icon: =Icon.Edit
+            OnSelect: |
+                =Navigate(Distributorkycform, Fade, {datadis: ThisItem});
+                Set(Create,false)
+            PaddingBottom: =5
+            PaddingLeft: =5
+            PaddingRight: =5
+            PaddingTop: =5
+            Width: =50
+            X: =439
+            Y: =40
+            ZIndex: =5
+
+        Label46 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                //ThisItem.'Record Id';
+                "Record Id"
+            Width: =140
+            X: =86
+            Y: =110
+            ZIndex: =8
+
+        Label46_1 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                //ThisItem.'Record Id';
+                "Name"
+            Width: =140
+            X: =86
+            Y: =148
+            ZIndex: =9
+
+        Label46_2 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =62
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                //ThisItem.'Record Id';
+                "Constitution of Firm"
+            Width: =169
+            X: =86
+            Y: =254
+            ZIndex: =10
+
+        Label46_3 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =52
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                //ThisItem.'Record Id';
+                "Year of Establishment"
+            Width: =196
+            X: =86
+            Y: =192
+            ZIndex: =11
+
+        Label46_4 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =66
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                //ThisItem.'Record Id';
+                "Gross Trunover"
+            Width: =196
+            X: =86
+            Y: =311
+            ZIndex: =12
+
+        Label46_5 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                ThisItem.' Record Id'
+                //"Record Id"
+            Width: =140
+            X: =327
+            Y: =110
+            ZIndex: =13
+
+        Label46_6 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |
+                =//ThisItem.'Distributor Name'
+                ThisItem.'First Name'
+            Width: =140
+            X: =327
+            Y: =148
+            ZIndex: =14
+
+        Label46_7 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =54
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                ThisItem.'Year of Establishment'
+                //"Record Id"
+            Width: =162
+            X: =327
+            Y: =190
+            ZIndex: =15
+
+        Label46_8 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                ThisItem.'Constitution of the firm'
+                //"Record Id"
+            Width: =140
+            X: =319
+            Y: =256
+            ZIndex: =16
+
+        Label46_9 As label:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: |-
+                =//ThisItem.'Distributor Name'
+                ThisItem.'Gross Turnover (Per Annum)'
+                //"Record Id"
+            Width: =140
+            X: =317
+            Y: =323
+            ZIndex: =17
+
+        Group12_8 As group:
+            Height: =5
+            Width: =5
+            X: =60
+            Y: =60
+            ZIndex: =17
+
+            Circle6 As circle:
+                BorderColor: =RGBA(89, 0, 0, 1)
+                Fill: =RGBA(104, 196, 127, 1)
+                Height: =45
+                OnSelect: |-
+                    =Launch("tel://"& ThisItem.'Mobile No.')
+                Width: =55
+                X: =512
+                Y: =39
+                ZIndex: =6
+
+            Icon21 As icon.Phone:
+                BorderColor: =RGBA(89, 0, 0, 1)
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(244, 244, 244, 1)
+                Height: =38
+                Icon: =Icon.Phone
+                OnSelect: |-
+                    =Launch("tel://"& ThisItem.'Mobile No.')
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =48
+                X: =515
+                Y: =42
+                ZIndex: =7
+
+        Button22 As button:
+            BorderColor: =
+            BorderThickness: =1
+            Color: =RGBA(88, 103, 130, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =39
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+            OnSelect: |-
+                =Patch('Distributor Onboardings', LookUp('Distributor Onboardings', ' Record Id' =  ThisItem.' Record Id'), { statusmain: 'statusmain (Distributor Onboardings)'.'Pending'})
+            Size: =19
+            Text: ="SUBMIT FOR APPROVAL"
+            Visible: =If(Gallery14.Selected.Title = "Draft", true, false)
+            Width: =328
+            X: =174
+            Y: =399
+            ZIndex: =18
+
+        Button26 As button:
+            BorderThickness: =1
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(230, 87, 87, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+            OnSelect: |-
+                =Patch(
+                    'Distributor Onboardings',
+                    LookUp(
+                        'Distributor Onboardings',
+                        ' Record Id' = ThisItem.' Record Id'
+                    ),
+                    {statusmain: 'statusmain (Distributor Onboardings)'.Approved}
+                )
+            Size: =18
+            Text: ="Approve"
+            Visible: =If(Gallery14.Selected.Title = "Pending for approval", true, false)
+            Width: =155
+            X: =68
+            Y: =396
+            ZIndex: =19
+
+        Button26_1 As button:
+            BorderThickness: =1
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(230, 87, 87, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+            OnSelect: |-
+                =Patch('Distributor Onboardings', LookUp('Distributor Onboardings', ' Record Id' =  ThisItem.' Record Id'), { statusmain: 'statusmain (Distributor Onboardings)'.Rejected})
+            Size: =18
+            Text: ="Reject"
+            Visible: =If(Gallery14.Selected.Title = "Pending for approval", true, false)
+            Width: =155
+            X: =408
+            Y: =396
+            ZIndex: =20
+
+    Circle5 As circle:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(255, 216, 119, 1)
+        Height: =82
+        OnSelect: =
+        Width: =82
+        X: =494
+        Y: =885
+        ZIndex: =2
+
+    Icon12_2 As icon.ArrowLeft:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =52
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(Menu)
+        X: =19
+        Y: =13
+        ZIndex: =5
+
+    TextInput4_1 As text:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Height: =56
+        HintText: ="Search.."
+        HoverBorderColor: =RGBA(89, 0, 0, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PaddingLeft: =90
+        Size: =19
+        Width: =490
+        X: =79
+        Y: =123
+        ZIndex: =6
+
+    Icon16_1 As icon.Search:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(164, 164, 164, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =39
+        Icon: =Icon.Search
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        Width: =48
+        X: =90
+        Y: =129
+        ZIndex: =7
+
+    Group10_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =8
+
+        Button11_2 As button:
+            BorderThickness: =0
+            DisabledBorderColor: =RGBA(237, 27, 36, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(88, 103, 130, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(237, 27, 36, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            FontWeight: =FontWeight.Bold
+            Height: =244
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+            RadiusBottomLeft: =90
+            RadiusBottomRight: =90
+            Size: =24
+            Text: =""
+            Width: =640
+            ZIndex: =3
+
+        Label40 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =70
+            Size: =21
+            Text: ="Distributor Onboarding"
+            Width: =560
+            ZIndex: =4
+
+    Gallery14 As gallery.galleryHorizontal:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Height: =79
+        Items: |-
+            =Table( 
+                {
+                    Title: "Draft",
+                    Active: true
+                },
+                {
+                    Title: "Pending for approval",
+                    Active: false
+                },
+                {
+                    Title: "Approved",
+                    Active: false
+                },
+                {
+                    Title: "Rejected",
+                    Active: false
+                }
+            )
+        ShowScrollbar: =false
+        TemplateSize: =214
+        Y: =256
+        ZIndex: =9
+
+        Label41 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =55
+            OnSelect: =Select(Parent)
+            Size: =17
+            Text: =ThisItem.Title
+            Width: =188
+            X: =4
+            ZIndex: =1
+
+        Rectangle18 As rectangle:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =4
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            X: =23
+            Y: =55
+            ZIndex: =2
+
+    Icon17_3 As icon.Add:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =55
+        Icon: =Icon.Add
+        OnSelect: |-
+            =Navigate(Distributorkycform, Fade, {datadis: {}});
+            Set(Create,true)
+        Width: =55
+        X: =510
+        Y: =900
+        ZIndex: =10
+
+    Group11_6 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =11
+
