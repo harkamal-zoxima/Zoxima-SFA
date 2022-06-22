@@ -2492,674 +2492,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 28,
-                  "charOffset": 1,
-                  "snippet": {
-                    "text": "'Order Status (Sales Order)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Order Status (Sales Order)"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 29,
-                  "snippet": {
-                    "text": ".Open"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 28,
-                  "charOffset": 36,
-                  "snippet": {
-                    "text": "'Order Status (Sales Order)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Order Status (Sales Order)"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 64,
-                  "snippet": {
-                    "text": ".Accepted"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 28,
-                  "charOffset": 75,
-                  "snippet": {
-                    "text": "'Order Status (Sales Order)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Order Status (Sales Order)"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 20,
-                  "charOffset": 103,
-                  "snippet": {
-                    "text": ".'Partially Shipped'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 28,
-                  "charOffset": 125,
-                  "snippet": {
-                    "text": "'Order Status (Sales Order)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Order Status (Sales Order)"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 153,
-                  "snippet": {
-                    "text": ".Shipped"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Button4_15.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Button4_15.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.customerinfo_3.Button4_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": "'Sales Order'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Order"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 107,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Filter('Sales Order','Order Status'=customerinfo_3.Selected.Value && 'Order From'.Account = data2.Account )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": "'Order Status'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Order Status"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 35,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 69,
-                  "snippet": {
-                    "text": "'Order From'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Order From"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 81,
-                  "snippet": {
-                    "text": ".Account"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Guid"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".cr431_billamoount"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "cr431_billamoount"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Customer (Dist)'.Rectangle7_8.OnSelect"
                 }
               ],
@@ -3190,7 +2522,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -3231,7 +2563,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3312,7 +2644,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -4111,7 +3443,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -4621,7 +3953,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 6
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -7565,7 +6897,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -7606,7 +6938,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -7687,7 +7019,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -8404,7 +7736,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -8445,7 +7777,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -8526,7 +7858,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -8683,7 +8015,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -8724,7 +8056,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -8805,7 +8137,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -9444,7 +8776,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -9485,7 +8817,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -9566,7 +8898,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -28374,23 +27706,6 @@
               }
             },
             {
-              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-              "messageStrings": {
-                "issue": {
-                  "text": "Expected {0} value."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Change the rule to produce a {0} value."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrBadToken",
               "messageStrings": {
                 "issue": {
@@ -28447,6 +27762,23 @@
               },
               "properties": {
                 "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected {0} value."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the rule to produce a {0} value."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

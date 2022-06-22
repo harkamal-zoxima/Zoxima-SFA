@@ -2643,7 +2643,7 @@
                 customerinfo_3 As gallery.galleryHorizontal:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =65
-                    Items: =['Order Status (Sales Order)'.Open, 'Order Status (Sales Order)'.Accepted, 'Order Status (Sales Order)'.'Partially Shipped', 'Order Status (Sales Order)'.Shipped]
+                    Items: =['Order Status (SalesOrders)'.Open, 'Order Status (SalesOrders)'.Accepted, 'Order Status (SalesOrders)'.'Partially Shipped', 'Order Status (SalesOrders)'.Shipped]
                     OnSelect: =
                     ShowScrollbar: =false
                     TemplateSize: =165
@@ -2680,7 +2680,7 @@
                 Gallery1 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =607
-                    Items: =Filter('Sales Order','Order Status'=customerinfo_3.Selected.Value && 'Order From'.Account = data2.Account )
+                    Items: =Filter('SalesOrders','Order Status'=customerinfo_3.Selected.Value && 'Order From'.Account = data2.Account )
                     Layout: =Layout.Vertical
                     ShowScrollbar: =false
                     TemplateSize: =120
