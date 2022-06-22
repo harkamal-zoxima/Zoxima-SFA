@@ -2682,7 +2682,7 @@
                         DisplayMode: =DisplayMode.View
                         Height: =290
                         HtmlText: |-
-                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
+                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFFF;opacity:0.1; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
                         OnSelect: =Select(Parent)
                         Width: =594
                         X: =15
@@ -3406,7 +3406,7 @@
                         DisplayMode: =DisplayMode.View
                         Height: =289
                         HtmlText: |-
-                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
+                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFFF;opacity:0.1; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
                         OnSelect: |-
                             =Navigate('Invoice Lines');
                             Set(InvoiceInfo,ThisItem)
@@ -3465,7 +3465,7 @@
                         DisplayMode: =DisplayMode.View
                         Height: =289
                         HtmlText: |-
-                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
+                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFFF;opacity:0.1; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
                         OnSelect: =Select(Parent)
                         Width: =594
                         X: =15
@@ -4231,7 +4231,7 @@
         Size: =34
         Text: ="Distributor"
         Width: =560
-        X: =40
+        X: =70
         ZIndex: =9
 
     Icon14_11 As icon.BackArrow:
@@ -4371,6 +4371,6 @@
                     Active: false
                 }
             )
-        Y: =1016
+        Y: =1056
         ZIndex: =12
 

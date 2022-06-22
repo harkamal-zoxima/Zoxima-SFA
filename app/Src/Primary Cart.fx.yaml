@@ -246,7 +246,7 @@
                 CreateOrderRecord,
                 Patch(
                     'Sales Orders',
-                    Defaults('SalesOrders'),
+                    Defaults(SalesOrders),
                     {
                         'Order Date': Today(),
                         'Order Status': 'Order Status (SalesOrders)'.Open,
