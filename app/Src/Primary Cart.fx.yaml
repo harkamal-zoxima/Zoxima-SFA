@@ -245,7 +245,7 @@
             =ClearCollect(
                 CreateOrderRecord,
                 Patch(
-                    'Sales Orders',
+                    SalesOrders,
                     Defaults(SalesOrders),
                     {
                         'Order Date': Today(),
@@ -276,6 +276,27 @@
                             Account = First(SelectedRetailerForPriOrder).Account
                         )
                     }
+                )
+            );
+            If(
+                !IsBlank(CreateOrderRecord),
+                ClearCollect(
+                    CreateItemsRecord,
+                    ForAll(
+                        PrimaryCart,
+                        Patch(
+                            'Order Line',
+                            Defaults('Order Line'),
+                            {
+                                Quantity: Value(ThisRecord.qty),
+                                'Bill Amoount': ThisRecord.price,
+                                'Sales Order No': LookUp(
+                                    SalesOrders,
+                                    'Order ID' = First(CreateOrderRecord).'Order ID'
+                                )
+                            }
+                        )
+                    )
                 )
             );
             Navigate(
