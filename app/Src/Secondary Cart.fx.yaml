@@ -241,11 +241,11 @@
             =ClearCollect(
                 CreateOrderRecord,
                 Patch(
-                    'Sales Order',
-                    Defaults('Sales Order'),
+                    'SalesOrders',
+                    Defaults('SalesOrders'),
                     {
                         'Order Date': Today(),
-                        'Order Status': 'Order Status (Sales Order)'.Open,
+                        'Order Status': 'Order Status (SalesOrders)'.Open,
                         'Order Type': 'Order Type1'.'Secondary Order',
                         'Before Tax Amount': Sum(
                             SecondaryCart,
@@ -259,8 +259,6 @@
                             SecondaryCart,
                             price
                         ) * 0.09,
-                        'CGST %': 9,
-                        'SGST %': 9,
                         'Bill Amoount': Sum(
                             SecondaryCart,
                             price
@@ -287,11 +285,10 @@
                             Defaults('Order Line'),
                             {
                                 Quantity: Value(ThisRecord.qty),
-                                Name: ThisRecord.name,
                                 'Bill Amoount': ThisRecord.price,
                                 'Order No': LookUp(
-                                    'Sales Order',
-                                    'Order ID' = First(CreateOrderRecord).'Order ID'
+                                    'SalesOrders', 'Order ID' = First(CreateOrderRecord).'Order ID'
+                                   // 'Order ID' = First(CreateOrderRecord).'Order ID'
                                 )
                             }
                         )

@@ -842,12 +842,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637914933229202432",
+    "LastModifiedTimestamp": "637914945374739843",
     "Name": "VisitsInfoTopTab",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "Table(\r\n    {\r\n        Title: \"Visit Info\",\r\n       Screen: 'Start visit',\r\n        Active: true\r\n    },\r\n    {\r\n        Title: \"Book Order\",\r\n        Screen: 'Visit Products',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: Concatenate(\r\n            \"Cart \",\r\n            \"(\",\r\n            CountRows(PrimaryCart),\r\n            \")\"\r\n        ),\r\n     Screen: 'Visit Cart',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Inventory\",\r\n       Screen: App.ActiveScreen,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Complaints\",\r\n        Screen: Complaints,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Visit History\",\r\n        Screen: 'Visit History',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Retailer Info\",\r\n        Screen: 'customer info',\r\n        Active: false\r\n    }\r\n)",
+        "InvariantScript": "Table(\r\n    {\r\n        Title: \"Visit Info\",\r\n       Screen: 'Start visit',\r\n        Active: true\r\n    },\r\n    {\r\n        Title: \"Book Order\",\r\n        Screen: 'Visit Products',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: Concatenate(\r\n            \"Cart \",\r\n            \"(\",\r\n            CountRows(PrimaryCart),\r\n            \")\"\r\n        ),\r\n     Screen: 'Visit Cart',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Inventory\",\r\n       Screen: App.ActiveScreen,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Complaints\",\r\n        Screen: App.ActiveScreen,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Visit History\",\r\n        Screen: 'Visit History',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Retailer Info\",\r\n        Screen: 'customer info',\r\n        Active: false\r\n    }\r\n)",
         "Property": "TabItems",
         "RuleProviderType": "System"
       },
@@ -917,7 +917,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637914933229202432",
+  "LastModifiedTimestamp": "637914945374739843",
   "Name": "c24c8cdda8aa4592a2c19c5f7e216f34",
   "OverridableProperties": {},
   "TemplateOriginalName": "af2011479e5e4ab5a2ebb1d6efd457c3",

@@ -30,7 +30,7 @@ VisitsInfoTopTab As CanvasComponent:
             },
             {
                 Title: "Complaints",
-                Screen: Complaints,
+                Screen: App.ActiveScreen,
                 Active: false
             },
             {

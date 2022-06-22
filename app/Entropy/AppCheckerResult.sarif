@@ -571,123 +571,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "VisitsInfoTopTab.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VisitsInfoTopTab.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 564,
-                  "snippet": {
-                    "text": "Complaints"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "VisitsInfoTopTab",
-                "type": "VisitsInfoTopTab"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Complaints"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VisitsInfoTopTab.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VisitsInfoTopTab.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 90,
-                  "charOffset": 515,
-                  "snippet": {
-                    "text": "{\r\n        Title: \"Complaints\",\r\n        Screen: Complaints,\r\n        Active: false\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "VisitsInfoTopTab",
-                "type": "VisitsInfoTopTab"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleRecord",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VisitsInfoTopTab.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VisitsInfoTopTab.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 818,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Table(\r\n    {\r\n        Title: \"Visit Info\",\r\n       Screen: 'Start visit',\r\n        Active: true\r\n    },\r\n    {\r\n        Title: \"Book Order\",\r\n        Screen: 'Visit Products',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: Concatenate(\r\n            \"Cart \",\r\n            \"(\",\r\n            CountRows(PrimaryCart),\r\n            \")\"\r\n        ),\r\n     Screen: 'Visit Cart',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Inventory\",\r\n       Screen: App.ActiveScreen,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Complaints\",\r\n        Screen: Complaints,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Visit History\",\r\n        Screen: 'Visit History',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Retailer Info\",\r\n        Screen: 'customer info',\r\n        Active: false\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "VisitsInfoTopTab",
-                "type": "VisitsInfoTopTab"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Table"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "KYCFormTopTab_1.Gallery1_4.Label8_5.OnSelect"
                 }
               ],
@@ -2278,7 +2161,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2319,7 +2202,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 7
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2400,7 +2283,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 8
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -2440,7 +2323,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -2601,7 +2484,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -2682,7 +2565,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -2763,7 +2646,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -2844,7 +2727,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -2925,7 +2808,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3006,7 +2889,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3087,7 +2970,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3168,7 +3051,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3208,7 +3091,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3248,7 +3131,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadSchema-ExpectedType",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -3290,7 +3173,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
-          "ruleIndex": 11
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -3370,7 +3253,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3410,7 +3293,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3490,7 +3373,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3571,7 +3454,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3652,7 +3535,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3813,7 +3696,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3893,7 +3776,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3974,7 +3857,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -5750,327 +5633,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 59,
+                  "charLength": 11,
+                  "charOffset": 1503,
                   "snippet": {
-                    "text": "'Sales Order'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Order"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 92,
-                  "snippet": {
-                    "text": "'Sales Order'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Order"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 83,
-                  "snippet": {
-                    "text": "Defaults('Sales Order')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Defaults"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 28,
-                  "charOffset": 184,
-                  "snippet": {
-                    "text": "'Order Status (Sales Order)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Order Status (Sales Order)"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 212,
-                  "snippet": {
-                    "text": ".Open"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 12
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1038,
-                  "charOffset": 43,
-                  "snippet": {
-                    "text": "Patch(\r\n        'Sales Order',\r\n        Defaults('Sales Order'),\r\n        {\r\n            'Order Date': Today(),\r\n            'Order Status': 'Order Status (Sales Order)'.Open,\r\n            'Order Type': 'Order Type1'.'Secondary Order',\r\n            'Before Tax Amount': Sum(\r\n                SecondaryCart,\r\n                price\r\n            ),\r\n            'CGST Amount': Sum(\r\n                SecondaryCart,\r\n                price\r\n            ) * 0.09,\r\n            'SGST Amount': Sum(\r\n                SecondaryCart,\r\n                price\r\n            ) * 0.09,\r\n            'CGST %': 9,\r\n            'SGST %': 9,\r\n            'Bill Amoount': Sum(\r\n                SecondaryCart,\r\n                price\r\n            ),\r\n            'Order To': LookUp(\r\n                Accounts,\r\n                Account = First(SelectedDistributorForSecOrder).Account\r\n            ),\r\n            'Order From': LookUp(\r\n                Accounts,\r\n                Account = First(SelectedRetailerForSecOrder).Account\r\n            )\r\n        }\r\n    )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1084,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ClearCollect(\r\n    CreateOrderRecord,\r\n    Patch(\r\n        'Sales Order',\r\n        Defaults('Sales Order'),\r\n        {\r\n            'Order Date': Today(),\r\n            'Order Status': 'Order Status (Sales Order)'.Open,\r\n            'Order Type': 'Order Type1'.'Secondary Order',\r\n            'Before Tax Amount': Sum(\r\n                SecondaryCart,\r\n                price\r\n            ),\r\n            'CGST Amount': Sum(\r\n                SecondaryCart,\r\n                price\r\n            ) * 0.09,\r\n            'SGST Amount': Sum(\r\n                SecondaryCart,\r\n                price\r\n            ) * 0.09,\r\n            'CGST %': 9,\r\n            'SGST %': 9,\r\n            'Bill Amoount': Sum(\r\n                SecondaryCart,\r\n                price\r\n            ),\r\n            'Order To': LookUp(\r\n                Accounts,\r\n                Account = First(SelectedDistributorForSecOrder).Account\r\n            ),\r\n            'Order From': LookUp(\r\n                Accounts,\r\n                Account = First(SelectedRetailerForSecOrder).Account\r\n            )\r\n        }\r\n    )\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ClearCollect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 1547,
-                  "snippet": {
-                    "text": "'Sales Order'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Order"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 144,
-                  "charOffset": 1514,
-                  "snippet": {
-                    "text": "LookUp(\r\n                        'Sales Order',\r\n                        'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                    )"
+                    "text": ".'Order ID'"
                   }
                 }
               },
@@ -6088,50 +5654,10 @@
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 1587,
-                  "snippet": {
-                    "text": "'Order ID'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Button3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Order ID"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -6148,7 +5674,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1598,
+                  "charOffset": 1477,
                   "snippet": {
                     "text": "="
                   }
@@ -6163,16 +5689,15 @@
           ],
           "message": {
             "arguments": [
-              "Error",
-              "Text"
+              "LookUp"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -6188,10 +5713,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 462,
-                  "charOffset": 1230,
+                  "charLength": 469,
+                  "charOffset": 1178,
                   "snippet": {
-                    "text": "Patch(\r\n                'Order Line',\r\n                Defaults('Order Line'),\r\n                {\r\n                    Quantity: Value(ThisRecord.qty),\r\n                    Name: ThisRecord.name,\r\n                    'Bill Amoount': ThisRecord.price,\r\n                    'Order No': LookUp(\r\n                        'Sales Order',\r\n                        'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                    )\r\n                }\r\n            )"
+                    "text": "Patch(\r\n                'Order Line',\r\n                Defaults('Order Line'),\r\n                {\r\n                    Quantity: Value(ThisRecord.qty),\r\n                    'Bill Amoount': ThisRecord.price,\r\n                    'Order No': LookUp(\r\n                        'SalesOrders', 'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                       // 'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                    )\r\n                }\r\n            )"
                   }
                 }
               },
@@ -6212,7 +5737,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -6228,10 +5753,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 351,
-                  "charOffset": 1326,
+                  "charLength": 358,
+                  "charOffset": 1274,
                   "snippet": {
-                    "text": "{\r\n                    Quantity: Value(ThisRecord.qty),\r\n                    Name: ThisRecord.name,\r\n                    'Bill Amoount': ThisRecord.price,\r\n                    'Order No': LookUp(\r\n                        'Sales Order',\r\n                        'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                    )\r\n                }"
+                    "text": "{\r\n                    Quantity: Value(ThisRecord.qty),\r\n                    'Bill Amoount': ThisRecord.price,\r\n                    'Order No': LookUp(\r\n                        'SalesOrders', 'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                       // 'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                    )\r\n                }"
                   }
                 }
               },
@@ -6244,16 +5769,56 @@
           ],
           "message": {
             "arguments": [
-              "Name",
-              "UOM"
+              "Record"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 13
+          "ruleId": "app-ErrBadSchema-ExpectedType",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 358,
+                  "charOffset": 1274,
+                  "snippet": {
+                    "text": "{\r\n                    Quantity: Value(ThisRecord.qty),\r\n                    'Bill Amoount': ThisRecord.price,\r\n                    'Order No': LookUp(\r\n                        'SalesOrders', 'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                       // 'Order ID' = First(CreateOrderRecord).'Order ID'\r\n                    )\r\n                }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Secondary Cart",
+                "type": "'Secondary Cart'.Button3_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Cancelled Order",
+              "OptionSetValue"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColumnMissing-ColName-ExpectedType",
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -6333,7 +5898,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -6414,7 +5979,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -6815,123 +6380,6 @@
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Start visit'.VisitsInfoTopTab_1.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Start visit'.VisitsInfoTopTab_1.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 564,
-                  "snippet": {
-                    "text": "Complaints"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "Start visit",
-                "type": "'Start visit'.VisitsInfoTopTab_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Complaints"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Start visit'.VisitsInfoTopTab_1.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Start visit'.VisitsInfoTopTab_1.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 90,
-                  "charOffset": 515,
-                  "snippet": {
-                    "text": "{\r\n        Title: \"Complaints\",\r\n        Screen: Complaints,\r\n        Active: false\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "Start visit",
-                "type": "'Start visit'.VisitsInfoTopTab_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleRecord",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Start visit'.VisitsInfoTopTab_1.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Start visit'.VisitsInfoTopTab_1.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 818,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Table(\r\n    {\r\n        Title: \"Visit Info\",\r\n       Screen: 'Start visit',\r\n        Active: true\r\n    },\r\n    {\r\n        Title: \"Book Order\",\r\n        Screen: 'Visit Products',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: Concatenate(\r\n            \"Cart \",\r\n            \"(\",\r\n            CountRows(PrimaryCart),\r\n            \")\"\r\n        ),\r\n     Screen: 'Visit Cart',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Inventory\",\r\n       Screen: App.ActiveScreen,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Complaints\",\r\n        Screen: Complaints,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Visit History\",\r\n        Screen: 'Visit History',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Retailer Info\",\r\n        Screen: 'customer info',\r\n        Active: false\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "Start visit",
-                "type": "'Start visit'.VisitsInfoTopTab_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Table"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
         },
         {
           "locations": [
@@ -7648,7 +7096,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -7689,7 +7137,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 7
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -7770,7 +7218,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 8
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -7810,7 +7258,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -7897,123 +7345,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Comp Info'.VisitsInfoTopTab_2.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Comp Info'.VisitsInfoTopTab_2.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 564,
-                  "snippet": {
-                    "text": "Complaints"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "Comp Info",
-                "type": "'Comp Info'.VisitsInfoTopTab_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Complaints"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Comp Info'.VisitsInfoTopTab_2.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Comp Info'.VisitsInfoTopTab_2.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 90,
-                  "charOffset": 515,
-                  "snippet": {
-                    "text": "{\r\n        Title: \"Complaints\",\r\n        Screen: Complaints,\r\n        Active: false\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "Comp Info",
-                "type": "'Comp Info'.VisitsInfoTopTab_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleRecord",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Comp Info'.VisitsInfoTopTab_2.TabItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Comp Info'.VisitsInfoTopTab_2.TabItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 818,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Table(\r\n    {\r\n        Title: \"Visit Info\",\r\n       Screen: 'Start visit',\r\n        Active: true\r\n    },\r\n    {\r\n        Title: \"Book Order\",\r\n        Screen: 'Visit Products',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: Concatenate(\r\n            \"Cart \",\r\n            \"(\",\r\n            CountRows(PrimaryCart),\r\n            \")\"\r\n        ),\r\n     Screen: 'Visit Cart',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Inventory\",\r\n       Screen: App.ActiveScreen,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Complaints\",\r\n        Screen: Complaints,\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Visit History\",\r\n        Screen: 'Visit History',\r\n        Active: false\r\n    },\r\n    {\r\n        Title: \"Retailer Info\",\r\n        Screen: 'customer info',\r\n        Active: false\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TabItems",
-                "module": "Comp Info",
-                "type": "'Comp Info'.VisitsInfoTopTab_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Table"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect"
                 }
               ],
@@ -8087,7 +7418,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -8129,7 +7460,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
-          "ruleIndex": 11
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -8166,7 +7497,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8207,7 +7538,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 7
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -8288,7 +7619,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 8
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -8328,7 +7659,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -8605,7 +7936,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8646,7 +7977,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 7
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -8727,7 +8058,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 8
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -8767,7 +8098,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -9208,7 +8539,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -11048,7 +10379,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -11169,7 +10500,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -11249,7 +10580,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -11370,7 +10701,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -11450,7 +10781,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -11571,7 +10902,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -11651,7 +10982,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -11772,7 +11103,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -11812,7 +11143,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -11853,7 +11184,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 13
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -11933,7 +11264,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12054,7 +11385,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12134,7 +11465,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12255,7 +11586,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12335,7 +11666,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12456,7 +11787,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12533,7 +11864,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 12
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -12570,7 +11901,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 12
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -12610,7 +11941,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12651,7 +11982,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 13
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -12731,7 +12062,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12812,7 +12143,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12892,7 +12223,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12972,7 +12303,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13053,7 +12384,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -13133,7 +12464,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13213,7 +12544,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13294,7 +12625,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -13374,7 +12705,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13454,7 +12785,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13535,7 +12866,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -13615,7 +12946,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13695,7 +13026,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13776,7 +13107,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -13856,7 +13187,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -14133,7 +13464,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -14210,7 +13541,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 12
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -14287,7 +13618,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 12
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -14368,7 +13699,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 9
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -14488,7 +13819,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -14565,7 +13896,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -14606,7 +13937,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 7
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -14687,7 +14018,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 8
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -14727,7 +14058,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -40225,34 +39556,6 @@
               }
             },
             {
-              "id": "app-ErrIncompatibleRecord",
-              "messageStrings": {
-                "issue": {
-                  "text": "Cannot use this record. It may contain colliding fields of incompatible types."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrBadToken",
               "messageStrings": {
                 "issue": {
@@ -40291,6 +39594,20 @@
               "messageStrings": {
                 "issue": {
                   "text": "Invalid argument type ({1}). Expecting a {0} value instead."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
                 }
               },
               "properties": {
@@ -40350,14 +39667,17 @@
               }
             },
             {
-              "id": "app-ErrInvalidDot",
+              "id": "app-ErrColumnMissing-ColName-ExpectedType",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid use of '.'"
+                  "text": "Missing column. Your formula is missing a column '{0}' with a type of '{1}'."
                 }
               },
               "properties": {
                 "componentType": "app",
+                "howToFix": [
+                  "Add a column to your formula."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
@@ -40368,6 +39688,20 @@
               "messageStrings": {
                 "issue": {
                   "text": "The specified column '{0}' does not exist. The column with the most similar name is '{1}'."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
                 }
               },
               "properties": {
