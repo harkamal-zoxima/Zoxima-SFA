@@ -168,34 +168,43 @@ StartDay_2 As screen:
     "'Side Bar_26' As 'Side Bar'":
         ZIndex: =15
 
-    Group2_12 As group:
+    Group2_11 As group:
         Height: =5
         Width: =5
-        X: =40
-        Y: =-412
-        ZIndex: =17
+        X: =-91
+        Y: =-442
+        ZIndex: =20
 
         HtmlText2_13 As htmlViewer:
-            Color: =RGBA(255, 255, 255, 1)
             Height: =123
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
-            OnSelect: |-
-                =ClearCollect(
-                    Attendance,
+            OnSelect: |
+                =Patch(
+                    Attendences,
+                    Defaults(Attendences),
                     {
-                        ID: GUID(),
-                        StartDayTime: Text(
-                            Now(),
-                            "yyyy/mm/dd hh:mm:ss"
+                        'Attendance Date': Today(),
+                        'Start Time': Now(),
+                        'CheckIn Location': Concatenate(
+                            Location.Longitude,
+                            ",",
+                            Location.Latitude
                         )
                     }
                 );
-                Navigate('Select Day Type', ScreenTransition.Fade)
+                Set(
+                    varAttendance,
+                    "end"
+                );
+                Navigate(
+                    'End day',
+                    ScreenTransition.Fade
+                );
             Width: =378
             X: =131
-            Y: =497
-            ZIndex: =9
+            Y: =451
+            ZIndex: =16
 
         Label3_41 As label:
             Align: =Align.Center
@@ -209,41 +218,52 @@ StartDay_2 As screen:
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =70
-            OnSelect: |-
-                =ClearCollect(
-                    Attendance,
+            OnSelect: |
+                =Patch(
+                    Attendences,
+                    Defaults(Attendences),
                     {
-                        ID: GUID(),
-                        StartDayTime: Text(
-                            Now(),
-                            "yyyy/mm/dd hh:mm:ss"
+                        'Attendance Date': Today(),
+                        'Start Time': Now(),
+                        'CheckIn Location': Concatenate(
+                            Location.Longitude,
+                            ",",
+                            Location.Latitude
                         )
                     }
                 );
-                Navigate('Select Day Type', ScreenTransition.Fade)
+                Set(
+                    varAttendance,
+                    "end"
+                );
+                Navigate(
+                    'End day',
+                    ScreenTransition.Fade
+                );
             Size: =24
-            Text: ="START"
+            Text: ="SUBMIT"
             Width: =289
             X: =173
-            Y: =513
-            ZIndex: =11
+            Y: =467
+            ZIndex: =17
 
-    Group3_8 As group:
+    Group3_6 As group:
         Height: =5
         Width: =5
-        X: =40
-        Y: =-412
-        ZIndex: =18
+        X: =-91
+        Y: =-442
+        ZIndex: =21
 
         HtmlText2_14 As htmlViewer:
             Height: =113
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Select Day Type', ScreenTransition.Fade)
             Size: =25
             Width: =378
             X: =131
-            Y: =628
-            ZIndex: =10
+            Y: =572
+            ZIndex: =18
 
         Label3_42 As label:
             Align: =Align.Center
@@ -257,10 +277,11 @@ StartDay_2 As screen:
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =65
+            OnSelect: =Navigate('Select Day Type', ScreenTransition.Fade)
             Size: =24
-            Text: ="LEAVE"
+            Text: ="CANCEL"
             Width: =289
             X: =172
-            Y: =646
-            ZIndex: =12
+            Y: =590
+            ZIndex: =19
 
