@@ -15803,128 +15803,8 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 24,
-                  "charOffset": 22,
-                  "snippet": {
-                    "text": "'Distributor Onboarding'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Distributor Onboarding"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 24,
-                  "charOffset": 62,
-                  "snippet": {
-                    "text": "'Distributor Onboarding'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Distributor Onboarding"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 34,
-                  "charOffset": 53,
-                  "snippet": {
-                    "text": "Defaults('Distributor Onboarding')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Defaults"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 8,
-                  "charOffset": 1092,
+                  "charOffset": 1064,
                   "snippet": {
                     "text": "Radio1_4"
                   }
@@ -15964,7 +15844,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 1100,
+                  "charOffset": 1072,
                   "snippet": {
                     "text": ".Selected"
                   }
@@ -16001,7 +15881,7 @@
                 },
                 "region": {
                   "charLength": 6,
-                  "charOffset": 1109,
+                  "charOffset": 1081,
                   "snippet": {
                     "text": ".Value"
                   }
@@ -16038,7 +15918,7 @@
                 },
                 "region": {
                   "charLength": 17,
-                  "charOffset": 1937,
+                  "charOffset": 1909,
                   "snippet": {
                     "text": "'Sales Territory'"
                   }
@@ -16078,7 +15958,7 @@
                 },
                 "region": {
                   "charLength": 114,
-                  "charOffset": 1930,
+                  "charOffset": 1902,
                   "snippet": {
                     "text": "LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid)"
                   }
@@ -16118,7 +15998,7 @@
                 },
                 "region": {
                   "charLength": 39,
-                  "charOffset": 1956,
+                  "charOffset": 1928,
                   "snippet": {
                     "text": "'Sales Territory (zx_salesterritoryid)'"
                   }
@@ -16158,7 +16038,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 2023,
+                  "charOffset": 1995,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -16198,7 +16078,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1996,
+                  "charOffset": 1968,
                   "snippet": {
                     "text": "="
                   }
@@ -16239,7 +16119,7 @@
                 },
                 "region": {
                   "charLength": 17,
-                  "charOffset": 2121,
+                  "charOffset": 2093,
                   "snippet": {
                     "text": "'Sales Territory'"
                   }
@@ -16279,7 +16159,7 @@
                 },
                 "region": {
                   "charLength": 111,
-                  "charOffset": 2114,
+                  "charOffset": 2086,
                   "snippet": {
                     "text": "LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid)"
                   }
@@ -16319,7 +16199,7 @@
                 },
                 "region": {
                   "charLength": 39,
-                  "charOffset": 2140,
+                  "charOffset": 2112,
                   "snippet": {
                     "text": "'Sales Territory (zx_salesterritoryid)'"
                   }
@@ -16359,7 +16239,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 2204,
+                  "charOffset": 2176,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -16399,7 +16279,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2180,
+                  "charOffset": 2152,
                   "snippet": {
                     "text": "="
                   }
@@ -16440,7 +16320,7 @@
                 },
                 "region": {
                   "charLength": 17,
-                  "charOffset": 2260,
+                  "charOffset": 2232,
                   "snippet": {
                     "text": "'Sales Territory'"
                   }
@@ -16480,7 +16360,7 @@
                 },
                 "region": {
                   "charLength": 111,
-                  "charOffset": 2253,
+                  "charOffset": 2225,
                   "snippet": {
                     "text": "LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid)"
                   }
@@ -16520,7 +16400,7 @@
                 },
                 "region": {
                   "charLength": 39,
-                  "charOffset": 2279,
+                  "charOffset": 2251,
                   "snippet": {
                     "text": "'Sales Territory (zx_salesterritoryid)'"
                   }
@@ -16560,7 +16440,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 2343,
+                  "charOffset": 2315,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -16600,7 +16480,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2319,
+                  "charOffset": 2291,
                   "snippet": {
                     "text": "="
                   }
@@ -16641,7 +16521,7 @@
                 },
                 "region": {
                   "charLength": 17,
-                  "charOffset": 2532,
+                  "charOffset": 2504,
                   "snippet": {
                     "text": "'Sales Territory'"
                   }
@@ -16681,7 +16561,7 @@
                 },
                 "region": {
                   "charLength": 110,
-                  "charOffset": 2525,
+                  "charOffset": 2497,
                   "snippet": {
                     "text": "LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)"
                   }
@@ -16721,7 +16601,7 @@
                 },
                 "region": {
                   "charLength": 39,
-                  "charOffset": 2551,
+                  "charOffset": 2523,
                   "snippet": {
                     "text": "'Sales Territory (zx_salesterritoryid)'"
                   }
@@ -16761,7 +16641,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 2614,
+                  "charOffset": 2586,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -16801,7 +16681,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2591,
+                  "charOffset": 2563,
                   "snippet": {
                     "text": "="
                   }
@@ -16841,10 +16721,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 2649,
+                  "charLength": 2621,
                   "charOffset": 10,
                   "snippet": {
-                    "text": "Patch(\r\n    'Distributor Onboarding',\r\n    Defaults('Distributor Onboarding'),\r\n    {\r\n       'Name of the Firm': TextInput3_2.Text,\r\n         'Constitution of the firm': Radio1_2.Selected.Value,\r\n        'First Name': Left(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n'Last Name': Right(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Date of Birth': DatePicker2.SelectedDate,\r\n        'Year of Establishment': DatePicker2_1.SelectedDate,\r\n        'Mobile No.': TextInput3_26.Text,\r\n        'Telephone No.': TextInput3_29.Text,\r\n        'Fax No.': TextInput3_62.Text,\r\n        'Alternate Mobile No.': TextInput3_63.Text,\r\n        'Billing Address 1': TextInput3_3.Text,\r\n        'Billing Address 2': TextInput3_64.Text,\r\n        'Billing Post Code': TextInput3_65.Text,\r\n      'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,\r\n      'Cibil Score':TextInput3_30.Text,\r\n      'Dealing with PVC': Radio1_4.Selected.Value,\r\n       Remarks:TextInput3_33.Text,\r\n       'GST Reg Type':Dropdown2.Selected.Value,\r\n       'GST No.': TextInput3_51.Text,\r\n       'PAN No.':TextInput3_34.Text,\r\n       'Aadhar No.':TextInput3_50.Text,\r\n       Declaration:ComboBox2.Selected.Value,\r\n       'Account No.':TextInput3_52.Text,\r\n       'IFSC Code':TextInput3_53.Text,\r\n       'Branch code':TextInput3_56.Text,\r\n       'Bank Name':TextInput3_54.Text,\r\n       'Bank Address':TextInput3_55.Text,\r\n       'Credit term pipes':TextInput3_59.Text,\r\n        'Credit Term Fittings':TextInput3_61.Text,\r\n        'Name of nearest Distributor with distance':TextInput3_57.Text,\r\n       'Credit Limit (Base)':Value(TextInput3_60.Text),\r\n       'Deposit Amount':Value(TextInput3_58.Text),\r\n        \r\n        //'Sub State': TextInput3_94.Text,\r\n       'Sub State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid),\r\n        // District: TextInput3_95.Text,\r\n        'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),\r\n\r\n       'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)\r\n      \r\n    }\r\n    \r\n)"
+                    "text": "Patch(\r\n    'Distributor Onboardings',\r\n    Defaults('Distributor Onboardings'),\r\n    {\r\n       'Name of the Firm': TextInput3_2.Text,\r\n         'Constitution of the firm': Radio1_2.Selected.Value,\r\n        'First Name': Left(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n'Last Name': Right(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Date of Birth': DatePicker2.SelectedDate,\r\n        'Year of Establishment': DatePicker2_1.SelectedDate,\r\n        'Mobile No.': TextInput3_26.Text,\r\n        'Telephone No.': TextInput3_29.Text,\r\n        'Fax No.': TextInput3_62.Text,\r\n        'Alt Mobile No.': TextInput3_63.Text,\r\n        'Address 1': TextInput3_3.Text,\r\n        'Address 2': TextInput3_64.Text,\r\n        'Post Code': TextInput3_65.Text,\r\n      'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,\r\n      'Cibil Score':TextInput3_30.Text,\r\n      'Dealing with PVC': Radio1_4.Selected.Value,\r\n       Remarks:TextInput3_33.Text,\r\n       'GST Reg Type':Dropdown2.Selected.Value,\r\n       'GST No.': TextInput3_51.Text,\r\n       'PAN No.':TextInput3_34.Text,\r\n       'Aadhar No.':TextInput3_50.Text,\r\n       Declaration:ComboBox2.Selected.Value,\r\n       'Account No.':TextInput3_52.Text,\r\n       'IFSC Code':TextInput3_53.Text,\r\n       'Branch code':TextInput3_56.Text,\r\n       'Bank Name':TextInput3_54.Text,\r\n       'Bank Address':TextInput3_55.Text,\r\n       'Credit term pipes':TextInput3_59.Text,\r\n        'Credit Term Fittings':TextInput3_61.Text,\r\n        'Name of nearest Distributor with distance':TextInput3_57.Text,\r\n       'Credit Limit (Base)':Value(TextInput3_60.Text),\r\n       'Deposit Amount':Value(TextInput3_58.Text),\r\n        \r\n        //'Sub State': TextInput3_94.Text,\r\n       'Sub State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid),\r\n        // District: TextInput3_95.Text,\r\n        'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),\r\n\r\n       'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)\r\n      \r\n    }\r\n    \r\n)"
                   }
                 }
               },
@@ -16881,8 +16761,49 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 2526,
+                  "charOffset": 96,
+                  "snippet": {
+                    "text": "{\r\n       'Name of the Firm': TextInput3_2.Text,\r\n         'Constitution of the firm': Radio1_2.Selected.Value,\r\n        'First Name': Left(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n'Last Name': Right(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Date of Birth': DatePicker2.SelectedDate,\r\n        'Year of Establishment': DatePicker2_1.SelectedDate,\r\n        'Mobile No.': TextInput3_26.Text,\r\n        'Telephone No.': TextInput3_29.Text,\r\n        'Fax No.': TextInput3_62.Text,\r\n        'Alt Mobile No.': TextInput3_63.Text,\r\n        'Address 1': TextInput3_3.Text,\r\n        'Address 2': TextInput3_64.Text,\r\n        'Post Code': TextInput3_65.Text,\r\n      'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,\r\n      'Cibil Score':TextInput3_30.Text,\r\n      'Dealing with PVC': Radio1_4.Selected.Value,\r\n       Remarks:TextInput3_33.Text,\r\n       'GST Reg Type':Dropdown2.Selected.Value,\r\n       'GST No.': TextInput3_51.Text,\r\n       'PAN No.':TextInput3_34.Text,\r\n       'Aadhar No.':TextInput3_50.Text,\r\n       Declaration:ComboBox2.Selected.Value,\r\n       'Account No.':TextInput3_52.Text,\r\n       'IFSC Code':TextInput3_53.Text,\r\n       'Branch code':TextInput3_56.Text,\r\n       'Bank Name':TextInput3_54.Text,\r\n       'Bank Address':TextInput3_55.Text,\r\n       'Credit term pipes':TextInput3_59.Text,\r\n        'Credit Term Fittings':TextInput3_61.Text,\r\n        'Name of nearest Distributor with distance':TextInput3_57.Text,\r\n       'Credit Limit (Base)':Value(TextInput3_60.Text),\r\n       'Deposit Amount':Value(TextInput3_58.Text),\r\n        \r\n        //'Sub State': TextInput3_94.Text,\r\n       'Sub State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid),\r\n        // District: TextInput3_95.Text,\r\n        'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),\r\n\r\n       'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)\r\n      \r\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Button6_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Aadhar No.",
+              "AADHAR No."
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 24,
-                  "charOffset": 2703,
+                  "charOffset": 2675,
                   "snippet": {
                     "text": "'Distributor Onboarding'"
                   }
@@ -16922,7 +16843,7 @@
                 },
                 "region": {
                   "charLength": 24,
-                  "charOffset": 2741,
+                  "charOffset": 2713,
                   "snippet": {
                     "text": "'Distributor Onboarding'"
                   }
@@ -16962,7 +16883,7 @@
                 },
                 "region": {
                   "charLength": 68,
-                  "charOffset": 2734,
+                  "charOffset": 2706,
                   "snippet": {
                     "text": "LookUp('Distributor Onboarding', 'Record Id' = datadis.'Record Id' )"
                   }
@@ -17002,7 +16923,7 @@
                 },
                 "region": {
                   "charLength": 11,
-                  "charOffset": 2767,
+                  "charOffset": 2739,
                   "snippet": {
                     "text": "'Record Id'"
                   }
@@ -17042,7 +16963,7 @@
                 },
                 "region": {
                   "charLength": 12,
-                  "charOffset": 2788,
+                  "charOffset": 2760,
                   "snippet": {
                     "text": ".'Record Id'"
                   }
@@ -17082,7 +17003,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2779,
+                  "charOffset": 2751,
                   "snippet": {
                     "text": "="
                   }
@@ -17123,7 +17044,7 @@
                 },
                 "region": {
                   "charLength": 17,
-                  "charOffset": 3709,
+                  "charOffset": 3681,
                   "snippet": {
                     "text": "'Sales Territory'"
                   }
@@ -17163,7 +17084,7 @@
                 },
                 "region": {
                   "charLength": 110,
-                  "charOffset": 3702,
+                  "charOffset": 3674,
                   "snippet": {
                     "text": "LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)"
                   }
@@ -17203,7 +17124,7 @@
                 },
                 "region": {
                   "charLength": 39,
-                  "charOffset": 3728,
+                  "charOffset": 3700,
                   "snippet": {
                     "text": "'Sales Territory (zx_salesterritoryid)'"
                   }
@@ -17243,7 +17164,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 3791,
+                  "charOffset": 3763,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -17283,7 +17204,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 3768,
+                  "charOffset": 3740,
                   "snippet": {
                     "text": "="
                   }
@@ -17324,7 +17245,7 @@
                 },
                 "region": {
                   "charLength": 17,
-                  "charOffset": 3857,
+                  "charOffset": 3829,
                   "snippet": {
                     "text": "'Sales Territory'"
                   }
@@ -17364,7 +17285,7 @@
                 },
                 "region": {
                   "charLength": 111,
-                  "charOffset": 3850,
+                  "charOffset": 3822,
                   "snippet": {
                     "text": "LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid)"
                   }
@@ -17404,7 +17325,7 @@
                 },
                 "region": {
                   "charLength": 39,
-                  "charOffset": 3876,
+                  "charOffset": 3848,
                   "snippet": {
                     "text": "'Sales Territory (zx_salesterritoryid)'"
                   }
@@ -17444,7 +17365,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 3940,
+                  "charOffset": 3912,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -17484,7 +17405,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 3916,
+                  "charOffset": 3888,
                   "snippet": {
                     "text": "="
                   }
@@ -17525,7 +17446,7 @@
                 },
                 "region": {
                   "charLength": 17,
-                  "charOffset": 4037,
+                  "charOffset": 4009,
                   "snippet": {
                     "text": "'Sales Territory'"
                   }
@@ -17565,7 +17486,7 @@
                 },
                 "region": {
                   "charLength": 111,
-                  "charOffset": 4030,
+                  "charOffset": 4002,
                   "snippet": {
                     "text": "LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid)"
                   }
@@ -17605,7 +17526,7 @@
                 },
                 "region": {
                   "charLength": 39,
-                  "charOffset": 4056,
+                  "charOffset": 4028,
                   "snippet": {
                     "text": "'Sales Territory (zx_salesterritoryid)'"
                   }
@@ -17645,7 +17566,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 4120,
+                  "charOffset": 4092,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -17685,7 +17606,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 4096,
+                  "charOffset": 4068,
                   "snippet": {
                     "text": "="
                   }
@@ -17726,7 +17647,7 @@
                 },
                 "region": {
                   "charLength": 8,
-                  "charOffset": 4417,
+                  "charOffset": 4389,
                   "snippet": {
                     "text": "Radio1_4"
                   }
@@ -17766,7 +17687,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 4425,
+                  "charOffset": 4397,
                   "snippet": {
                     "text": ".Selected"
                   }
@@ -17803,7 +17724,7 @@
                 },
                 "region": {
                   "charLength": 6,
-                  "charOffset": 4434,
+                  "charOffset": 4406,
                   "snippet": {
                     "text": ".Value"
                   }
@@ -17840,7 +17761,7 @@
                 },
                 "region": {
                   "charLength": 2498,
-                  "charOffset": 2691,
+                  "charOffset": 2663,
                   "snippet": {
                     "text": "Patch(\r\n    'Distributor Onboarding',\r\n    LookUp('Distributor Onboarding', 'Record Id' = datadis.'Record Id' ), \r\n    {\r\n       'Name of the Firm': TextInput3_2.Text,\r\n         'Constitution of the firm': Radio1_2.Selected.Value,\r\n        'First Name': Left(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Last Name': Right(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Date of Birth': DatePicker2.SelectedDate,\r\n        'Year of Establishment': DatePicker2_1.SelectedDate,\r\n        'Mobile No.': TextInput3_26.Text,\r\n        'Telephone No.': TextInput3_29.Text,\r\n        'Fax No.': TextInput3_62.Text,\r\n        'Alternate Mobile No.': TextInput3_63.Text,\r\n        'Billing Address 1': TextInput3_3.Text,\r\n        'Billing Address 2': TextInput3_64.Text,\r\n        'Billing Post Code': TextInput3_65.Text,\r\n        Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid),\r\n        \r\n        'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),\r\n       // District: TextInput3_95.Text,\r\n\r\n       'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),\r\n\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n      //  Zone: ComboBox3.Selected.Value\r\n      'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,\r\n      'Cibil Score':TextInput3_30.Text,\r\n      'Dealing with PVC': Radio1_4.Selected.Value,\r\n       Remarks:TextInput3_33.Text,\r\n       'GST Reg Type':Dropdown2.Selected.Value,\r\n       'GST No.': TextInput3_51.Text,\r\n       'PAN No.':TextInput3_34.Text,\r\n       'Aadhar No.':TextInput3_50.Text,\r\n       Declaration:ComboBox2.Selected.Value,\r\n       'Account No.':TextInput3_52.Text,\r\n       'IFSC Code':TextInput3_53.Text,\r\n       'Branch code':TextInput3_56.Text,\r\n       'Bank Name':TextInput3_54.Text,\r\n       'Bank Address':TextInput3_55.Text,\r\n       'Credit term pipes':TextInput3_59.Text,\r\n        'Credit Term Fittings':TextInput3_61.Text,\r\n        'Name of nearest Distributor with distance':TextInput3_57.Text,\r\n        'Credit Limit (Base)':Value(TextInput3_60.Text),\r\n       'Deposit Amount':Value(TextInput3_58.Text)\r\n    }\r\n)"
                   }

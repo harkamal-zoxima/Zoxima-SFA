@@ -58,7 +58,7 @@
         "Name": "Rectangle1_3",
         "Parent": "Side Bar_23",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2062,
+        "PublishOrderIndex": 2068,
         "Rules": [
           {
             "Category": "Design",
@@ -230,7 +230,7 @@
         "Name": "Icon1_9",
         "Parent": "Side Bar_23",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2063,
+        "PublishOrderIndex": 2069,
         "Rules": [
           {
             "Category": "Design",
@@ -448,7 +448,7 @@
         "Name": "Image3_3",
         "Parent": "Side Bar_23",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2064,
+        "PublishOrderIndex": 2070,
         "Rules": [
           {
             "Category": "Data",
@@ -669,7 +669,7 @@
             "Name": "galleryTemplate1_8",
             "Parent": "Gallery1_7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2066,
+            "PublishOrderIndex": 2072,
             "Rules": [
               {
                 "Category": "Design",
@@ -822,7 +822,7 @@
             "Name": "Label5_3",
             "Parent": "Gallery1_7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2067,
+            "PublishOrderIndex": 2073,
             "Rules": [
               {
                 "Category": "Data",
@@ -1129,7 +1129,7 @@
             "Name": "Rectangle2_3",
             "Parent": "Gallery1_7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2068,
+            "PublishOrderIndex": 2074,
             "Rules": [
               {
                 "Category": "Design",
@@ -1306,7 +1306,7 @@
         "Name": "Gallery1_7",
         "Parent": "Side Bar_23",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2065,
+        "PublishOrderIndex": 2071,
         "Rules": [
           {
             "Category": "Data",

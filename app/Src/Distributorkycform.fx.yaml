@@ -2147,8 +2147,8 @@ Distributorkycform As screen:
         HoverFill: =RGBA(230, 71, 71, 1)
         OnSelect: |
             =If(Create,Patch(
-                'Distributor Onboarding',
-                Defaults('Distributor Onboarding'),
+                'Distributor Onboardings',
+                Defaults('Distributor Onboardings'),
                 {
                    'Name of the Firm': TextInput3_2.Text,
                      'Constitution of the firm': Radio1_2.Selected.Value,
@@ -2171,10 +2171,10 @@ Distributorkycform As screen:
                     'Mobile No.': TextInput3_26.Text,
                     'Telephone No.': TextInput3_29.Text,
                     'Fax No.': TextInput3_62.Text,
-                    'Alternate Mobile No.': TextInput3_63.Text,
-                    'Billing Address 1': TextInput3_3.Text,
-                    'Billing Address 2': TextInput3_64.Text,
-                    'Billing Post Code': TextInput3_65.Text,
+                    'Alt Mobile No.': TextInput3_63.Text,
+                    'Address 1': TextInput3_3.Text,
+                    'Address 2': TextInput3_64.Text,
+                    'Post Code': TextInput3_65.Text,
                   'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,
                   'Cibil Score':TextInput3_30.Text,
                   'Dealing with PVC': Radio1_4.Selected.Value,
@@ -2274,7 +2274,7 @@ Distributorkycform As screen:
         Size: =24
         Text: ="SAVE"
         Width: =184
-        X: =446
+        X: =420
         Y: =75
         ZIndex: =6
 

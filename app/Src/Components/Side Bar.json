@@ -58,7 +58,7 @@
         "Name": "Rectangle1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2017,
+        "PublishOrderIndex": 2023,
         "Rules": [
           {
             "Category": "Design",
@@ -230,7 +230,7 @@
         "Name": "Icon1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2018,
+        "PublishOrderIndex": 2024,
         "Rules": [
           {
             "Category": "Design",
@@ -448,7 +448,7 @@
         "Name": "Image3",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2019,
+        "PublishOrderIndex": 2025,
         "Rules": [
           {
             "Category": "Data",
@@ -669,7 +669,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2021,
+            "PublishOrderIndex": 2027,
             "Rules": [
               {
                 "Category": "Design",
@@ -822,7 +822,7 @@
             "Name": "Label5",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2022,
+            "PublishOrderIndex": 2028,
             "Rules": [
               {
                 "Category": "Data",
@@ -1129,7 +1129,7 @@
             "Name": "Rectangle2",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2023,
+            "PublishOrderIndex": 2029,
             "Rules": [
               {
                 "Category": "Design",
@@ -1306,7 +1306,7 @@
         "Name": "Gallery1_1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2020,
+        "PublishOrderIndex": 2026,
         "Rules": [
           {
             "Category": "Data",
