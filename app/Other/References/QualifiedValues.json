@@ -192,6 +192,13 @@
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
+    },
+    {
+      "Kind": "default.cds_cr431_salesterritoryandusermapping_forms",
+      "Namespace": "Sales Territory and User Mappings (Forms)",
+      "Values": {
+        "Information": "465db776-f7bb-48e5-8c92-9fb300a9f9b9"
+      }
     }
   ]
 }

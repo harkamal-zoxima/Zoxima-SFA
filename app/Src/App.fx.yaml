@@ -2,7 +2,7 @@ App As appinfo:
     BackEnabled: =true
     ConfirmExit: =true
     ConfirmExitMessage: ="Do you want to exit?"
-    OnStart: |+
+    OnStart: |
         =//For Attendance Marking, Setting Variable (Start for "Not start day", end for "Started day but not ended", done for "started and ended your day"
         If(
             IsBlank(
@@ -36,125 +36,23 @@ App As appinfo:
                 "done"
             )
         );
-        ClearCollect(
-            PrimaryCart,
-            []
-        );
-        
-        //For visits in collection****************************************************************************************************
-        ClearCollect(
-            OfflineVisits,
-            Filter(
-                Visits_1,
-                'Created By'.User = LookUp(
-                    Users,
-                    'Primary Email' = User().Email
-                ).User
-            )
-        );
-        
-        //For offline visits in local****************************************************************************************************
-        //ClearData("LocalVisits");
-        SaveData(
-            OfflineVisits,
-            "LocalVisits"
-        );
-        
-        //For Local Accounts****************************************************************************************************
-        If(
-            Connection.Connected,
-            ClearCollect(
-                colMyAccounts,
-                Accounts
-            ),
-            LoadData(
-                colMyAccounts,
-                "My Offline Accounts",
-                false
-            )
-        );
-        SaveData(
-            colMyAccounts,
-            "My Offline Accounts"
-        );
-        Set(
-            VarVisit,
-            true
-        );
-        
-        
-        //For Local Products****************************************************************************************************
-        If(
-            Connection.Connected,
-            ClearCollect(
-                OfflineProducts,
-                'Product Items'
-            ),
-            LoadData(
-                OfflineProducts,
-                "My Offline Products",
-                false
-            )
-        );
-        SaveData(
-            OfflineProducts,
-            "My Offline Products"
-        );
-        
-        
-        //For Local Price List****************************************************************************************************
-        If(
-            Connection.Connected,
-            ClearCollect(
-                OfflinePriceList,
-                'Product Price List'
-            ),
-            LoadData(
-                OfflinePriceList,
-                "My Offline Price List",
-                false
-            )
-        );
-        SaveData(
-            OfflinePriceList,
-            "My Offline Price List"
-        );
-        
         Set(
             CurrentUserEmail,
             User().Email
         );
-        
-        
-        //To get Sales Order Schema in "OfflineSalesHeader" collection
-        ClearCollect(OfflineSalesHeader, First(SalesOrders));
-        Clear(OfflineSalesHeader);
-        
-        //To get Sales Orderline Schema in "OfflineSalesOrderLines" collection
-        ClearCollect(OfflineSalesOrderLines, First('Order Line'));
-        Clear(OfflineSalesOrderLines);
-        
         ClearCollect(
             SalesTerritoryAndUserMappingRecord,
             LookUp(
-                'Sales Territory and User Mapping',
+                'Sales Territory and User Mappings',
                 'Sales User'.'Primary Email' = User().Email
             ).'Sales Territory'
-        );
-        ClearCollect(
-            SalesTerritory,
-            LookUp(
-                'Sales Territory',
-                'Sales Territory (zx_salesterritoryid)' = First(SalesTerritoryAndUserMappingRecord).'Sales Territory (zx_salesterritoryid)'
-            )
         );
         ClearCollect(
             AreaAccounts,
             Filter(
                 Accounts,
-                'Sub State'.'Sales Territory (zx_salesterritoryid)' = First(SalesTerritoryAndUserMappingRecord).'Sales Territory (zx_salesterritoryid)'
+                Pincode.'Sales Territory' = First(SalesTerritoryAndUserMappingRecord).'Sales Territory'
             )
         );
-        
     StartScreen: ='Start Screen'
 

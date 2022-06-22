@@ -11,6 +11,7 @@
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "cr431_address": "Address",
+      "cr431_Area": "Area",
       "cr431_category": "Category",
       "cr431_city": "City",
       "cr431_Dealer": "Dealer",

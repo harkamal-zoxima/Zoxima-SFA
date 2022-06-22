@@ -12,7 +12,7 @@
                     CountRows(FilterList) = 0,
                     Filter(
                         'Product Items',
-                        PG1.Category = CategoryFilter.Selected.Category
+                        cr431_PG1.cr431_categoryid = CategoryFilter.Selected.cr431_categoryid
                     ),
                     AllProducts
                 ),
