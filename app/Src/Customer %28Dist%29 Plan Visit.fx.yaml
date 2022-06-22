@@ -482,7 +482,7 @@
             X: =18
             ZIndex: =1
 
-    "'Bottom Navigation_14' As 'Bottom Navigation_5'":
+    "'Bottom Navigation_14' As mainbottomnav":
         NavItems: |-
             =Table( {
                     Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),

@@ -4328,7 +4328,7 @@
             Y: =6
             ZIndex: =1
 
-    "'Bottom Navigation_28' As 'Bottom Navigation_5'":
+    "'Bottom Navigation_28' As mainbottomnav":
         NavItems: |-
             =Table(
                 {
