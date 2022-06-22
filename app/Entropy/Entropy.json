@@ -1018,6 +1018,7 @@
     "Icon11_5": 1653,
     "Icon11_6": 1704,
     "Icon11_7": 493,
+    "Icon11_8": 2147,
     "Icon12": 1435,
     "Icon12_1": 1411,
     "Icon12_2": 114,
@@ -2141,7 +2142,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/22/2022 10:34:54",
+  "HeaderLastSavedDateTimeUTC": "06/22/2022 10:36:26",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/3d3303b9c30543d884499e3c24ffb277\""
@@ -4271,6 +4272,7 @@
     "Icon11_5": 720,
     "Icon11_6": 688,
     "Icon11_7": 1743,
+    "Icon11_8": 279,
     "Icon12": 363,
     "Icon12_1": 211,
     "Icon12_2": 1821,
@@ -5443,7 +5445,7 @@
       "group": 148,
       "groupContainer": 30,
       "htmlViewer": 146,
-      "icon": 100,
+      "icon": 101,
       "image": 34,
       "label": 832,
       "powerbi": 3,

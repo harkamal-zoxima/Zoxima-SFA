@@ -168,6 +168,27 @@ StartDay_2 As screen:
     "'Side Bar_26' As 'Side Bar'":
         ZIndex: =15
 
+    Icon11_8 As icon.BackArrow:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Color: =RGBA(31, 31, 31, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =35
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =35
+        X: =95
+        Y: =108
+        ZIndex: =20
+
     Group2_11 As group:
         Height: =5
         Width: =5
@@ -203,7 +224,7 @@ StartDay_2 As screen:
                 );
             Width: =378
             X: =131
-            Y: =451
+            Y: =493
             ZIndex: =16
 
         Label3_41 As label:
@@ -244,7 +265,7 @@ StartDay_2 As screen:
             Text: ="SUBMIT"
             Width: =289
             X: =173
-            Y: =467
+            Y: =509
             ZIndex: =17
 
     Group3_6 As group:
@@ -262,7 +283,7 @@ StartDay_2 As screen:
             Size: =25
             Width: =378
             X: =131
-            Y: =572
+            Y: =614
             ZIndex: =18
 
         Label3_42 As label:
@@ -282,6 +303,6 @@ StartDay_2 As screen:
             Text: ="CANCEL"
             Width: =289
             X: =172
-            Y: =590
+            Y: =632
             ZIndex: =19
 
