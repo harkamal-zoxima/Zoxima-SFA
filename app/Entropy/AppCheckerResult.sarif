@@ -15349,171 +15349,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 253,
-                  "snippet": {
-                    "text": "colMyAccounts"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.Gallery3_6.Button2_10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "colMyAccounts"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Button2_10.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Button2_10.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 49,
-                  "charOffset": 246,
-                  "snippet": {
-                    "text": "LookUp(colMyAccounts, Account = ThisItem.Account)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.Gallery3_6.Button2_10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Button2_10.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Button2_10.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 268,
-                  "snippet": {
-                    "text": "Account"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.Gallery3_6.Button2_10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Account"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Button2_10.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Button2_10.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 276,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.Gallery3_6.Button2_10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Guid"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Button2_10.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Button2_10.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 255,
+                  "charLength": 250,
                   "charOffset": 50,
                   "snippet": {
-                    "text": "ClearCollect(\r\n    SingleVisit,\r\n    {\r\n        Customer: ThisItem.Account,\r\n        visitType: 'Visit Type (Visits_1)'.Unplanned,\r\n        Name: ThisItem.'Account Name (name)',\r\n        Account: LookUp(colMyAccounts, Account = ThisItem.Account)\r\n    }\r\n)"
+                    "text": "ClearCollect(\r\n    SingleVisit,\r\n    {\r\n        Customer: ThisItem.Account,\r\n        visitType: 'Visit Type (Visits_1)'.Unplanned,\r\n        Name: ThisItem.'Account Name (name)',\r\n        Account: LookUp(Accounts, Account = ThisItem.Account)\r\n    }\r\n)"
                   }
                 }
               },
@@ -15587,171 +15426,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 253,
-                  "snippet": {
-                    "text": "colMyAccounts"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.Gallery3_6.Icon13_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "colMyAccounts"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Icon13_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Icon13_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 49,
-                  "charOffset": 246,
-                  "snippet": {
-                    "text": "LookUp(colMyAccounts, Account = ThisItem.Account)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.Gallery3_6.Icon13_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Icon13_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Icon13_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 268,
-                  "snippet": {
-                    "text": "Account"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.Gallery3_6.Icon13_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Account"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Icon13_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Icon13_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 276,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.Gallery3_6.Icon13_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Guid"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Icon13_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.Gallery3_6.Icon13_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 255,
+                  "charLength": 250,
                   "charOffset": 50,
                   "snippet": {
-                    "text": "ClearCollect(\r\n    SingleVisit,\r\n    {\r\n        Customer: ThisItem.Account,\r\n        visitType: 'Visit Type (Visits_1)'.Unplanned,\r\n        Name: ThisItem.'Account Name (name)',\r\n        Account: LookUp(colMyAccounts, Account = ThisItem.Account)\r\n    }\r\n)"
+                    "text": "ClearCollect(\r\n    SingleVisit,\r\n    {\r\n        Customer: ThisItem.Account,\r\n        visitType: 'Visit Type (Visits_1)'.Unplanned,\r\n        Name: ThisItem.'Account Name (name)',\r\n        Account: LookUp(Accounts, Account = ThisItem.Account)\r\n    }\r\n)"
                   }
                 }
               },
@@ -15799,160 +15477,6 @@
                 "member": "OnSelect",
                 "module": "Customer (Dist)",
                 "type": "'Customer (Dist)'.Gallery3_6.Icon13_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Button2_15.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Button2_15.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 277,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": "ClearCollect(\r\n    SingleVisit,\r\n    {\r\n        Customer: ThisItem.Retailer.Account,\r\n        visitType: 'Visit Type (Visits_1)'.Unplanned,\r\n        Name: ThisItem.Retailer.'Account Name (name)',\r\n        Account: LookUp(Accounts, Account = ThisItem.Retailer.Account)\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.'Sites Gallery'.Button2_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ClearCollect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Button2_15.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Button2_15.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 69,
-                  "snippet": {
-                    "text": "SingleVisit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.'Sites Gallery'.Button2_15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Icon13_5.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Icon13_5.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 277,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": "ClearCollect(\r\n    SingleVisit,\r\n    {\r\n        Customer: ThisItem.Retailer.Account,\r\n        visitType: 'Visit Type (Visits_1)'.Unplanned,\r\n        Name: ThisItem.Retailer.'Account Name (name)',\r\n        Account: LookUp(Accounts, Account = ThisItem.Retailer.Account)\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.'Sites Gallery'.Icon13_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ClearCollect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Icon13_5.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Icon13_5.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 69,
-                  "snippet": {
-                    "text": "SingleVisit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)",
-                "type": "'Customer (Dist)'.'Sites Gallery'.Icon13_5"
               }
             }
           ],
@@ -37316,6 +36840,66 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 17
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Icon13_5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Icon13_5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Customer (Dist)",
+                "type": "'Customer (Dist)'.'Sites Gallery'.Icon13_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 17
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Icon13_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist)'.'Sites Gallery'.Icon13_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Customer (Dist)",
+                "type": "'Customer (Dist)'.'Sites Gallery'.Icon13_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 16
         },
         {
           "locations": [

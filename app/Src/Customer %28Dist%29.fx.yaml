@@ -250,7 +250,7 @@
                             Customer: ThisItem.Account,
                             visitType: 'Visit Type (Visits_1)'.Unplanned,
                             Name: ThisItem.'Account Name (name)',
-                            Account: LookUp(colMyAccounts, Account = ThisItem.Account)
+                            Account: LookUp(Accounts, Account = ThisItem.Account)
                         }
                     );
                 PaddingLeft: =45
@@ -287,7 +287,7 @@
                             Customer: ThisItem.Account,
                             visitType: 'Visit Type (Visits_1)'.Unplanned,
                             Name: ThisItem.'Account Name (name)',
-                            Account: LookUp(colMyAccounts, Account = ThisItem.Account)
+                            Account: LookUp(Accounts, Account = ThisItem.Account)
                         }
                     );
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
@@ -680,7 +680,7 @@
                         !VarDialogOpen
                     );
                     ClearCollect(
-                        SingleVisit,
+                        SingleNewVisit,
                         {
                             Customer: ThisItem.Retailer.Account,
                             visitType: 'Visit Type (Visits_1)'.Unplanned,
@@ -717,7 +717,7 @@
                         !VarDialogOpen
                     );
                     ClearCollect(
-                        SingleVisit,
+                        SingleNewVisit,
                         {
                             Customer: ThisItem.Retailer.Account,
                             visitType: 'Visit Type (Visits_1)'.Unplanned,

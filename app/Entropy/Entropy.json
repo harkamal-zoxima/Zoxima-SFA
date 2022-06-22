@@ -2134,7 +2134,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/22/2022 16:43:56",
+  "HeaderLastSavedDateTimeUTC": "06/22/2022 16:46:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/3d3303b9c30543d884499e3c24ffb277\""
@@ -2245,7 +2245,7 @@
     "AllProducts": 239,
     "allsalesorderIDs": 240,
     "allsalesorders": 241,
-    "AreaAccounts": 264,
+    "AreaAccounts": 265,
     "Areas": 217,
     "Areas\\cr431_area_cr431_branchtype": 41,
     "Areas\\cr431_area_cr431_level": 40,
@@ -2372,13 +2372,13 @@
     "not requireds\\cr431_salesorder_statuscode": 125,
     "not requireds\\default.cds_cr431_salesorder_views": 200,
     "Office365Users": 0,
-    "OfflineVisits": 252,
+    "OfflineVisits": 253,
     "Order Line": 229,
     "Order Line\\cr431_orderline_cr431_uom": 126,
     "Order Line\\cr431_orderline_statecode": 127,
     "Order Line\\cr431_orderline_statuscode": 128,
     "Order Line\\default.cds_cr431_orderline_views": 201,
-    "PrimaryCart": 253,
+    "PrimaryCart": 254,
     "Product Items": 230,
     "Product Items\\cr431_productitem_statecode": 129,
     "Product Items\\cr431_productitem_statuscode": 130,
@@ -2404,10 +2404,11 @@
     "SalesOrders\\cr431_sales_order_statecode": 139,
     "SalesOrders\\cr431_sales_order_statuscode": 140,
     "SalesOrders\\default.cds_cr431_sales_order_views": 205,
-    "SalesTerritoryAndUserMappingRecord": 265,
-    "SecondaryCart": 254,
-    "SelectedVisitForEdit": 255,
-    "SingleVisit": 256,
+    "SalesTerritoryAndUserMappingRecord": 266,
+    "SecondaryCart": 255,
+    "SelectedVisitForEdit": 256,
+    "SingleNewVisit": 252,
+    "SingleVisit": 257,
     "Sites": 234,
     "Sites\\cr431_sites_cr431_category": 141,
     "Sites\\cr431_sites_cr431_projecttype": 142,
@@ -2417,10 +2418,10 @@
     "Sites\\cr431_sites_statecode": 146,
     "Sites\\cr431_sites_statuscode": 147,
     "Sites\\default.cds_cr431_sites_views": 206,
-    "States": 257,
-    "subItems": 258,
-    "Subordinates": 259,
-    "SubStates": 260,
+    "States": 258,
+    "subItems": 259,
+    "Subordinates": 260,
+    "SubStates": 261,
     "Teams": 235,
     "Teams\\cr431_team_cr431_designation": 152,
     "Teams\\cr431_team_cr431_employeelevel": 154,
@@ -2431,7 +2432,7 @@
     "Teams\\team_membershiptype": 155,
     "Teams\\team_systemmanaged": 148,
     "Teams\\team_type": 151,
-    "totalsalerenders": 261,
+    "totalsalerenders": 262,
     "Users": 236,
     "Users\\cr431_details": 167,
     "Users\\default.cds_systemuser_views": 208,
@@ -2459,7 +2460,7 @@
     "Users\\systemuser_preferredemailcode": 171,
     "Users\\systemuser_preferredphonecode": 174,
     "Users\\systemuser_setupuser": 156,
-    "VisitData": 262,
+    "VisitData": 263,
     "Visits_1": 237,
     "Visits_1\\cr431_visit_cr431_locationmatched": 185,
     "Visits_1\\cr431_visit_cr431_status": 181,
@@ -2467,7 +2468,7 @@
     "Visits_1\\cr431_visit_statecode": 183,
     "Visits_1\\cr431_visit_statuscode": 184,
     "Visits_1\\default.cds_cr431_visit_views": 209,
-    "Zones": 263
+    "Zones": 264
   },
   "OrderGroupControls": {
     "AddMediaWithImage1": {
@@ -5448,7 +5449,7 @@
       "typedDataCard": 68
     },
     "DeserializationLoadTime": 19.5797761,
-    "ErrorCount": 467
+    "ErrorCount": 455
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
