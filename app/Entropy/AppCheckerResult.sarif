@@ -13866,46 +13866,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 7,
-                  "snippet": {
-                    "text": ".'Name of the Firm'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Name of the Firm"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
                 }
               ],

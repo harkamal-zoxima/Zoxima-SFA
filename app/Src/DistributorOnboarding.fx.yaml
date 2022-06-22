@@ -59,7 +59,7 @@ DistributorOnboarding As screen:
             Height: =74
             OnSelect: =Select(Parent)
             Size: =19
-            Text: =//ThisItem.'Name of the Firm'
+            Text: =ThisItem.'Name of the Firm'
             Width: =218
             X: =37
             Y: =26
