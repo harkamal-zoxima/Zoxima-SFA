@@ -5,19 +5,11 @@
     OnVisible: |-
         =Set(VarDialogOpen, false);
         Set(varOpen, false);
-        If(
-            !Connection.Connected,
-            Clear(colMyAccounts);
-            LoadData(
-                colMyAccounts,
-                "LocalAccounts"
-            );
-        );
 
     Gallery3_2 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =886
-        Items: =Filter(Filter(colMyAccounts, 'Account Type' = Gallery4_4.Selected.Value), 'Customer Search_3'.Text in 'Account Name (name)') 
+        Items: =Filter(Filter(AreaAccounts, 'Account Type' = Gallery4_4.Selected.Value), 'Customer Search_3'.Text in 'Account Name (name)') 
         Layout: =Layout.Vertical
         TemplateSize: =182
         Y: =140

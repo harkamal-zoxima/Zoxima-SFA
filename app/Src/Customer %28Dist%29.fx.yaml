@@ -5,19 +5,11 @@
     OnVisible: |-
         =Set(VarDialogOpen, false);
         Set(varOpen, false);
-        If(
-            !Connection.Connected,
-            Clear(colMyAccounts);
-            LoadData(
-                colMyAccounts,
-                "LocalAccounts"
-            );
-        );
 
     Gallery3_6 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =886
-        Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_5.Selected.Value), 'Customer Search_4'.Text in 'Account Name (name)') 
+        Items: =Filter(Filter(AreaAccounts, 'Account Type' = Gallery4_5.Selected.Value), 'Customer Search_4'.Text in 'Account Name (name)') 
         Layout: =Layout.Vertical
         OnSelect: |-
             =Set(data2, ThisItem);
@@ -693,7 +685,7 @@
                             Customer: ThisItem.Retailer.Account,
                             visitType: 'Visit Type (Visits_1)'.Unplanned,
                             Name: ThisItem.Retailer.'Account Name (name)',
-                            Account: LookUp(colMyAccounts, Account = ThisItem.Retailer.Account)
+                            Account: LookUp(Accounts, Account = ThisItem.Retailer.Account)
                         }
                     );
                 PaddingLeft: =45
@@ -730,7 +722,7 @@
                             Customer: ThisItem.Retailer.Account,
                             visitType: 'Visit Type (Visits_1)'.Unplanned,
                             Name: ThisItem.Retailer.'Account Name (name)',
-                            Account: LookUp(colMyAccounts, Account = ThisItem.Retailer.Account)
+                            Account: LookUp(Accounts, Account = ThisItem.Retailer.Account)
                         }
                     );
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
