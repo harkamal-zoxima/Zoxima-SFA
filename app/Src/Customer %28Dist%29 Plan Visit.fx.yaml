@@ -15,6 +15,18 @@
         Y: =202
         ZIndex: =1
 
+        HtmlText1_95 As htmlViewer:
+            Color: =RGBA(242, 242, 242, 1)
+            Height: =189
+            HtmlText: |-
+                ="<div style='border-radius:15px 15px 15px 15px; background-color:#586782; border:2px solid #D3D4D6;  border:1px solid #D3D4D6; width:595px; height:175px'></div>" 
+            OnSelect: |-
+                =Navigate('customer info');
+                Set(data2,ThisItem)
+            Width: =608
+            X: =15
+            ZIndex: =1
+
         Label1_9 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -34,7 +46,7 @@
             Width: =364
             X: =36
             Y: =12
-            ZIndex: =1
+            ZIndex: =2
 
         Label2_111 As label:
             Align: =Align.Center
@@ -53,7 +65,7 @@
             Width: =124
             X: =458
             Y: =19
-            ZIndex: =8
+            ZIndex: =9
 
         Label2_112 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -72,18 +84,6 @@
             Width: =382
             X: =36
             Y: =50
-            ZIndex: =9
-
-        HtmlText1_95 As htmlViewer:
-            Color: =RGBA(242, 242, 242, 1)
-            Height: =189
-            HtmlText: |-
-                ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFFF;opacity:0.1; border:2px solid #D3D4D6;  border:1px solid #D3D4D6; width:595px; height:175px'></div>" 
-            OnSelect: |-
-                =Navigate('customer info');
-                Set(data2,ThisItem)
-            Width: =608
-            X: =15
             ZIndex: =10
 
         Icon11_1 As icon.Waypoint:
@@ -123,7 +123,7 @@
                 Width: =164
                 X: =252
                 Y: =103
-                ZIndex: =4
+                ZIndex: =5
 
             Label2_114 As label:
                 Align: =Align.Center
@@ -142,7 +142,7 @@
                 Width: =116
                 X: =273
                 Y: =110
-                ZIndex: =5
+                ZIndex: =6
 
             Label2_116 As label:
                 Align: =Align.Center
@@ -161,7 +161,7 @@
                 Width: =127
                 X: =273
                 Y: =138
-                ZIndex: =7
+                ZIndex: =8
 
         Group13_1 As group:
             Height: =5
@@ -179,7 +179,7 @@
                 Width: =150
                 X: =74
                 Y: =102
-                ZIndex: =2
+                ZIndex: =3
 
             Label2_113 As label:
                 Align: =Align.Center
@@ -198,7 +198,7 @@
                 Width: =116
                 X: =85
                 Y: =110
-                ZIndex: =3
+                ZIndex: =4
 
             Label2_115 As label:
                 Align: =Align.Center
@@ -217,7 +217,7 @@
                 Width: =116
                 X: =85
                 Y: =133
-                ZIndex: =6
+                ZIndex: =7
 
         Group11_1 As group:
             Height: =5
