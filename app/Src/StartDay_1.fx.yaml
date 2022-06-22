@@ -189,3 +189,188 @@ StartDay_1 As screen:
         Y: =108
         ZIndex: =16
 
+    Group2_11 As group:
+        Height: =5
+        Width: =5
+        X: =-160
+        Y: =-364
+        ZIndex: =25
+
+        HtmlText2_10 As htmlViewer:
+            Height: =65
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#A00002;  width:270px; height:60px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Width: =271
+            X: =184
+            Y: =487
+            ZIndex: =17
+
+        Label3_37 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =41
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Size: =18
+            Text: ="Market Visit"
+            Width: =221
+            X: =201
+            Y: =498
+            ZIndex: =18
+
+    Group2_13 As group:
+        Height: =5
+        Width: =5
+        X: =-160
+        Y: =-364
+        ZIndex: =28
+
+        HtmlText2_11 As htmlViewer:
+            Height: =65
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#A00002; width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Width: =271
+            X: =184
+            Y: =559
+            ZIndex: =19
+
+        Label3_38 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =41
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Size: =18
+            Text: ="In Office"
+            Width: =221
+            X: =201
+            Y: =570
+            ZIndex: =20
+
+    Group2_14 As group:
+        Height: =5
+        Width: =5
+        X: =-160
+        Y: =-364
+        ZIndex: =29
+
+        HtmlText2_15 As htmlViewer:
+            Height: =65
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#A00002;  width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Width: =271
+            X: =184
+            Y: =631
+            ZIndex: =21
+
+        Label3_43 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =41
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Size: =18
+            Text: ="Work From Home"
+            Width: =221
+            X: =201
+            Y: =642
+            ZIndex: =22
+
+    Group2_15 As group:
+        Height: =5
+        Width: =5
+        X: =-160
+        Y: =-364
+        ZIndex: =30
+
+        HtmlText2_16 As htmlViewer:
+            Height: =65
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#A00002; width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Width: =271
+            X: =184
+            Y: =703
+            ZIndex: =23
+
+        Label3_44 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =41
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Size: =18
+            Text: ="Travel"
+            Width: =221
+            X: =201
+            Y: =714
+            ZIndex: =24
+
+    Group2_16 As group:
+        Height: =5
+        Width: =5
+        X: =-160
+        Y: =-364
+        ZIndex: =31
+
+        HtmlText2_17 As htmlViewer:
+            Height: =65
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#A00002; width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Width: =271
+            X: =184
+            Y: =768
+            ZIndex: =26
+
+        Label3_45 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =41
+            OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
+            Size: =18
+            Text: ="In Factory"
+            Width: =221
+            X: =201
+            Y: =779
+            ZIndex: =27
+
