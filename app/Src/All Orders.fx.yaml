@@ -11,7 +11,7 @@
 
     Orders As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Height: =839
+        Height: =830
         Items: |-
             =Sort(Switch(
                 filter_2.Selected.Value,
@@ -42,7 +42,7 @@
             ), 'Created On', Descending)
         Layout: =Layout.Vertical
         TemplateSize: =226
-        Y: =192
+        Y: =201
         ZIndex: =2
 
         HtmlText1_2 As htmlViewer:
