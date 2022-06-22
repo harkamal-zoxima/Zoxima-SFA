@@ -5,7 +5,7 @@
         =ClearCollect(
             allsalesorders,
             Filter(
-                'SalesOrders',
+                SalesOrders,
                 'Order From'.Account = data2.Account
             )
         );
@@ -35,7 +35,7 @@
         Height: =683
         Width: =Parent.Width
         Y: =373
-        ZIndex: =3
+        ZIndex: =1
 
         DataCard3 As dataCard:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -2671,7 +2671,7 @@
                 Gallery3 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =615
-                    Items: =Filter('SalesOrders','Order Status'=customerinfo_2.Selected.Value && 'Order From'.Account = data2.Account)
+                    Items: =Filter(SalesOrders,'Order Status'=customerinfo_2.Selected.Value && 'Order From'.Account = data2.Account)
                     Layout: =Layout.Vertical
                     TemplateSize: =290
                     Y: =65
@@ -2706,8 +2706,8 @@
                             OnSelect: =Select(Parent)
                             PressedFill: =RGBA(255, 200, 61, 1)
                             Width: =50
-                            X: =27
-                            Y: =27
+                            X: =36
+                            Y: =18
                             ZIndex: =2
 
                         Label36_1 As label:
@@ -2727,231 +2727,9 @@
                             Text: |
                                 =Left(data2.'Account Name (name)',1)
                             Width: =39
-                            X: =32
-                            Y: =37
+                            X: =41
+                            Y: =28
                             ZIndex: =3
-
-                    Group27 As group:
-                        Height: =5
-                        Width: =5
-                        X: =60
-                        Y: =60
-                        ZIndex: =5
-
-                        Label2_53 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Order ID"
-                            Width: =116
-                            X: =105
-                            Y: =40
-                            ZIndex: =4
-
-                        HtmlText1_29 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =99
-                            Y: =34
-                            ZIndex: =5
-
-                    Group27_1 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-39
-                        Y: =26
-                        ZIndex: =7
-
-                        Label2_54 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Order Date"
-                            Width: =116
-                            X: =287
-                            Y: =40
-                            ZIndex: =6
-
-                        HtmlText1_30 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =281
-                            Y: =34
-                            ZIndex: =7
-
-                    Group27_2 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-221
-                        Y: =26
-                        ZIndex: =9
-
-                        Label2_55 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Order Type"
-                            Width: =116
-                            X: =451
-                            Y: =40
-                            ZIndex: =8
-
-                        HtmlText1_31 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =445
-                            Y: =34
-                            ZIndex: =9
-
-                    Group27_3 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-221
-                        Y: =26
-                        ZIndex: =11
-
-                        Label2_56 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Order From"
-                            Width: =116
-                            X: =100
-                            Y: =151
-                            ZIndex: =10
-
-                        HtmlText1_32 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =94
-                            Y: =145
-                            ZIndex: =11
-
-                    Group27_4 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-34
-                        Y: =-85
-                        ZIndex: =13
-
-                        Label2_87 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Order To"
-                            Width: =116
-                            X: =287
-                            Y: =151
-                            ZIndex: =12
-
-                        HtmlText1_33 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =281
-                            Y: =145
-                            ZIndex: =13
-
-                    Group27_5 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-221
-                        Y: =-85
-                        ZIndex: =15
-
-                        Label2_108 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Bill Amount"
-                            Width: =116
-                            X: =451
-                            Y: =151
-                            ZIndex: =14
-
-                        HtmlText1_56 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =445
-                            Y: =145
-                            ZIndex: =15
 
                     Label16 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
@@ -2967,7 +2745,7 @@
                         Size: =13
                         Text: =Concatenate("OR-",ThisItem.'Order ID')
                         Width: =90
-                        X: =131
+                        X: =119
                         Y: =79
                         ZIndex: =16
 
@@ -3064,6 +2842,186 @@
                         Y: =79
                         ZIndex: =22
 
+                    Button9_25 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Order ID"
+                        Width: =126
+                        X: =95
+                        Y: =37
+                        ZIndex: =29
+
+                    Button9_26 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Order Date"
+                        Width: =126
+                        X: =281
+                        Y: =36
+                        ZIndex: =30
+
+                    Button9_27 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Order Type"
+                        Width: =126
+                        X: =446
+                        Y: =36
+                        ZIndex: =31
+
+                    Button9_28 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Order From"
+                        Width: =126
+                        X: =92
+                        Y: =140
+                        ZIndex: =32
+
+                    Button9_29 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Order To"
+                        Width: =126
+                        X: =281
+                        Y: =140
+                        ZIndex: =33
+
+                    Button9_30 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Bill Amount"
+                        Width: =126
+                        X: =446
+                        Y: =140
+                        ZIndex: =34
+
                 customerinfo_2 As gallery.galleryHorizontal:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =65
@@ -3077,29 +3035,26 @@
                     ZIndex: =3
 
                     Button4_14 As button:
-                        BorderColor: =RGBA(237, 237, 237, 1)
-                        Color: =RGBA(237, 237, 237, 1)
+                        BorderColor: =RGBA(255, 191, 0, 0)
+                        BorderThickness: =0
+                        Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(115, 119,123,255))
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
                         Fill: |-
-                            =If(ThisItem.IsSelected, ColorValue("#A00002"), RGBA(103, 204, 107, 0.1))
+                            =If(ThisItem.IsSelected, ColorValue("#A00002"), White)
                         FocusedBorderColor: =
                         FocusedBorderThickness: =2
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =46
-                        HoverBorderColor: =RGBA(237, 237, 237, 1)
-                        HoverColor: =
-                        HoverFill: =
+                        HoverBorderColor: =RGBA(115, 119,123,255)
+                        HoverColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(115, 119,123,255))
+                        HoverFill: =If(ThisItem.IsSelected, RGBA(115, 119,123,255), White)
                         OnSelect: =Select(Parent)
                         PressedBorderColor: =
-                        PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+                        PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(115, 119,123,255))
                         PressedFill: =
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
                         Size: =14
                         Text: =ThisItem.Value
                         Width: =153
@@ -3121,17 +3076,6 @@
                     TemplateSize: =289
                     ZIndex: =1
 
-                    HtmlText1_109 As htmlViewer:
-                        Color: =RGBA(242, 242, 242, 1)
-                        DisplayMode: =DisplayMode.View
-                        Height: =293
-                        HtmlText: |-
-                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
-                        OnSelect: =Select(Parent)
-                        Width: =594
-                        X: =13
-                        ZIndex: =1
-
                     Label17 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
@@ -3148,87 +3092,32 @@
                         Width: =221
                         X: =40
                         Y: =40
+                        ZIndex: =1
+
+                    Label2_110 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(255, 255, 255, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =23
+                        Size: =12
+                        Text: =""
+                        Width: =116
+                        X: =232
+                        Y: =27
                         ZIndex: =2
-
-                    Group27_6 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-39
-                        Y: =26
-                        ZIndex: =5
-
-                        Label2_109 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(237, 237, 237, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Invoice ID"
-                            Width: =116
-                            X: =46
-                            Y: =30
-                            ZIndex: =3
-
-                        HtmlText1_110 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =34
-                            Y: =21
-                            ZIndex: =4
-
-                    Group27_7 As group:
-                        Height: =5
-                        Width: =5
-                        X: =26
-                        Y: =39
-                        ZIndex: =7
-
-                        Label2_110 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(237, 237, 237, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Order No"
-                            Width: =116
-                            X: =245
-                            Y: =30
-                            ZIndex: =5
-
-                        HtmlText1_111 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =233
-                            Y: =21
-                            ZIndex: =6
 
                     Label16_6 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 191, 0, 1)
+                        Color: =RGBA(255, 255, 255, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3238,52 +3127,15 @@
                         Size: =13
                         Text: =ThisItem.Name
                         Width: =90
-                        X: =60
-                        Y: =60
-                        ZIndex: =9
-
-                    Group27_8 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-146
-                        Y: =39
-                        ZIndex: =9
-
-                        Label2_117 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(237, 237, 237, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Invoice Date"
-                            Width: =116
-                            X: =440
-                            Y: =30
-                            ZIndex: =7
-
-                        HtmlText1_112 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =430
-                            Y: =21
-                            ZIndex: =8
+                        X: =68
+                        Y: =76
+                        ZIndex: =3
 
                     Label16_7 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 191, 0, 1)
+                        Color: =RGBA(255, 255, 255, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3293,15 +3145,15 @@
                         Size: =13
                         Text: =ThisItem.'Sales Order Number'.'Order ID'
                         Width: =90
-                        X: =255
-                        Y: =60
-                        ZIndex: =10
+                        X: =263
+                        Y: =76
+                        ZIndex: =4
 
                     Label16_8 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 191, 0, 1)
+                        Color: =RGBA(255, 255, 255, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3311,89 +3163,15 @@
                         Size: =13
                         Text: =ThisItem.'Invoice Date'
                         Width: =107
-                        X: =449
-                        Y: =62
-                        ZIndex: =11
-
-                    Group27_9 As group:
-                        Height: =5
-                        Width: =5
-                        X: =46
-                        Y: =59
-                        ZIndex: =14
-
-                        Label2_118 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(237, 237, 237, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Bill To Party"
-                            Width: =116
-                            X: =50
-                            Y: =140
-                            ZIndex: =12
-
-                        HtmlText1_113 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =40
-                            Y: =132
-                            ZIndex: =13
-
-                    Group27_10 As group:
-                        Height: =5
-                        Width: =5
-                        X: =40
-                        Y: =-52
-                        ZIndex: =16
-
-                        Label2_119 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(237, 237, 237, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Ship To Party"
-                            Width: =116
-                            X: =254
-                            Y: =141
-                            ZIndex: =14
-
-                        HtmlText1_114 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =244
-                            Y: =132
-                            ZIndex: =15
+                        X: =448
+                        Y: =78
+                        ZIndex: =5
 
                     Label16_9 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 191, 0, 1)
+                        Color: =RGBA(255, 255, 255, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3403,52 +3181,15 @@
                         Size: =13
                         Text: =ThisItem.'Bill To Party'.'Account Name (name)'
                         Width: =102
-                        X: =47
-                        Y: =168
-                        ZIndex: =18
-
-                    Group27_11 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-164
-                        Y: =-52
-                        ZIndex: =18
-
-                        Label2_120 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(237, 237, 237, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Total Amount"
-                            Width: =116
-                            X: =440
-                            Y: =138
-                            ZIndex: =16
-
-                        HtmlText1_115 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =430
-                            Y: =129
-                            ZIndex: =17
+                        X: =55
+                        Y: =184
+                        ZIndex: =6
 
                     Label16_10 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 191, 0, 1)
+                        Color: =RGBA(255, 255, 255, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3458,15 +3199,15 @@
                         Size: =13
                         Text: =ThisItem.'Bill To Party'.'Account Name (name)'
                         Width: =107
-                        X: =261
-                        Y: =168
-                        ZIndex: =19
+                        X: =253
+                        Y: =184
+                        ZIndex: =7
 
                     Label16_11 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 191, 0, 1)
+                        Color: =RGBA(255, 255, 255, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3476,9 +3217,232 @@
                         Size: =13
                         Text: =ThisItem.'Bill Amoount'
                         Width: =90
-                        X: =449
-                        Y: =168
-                        ZIndex: =20
+                        X: =457
+                        Y: =184
+                        ZIndex: =8
+
+                    Button9_17 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="InvoiceID"
+                        Width: =126
+                        X: =50
+                        Y: =40
+                        ZIndex: =9
+
+                    Button9_18 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Order No"
+                        Width: =126
+                        X: =240
+                        Y: =40
+                        ZIndex: =10
+
+                    Button9_21 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Invoice Date"
+                        Width: =126
+                        X: =439
+                        Y: =40
+                        ZIndex: =11
+
+                    Button9_22 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Billing To Party"
+                        Width: =126
+                        X: =50
+                        Y: =154
+                        ZIndex: =12
+
+                    Button9_23 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Ship To Party"
+                        Width: =126
+                        X: =245
+                        Y: =154
+                        ZIndex: =13
+
+                    Button9_24 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Total Amount"
+                        Width: =126
+                        X: =439
+                        Y: =154
+                        ZIndex: =14
+
+                    HtmlText1_109 As htmlViewer:
+                        Color: =RGBA(242, 242, 242, 1)
+                        DisplayMode: =DisplayMode.View
+                        Height: =289
+                        HtmlText: |-
+                            ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6; width:580px; height:270px'></div>"
+                        OnSelect: |-
+                            =Navigate('Invoice Lines');
+                            Set(InvoiceInfo,ThisItem)
+                        Width: =594
+                        X: =11
+                        ZIndex: =15
+
+                    Button11 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        Color: =RGBA(31, 31, 31, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        Fill: =RGBA(255, 200, 61, 0)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =284
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(31, 31, 31, 1)
+                        HoverFill: =
+                        OnSelect: |-
+                            =Navigate('Invoice Lines');
+                            Set(InvoiceInfo,ThisItem)
+                        PressedBorderColor: =
+                        PressedColor: =RGBA(31, 31, 31, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Size: =24
+                        Text: =""
+                        Width: =606
+                        X: =5
+                        ZIndex: =16
 
             Container3_1 As groupContainer.manualLayoutContainer:
                 Height: =800
@@ -3489,7 +3453,7 @@
                 Gallery7_1 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =642
-                    Items: =Filter(Complaints_1,Customer.Account=data2.Account && status=customerinfo_4.Selected.Value)
+                    Items: =Filter(Complaints_1,cr431_Customer.Account=data2.Account && cr431_status=customerinfo_4.Selected.Value)
                     Layout: =Layout.Vertical
                     ShowScrollbar: =false
                     TemplateSize: =298
@@ -3521,83 +3485,9 @@
                         Size: =21
                         Text: =
                         Width: =221
-                        X: =40
-                        Y: =40
+                        X: =47
+                        Y: =50
                         ZIndex: =2
-
-                    Group27_12 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-39
-                        Y: =26
-                        ZIndex: =5
-
-                        Label2_121 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Complaint No"
-                            Width: =116
-                            X: =40
-                            Y: =27
-                            ZIndex: =3
-
-                        HtmlText1_117 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =34
-                            Y: =21
-                            ZIndex: =4
-
-                    Group27_13 As group:
-                        Height: =5
-                        Width: =5
-                        X: =26
-                        Y: =39
-                        ZIndex: =7
-
-                        Label2_122 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Nature"
-                            Width: =116
-                            X: =239
-                            Y: =27
-                            ZIndex: =5
-
-                        HtmlText1_118 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =233
-                            Y: =21
-                            ZIndex: =6
 
                     Label16_12 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
@@ -3613,46 +3503,9 @@
                         Size: =13
                         Text: =ThisItem.Name
                         Width: =110
-                        X: =53
+                        X: =47
                         Y: =60
                         ZIndex: =9
-
-                    Group27_14 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-146
-                        Y: =39
-                        ZIndex: =9
-
-                        Label2_123 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Complaint Date"
-                            Width: =133
-                            X: =436
-                            Y: =27
-                            ZIndex: =7
-
-                        HtmlText1_119 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =430
-                            Y: =21
-                            ZIndex: =8
 
                     Label16_13 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
@@ -3668,7 +3521,7 @@
                         Size: =13
                         Text: =ThisItem.Nature
                         Width: =169
-                        X: =235
+                        X: =237
                         Y: =60
                         ZIndex: =10
 
@@ -3686,46 +3539,9 @@
                         Size: =13
                         Text: =ThisItem.ComplaintDate
                         Width: =107
-                        X: =449
-                        Y: =62
+                        X: =453
+                        Y: =60
                         ZIndex: =11
-
-                    Group27_15 As group:
-                        Height: =5
-                        Width: =5
-                        X: =46
-                        Y: =59
-                        ZIndex: =14
-
-                        Label2_125 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Description"
-                            Width: =116
-                            X: =46
-                            Y: =138
-                            ZIndex: =12
-
-                        HtmlText1_121 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =40
-                            Y: =132
-                            ZIndex: =13
 
                     Label16_16 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
@@ -3745,43 +3561,6 @@
                         Y: =168
                         ZIndex: =18
 
-                    Group27_17 As group:
-                        Height: =5
-                        Width: =5
-                        X: =-164
-                        Y: =-52
-                        ZIndex: =18
-
-                        Label2_124 As label:
-                            Align: =Align.Center
-                            BorderColor: =RGBA(0, 0, 0, 0)
-                            BorderStyle: =BorderStyle.None
-                            BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
-                            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                            DisabledColor: =RGBA(166, 166, 166, 1)
-                            FocusedBorderThickness: =4
-                            Font: =Font.Lato
-                            FontWeight: =FontWeight.Semibold
-                            Height: =23
-                            Size: =12
-                            Text: ="Status"
-                            Width: =116
-                            X: =436
-                            Y: =135
-                            ZIndex: =16
-
-                        HtmlText1_120 As htmlViewer:
-                            Color: =RGBA(242, 242, 242, 1)
-                            Height: =52
-                            HtmlText: |-
-                                ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                            OnSelect: =Select(Parent)
-                            Width: =164
-                            X: =430
-                            Y: =129
-                            ZIndex: =17
-
                     Label16_15 As label:
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
@@ -3800,6 +3579,156 @@
                         Y: =168
                         ZIndex: =20
 
+                    Button9_14 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Complaint ID"
+                        Width: =126
+                        X: =43
+                        Y: =18
+                        ZIndex: =21
+
+                    Button9_19 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Nature"
+                        Width: =126
+                        X: =237
+                        Y: =20
+                        ZIndex: =26
+
+                    Button9_20 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Complaint Data"
+                        Width: =126
+                        X: =444
+                        Y: =18
+                        ZIndex: =27
+
+                    Button9_15 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Description"
+                        Width: =126
+                        X: =43
+                        Y: =138
+                        ZIndex: =28
+
+                    Button9_16 As button:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 191, 0, 1)
+                        DisabledColor: =RGBA(255, 255, 255, 1)
+                        DisabledFill: =RGBA(103, 204, 107, 0.1)
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(255, 200, 61, 1)
+                        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+                        Font: =Font.'Segoe UI'
+                        FontWeight: =FontWeight.Semibold
+                        Height: =30
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+                        OnSelect: =Select(Parent)
+                        PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+                        PressedColor: =RGBA(255, 255, 255, 1)
+                        PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                        RadiusBottomLeft: =30
+                        RadiusBottomRight: =30
+                        RadiusTopLeft: =30
+                        RadiusTopRight: =30
+                        Size: =11
+                        Text: ="Status"
+                        Width: =126
+                        X: =444
+                        Y: =131
+                        ZIndex: =29
+
                 customerinfo_4 As gallery.galleryHorizontal:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =75
@@ -3813,23 +3742,25 @@
                     ZIndex: =2
 
                     Button4_16 As button:
-                        BorderColor: =RGBA(237, 237, 237, 1)
+                        BorderColor: =RGBA(255, 200, 61, 0)
+                        BorderThickness: =0
+                        Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1),RGBA(115, 119,123,255))
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
                         Fill: |-
-                            =If(ThisItem.IsSelected, ColorValue("#A00002"), RGBA(103, 204, 107, 0.1))
+                            =If(ThisItem.IsSelected, ColorValue("#A00002"), White)
                         FocusedBorderColor: =
                         FocusedBorderThickness: =2
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =46
-                        HoverBorderColor: =RGBA(237, 237, 237, 1)
-                        HoverColor: =RGBA(255, 255, 255, 1)
-                        HoverFill: =
+                        HoverBorderColor: =RGBA(255, 191, 0, 0)
+                        HoverColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(115, 119,123,255))
+                        HoverFill: =If(ThisItem.IsSelected, RGBA(115, 119,123,255), White)
                         OnSelect: =Select(Parent)
                         PressedBorderColor: =
-                        PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+                        PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(115, 119,123,255))
                         PressedFill: =
                         Size: =14
                         Text: =ThisItem.Value
@@ -4109,11 +4040,56 @@
                             Y: =235
                             ZIndex: =16
 
+            Group27 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =8
+
+                Circle1 As circle:
+                    BorderColor: =RGBA(109, 109, 109, 1)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledFill: =RGBA(160, 0, 2, 1)
+                    Fill: =RGBA(160, 0, 2, 1)
+                    Height: =70
+                    HoverFill: =RGBA(160, 0, 2, 1)
+                    OnSelect: =Navigate(AddComplaints)
+                    PressedFill: =RGBA(160, 0, 2, 1)
+                    Visible: =If(customerinfo.Selected.Title = "Complaints" ,true,false)
+                    Width: =70
+                    X: =507
+                    Y: =558
+                    ZIndex: =6
+
+                Icon17 As icon.Add:
+                    BorderColor: =RGBA(109, 109, 109, 1)
+                    Color: =RGBA(255, 255, 255, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =White
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.Add
+                    OnSelect: =Navigate(AddComplaints)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Visible: =If(customerinfo.Selected.Title = "Complaints" ,true,false)
+                    Width: =50
+                    X: =517
+                    Y: =568
+                    ZIndex: =7
+
     Label63_2 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(128, 128, 128, 1)
+        Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -4126,24 +4102,25 @@
         Width: =190
         X: =27
         Y: =137
-        ZIndex: =4
+        ZIndex: =2
 
     Button9_2 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        BorderThickness: =4
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(160, 0, 2, 1)
+        Fill: =RGBA(255, 255, 255, 0.25)
         FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =67
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverBorderColor: =RGBA(255, 200, 61, 1)
         HoverColor: =RGBA(31, 31, 31, 1)
-        HoverFill: =RGBA(184, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(184, 0, 0, 1)
+        PressedColor: =RGBA(31, 31, 31, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
         RadiusBottomLeft: =40
         RadiusBottomRight: =40
         RadiusTopLeft: =40
@@ -4153,13 +4130,13 @@
         Width: =322
         X: =27
         Y: =202
-        ZIndex: =5
+        ZIndex: =3
 
     Label65_2 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(237, 237, 237, 1)
+        Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -4169,9 +4146,9 @@
         Size: =21
         Text: ="Reward Points"
         Width: =209
-        X: =418
+        X: =391
         Y: =218
-        ZIndex: =6
+        ZIndex: =4
 
     Label66_3 As label:
         Align: =Align.Center
@@ -4182,15 +4159,15 @@
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
-        Font: =Font.Lato
+        Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =62
         Size: =21
         Text: ="12"
         Width: =77
-        X: =476
-        Y: =176
-        ZIndex: =7
+        X: =470
+        Y: =164
+        ZIndex: =5
 
     Label15_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -4208,7 +4185,7 @@
         Width: =560
         X: =27
         Y: =78
-        ZIndex: =8
+        ZIndex: =6
 
     Label66_4 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -4226,19 +4203,19 @@
         Width: =186
         X: =224
         Y: =133
-        ZIndex: =9
+        ZIndex: =7
 
     HtmlText1_106 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
         Height: =82
         HtmlText: |-
-            ="<div style='border-radius:0; background-color:#A00002; width:640px; height:70px'></div>"
+            ="<div style='border-radius:0; background-color:#586782; width:640px; height:70px'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
         PaddingTop: =0
         Width: =640
-        ZIndex: =10
+        ZIndex: =8
 
     Label17_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -4248,13 +4225,14 @@
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =21
-        Text: =data2.'Account Type'
+        Size: =34
+        Text: ="Distributor"
         Width: =560
-        X: =80
-        ZIndex: =11
+        X: =40
+        ZIndex: =9
 
     Icon14_11 As icon.BackArrow:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -4274,7 +4252,7 @@
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =43
         X: =18
-        ZIndex: =12
+        ZIndex: =10
 
     customerinfo As gallery.galleryHorizontal:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -4320,28 +4298,29 @@
         ShowScrollbar: =false
         TemplateSize: =165
         Width: =622
-        X: =18
         Y: =308
-        ZIndex: =13
+        ZIndex: =11
 
         Button4_12 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderColor: =RGBA(31, 31, 31, 1)
+            BorderThickness: =0
+            Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(115, 119,123,255))
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Fill: |-
-                =If(ThisItem.IsSelected, ColorValue("#A00002"), RGBA(0,0,0, 0.3))
+                =If(ThisItem.IsSelected, ColorValue("#A00002"), White)
             FocusedBorderColor: =
             FocusedBorderThickness: =2
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =46
-            HoverBorderColor: =RGBA(166, 166, 166, 1)
-            HoverColor: =
-            HoverFill: =
+            HoverBorderColor: =RGBA(255, 191, 0, 0)
+            HoverColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(115, 119,123,255))
+            HoverFill: =If(ThisItem.IsSelected, RGBA(115, 119, 123, 255), White)
             OnSelect: =Select(Parent)
             PressedBorderColor: =
-            PressedColor: =
+            PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(115, 119,123,255))
             PressedFill: =
             Size: =14
             Text: =ThisItem.Title
@@ -4349,7 +4328,7 @@
             Y: =6
             ZIndex: =1
 
-    "'Bottom Navigation_28' As 'Bottom Navigation'":
+    "'Bottom Navigation_28' As 'Bottom Navigation_5'":
         NavItems: |-
             =Table(
                 {
@@ -4392,6 +4371,6 @@
                     Active: false
                 }
             )
-        Y: =1056
-        ZIndex: =14
+        Y: =1016
+        ZIndex: =12
 

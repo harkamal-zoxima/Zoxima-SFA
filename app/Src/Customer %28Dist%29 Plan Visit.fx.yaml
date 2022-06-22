@@ -11,21 +11,9 @@
         Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_2.Selected.Value), 'Customer Search_1'.Text in 'Account Name (name)')
         Layout: =Layout.Vertical
         OnSelect: =
-        TemplateSize: =179
-        Y: =201
+        TemplateSize: =193
+        Y: =202
         ZIndex: =1
-
-        HtmlText1_95 As htmlViewer:
-            Color: =RGBA(242, 242, 242, 1)
-            Height: =187
-            HtmlText: |-
-                ="<div style='border-radius:15px 15px 15px 15px; background-color:#586782; border:1px solid #D3D4D6; width:595px; height:175px'></div>"
-            OnSelect: |-
-                =Navigate('customer info');
-                Set(data2,ThisItem)
-            Width: =608
-            X: =15
-            ZIndex: =1
 
         Label1_9 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -46,7 +34,7 @@
             Width: =364
             X: =36
             Y: =12
-            ZIndex: =2
+            ZIndex: =1
 
         Label2_111 As label:
             Align: =Align.Center
@@ -65,7 +53,7 @@
             Width: =124
             X: =458
             Y: =19
-            ZIndex: =10
+            ZIndex: =8
 
         Label2_112 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -84,7 +72,19 @@
             Width: =382
             X: =36
             Y: =50
-            ZIndex: =11
+            ZIndex: =9
+
+        HtmlText1_95 As htmlViewer:
+            Color: =RGBA(242, 242, 242, 1)
+            Height: =189
+            HtmlText: |-
+                ="<div style='border-radius:15px 15px 15px 15px; background-color:#FFFFF; border:2px solid #D3D4D6;  border:1px solid #D3D4D6; width:595px; height:175px'></div>" 
+            OnSelect: |-
+                =Navigate('customer info');
+                Set(data2,ThisItem)
+            Width: =608
+            X: =15
+            ZIndex: =10
 
         Icon11_1 As icon.Waypoint:
             BorderColor: =RGBA(109, 109, 109, 1)
@@ -105,7 +105,7 @@
             Width: =25
             X: =433
             Y: =21
-            ZIndex: =12
+            ZIndex: =11
 
         Group12_1 As group:
             Height: =5
@@ -123,7 +123,7 @@
                 Width: =164
                 X: =252
                 Y: =103
-                ZIndex: =5
+                ZIndex: =4
 
             Label2_114 As label:
                 Align: =Align.Center
@@ -142,7 +142,7 @@
                 Width: =116
                 X: =273
                 Y: =110
-                ZIndex: =6
+                ZIndex: =5
 
             Label2_116 As label:
                 Align: =Align.Center
@@ -161,7 +161,7 @@
                 Width: =127
                 X: =273
                 Y: =138
-                ZIndex: =8
+                ZIndex: =7
 
         Group13_1 As group:
             Height: =5
@@ -172,14 +172,14 @@
 
             HtmlText1_96 As htmlViewer:
                 Color: =RGBA(242, 242, 242, 1)
-                Height: =52
+                Height: =51
                 HtmlText: |-
                     ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
                 OnSelect: =Select(Parent)
-                Width: =164
+                Width: =150
                 X: =74
                 Y: =102
-                ZIndex: =3
+                ZIndex: =2
 
             Label2_113 As label:
                 Align: =Align.Center
@@ -198,7 +198,7 @@
                 Width: =116
                 X: =85
                 Y: =110
-                ZIndex: =4
+                ZIndex: =3
 
             Label2_115 As label:
                 Align: =Align.Center
@@ -217,7 +217,7 @@
                 Width: =116
                 X: =85
                 Y: =133
-                ZIndex: =7
+                ZIndex: =6
 
         Group11_1 As group:
             Height: =5
@@ -262,7 +262,7 @@
                 Width: =106
                 X: =466
                 Y: =114
-                ZIndex: =13
+                ZIndex: =12
 
             Icon13_1 As icon.Add:
                 BorderColor: =RGBA(109, 109, 109, 1)
@@ -293,18 +293,19 @@
                 Width: =20
                 X: =486
                 Y: =122
-                ZIndex: =14
+                ZIndex: =13
 
     HtmlText1_94 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
         Height: =82
         HtmlText: |-
-            ="<div style='border-radius:0; background-color:#A00002; width:640px; height:70px'></div>"
+            ="<div style='border-radius:0; background-color:#586782; width:640px; height:70px'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
         PaddingTop: =0
         Width: =640
+        Y: =1
         ZIndex: =2
 
     Label11_3 As label:
@@ -321,8 +322,8 @@
         Size: =21
         Text: ="Customers"
         Width: =153
-        X: =80
-        Y: =12
+        X: =68
+        Y: =13
         ZIndex: =3
 
     "'Customer Search_1' As text":
@@ -348,8 +349,8 @@
         RadiusTopLeft: =10
         RadiusTopRight: =10
         Width: =327
-        X: =295
-        Y: =21
+        X: =261
+        Y: =22
         ZIndex: =4
 
     Gallery4_2 As gallery.galleryHorizontal:
@@ -367,8 +368,7 @@
         ShowScrollbar: =false
         TemplateSize: =137
         Width: =619
-        X: =16
-        Y: =75
+        Y: =76
         ZIndex: =5
 
         Button4_2 As button:
@@ -433,8 +433,8 @@
         PaddingTop: =5
         SelectedDateFill: =RGBA(255, 200, 61, 1)
         Width: =233
-        X: =389
-        Y: =149
+        X: =355
+        Y: =150
         ZIndex: =11
 
     "'Date Gallery' As gallery.galleryHorizontal":
@@ -445,8 +445,8 @@
         ShowScrollbar: =false
         TemplateSize: =84
         Width: =360
-        X: =16
-        Y: =139
+        X: =4
+        Y: =140
         ZIndex: =12
 
         Button4_3 As button:
@@ -480,7 +480,7 @@
             X: =18
             ZIndex: =1
 
-    "'Bottom Navigation_14' As 'Bottom Navigation'":
+    "'Bottom Navigation_14' As 'Bottom Navigation_5'":
         NavItems: |-
             =Table( {
                     Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
@@ -517,7 +517,7 @@
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =13
+        ZIndex: =14
 
         Rectangle7_2 As rectangle:
             BorderColor: =RGBA(219, 219, 219, 1)
@@ -531,8 +531,8 @@
             PressedFill: =RGBA(237, 237, 237, 1)
             Visible: =VarDialogOpen
             Width: =550
-            X: =45
-            Y: =320
+            X: =33
+            Y: =321
             ZIndex: =7
 
         Icon10_2 As icon.Cancel:
@@ -553,8 +553,8 @@
             PressedFill: =RGBA(0, 0, 0, 0)
             Visible: =VarDialogOpen
             Width: =37
-            X: =543
-            Y: =333
+            X: =531
+            Y: =334
             ZIndex: =8
 
         Label7_2 As label:
@@ -574,8 +574,8 @@
             Text: ="Do you want to add visit for this customer?"
             Visible: =VarDialogOpen
             Width: =488
-            X: =75
-            Y: =426
+            X: =63
+            Y: =427
             ZIndex: =9
 
         Button2_4 As button:
@@ -600,12 +600,12 @@
             Text: ="CONFIRM"
             Visible: =VarDialogOpen
             Width: =137
-            X: =252
-            Y: =595
+            X: =240
+            Y: =596
             ZIndex: =10
 
-    "'Side Bar_15' As 'Side Bar'":
+    "'Side Bar_15' As 'Side Bar_12'":
         Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
         Height: =If(varOpen, 1136, 60)
-        ZIndex: =14
+        ZIndex: =15
 

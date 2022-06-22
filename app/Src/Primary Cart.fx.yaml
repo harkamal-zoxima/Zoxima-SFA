@@ -246,10 +246,10 @@
                 CreateOrderRecord,
                 Patch(
                     'Sales Orders',
-                    Defaults('Sales Orders'),
+                    Defaults('SalesOrders'),
                     {
                         'Order Date': Today(),
-                        'Order Status': 'Order Status (Sales Orders)'.Open,
+                        'Order Status': 'Order Status (SalesOrders)'.Open,
                         'Order Type': 'Order Type1'.'Primary Order',
                         'Before Tax Amount': Sum(
                             PrimaryCart,
