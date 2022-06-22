@@ -166,6 +166,13 @@
       }
     },
     {
+      "Kind": "default.cds_cr431_distributoronboarding_forms",
+      "Namespace": "Distributor Onboardings (Forms)",
+      "Values": {
+        "Information": "eed74b44-e6f0-4db8-b66d-a9fb74422639"
+      }
+    },
+    {
       "Kind": "default.cds_cr431_salesorder_forms",
       "Namespace": "Sales Order (Forms)",
       "Values": {
@@ -177,13 +184,6 @@
       "Namespace": "Sales Orders (Forms)",
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_distributoronboarding_forms",
-      "Namespace": "Distributor Onboardings (Forms)",
-      "Values": {
-        "Information": "eed74b44-e6f0-4db8-b66d-a9fb74422639"
       }
     }
   ]

@@ -309,7 +309,7 @@ DistributorOnboarding As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
             OnSelect: |-
-                =Patch('Distributor Onboardings', LookUp('Distributor Onboardings', ' Record Id' =  ThisItem.' Record Id'), { statusmain: 'statusmain (Distributor Onboardings)'.'Pending'})
+                =Patch('Distributor Onboardings', LookUp('Distributor Onboardings', ' Record Id' =  ThisItem.' Record Id'), { statusmain: 'statusmain (Distributor Onboardings)'.Pending})
             Size: =19
             Text: ="SUBMIT FOR APPROVAL"
             Visible: =If(Gallery14.Selected.Title = "Draft", true, false)
