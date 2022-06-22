@@ -7,41 +7,6 @@
         Set(SelectedDistributorForSecOrder, Blank());
         Set(SelectedRetailerForSecOrder, Blank());
 
-    "'Side Bar_13' As 'Side Bar'":
-        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
-        Height: =1136
-        NavItems: |-
-            =[
-                {
-                    title: "Profile",
-                    screen: Profile
-                },
-                {
-                    title: "Distributor KYC",
-                    screen: Profile
-                },
-                {
-                    title: "Ledger Report",
-                    screen: Profile
-                },
-                {
-                    title: "Primary Orders",
-                    screen: 'Secondary Orders'
-                },
-                {
-                    title: "Secondary Orders",
-                    screen: 'Secondary Orders'
-                },
-                {
-                    title: "Schemes",
-                    screen: Profile
-                },
-                {
-                    title: "Events",
-                    screen: Profile
-                }
-            ]
-
     Orders_1 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =839
@@ -809,40 +774,6 @@
         X: =45
         Y: =422
         ZIndex: =23
-
-    "'Side Bar_18' As 'Side Bar'":
-        NavItems: |-
-            =[
-                {
-                    title: "Profile",
-                    screen: Profile
-                },
-                {
-                    title: "Distributor KYC",
-                    screen: Profile
-                },
-                {
-                    title: "Ledger Report",
-                    screen: Profile
-                },
-                {
-                    title: "Primary Orders",
-                    screen: 'Secondary Orders'
-                },
-                {
-                    title: "Secondary Orders",
-                    screen: 'Secondary Orders'
-                },
-                {
-                    title: "Schemes",
-                    screen: Profile
-                },
-                {
-                    title: "Events",
-                    screen: Profile
-                }
-            ]
-        ZIndex: =24
 
     Rectangle5_4 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
