@@ -26,7 +26,7 @@
             "Name": "galleryTemplate1_10",
             "Parent": "Gallery1_10",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2001,
+            "PublishOrderIndex": 2002,
             "Rules": [
               {
                 "Category": "Design",
@@ -92,7 +92,7 @@
             "Name": "Rectangle6",
             "Parent": "Gallery1_10",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2002,
+            "PublishOrderIndex": 2003,
             "Rules": [
               {
                 "Category": "Design",
@@ -307,7 +307,7 @@
             "Name": "Label8_10",
             "Parent": "Gallery1_10",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2003,
+            "PublishOrderIndex": 2004,
             "Rules": [
               {
                 "Category": "Data",
@@ -642,7 +642,7 @@
         "Name": "Gallery1_10",
         "Parent": "VisitsInfoTopTab",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2000,
+        "PublishOrderIndex": 2001,
         "Rules": [
           {
             "Category": "Data",
