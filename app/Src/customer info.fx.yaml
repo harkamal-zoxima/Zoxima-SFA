@@ -4174,6 +4174,7 @@
         ZIndex: =6
 
     Label66_3 As label:
+        Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -4181,14 +4182,14 @@
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
+        Font: =Font.Lato
         FontWeight: =FontWeight.Semibold
         Height: =62
         Size: =21
         Text: ="12"
         Width: =77
-        X: =500
-        Y: =170
+        X: =476
+        Y: =176
         ZIndex: =7
 
     Label15_1 As label:
