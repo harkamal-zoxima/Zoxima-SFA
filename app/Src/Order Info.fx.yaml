@@ -86,6 +86,199 @@
             Width: =195
             ZIndex: =3
 
+    Gallery4 As gallery.galleryVertical:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Height: =785
+        Items: =Filter('Order Line', 'Sales Order No'.'Sales Order' = order.'Sales Order')
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Visible: =If('Dashboard Toptab_1'.Selected.Title = "Order Info", false, true )
+        Y: =243
+        ZIndex: =42
+
+        Rectangle13 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(88, 103, 130, 1)
+            FocusedBorderThickness: =4
+            Height: =270
+            HoverFill: =
+            OnSelect: =Select(Parent)
+            PressedFill: =
+            Width: =630
+            Y: =3
+            ZIndex: =1
+
+        Rectangle16 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 135, 176, 1)
+            FocusedBorderThickness: =4
+            Height: =55
+            HoverFill: =RGBA(255, 200, 61, 1)
+            OnSelect: =Select(Parent)
+            PressedFill: =RGBA(255, 200, 61, 1)
+            Width: =630
+            ZIndex: =2
+
+        Rectangle17 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FocusedBorderThickness: =4
+            Height: =57
+            HoverFill: =RGBA(255, 200, 61, 1)
+            OnSelect: =Select(Parent)
+            PressedFill: =RGBA(255, 200, 61, 1)
+            Width: =630
+            Y: =215
+            ZIndex: =3
+
+        Group13 As group:
+            Height: =5
+            Width: =5
+            X: =40
+            Y: =40
+            ZIndex: =6
+
+            Label2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(184, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =16
+                Text: |-
+                    ="Total Quantity:"
+                Width: =180
+                X: =36
+                Y: =219
+                ZIndex: =4
+
+            Label2_2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(184, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =18
+                Text: =ThisItem.Quantity
+                Width: =62
+                X: =201
+                Y: =219
+                ZIndex: =5
+
+        Group13_3 As group:
+            Height: =5
+            Width: =5
+            X: =19
+            Y: =-179
+            ZIndex: =8
+
+            Label2_3 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(184, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =16
+                Text: |-
+                    ="Total Payable Amount:"
+                Width: =265
+                X: =296
+                Y: =219
+                ZIndex: =6
+
+            Label2_4 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(184, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =18
+                Text: =ThisItem.'Bill Amoount'
+                Width: =92
+                X: =524
+                Y: =219
+                ZIndex: =7
+
+        Group13_7 As group:
+            Height: =5
+            Width: =5
+            X: =4
+            Y: =-179
+            ZIndex: =10
+
+            Label2_5 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =16
+                Text: |-
+                    ="Order Line ID:"
+                Width: =176
+                X: =25
+                Y: =3
+                ZIndex: =8
+
+            Label2_13 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =18
+                Text: =ThisItem.'Order Line ID'
+                Width: =123
+                X: =191
+                Y: =3
+                ZIndex: =9
+
     Group11 As group:
         Height: =5
         Width: =5
