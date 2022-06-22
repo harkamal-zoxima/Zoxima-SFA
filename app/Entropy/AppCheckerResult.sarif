@@ -4863,49 +4863,9 @@
                 },
                 "region": {
                   "charLength": 14,
-                  "charOffset": 61,
+                  "charOffset": 116,
                   "snippet": {
-                    "text": "'Sales Orders'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Order Success",
-                "type": "'Secondary Order Success'.Button7_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Orders"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Order Success'.Button7_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Order Success'.Button7_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 64,
-                  "charOffset": 54,
-                  "snippet": {
-                    "text": "LookUp('Sales Orders', Dealer = First(CreateOrderRecord).Dealer)"
+                    "text": ".'Sales Order'"
                   }
                 }
               },
@@ -4923,50 +4883,10 @@
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Order Success'.Button7_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Order Success'.Button7_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 77,
-                  "snippet": {
-                    "text": "Dealer"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Secondary Order Success",
-                "type": "'Secondary Order Success'.Button7_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Dealer"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -4983,7 +4903,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 84,
+                  "charOffset": 90,
                   "snippet": {
                     "text": "="
                   }
@@ -4998,16 +4918,15 @@
           ],
           "message": {
             "arguments": [
-              "Error",
-              "Text"
+              "LookUp"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 8
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
