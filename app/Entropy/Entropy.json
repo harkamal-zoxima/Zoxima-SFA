@@ -1377,7 +1377,6 @@
     "Label3": 1390,
     "Label3_1": 1649,
     "Label3_11": 1692,
-    "Label3_12": 1694,
     "Label3_13": 1691,
     "Label3_14": 1696,
     "Label3_15": 1698,
@@ -2124,7 +2123,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/22/2022 09:57:07",
+  "HeaderLastSavedDateTimeUTC": "06/22/2022 10:01:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/3d3303b9c30543d884499e3c24ffb277\""
@@ -4619,7 +4618,6 @@
     "Label3": 68,
     "Label3_1": 845,
     "Label3_11": 251,
-    "Label3_12": 253,
     "Label3_13": 250,
     "Label3_14": 256,
     "Label3_15": 259,

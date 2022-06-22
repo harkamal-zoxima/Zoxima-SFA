@@ -68,7 +68,7 @@ StartDay As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =123
+        Height: =152
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: =User().Image
@@ -78,8 +78,8 @@ StartDay As screen:
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
-        Width: =123
-        X: =259
+        Width: =152
+        X: =244
         Y: =202
         ZIndex: =4
 
@@ -102,24 +102,6 @@ StartDay As screen:
         Y: =144
         ZIndex: =5
 
-    Label3_12 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(184, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.Lato
-        FontWeight: =FontWeight.Semibold
-        Height: =20
-        Size: =13
-        Text: ="Salesperson"
-        Width: =110
-        X: =265
-        Y: =334
-        ZIndex: =6
-
     Label3_13 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -133,7 +115,7 @@ StartDay As screen:
         FontWeight: =FontWeight.Semibold
         Height: =44
         Size: =20
-        Text: ="WELCOME BACK !"
+        Text: ="WELCOME"
         Width: =328
         X: =156
         Y: =108
