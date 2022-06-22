@@ -1,7 +1,7 @@
 "'customer info' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     Fill: =RGBA(31, 31, 31, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
-    OnVisible: |
+    OnVisible: |-
         =ClearCollect(
             allsalesorders,
             Filter(
@@ -17,11 +17,17 @@
                 {ID: ThisRecord.'Order ID'}
             )
         );
-        
         Clear(InvoicesData);
-        ForAll(allsalesorderIDs,
+        ForAll(
+            allsalesorderIDs,
         //Collect(InvoicesData,Filter(Invoices, 'Order Number'.'Order ID' = LookUp('Sales Order','Sales Order' = ID).'Order ID'))
-        Collect(InvoicesData,Filter(Invoices, 'Sales Order Number'.'Order ID'= ID))
+            Collect(
+                InvoicesData,
+                Filter(
+                    Invoices,
+                    'Sales Order Number'.'Order ID' = ID
+                )
+            )
         )
 
     Canvas3 As fluidGrid.fluidGridWithBlankCard:
@@ -3071,24 +3077,29 @@
                     ZIndex: =3
 
                     Button4_14 As button:
-                        BorderColor: =RGBA(53, 166, 57, 1)
-                        Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+                        BorderColor: =RGBA(237, 237, 237, 1)
+                        Color: =RGBA(237, 237, 237, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
-                        Fill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+                        Fill: |-
+                            =If(ThisItem.IsSelected, ColorValue("#A00002"), RGBA(103, 204, 107, 0.1))
                         FocusedBorderColor: =
                         FocusedBorderThickness: =2
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =46
-                        HoverBorderColor: =RGBA(53, 166, 57, 1)
-                        HoverColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
-                        HoverFill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+                        HoverBorderColor: =RGBA(237, 237, 237, 1)
+                        HoverColor: =
+                        HoverFill: =
                         OnSelect: =Select(Parent)
                         PressedBorderColor: =
                         PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
                         PressedFill: =
+                        RadiusBottomLeft: =20
+                        RadiusBottomRight: =20
+                        RadiusTopLeft: =20
+                        RadiusTopRight: =20
                         Size: =14
                         Text: =ThisItem.Value
                         Width: =153
@@ -3802,20 +3813,20 @@
                     ZIndex: =2
 
                     Button4_16 As button:
-                        BorderColor: =RGBA(53, 166, 57, 1)
-                        Color: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+                        BorderColor: =RGBA(237, 237, 237, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
-                        Fill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+                        Fill: |-
+                            =If(ThisItem.IsSelected, ColorValue("#A00002"), RGBA(103, 204, 107, 0.1))
                         FocusedBorderColor: =
                         FocusedBorderThickness: =2
                         Font: =Font.Lato
                         FontWeight: =FontWeight.Semibold
                         Height: =46
-                        HoverBorderColor: =RGBA(53, 166, 57, 1)
-                        HoverColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
-                        HoverFill: =If(ThisItem.IsSelected, RGBA(53, 166, 57, 1), White)
+                        HoverBorderColor: =RGBA(237, 237, 237, 1)
+                        HoverColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =
                         OnSelect: =Select(Parent)
                         PressedBorderColor: =
                         PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
@@ -4148,7 +4159,7 @@
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(128, 128, 128, 1)
+        Color: =RGBA(237, 237, 237, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -4166,7 +4177,7 @@
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(128, 128, 128, 1)
+        Color: =RGBA(237, 237, 237, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -4325,11 +4336,11 @@
             FontWeight: =FontWeight.Semibold
             Height: =46
             HoverBorderColor: =RGBA(166, 166, 166, 1)
-            HoverColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            HoverColor: =
             HoverFill: =
             OnSelect: =Select(Parent)
             PressedBorderColor: =
-            PressedColor: =If(ThisItem.IsSelected, RGBA(255, 255, 255, 1), RGBA(53, 166,57,1))
+            PressedColor: =
             PressedFill: =
             Size: =14
             Text: =ThisItem.Title
