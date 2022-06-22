@@ -933,7 +933,6 @@
     "HtmlText1_44": 1257,
     "HtmlText1_45": 880,
     "HtmlText1_46": 884,
-    "HtmlText1_47": 1479,
     "HtmlText1_48": 1481,
     "HtmlText1_49": 221,
     "HtmlText1_5": 1418,
@@ -2132,7 +2131,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/22/2022 07:43:57",
+  "HeaderLastSavedDateTimeUTC": "06/22/2022 07:44:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/8b3a11c09d814b6aa85d23fef318bbf3\""
@@ -4174,7 +4173,6 @@
     "HtmlText1_44": 594,
     "HtmlText1_45": 245,
     "HtmlText1_46": 249,
-    "HtmlText1_47": 261,
     "HtmlText1_48": 263,
     "HtmlText1_49": 284,
     "HtmlText1_5": 523,
