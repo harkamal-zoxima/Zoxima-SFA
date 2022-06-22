@@ -1,13 +1,13 @@
 "'Submit Day' As screen":
-    Fill: =RGBA(31, 31, 31, 1)
+    Fill: =RGBA(88, 103, 130, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
-    HtmlText1_49 As htmlViewer:
+    HtmlText1_53 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
-        Height: =345
+        Height: =354
         HtmlText: |-
-            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
+            ="<div style='border-radius:0; background-color:#414C60; width:640px; height:330px'></div>"
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
@@ -15,13 +15,13 @@
         Width: =640
         ZIndex: =1
 
-    "'Bottom Navigation_22' As 'Bottom Navigation'":
+    "'Bottom Navigation_46' As 'Bottom Navigation'":
         NavItems: |-
             =Table( {
                    // Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
                    Title: Start,
                     //Screen: If(varAttendance= "start" , Start, varAttendance= "end" , Start_3, varAttendance= "done" , Start_5),
-                    Screen: StartDay,
+                    Screen: 'Submit Day',
                     Icon: CalendarBlank,
                     Active: true
                 },
@@ -47,7 +47,7 @@
         Y: =1056
         ZIndex: =2
 
-    HtmlText1_50 As htmlViewer:
+    HtmlText1_55 As htmlViewer:
         BorderThickness: =1
         Height: =313
         HtmlText: |-
@@ -61,14 +61,14 @@
         Y: =82
         ZIndex: =3
 
-    Image1_8 As image:
+    Image1_15 As image:
         BorderColor: =RGBA(204, 204, 204, 1)
         BorderStyle: =BorderStyle.None
         BorderThickness: =1
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
-        Height: =123
+        Height: =152
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: =User().Image
@@ -78,17 +78,17 @@
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
-        Width: =123
-        X: =259
+        Width: =152
+        X: =244
         Y: =202
         ZIndex: =4
 
-    Label3_25 As label:
+    Label3_40 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(103, 204, 107, 1)
+        Color: =RGBA(184, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -97,30 +97,12 @@
         Height: =44
         Size: =20
         Text: =User().FullName
-        Width: =315
-        X: =163
+        Width: =313
+        X: =164
         Y: =144
         ZIndex: =5
 
-    Label3_26 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(242, 123, 68, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.Lato
-        FontWeight: =FontWeight.Semibold
-        Height: =20
-        Size: =13
-        Text: ="Salesperson"
-        Width: =110
-        X: =265
-        Y: =334
-        ZIndex: =6
-
-    Label3_24 As label:
+    Label3_39 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -133,46 +115,91 @@
         FontWeight: =FontWeight.Semibold
         Height: =44
         Size: =20
-        Text: ="WELCOME BACK !"
-        Width: =345
-        X: =148
+        Text: ="WELCOME"
+        Width: =328
+        X: =156
         Y: =108
         ZIndex: =7
 
-    Image5_2 As image:
+    Icon2_7 As icon.Bell:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =35
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Bell
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =33
+        X: =592
+        Y: =25
+        ZIndex: =13
+
+    Image1_14 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(255, 255, 255, 1)
         FocusedBorderThickness: =4
-        Height: =570
+        Height: =38
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: ='WhatsApp Image 2022-05-13 at 1.06.35 PM'
-        ImagePosition: =ImagePosition.Fill
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Image: ='zoxima logo only'
+        PaddingTop: =2
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =640
-        Y: =486
-        ZIndex: =8
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =123
+        X: =259
+        Y: =29
+        ZIndex: =14
 
-    "'Side Bar_9' As 'Side Bar'":
-        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
-        Height: =1136
-        ZIndex: =13
+    "'Side Bar_26' As 'Side Bar'":
+        ZIndex: =15
 
-    Group2_10 As group:
+    Icon11_8 As icon.BackArrow:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Color: =RGBA(31, 31, 31, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =35
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =35
+        X: =95
+        Y: =108
+        ZIndex: =20
+
+    Group2_11 As group:
         Height: =5
         Width: =5
         X: =-91
         Y: =-442
-        ZIndex: =15
+        ZIndex: =20
 
-        HtmlText2_8 As htmlViewer:
+        HtmlText2_13 As htmlViewer:
             Height: =123
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             OnSelect: |
                 =Patch(
                     Attendences,
@@ -197,15 +224,15 @@
                 );
             Width: =378
             X: =131
-            Y: =451
-            ZIndex: =9
+            Y: =493
+            ZIndex: =16
 
-        Label3_27 As label:
+        Label3_41 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(83, 173, 88, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -238,33 +265,33 @@
             Text: ="SUBMIT"
             Width: =289
             X: =173
-            Y: =467
-            ZIndex: =10
+            Y: =509
+            ZIndex: =17
 
-    Group3_5 As group:
+    Group3_6 As group:
         Height: =5
         Width: =5
         X: =-91
         Y: =-442
-        ZIndex: =18
+        ZIndex: =21
 
-        HtmlText2_9 As htmlViewer:
+        HtmlText2_14 As htmlViewer:
             Height: =113
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             OnSelect: =Navigate('Select Day Type', ScreenTransition.Fade)
             Size: =25
             Width: =378
             X: =131
-            Y: =572
-            ZIndex: =11
+            Y: =614
+            ZIndex: =18
 
-        Label3_28 As label:
+        Label3_42 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(83, 173, 88, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -276,6 +303,6 @@
             Text: ="CANCEL"
             Width: =289
             X: =172
-            Y: =590
-            ZIndex: =12
+            Y: =632
+            ZIndex: =19
 

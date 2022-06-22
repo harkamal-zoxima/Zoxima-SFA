@@ -10,7 +10,9 @@
         Height: =824
         Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_2.Selected.Value), 'Customer Search_1'.Text in 'Account Name (name)')
         Layout: =Layout.Vertical
-        OnSelect: =
+        OnSelect: |-
+            =Set(data2, ThisItem);
+            Navigate('customer info')
         TemplateSize: =193
         Y: =202
         ZIndex: =1

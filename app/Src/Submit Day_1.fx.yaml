@@ -1,9 +1,9 @@
-StartDay_2 As screen:
+"'Submit Day_1' As screen":
     Fill: =RGBA(88, 103, 130, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
-    HtmlText1_53 As htmlViewer:
+    HtmlText1_56 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
         Height: =354
         HtmlText: |-
@@ -15,13 +15,13 @@ StartDay_2 As screen:
         Width: =640
         ZIndex: =1
 
-    "'Bottom Navigation_46' As 'Bottom Navigation'":
+    "'Bottom Navigation_47' As 'Bottom Navigation'":
         NavItems: |-
             =Table( {
                    // Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
                    Title: Start,
                     //Screen: If(varAttendance= "start" , Start, varAttendance= "end" , Start_3, varAttendance= "done" , Start_5),
-                    Screen: StartDay_2,
+                    Screen: 'Submit Day_1',
                     Icon: CalendarBlank,
                     Active: true
                 },
@@ -47,7 +47,7 @@ StartDay_2 As screen:
         Y: =1056
         ZIndex: =2
 
-    HtmlText1_55 As htmlViewer:
+    HtmlText1_57 As htmlViewer:
         BorderThickness: =1
         Height: =313
         HtmlText: |-
@@ -61,7 +61,7 @@ StartDay_2 As screen:
         Y: =82
         ZIndex: =3
 
-    Image1_15 As image:
+    Image1_17 As image:
         BorderColor: =RGBA(204, 204, 204, 1)
         BorderStyle: =BorderStyle.None
         BorderThickness: =1
@@ -83,7 +83,7 @@ StartDay_2 As screen:
         Y: =202
         ZIndex: =4
 
-    Label3_40 As label:
+    Label3_47 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -102,7 +102,7 @@ StartDay_2 As screen:
         Y: =144
         ZIndex: =5
 
-    Label3_39 As label:
+    Label3_46 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -121,7 +121,7 @@ StartDay_2 As screen:
         Y: =108
         ZIndex: =7
 
-    Icon2_7 As icon.Bell:
+    Icon2_8 As icon.Bell:
         BorderColor: =RGBA(109, 109, 109, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -141,7 +141,7 @@ StartDay_2 As screen:
         Y: =25
         ZIndex: =13
 
-    Image1_14 As image:
+    Image1_16 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -165,10 +165,10 @@ StartDay_2 As screen:
         Y: =29
         ZIndex: =14
 
-    "'Side Bar_26' As 'Side Bar'":
+    "'Side Bar_27' As 'Side Bar'":
         ZIndex: =15
 
-    Icon11_8 As icon.BackArrow:
+    Icon11_9 As icon.BackArrow:
         BorderColor: =RGBA(109, 109, 109, 1)
         Color: =RGBA(31, 31, 31, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -189,14 +189,14 @@ StartDay_2 As screen:
         Y: =108
         ZIndex: =20
 
-    Group2_11 As group:
+    Group2_12 As group:
         Height: =5
         Width: =5
         X: =-91
         Y: =-442
         ZIndex: =20
 
-        HtmlText2_13 As htmlViewer:
+        HtmlText2_19 As htmlViewer:
             Height: =123
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
@@ -227,7 +227,7 @@ StartDay_2 As screen:
             Y: =493
             ZIndex: =16
 
-        Label3_41 As label:
+        Label3_49 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -268,14 +268,14 @@ StartDay_2 As screen:
             Y: =509
             ZIndex: =17
 
-    Group3_6 As group:
+    Group3_8 As group:
         Height: =5
         Width: =5
         X: =-91
         Y: =-442
         ZIndex: =21
 
-        HtmlText2_14 As htmlViewer:
+        HtmlText2_18 As htmlViewer:
             Height: =113
             HtmlText: |-
                 ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
@@ -286,7 +286,7 @@ StartDay_2 As screen:
             Y: =614
             ZIndex: =18
 
-        Label3_42 As label:
+        Label3_48 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
