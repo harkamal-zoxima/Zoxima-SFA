@@ -56,7 +56,7 @@
             OnSelect: =Select(Parent)
             Size: =16
             Text: =ThisItem.'Event Name'
-            Width: =129
+            Width: =244
             X: =325
             Y: =51
             ZIndex: =2

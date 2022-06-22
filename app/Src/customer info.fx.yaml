@@ -4199,7 +4199,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =69
         Size: =21
-        Text: =Customer_info.'Account Number'
+        Text: =If(IsBlank(Customer_info.'Account Number'), "-", Customer_info.'Account Number')
         Width: =186
         X: =224
         Y: =133
