@@ -1,4 +1,4 @@
-Screen1 As screen:
+Event As screen:
     Fill: =RGBA(31, 31, 31, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
 
@@ -1457,7 +1457,7 @@ Screen1 As screen:
         HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate(Events_display)
+        OnSelect: =Back()
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
@@ -1526,13 +1526,13 @@ Screen1 As screen:
         Icon: =Icon.Edit
         OnSelect: |-
             =EditForm(Form1);
-            Navigate('New Events')
+            Navigate('Events detail')
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =35
-        X: =485
-        Y: =17
+        X: =579
+        Y: =15
         ZIndex: =6
 
     Button10 As button:

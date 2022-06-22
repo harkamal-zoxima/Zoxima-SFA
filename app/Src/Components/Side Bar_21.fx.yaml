@@ -1,0 +1,104 @@
+"'Side Bar_21' As CanvasComponent":
+    Fill: =If(varOpen, RGBA(255, 255 ,255, 1), Transparent)
+    Height: =If(varOpen, App.Height, 70)
+    NavItems: |-
+        =[
+            {
+                title: "Profile",
+                screen: Profile
+            },
+            {
+                title: "Primary Orders",
+                screen: 'All Orders'
+            },
+            {
+                title: "Secondary Orders",
+                screen: 'Secondary Orders'
+            }
+        ]
+    Width: =If(varOpen, 320, 70)
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Rectangle1_2 As rectangle:
+        BorderColor: =RGBA(219, 219, 219, 1)
+        BorderThickness: =1
+        Fill: =If(varOpen, RGBA(0, 0, 0, 0), Transparent)
+        Height: =1136
+        Width: =320
+        ZIndex: =1
+
+    Icon1_7 As icon.Hamburger:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: = If(varOpen, RGBA(103,204,107,1), RGBA(255, 255, 255, 1))
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =39
+        Icon: =Icon.Hamburger
+        OnSelect: =Set(varOpen, !varOpen)
+        Width: =33
+        X: =30
+        Y: =15
+        ZIndex: =2
+
+    Gallery1_6 As gallery.galleryVertical:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Height: =982
+        Items: ='Side Bar_21'.NavItems
+        Layout: =Layout.Vertical
+        TemplateSize: =61
+        Visible: =varOpen
+        Width: =320
+        Y: =154
+        ZIndex: =3
+
+        Label5_2 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(237, 237, 237, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =57
+            OnSelect: =Navigate(ThisItem.Value.screen, ScreenTransition.Fade)
+            PaddingLeft: =20
+            PressedBorderColor: =Black
+            PressedFill: =RGBA(237,237,237,1)
+            Size: =18
+            Text: =ThisItem.Value.title
+            Width: =310
+            ZIndex: =1
+
+        Rectangle2_2 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(204, 204, 204, 1)
+            FocusedBorderThickness: =4
+            Height: =1
+            HoverFill: =RGBA(73, 130, 5, 1)
+            OnSelect: =Select(Parent)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            Width: =Gallery1_6.Width-10
+            Y: =57
+            ZIndex: =2
+
+    Image3_2 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='ZOXIMALOGO-removebg-preview'
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Visible: =varOpen
+        Width: =111
+        X: =105
+        Y: =54
+        ZIndex: =4
+
