@@ -49,7 +49,7 @@
         TemplateSize: =195
         Width: =405
         X: =117
-        Y: =89
+        Y: =98
         ZIndex: =4
 
         Rectangle3_3 As rectangle:
@@ -106,8 +106,8 @@
             Size: =21
             Text: =If('Dashboard Toptab_1'.Selected.Title = "Order Info", "Order Information", "Order Lines" )
             Width: =560
-            X: =27
-            Y: =145
+            X: =18
+            Y: =163
             ZIndex: =7
 
         Rectangle7 As rectangle:
@@ -121,8 +121,8 @@
             HoverFill: =RGBA(255, 200, 61, 1)
             PressedFill: =RGBA(255, 200, 61, 1)
             Width: =160
-            X: =35
-            Y: =204
+            X: =26
+            Y: =222
             ZIndex: =8
 
     Group12 As group:
