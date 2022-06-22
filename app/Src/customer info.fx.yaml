@@ -4225,10 +4225,9 @@
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =34
+        Size: =25
         Text: ="Distributor"
         Width: =560
         X: =70
