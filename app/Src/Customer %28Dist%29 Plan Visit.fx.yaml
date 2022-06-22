@@ -24,7 +24,7 @@
                 ="<div style='border-radius:15px 15px 15px 15px; background-color:#586782; border:2px solid #D3D4D6;  border:1px solid #D3D4D6; width:595px; height:175px'></div>" 
             OnSelect: |-
                 =Navigate('customer info');
-                Set(data2,ThisItem)
+                Set(Customer_info,ThisItem)
             Width: =608
             X: =15
             ZIndex: =1
@@ -40,8 +40,9 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =51
-            OnSelect: |
-                =//Navigate(Screen1);
+            OnSelect: |-
+                =Navigate('customer info');
+                Set(Customer_info,ThisItem)
             Size: =17
             Text: |
                 =ThisItem.'Account Name (name)'
@@ -80,6 +81,9 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =52
+            OnSelect: |-
+                =Navigate('customer info');
+                Set(Customer_info,ThisItem)
             Size: =12
             Text: |-
                 =ThisItem.'Address 1: Street 1'
@@ -121,7 +125,9 @@
                 Height: =52
                 HtmlText: |-
                     ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:150px; height:30px'></div>"
-                OnSelect: =Select(Parent)
+                OnSelect: |-
+                    =Navigate('customer info');
+                    Set(Customer_info,ThisItem)
                 Width: =164
                 X: =252
                 Y: =103
@@ -139,6 +145,9 @@
                 Font: =Font.Lato
                 FontWeight: =FontWeight.Semibold
                 Height: =23
+                OnSelect: |-
+                    =Navigate('customer info');
+                    Set(Customer_info,ThisItem)
                 Size: =12
                 Text: ="Last Visit Date"
                 Width: =116
@@ -158,6 +167,9 @@
                 Font: =Font.Lato
                 FontWeight: =FontWeight.Semibold
                 Height: =32
+                OnSelect: |-
+                    =Navigate('customer info');
+                    Set(Customer_info,ThisItem)
                 Size: =13
                 Text: ="12-04-2022"
                 Width: =127
@@ -177,7 +189,9 @@
                 Height: =51
                 HtmlText: |-
                     ="<div style='border-radius:10px 10px 10px 10px; background-color:#67CC6B; opacity:0.1; border:2px solid #D3D4D6; width:130px; height:30px'></div>"
-                OnSelect: =Select(Parent)
+                OnSelect: |-
+                    =Navigate('customer info');
+                    Set(Customer_info,ThisItem)
                 Width: =150
                 X: =74
                 Y: =102
@@ -195,6 +209,9 @@
                 Font: =Font.Lato
                 FontWeight: =FontWeight.Semibold
                 Height: =23
+                OnSelect: |-
+                    =Navigate('customer info');
+                    Set(Customer_info,ThisItem)
                 Size: =12
                 Text: ="Account No."
                 Width: =116
@@ -214,6 +231,9 @@
                 Font: =Font.Lato
                 FontWeight: =FontWeight.Semibold
                 Height: =32
+                OnSelect: |-
+                    =Navigate('customer info');
+                    Set(Customer_info,ThisItem)
                 Size: =13
                 Text: =ThisItem.'Account Number'
                 Width: =116

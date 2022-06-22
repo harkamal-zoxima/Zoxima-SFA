@@ -941,7 +941,7 @@ Distributorkycform As screen:
                     Items: |-
                         =Filter(
                             'Sales Territories',
-                            'Sales Territories (Views)'.'',
+                            'Sales Territories (Views)'._,
                             'Parent City'.'Sales Territory (zx_salesterritoryid)' = Dropdown3.Selected.zx_salesterritoryid
                         )
                         /*Filter(
