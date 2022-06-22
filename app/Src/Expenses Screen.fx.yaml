@@ -120,7 +120,6 @@
             ZIndex: =12
 
         Button2_16 As button:
-            Align: =Align.Left
             BorderColor: =RGBA(0, 0, 0, 0)
             Color: =RGBA(0, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -147,7 +146,6 @@
                         //'Visit Type': 'Visit Type (Visits_1)'.Planned
                   //  }
                 //);
-            PaddingLeft: =45
             PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
             PressedColor: =RGBA(31, 31, 31, 1)
             PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
@@ -590,6 +588,7 @@
         OnSelect: |-
             =NewForm(Form1);
             Navigate(Expenses,ScreenTransition.Cover);
+        PaddingBottom: =13
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
         PressedColor: =RGBA(31, 31, 31, 1)
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
