@@ -341,7 +341,7 @@
                 Size: =16
                 Text: |-
                     ="Product Name:"
-                Width: =167
+                Width: =157
                 X: =12
                 Y: =133
                 ZIndex: =12
@@ -360,10 +360,102 @@
                 OnSelect: =Select(Parent)
                 Size: =18
                 Text: =ThisItem.'Product-Item'.'Product Name'
-                Width: =247
-                X: =191
+                Width: =164
+                X: =169
                 Y: =133
                 ZIndex: =13
+
+        Group13_10 As group:
+            Height: =5
+            Width: =5
+            X: =28
+            Y: =-93
+            ZIndex: =16
+
+            Label2_68 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(219, 219, 219, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =16
+                Text: |-
+                    ="Product Code:"
+                Width: =157
+                X: =309
+                Y: =83
+                ZIndex: =14
+
+            Label2_72 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =18
+                Text: =ThisItem.'Product-Item'.Name
+                Width: =164
+                X: =466
+                Y: =83
+                ZIndex: =15
+
+        Group13_11 As group:
+            Height: =5
+            Width: =5
+            X: =-269
+            Y: =-43
+            ZIndex: =18
+
+            Label2_150 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(219, 219, 219, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =16
+                Text: |-
+                    ="GST:"
+                Width: =157
+                X: =309
+                Y: =133
+                ZIndex: =16
+
+            Label2_151 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                OnSelect: =Select(Parent)
+                Size: =18
+                Text: =ThisItem.'SGST Amount'
+                Width: =164
+                X: =466
+                Y: =133
+                ZIndex: =17
 
     Group11 As group:
         Height: =5
