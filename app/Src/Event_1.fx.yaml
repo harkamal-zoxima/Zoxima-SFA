@@ -135,7 +135,7 @@ Event_1 As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: |
             =
-        OnSelect: =SubmitForm(Form1_1)
+        OnSelect: =If(SubmitForm(Form1_1),Navigate(Screen4))
         PressedBorderColor: |
             =
         PressedColor: =RGBA(31, 31, 31, 1)

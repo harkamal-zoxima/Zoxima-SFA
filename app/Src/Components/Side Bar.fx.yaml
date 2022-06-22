@@ -16,24 +16,24 @@
                 screen: 'Secondary Orders'
             },
             {
-                title:"Expense",
-                screen:Expenses
+                title: "Expense",
+                screen: Expenses
             },
             {
-                title:"Site",
-                screen:'Create Site'
+                title: "Site",
+                screen: 'Create Site'
             },
-             {
-                title:"Customers",
-                screen:'Customer (Dist)_1'
+            {
+                title: "Customers",
+                screen: 'Customer (Dist)_1'
             },
-             {
-                title:"Influencer"
+            {title: "Influencer"
               //  screen:
-            },
-                  {  title:"Events"}
-        
-            
+        },
+            {
+                title: "Events",
+                screen: 'Events detail'
+            }
         ]
     Width: =If(varOpen, 320, 70)
     X: =0
