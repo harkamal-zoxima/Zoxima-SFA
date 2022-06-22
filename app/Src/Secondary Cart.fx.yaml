@@ -225,11 +225,10 @@
 
     Button3_2 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
-        Color: =RGBA(31, 31, 31, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(103, 204, 107, 1)
+        Fill: =RGBA(160, 0, 2, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.Lato
         FontWeight: =FontWeight.Semibold

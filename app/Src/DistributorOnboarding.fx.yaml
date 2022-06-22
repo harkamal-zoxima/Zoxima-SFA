@@ -67,11 +67,10 @@ DistributorOnboarding As screen:
 
         Button18 As button:
             BorderThickness: =1
-            Color: =RGBA(255, 200, 61, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 191, 0, 0.32)
+            Fill: =RGBA(160, 0, 2, 1)
             FontWeight: =FontWeight.Semibold
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
@@ -85,7 +84,7 @@ DistributorOnboarding As screen:
 
         Icon20_1 As icon.Edit:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(160, 0, 2, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =39
@@ -299,11 +298,10 @@ DistributorOnboarding As screen:
         Button22 As button:
             BorderColor: =
             BorderThickness: =0
-            Color: =RGBA(255, 200, 61, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 191, 0, 0.32)
+            Fill: =RGBA(160, 0, 2, 1)
             FontWeight: =FontWeight.Semibold
             Height: =61
             HoverColor: =RGBA(255, 255, 255, 1)

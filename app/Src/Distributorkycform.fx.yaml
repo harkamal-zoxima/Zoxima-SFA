@@ -481,23 +481,23 @@ Distributorkycform As screen:
                         
                         
                         ForAll(
-                            Filter('Sales Territory', 'Territory Code' = TextInput3_65.Text),
+                            Filter('Sales Territories', 'Territory Code' = TextInput3_65.Text),
                             Collect(Zones, 'Parent Zone')
                         );
                         ForAll(
-                            Filter('Sales Territory', 'Territory Code' = TextInput3_65.Text),
+                            Filter('Sales Territories', 'Territory Code' = TextInput3_65.Text),
                             Collect(States, 'Parent State')
                         );
                         ForAll(
-                             Filter('Sales Territory', 'Territory Code' = TextInput3_65.Text),
-                            Collect(SubStates, 'Parent Sub State')
+                             Filter('Sales Territories', 'Territory Code' = TextInput3_65.Text),
+                            Collect(SubStates, 'Parent Substate')
                         );
                         ForAll(
-                             Filter('Sales Territory', 'Territory Code' = TextInput3_65.Text),
+                             Filter('Sales Territories', 'Territory Code' = TextInput3_65.Text),
                             Collect(Districts, 'Parent District')
                         );
                         ForAll(
-                             Filter('Sales Territory', 'Territory Name' = TextInput3_65.Text),
+                             Filter('Sales Territories', 'Territory Name (cr431_territoryname)' = TextInput3_65.Text),
                             Collect(Cities, 'Parent City')
                         );
                     OnSelect: =Set(ClearFieldsForDO, false)
@@ -813,7 +813,7 @@ Distributorkycform As screen:
                         //First(Distinct('Sales Territory', 'Zones'))
                         
                         //First(Zones).zx_territoryname
-                        Last(FirstN(Zones,2)).zx_territoryname
+                        Last(FirstN(Zones,2)).cr431_territoryname
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -835,7 +835,7 @@ Distributorkycform As screen:
                 TextInput3_93 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =Last(FirstN(States,2)).zx_territoryname
+                    Default: =Last(FirstN(States,2)).cr431_territoryname
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -857,7 +857,7 @@ Distributorkycform As screen:
                 TextInput3_94 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =Last(FirstN(SubStates,2)).zx_territoryname
+                    Default: =Last(FirstN(SubStates,2)).cr431_territoryname
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -879,7 +879,7 @@ Distributorkycform As screen:
                 TextInput3_95 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
                     Color: =RGBA(0, 0, 0, 1)
-                    Default: =Last(FirstN(Districts,2)).zx_territoryname
+                    Default: =Last(FirstN(Districts,2)).cr431_territoryname
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -940,8 +940,8 @@ Distributorkycform As screen:
                     HoverFill: =RGBA(222, 179, 184, 1)
                     Items: |-
                         =Filter(
-                            'Sales Territory',
-                            'Sales Territory (Views)'.'L7 Area',
+                            'Sales Territories',
+                            'Sales Territories (Views)'.'',
                             'Parent City'.'Sales Territory (zx_salesterritoryid)' = Dropdown3.Selected.zx_salesterritoryid
                         )
                         /*Filter(
@@ -2181,7 +2181,7 @@ Distributorkycform As screen:
                    'GST Reg Type':Dropdown2.Selected.Value,
                    'GST No.': TextInput3_51.Text,
                    'PAN No.':TextInput3_34.Text,
-                   'Aadhar No.':TextInput3_50.Text,
+                   'AADHAR No.':TextInput3_50.Text,
                    Declaration:ComboBox2.Selected.Value,
                    'Account No.':TextInput3_52.Text,
                    'IFSC Code':TextInput3_53.Text,

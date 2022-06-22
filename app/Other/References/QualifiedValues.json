@@ -185,6 +185,13 @@
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
       }
+    },
+    {
+      "Kind": "default.cds_cr431_salesterritory_forms",
+      "Namespace": "Sales Territories (Forms)",
+      "Values": {
+        "Information": "30e0acc5-3aa9-469b-b48e-c49a4c379358"
+      }
     }
   ]
 }

@@ -11082,7 +11082,7 @@
                   "charLength": 2569,
                   "charOffset": 10,
                   "snippet": {
-                    "text": "Patch(\r\n    'Distributor Onboardings',\r\n    Defaults('Distributor Onboardings'),\r\n    {\r\n       'Name of the Firm': TextInput3_2.Text,\r\n         'Constitution of the firm': Radio1_2.Selected.Value,\r\n        'First Name': Left(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n'Last Name': Right(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Date of Birth': DatePicker2.SelectedDate,\r\n        'Year of Establishment': DatePicker2_1.SelectedDate,\r\n        'Mobile No.': TextInput3_26.Text,\r\n        'Telephone No.': TextInput3_29.Text,\r\n        'Fax No.': TextInput3_62.Text,\r\n        'Alt Mobile No.': TextInput3_63.Text,\r\n        'Address 1': TextInput3_3.Text,\r\n        'Address 2': TextInput3_64.Text,\r\n        'Post Code': TextInput3_65.Text,\r\n      'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,\r\n      'Cibil Score':TextInput3_30.Text,\r\n       Remarks:TextInput3_33.Text,\r\n       'GST Reg Type':Dropdown2.Selected.Value,\r\n       'GST No.': TextInput3_51.Text,\r\n       'PAN No.':TextInput3_34.Text,\r\n       'Aadhar No.':TextInput3_50.Text,\r\n       Declaration:ComboBox2.Selected.Value,\r\n       'Account No.':TextInput3_52.Text,\r\n       'IFSC Code':TextInput3_53.Text,\r\n       'Branch code':TextInput3_56.Text,\r\n       'Bank Name':TextInput3_54.Text,\r\n       'Bank Address':TextInput3_55.Text,\r\n       'Credit term pipes':TextInput3_59.Text,\r\n        'Credit Term Fittings':TextInput3_61.Text,\r\n        'Name of nearest Distributor with distance':TextInput3_57.Text,\r\n       'Credit Limit (Base)':Value(TextInput3_60.Text),\r\n       'Deposit Amount':Value(TextInput3_58.Text),\r\n        \r\n        //'Sub State': TextInput3_94.Text,\r\n       'Sub State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid),\r\n        // District: TextInput3_95.Text,\r\n        'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),\r\n\r\n       'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)\r\n      \r\n    }\r\n    \r\n)"
+                    "text": "Patch(\r\n    'Distributor Onboardings',\r\n    Defaults('Distributor Onboardings'),\r\n    {\r\n       'Name of the Firm': TextInput3_2.Text,\r\n         'Constitution of the firm': Radio1_2.Selected.Value,\r\n        'First Name': Left(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n'Last Name': Right(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Date of Birth': DatePicker2.SelectedDate,\r\n        'Year of Establishment': DatePicker2_1.SelectedDate,\r\n        'Mobile No.': TextInput3_26.Text,\r\n        'Telephone No.': TextInput3_29.Text,\r\n        'Fax No.': TextInput3_62.Text,\r\n        'Alt Mobile No.': TextInput3_63.Text,\r\n        'Address 1': TextInput3_3.Text,\r\n        'Address 2': TextInput3_64.Text,\r\n        'Post Code': TextInput3_65.Text,\r\n      'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,\r\n      'Cibil Score':TextInput3_30.Text,\r\n       Remarks:TextInput3_33.Text,\r\n       'GST Reg Type':Dropdown2.Selected.Value,\r\n       'GST No.': TextInput3_51.Text,\r\n       'PAN No.':TextInput3_34.Text,\r\n       'AADHAR No.':TextInput3_50.Text,\r\n       Declaration:ComboBox2.Selected.Value,\r\n       'Account No.':TextInput3_52.Text,\r\n       'IFSC Code':TextInput3_53.Text,\r\n       'Branch code':TextInput3_56.Text,\r\n       'Bank Name':TextInput3_54.Text,\r\n       'Bank Address':TextInput3_55.Text,\r\n       'Credit term pipes':TextInput3_59.Text,\r\n        'Credit Term Fittings':TextInput3_61.Text,\r\n        'Name of nearest Distributor with distance':TextInput3_57.Text,\r\n       'Credit Limit (Base)':Value(TextInput3_60.Text),\r\n       'Deposit Amount':Value(TextInput3_58.Text),\r\n        \r\n        //'Sub State': TextInput3_94.Text,\r\n       'Sub State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid),\r\n        // District: TextInput3_95.Text,\r\n        'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),\r\n\r\n       'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)\r\n      \r\n    }\r\n    \r\n)"
                   }
                 }
               },
@@ -11122,7 +11122,7 @@
                   "charLength": 2474,
                   "charOffset": 96,
                   "snippet": {
-                    "text": "{\r\n       'Name of the Firm': TextInput3_2.Text,\r\n         'Constitution of the firm': Radio1_2.Selected.Value,\r\n        'First Name': Left(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n'Last Name': Right(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Date of Birth': DatePicker2.SelectedDate,\r\n        'Year of Establishment': DatePicker2_1.SelectedDate,\r\n        'Mobile No.': TextInput3_26.Text,\r\n        'Telephone No.': TextInput3_29.Text,\r\n        'Fax No.': TextInput3_62.Text,\r\n        'Alt Mobile No.': TextInput3_63.Text,\r\n        'Address 1': TextInput3_3.Text,\r\n        'Address 2': TextInput3_64.Text,\r\n        'Post Code': TextInput3_65.Text,\r\n      'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,\r\n      'Cibil Score':TextInput3_30.Text,\r\n       Remarks:TextInput3_33.Text,\r\n       'GST Reg Type':Dropdown2.Selected.Value,\r\n       'GST No.': TextInput3_51.Text,\r\n       'PAN No.':TextInput3_34.Text,\r\n       'Aadhar No.':TextInput3_50.Text,\r\n       Declaration:ComboBox2.Selected.Value,\r\n       'Account No.':TextInput3_52.Text,\r\n       'IFSC Code':TextInput3_53.Text,\r\n       'Branch code':TextInput3_56.Text,\r\n       'Bank Name':TextInput3_54.Text,\r\n       'Bank Address':TextInput3_55.Text,\r\n       'Credit term pipes':TextInput3_59.Text,\r\n        'Credit Term Fittings':TextInput3_61.Text,\r\n        'Name of nearest Distributor with distance':TextInput3_57.Text,\r\n       'Credit Limit (Base)':Value(TextInput3_60.Text),\r\n       'Deposit Amount':Value(TextInput3_58.Text),\r\n        \r\n        //'Sub State': TextInput3_94.Text,\r\n       'Sub State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid),\r\n        // District: TextInput3_95.Text,\r\n        'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),\r\n\r\n       'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)\r\n      \r\n    }"
+                    "text": "{\r\n       'Name of the Firm': TextInput3_2.Text,\r\n         'Constitution of the firm': Radio1_2.Selected.Value,\r\n        'First Name': Left(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n'Last Name': Right(\r\n            Label52_16.Text,\r\n            Find(\r\n                \" \",\r\n                Label52_16.Text\r\n            )\r\n        ),\r\n        'Date of Birth': DatePicker2.SelectedDate,\r\n        'Year of Establishment': DatePicker2_1.SelectedDate,\r\n        'Mobile No.': TextInput3_26.Text,\r\n        'Telephone No.': TextInput3_29.Text,\r\n        'Fax No.': TextInput3_62.Text,\r\n        'Alt Mobile No.': TextInput3_63.Text,\r\n        'Address 1': TextInput3_3.Text,\r\n        'Address 2': TextInput3_64.Text,\r\n        'Post Code': TextInput3_65.Text,\r\n      'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,\r\n      'Cibil Score':TextInput3_30.Text,\r\n       Remarks:TextInput3_33.Text,\r\n       'GST Reg Type':Dropdown2.Selected.Value,\r\n       'GST No.': TextInput3_51.Text,\r\n       'PAN No.':TextInput3_34.Text,\r\n       'AADHAR No.':TextInput3_50.Text,\r\n       Declaration:ComboBox2.Selected.Value,\r\n       'Account No.':TextInput3_52.Text,\r\n       'IFSC Code':TextInput3_53.Text,\r\n       'Branch code':TextInput3_56.Text,\r\n       'Bank Name':TextInput3_54.Text,\r\n       'Bank Address':TextInput3_55.Text,\r\n       'Credit term pipes':TextInput3_59.Text,\r\n        'Credit Term Fittings':TextInput3_61.Text,\r\n        'Name of nearest Distributor with distance':TextInput3_57.Text,\r\n       'Credit Limit (Base)':Value(TextInput3_60.Text),\r\n       'Deposit Amount':Value(TextInput3_58.Text),\r\n        \r\n        //'Sub State': TextInput3_94.Text,\r\n       'Sub State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid),\r\n        // District: TextInput3_95.Text,\r\n        'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),\r\n\r\n       'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)\r\n      \r\n    }"
                   }
                 }
               },
@@ -11135,8 +11135,8 @@
           ],
           "message": {
             "arguments": [
-              "Aadhar No.",
-              "AADHAR No."
+              "Bank Name",
+              "Bank Code"
             ],
             "id": "issue"
           },
@@ -11949,1391 +11949,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 17,
-                  "charOffset": 419,
+                  "charLength": 2,
+                  "charOffset": 67,
                   "snippet": {
-                    "text": "'Sales Territory'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Territory"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 64,
-                  "charOffset": 412,
-                  "snippet": {
-                    "text": "Filter('Sales Territory', 'Territory Code' = TextInput3_65.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 438,
-                  "snippet": {
-                    "text": "'Territory Code'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Territory Code"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 455,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 498,
-                  "snippet": {
-                    "text": "'Parent Zone'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Parent Zone"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 29,
-                  "charOffset": 483,
-                  "snippet": {
-                    "text": "Collect(Zones, 'Parent Zone')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Collect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 538,
-                  "snippet": {
-                    "text": "'Sales Territory'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Territory"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 64,
-                  "charOffset": 531,
-                  "snippet": {
-                    "text": "Filter('Sales Territory', 'Territory Code' = TextInput3_65.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 557,
-                  "snippet": {
-                    "text": "'Territory Code'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Territory Code"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 574,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 618,
-                  "snippet": {
-                    "text": "'Parent State'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Parent State"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 31,
-                  "charOffset": 602,
-                  "snippet": {
-                    "text": "Collect(States, 'Parent State')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Collect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 660,
-                  "snippet": {
-                    "text": "'Sales Territory'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Territory"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 64,
-                  "charOffset": 653,
-                  "snippet": {
-                    "text": "Filter('Sales Territory', 'Territory Code' = TextInput3_65.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 679,
-                  "snippet": {
-                    "text": "'Territory Code'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Territory Code"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 696,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 743,
-                  "snippet": {
-                    "text": "'Parent Sub State'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Parent Sub State"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 38,
-                  "charOffset": 724,
-                  "snippet": {
-                    "text": "Collect(SubStates, 'Parent Sub State')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Collect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 789,
-                  "snippet": {
-                    "text": "'Sales Territory'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Territory"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 64,
-                  "charOffset": 782,
-                  "snippet": {
-                    "text": "Filter('Sales Territory', 'Territory Code' = TextInput3_65.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 808,
-                  "snippet": {
-                    "text": "'Territory Code'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Territory Code"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 825,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 872,
-                  "snippet": {
-                    "text": "'Parent District'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Parent District"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 37,
-                  "charOffset": 853,
-                  "snippet": {
-                    "text": "Collect(Districts, 'Parent District')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Collect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 917,
-                  "snippet": {
-                    "text": "'Sales Territory'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Territory"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 64,
-                  "charOffset": 910,
-                  "snippet": {
-                    "text": "Filter('Sales Territory', 'Territory Name' = TextInput3_65.Text)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 936,
-                  "snippet": {
-                    "text": "'Territory Name'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Territory Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 953,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 997,
-                  "snippet": {
-                    "text": "'Parent City'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Parent City"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 30,
-                  "charOffset": 981,
-                  "snippet": {
-                    "text": "Collect(Cities, 'Parent City')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Collect"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 22,
-                  "snippet": {
-                    "text": ".zx_territoryname"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "zx_territoryname"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 156,
-                  "snippet": {
-                    "text": ".zx_territoryname"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "zx_territoryname"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_94.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_94.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 25,
-                  "snippet": {
-                    "text": ".zx_territoryname"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_94"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "zx_territoryname"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 25,
-                  "snippet": {
-                    "text": ".zx_territoryname"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "zx_territoryname"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Cities"
+                    "text": "''"
                   }
                 }
               },
               "properties": {
                 "member": "Items",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
               }
             }
           ],
@@ -13341,9 +11976,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-WarnNoUsableFields",
+          "ruleId": "app-ErrEmptyInvalidIdentifier",
           "ruleIndex": 14
         },
         {
@@ -13360,10 +11995,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 17,
-                  "charOffset": 13,
+                  "charLength": 3,
+                  "charOffset": 66,
                   "snippet": {
-                    "text": "'Sales Territory'"
+                    "text": ".''"
                   }
                 }
               },
@@ -13376,164 +12011,7 @@
           ],
           "message": {
             "arguments": [
-              "Sales Territory"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 176,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Filter(\r\n    'Sales Territory',\r\n    'Sales Territory (Views)'.'L7 Area',\r\n    'Parent City'.'Sales Territory (zx_salesterritoryid)' = Dropdown3.Selected.zx_salesterritoryid\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 25,
-                  "charOffset": 37,
-                  "snippet": {
-                    "text": "'Sales Territory (Views)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Sales Territory (Views)"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 62,
-                  "snippet": {
-                    "text": ".'L7 Area'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 13
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": "'Parent City'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Parent City"
+              "_"
             ],
             "id": "issue"
           },
@@ -13558,7 +12036,7 @@
                 },
                 "region": {
                   "charLength": 40,
-                  "charOffset": 92,
+                  "charOffset": 89,
                   "snippet": {
                     "text": ".'Sales Territory (zx_salesterritoryid)'"
                   }
@@ -13572,13 +12050,16 @@
             }
           ],
           "message": {
+            "arguments": [
+              "Sales Territory (zx_salesterritoryid)"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 13
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -13595,7 +12076,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 153,
+                  "charOffset": 150,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -13635,7 +12116,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 133,
+                  "charOffset": 130,
                   "snippet": {
                     "text": "="
                   }
@@ -13660,6 +12141,46 @@
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 173,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Filter(\r\n    'Sales Territories',\r\n    'Sales Territories (Views)'.'',\r\n    'Parent City'.'Sales Territory (zx_salesterritoryid)' = Dropdown3.Selected.zx_salesterritoryid\r\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -39672,15 +38193,18 @@
               }
             },
             {
-              "id": "app-WarnNoUsableFields",
+              "id": "app-ErrEmptyInvalidIdentifier",
               "messageStrings": {
                 "issue": {
-                  "text": "Warning: The columns produced by this rule are all nested tables and/or records, however the property expects at least some columns of simple values (such as text, or numbers)."
+                  "text": "The identifier has no valid text."
                 }
               },
               "properties": {
                 "componentType": "app",
-                "level": "Medium",
+                "howToFix": [
+                  "Ensure you have text for your identifier. This error occurs when the identifier is all blanks or spaces."
+                ],
+                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
