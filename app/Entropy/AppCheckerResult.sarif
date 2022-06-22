@@ -11995,6 +11995,47 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 1,
+                  "charOffset": 91,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Ident",
+              "Equ"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 3,
                   "charOffset": 66,
                   "snippet": {
@@ -12035,10 +12076,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 40,
+                  "charLength": 2,
                   "charOffset": 89,
                   "snippet": {
-                    "text": ".'Sales Territory (zx_salesterritoryid)'"
+                    "text": ". "
                   }
                 }
               },
@@ -12051,7 +12092,7 @@
           ],
           "message": {
             "arguments": [
-              "Sales Territory (zx_salesterritoryid)"
+              "_"
             ],
             "id": "issue"
           },
@@ -12076,7 +12117,7 @@
                 },
                 "region": {
                   "charLength": 20,
-                  "charOffset": 150,
+                  "charOffset": 111,
                   "snippet": {
                     "text": ".zx_salesterritoryid"
                   }
@@ -12116,7 +12157,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 130,
+                  "charOffset": 91,
                   "snippet": {
                     "text": "="
                   }
@@ -12156,10 +12197,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 173,
+                  "charLength": 134,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Filter(\r\n    'Sales Territories',\r\n    'Sales Territories (Views)'.'',\r\n    'Parent City'.'Sales Territory (zx_salesterritoryid)' = Dropdown3.Selected.zx_salesterritoryid\r\n)"
+                    "text": "Filter(\r\n    'Sales Territories',\r\n    'Sales Territories (Views)'.'',\r\n    'Parent City'. = Dropdown3.Selected.zx_salesterritoryid\r\n)"
                   }
                 }
               },
