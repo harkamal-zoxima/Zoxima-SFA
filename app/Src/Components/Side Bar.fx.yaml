@@ -44,7 +44,8 @@
     Rectangle1 As rectangle:
         BorderColor: =RGBA(219, 219, 219, 1)
         BorderThickness: =1
-        Fill: =If(varOpen, RGBA(0, 0, 0, 0), Transparent)
+        Fill: |-
+            =If(varOpen, ColorValue("#414C60"), Transparent)
         Height: =1136
         Width: =320
         ZIndex: =1
@@ -64,6 +65,7 @@
 
     Gallery1_1 As gallery.galleryVertical:
         BorderColor: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(65, 76, 96, 1)
         Height: =982
         Items: ='Side Bar'.NavItems
         Layout: =Layout.Vertical
