@@ -240,8 +240,8 @@
             =ClearCollect(
                 CreateOrderRecord,
                 Patch(
-                    'SalesOrders',
-                    Defaults('SalesOrders'),
+                    SalesOrders,
+                    Defaults(SalesOrders),
                     {
                         'Order Date': Today(),
                         'Order Status': 'Order Status (SalesOrders)'.Open,
@@ -286,7 +286,7 @@
                                 Quantity: Value(ThisRecord.qty),
                                 'Bill Amoount': ThisRecord.price,
                                 'Order No': LookUp(
-                                    'SalesOrders', 'Order ID' = First(CreateOrderRecord).'Order ID'
+                                    SalesOrders, 'Order ID' = First(CreateOrderRecord).'Order ID'
                                    // 'Order ID' = First(CreateOrderRecord).'Order ID'
                                 )
                             }

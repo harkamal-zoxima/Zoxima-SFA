@@ -494,314 +494,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 25,
-                  "snippet": {
-                    "text": ".TabItems"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Primary Order Top Tab_2",
-                "type": "'Primary Order Top Tab_2'.Gallery1_19"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Order Top Tab_2",
-                "type": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Title"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Order Top Tab_2",
-                "type": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 9,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Order Top Tab_2",
-                "type": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": ".Screen"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Order Top Tab_2",
-                "type": "'Primary Order Top Tab_2'.Gallery1_19.Label8_19"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17.Color"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17.Color",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 3,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Color",
-                "module": "Primary Order Top Tab_2",
-                "type": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17.Color"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17.Color",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 11,
-                  "snippet": {
-                    "text": ".Active"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Color",
-                "module": "Primary Order Top Tab_2",
-                "type": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17.Color"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17.Color",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 63,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(ThisItem.Active ,RGBA(227,100,41,1), RGBA(255, 255, 255, 1))"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Color",
-                "module": "Primary Order Top Tab_2",
-                "type": "'Primary Order Top Tab_2'.Gallery1_19.Icon6_17"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "If"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Side Bar_23'.NavItems"
                 }
               ],
@@ -872,272 +564,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrTableDoesNotAcceptThisType",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 13,
-                  "snippet": {
-                    "text": ".NavItems"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Side Bar_23",
-                "type": "'Side Bar_23'.Gallery1_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError",
           "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Side Bar_23",
-                "type": "'Side Bar_23'.Gallery1_7.Label5_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Side Bar_23",
-                "type": "'Side Bar_23'.Gallery1_7.Label5_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".title"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Side Bar_23",
-                "type": "'Side Bar_23'.Gallery1_7.Label5_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 9,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Side Bar_23",
-                "type": "'Side Bar_23'.Gallery1_7.Label5_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Side Bar_23",
-                "type": "'Side Bar_23'.Gallery1_7.Label5_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Side Bar_23'.Gallery1_7.Label5_3.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 23,
-                  "snippet": {
-                    "text": ".screen"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Side Bar_23",
-                "type": "'Side Bar_23'.Gallery1_7.Label5_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2734,7 +2161,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2775,7 +2202,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2856,7 +2283,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -2896,7 +2323,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3057,7 +2484,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3138,7 +2565,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3219,7 +2646,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3300,7 +2727,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3381,7 +2808,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3462,7 +2889,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3543,7 +2970,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3624,7 +3051,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -3664,7 +3091,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3704,7 +3131,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadSchema-ExpectedType",
-          "ruleIndex": 11
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -3746,7 +3173,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
-          "ruleIndex": 12
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -3906,7 +3333,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3987,7 +3414,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -4068,7 +3495,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -4229,44 +3656,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Filter(SalesOrders,'Order Status'=customerinfo_2.Selected.Value && 'Order From'.Account = data2.Account)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError",
-          "ruleIndex": 3
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -4346,663 +3736,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 18,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 26,
-                  "snippet": {
-                    "text": ".'Order ID'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 38,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Concatenate(\"OR-\",ThisItem.'Order ID')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Concatenate"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 5,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 13,
-                  "snippet": {
-                    "text": ".'Order Date'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 52,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Text(ThisItem.'Order Date',DateTimeFormat.ShortDate)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_2.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_2.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_2.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_2.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Order Type'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Order From'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 21,
-                  "snippet": {
-                    "text": ".'Account Name (name)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Order To'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".'Account Name (name)'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 16,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 24,
-                  "snippet": {
-                    "text": ".'Bill Amoount'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 40,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Concatenate(\"₹\",ThisItem.'Bill Amoount')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container6.Gallery3.Label16_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Concatenate"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -5083,429 +3817,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 91,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Filter(Complaints_1,Customer.Account=data2.Account && status=customerinfo_4.Selected.Value)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_12.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_12.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_12"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_12.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_12.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_12"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_13.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_13.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_13"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_13.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_13.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Nature"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_13"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_14.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_14.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_14"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_14.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_14.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".ComplaintDate"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_14"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_16.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_16.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_16"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_16.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_16.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Description"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_15.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_15.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_15.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_15.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".status"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info",
-                "type": "'customer info'.Canvas3.DataCard3.Container3_1.Gallery7_1.Label16_15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -7385,7 +5697,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -7425,7 +5737,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadSchema-ExpectedType",
-          "ruleIndex": 11
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -7466,7 +5778,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnMissing-ColName-ExpectedType",
-          "ruleIndex": 13
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -7546,7 +5858,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -7627,7 +5939,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -7844,7 +6156,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 314,
+                  "charOffset": 309,
                   "snippet": {
                     "text": "-"
                   }
@@ -7884,49 +6196,9 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 304,
+                  "charOffset": 299,
                   "snippet": {
                     "text": ">"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "All Orders",
-                "type": "'All Orders'.Orders"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'All Orders'.Orders.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'All Orders'.Orders.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 596,
-                  "snippet": {
-                    "text": "-"
                   }
                 }
               },
@@ -7966,6 +6238,46 @@
                   "charLength": 1,
                   "charOffset": 586,
                   "snippet": {
+                    "text": "-"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "All Orders",
+                "type": "'All Orders'.Orders"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 576,
+                  "snippet": {
                     "text": ">"
                   }
                 }
@@ -8004,7 +6316,7 @@
                 },
                 "region": {
                   "charLength": 22,
-                  "charOffset": 857,
+                  "charOffset": 842,
                   "snippet": {
                     "text": "IsToday('Order Date' )"
                   }
@@ -8123,10 +6435,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 356,
+                  "charLength": 5,
+                  "charOffset": 343,
                   "snippet": {
-                    "text": ".systemuserid"
+                    "text": ".User"
                   }
                 }
               },
@@ -8164,7 +6476,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 231,
+                  "charOffset": 223,
                   "snippet": {
                     "text": "="
                   }
@@ -8204,7 +6516,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 370,
+                  "charOffset": 349,
                   "snippet": {
                     "text": "&&"
                   }
@@ -8243,10 +6555,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 797,
+                  "charLength": 5,
+                  "charOffset": 763,
                   "snippet": {
-                    "text": ".systemuserid"
+                    "text": ".User"
                   }
                 }
               },
@@ -8284,7 +6596,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 612,
+                  "charOffset": 583,
                   "snippet": {
                     "text": "="
                   }
@@ -8324,7 +6636,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 812,
+                  "charOffset": 770,
                   "snippet": {
                     "text": "&&"
                   }
@@ -8363,10 +6675,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 1245,
+                  "charLength": 5,
+                  "charOffset": 1190,
                   "snippet": {
-                    "text": ".systemuserid"
+                    "text": ".User"
                   }
                 }
               },
@@ -8404,7 +6716,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1120,
+                  "charOffset": 1070,
                   "snippet": {
                     "text": "="
                   }
@@ -8444,7 +6756,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1259,
+                  "charOffset": 1196,
                   "snippet": {
                     "text": "&&"
                   }
@@ -8483,10 +6795,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 1697,
+                  "charLength": 5,
+                  "charOffset": 1621,
                   "snippet": {
-                    "text": ".systemuserid"
+                    "text": ".User"
                   }
                 }
               },
@@ -8524,7 +6836,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1512,
+                  "charOffset": 1441,
                   "snippet": {
                     "text": "="
                   }
@@ -8564,7 +6876,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1711,
+                  "charOffset": 1627,
                   "snippet": {
                     "text": "&&"
                   }
@@ -8744,7 +7056,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8785,7 +7097,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -8866,7 +7178,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -8906,7 +7218,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -9066,7 +7378,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -9108,7 +7420,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
-          "ruleIndex": 12
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -9145,7 +7457,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -9186,7 +7498,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -9267,7 +7579,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -9307,7 +7619,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -9584,7 +7896,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -9625,7 +7937,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -9706,7 +8018,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -9746,7 +8058,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -10187,121 +8499,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 105,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Filter(SalesOrders,'Order Status'=customerinfo_3.Selected.Value && 'Order From'.Account = data2.Account )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".cr431_billamoount"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "customer info_1",
-                "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container6_1.Gallery1.Label15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12141,7 +10339,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12262,7 +10460,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12342,7 +10540,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12463,7 +10661,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12543,7 +10741,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12664,7 +10862,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12744,7 +10942,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12865,7 +11063,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -12905,7 +11103,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -12946,7 +11144,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
-          "ruleIndex": 14
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -13026,7 +11224,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13147,7 +11345,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -13227,7 +11425,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13348,7 +11546,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -13428,7 +11626,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13549,7 +11747,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -13626,7 +11824,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -13663,7 +11861,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 4
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -13703,7 +11901,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13744,7 +11942,406 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnDoesNotExist-Name-Similar",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 67,
+                  "snippet": {
+                    "text": "''"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrEmptyInvalidIdentifier",
           "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 91,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Ident",
+              "Equ"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 3,
+                  "charOffset": 66,
+                  "snippet": {
+                    "text": ".''"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "_"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 89,
+                  "snippet": {
+                    "text": ". "
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "_"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 111,
+                  "snippet": {
+                    "text": ".zx_salesterritoryid"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "zx_salesterritoryid"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 91,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 134,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Filter(\r\n    'Sales Territories',\r\n    'Sales Territories (Views)'.'',\r\n    'Parent City'. = Dropdown3.Selected.zx_salesterritoryid\r\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Checkbox2_1.OnCheck"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Checkbox2_1.OnCheck",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 63,
+                  "snippet": {
+                    "text": ".'Billing Address 1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnCheck",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Checkbox2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Billing Address 1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 20,
+                  "snippet": {
+                    "text": ".address1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "address1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 27,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "IsBlank(MyAddress.address1)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -13821,7 +12418,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 7
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -13862,7 +12459,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -13943,7 +12540,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -13983,7 +12580,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -39464,51 +38061,6 @@
               }
             },
             {
-              "id": "app-ErrTypeError",
-              "messageStrings": {
-                "issue": {
-                  "text": "Incompatible type. We can't evaluate your formula because of a type error."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Check the types of the values involved in the formula and ensure the types match."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrTableDoesNotAcceptThisType",
               "messageStrings": {
                 "issue": {
@@ -39564,6 +38116,20 @@
               "messageStrings": {
                 "issue": {
                   "text": "Invalid argument type ({1}). Expecting a {0} value instead."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
                 }
               },
               "properties": {
@@ -39648,6 +38214,37 @@
               },
               "properties": {
                 "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrEmptyInvalidIdentifier",
+              "messageStrings": {
+                "issue": {
+                  "text": "The identifier has no valid text."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Ensure you have text for your identifier. This error occurs when the identifier is all blanks or spaces."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

@@ -6,7 +6,7 @@
             allsalesorders,
             Filter(
                 SalesOrders,
-                'Order From'.Account = data2.Account
+                'Order From'.Account = Customer_info.Account
             )
         );
         Clear(allsalesorderIDs);
@@ -4181,7 +4181,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =70
         Size: =30
-        Text: =data2.'Account Name (name)'
+        Text: =Customer_info.'Account Name (name)'
         Width: =560
         X: =27
         Y: =78
@@ -4199,7 +4199,7 @@
         FontWeight: =FontWeight.Semibold
         Height: =69
         Size: =21
-        Text: =data2.'Account Number'
+        Text: =Customer_info.'Account Number'
         Width: =186
         X: =224
         Y: =133
