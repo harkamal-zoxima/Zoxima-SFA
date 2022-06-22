@@ -112,7 +112,7 @@
 
     Gallery8 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Items: =Filter('Invoice Line',cr431_InvoiceNo.Invoice = InvoiceInfo.Invoice)
+        Items: =Filter('Invoice Line','Invoice No'.Invoice = InvoiceInfo.Invoice)
         Layout: =Layout.Vertical
         TemplateSize: =268
         Y: =227
@@ -329,7 +329,7 @@
             Height: =29
             OnSelect: =Select(Parent)
             Size: =13
-            Text: =ThisItem.cr431_InvoiceNo.Name
+            Text: =ThisItem.'Invoice No'.Name
             Width: =107
             X: =245
             Y: =71
@@ -347,7 +347,7 @@
             Height: =29
             OnSelect: =Select(Parent)
             Size: =13
-            Text: =ThisItem.cr431_Item.cr431_productname
+            Text: =ThisItem.Item.'Product Name'
             Width: =173
             X: =445
             Y: =71

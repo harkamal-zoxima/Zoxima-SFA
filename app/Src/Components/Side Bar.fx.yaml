@@ -30,7 +30,9 @@
              {
                 title:"Influencer"
               //  screen:
-            }
+            },
+                  {  title:"Events"}
+        
             
         ]
     Width: =If(varOpen, 320, 70)

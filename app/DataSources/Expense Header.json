@@ -12,7 +12,6 @@
       "_ownerid_value": "Owner",
       "cr431_cr431_expenseheader_cr431_expenseline_ExpenseNumber": "Expense Line",
       "cr431_ExpenseApprover": "Expense Approver",
-      "cr431_expensedate": "Expense Date",
       "cr431_expenseheader_AsyncOperations": "System Jobs",
       "cr431_expenseheader_BulkDeleteFailures": "Bulk Delete Failures",
       "cr431_expenseheader_DuplicateBaseRecord": "Duplicate Records (cr431_expenseheader_DuplicateBaseRecord)",

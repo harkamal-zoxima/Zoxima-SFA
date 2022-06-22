@@ -3453,7 +3453,7 @@
                 Gallery7_1 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =642
-                    Items: =Filter(Complaints_1,cr431_Customer.Account=data2.Account && cr431_status=customerinfo_4.Selected.Value)
+                    Items: =Filter(Complaints_1,Customer.Account=data2.Account && status=customerinfo_4.Selected.Value)
                     Layout: =Layout.Vertical
                     ShowScrollbar: =false
                     TemplateSize: =298
