@@ -3162,7 +3162,7 @@
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
+                            Color: =RGBA(237, 237, 237, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
@@ -3172,8 +3172,8 @@
                             Size: =12
                             Text: ="Invoice ID"
                             Width: =116
-                            X: =40
-                            Y: =27
+                            X: =46
+                            Y: =30
                             ZIndex: =3
 
                         HtmlText1_110 As htmlViewer:
@@ -3199,7 +3199,7 @@
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
+                            Color: =RGBA(237, 237, 237, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
@@ -3209,8 +3209,8 @@
                             Size: =12
                             Text: ="Order No"
                             Width: =116
-                            X: =239
-                            Y: =27
+                            X: =245
+                            Y: =30
                             ZIndex: =5
 
                         HtmlText1_111 As htmlViewer:
@@ -3228,7 +3228,7 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3254,7 +3254,7 @@
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
+                            Color: =RGBA(237, 237, 237, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
@@ -3264,8 +3264,8 @@
                             Size: =12
                             Text: ="Invoice Date"
                             Width: =116
-                            X: =436
-                            Y: =27
+                            X: =440
+                            Y: =30
                             ZIndex: =7
 
                         HtmlText1_112 As htmlViewer:
@@ -3283,7 +3283,7 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3301,7 +3301,7 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3327,7 +3327,7 @@
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
+                            Color: =RGBA(237, 237, 237, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
@@ -3337,8 +3337,8 @@
                             Size: =12
                             Text: ="Bill To Party"
                             Width: =116
-                            X: =46
-                            Y: =138
+                            X: =50
+                            Y: =140
                             ZIndex: =12
 
                         HtmlText1_113 As htmlViewer:
@@ -3364,7 +3364,7 @@
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
+                            Color: =RGBA(237, 237, 237, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
@@ -3374,8 +3374,8 @@
                             Size: =12
                             Text: ="Ship To Party"
                             Width: =116
-                            X: =250
-                            Y: =138
+                            X: =254
+                            Y: =141
                             ZIndex: =14
 
                         HtmlText1_114 As htmlViewer:
@@ -3393,7 +3393,7 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3419,7 +3419,7 @@
                             BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =2
-                            Color: =RGBA(53, 166, 57, 1)
+                            Color: =RGBA(237, 237, 237, 1)
                             DisabledBorderColor: =RGBA(0, 0, 0, 0)
                             DisabledColor: =RGBA(166, 166, 166, 1)
                             FocusedBorderThickness: =4
@@ -3429,8 +3429,8 @@
                             Size: =12
                             Text: ="Total Amount"
                             Width: =116
-                            X: =436
-                            Y: =135
+                            X: =440
+                            Y: =138
                             ZIndex: =16
 
                         HtmlText1_115 As htmlViewer:
@@ -3448,7 +3448,7 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
@@ -3466,7 +3466,7 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
