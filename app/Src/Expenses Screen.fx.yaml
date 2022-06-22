@@ -264,7 +264,7 @@
                 FontWeight: =FontWeight.Semibold
                 Height: =32
                 Size: =13
-                Text: =ThisItem.'Expense Approver'.'Team Member Name'
+                Text: =ThisItem.cr431_ExpenseApprover.'Team Member Name'
                 Width: =130
                 X: =85
                 Y: =133

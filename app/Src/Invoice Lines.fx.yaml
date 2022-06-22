@@ -347,7 +347,7 @@
             Height: =29
             OnSelect: =Select(Parent)
             Size: =13
-            Text: =ThisItem.Item.'Product Name'
+            Text: =ThisItem.Item.cr431_productname
             Width: =173
             X: =445
             Y: =71

@@ -89,7 +89,7 @@
     Gallery4 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =785
-        Items: =Filter('Order Line', cr431_SalesOrderNo.cr431_sales_orderid = order.'Sales Order')
+        Items: =Filter('Order Line', 'Sales Order No'.'Sales Order' = order.'Sales Order')
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplateSize: =269
@@ -359,7 +359,7 @@
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =18
-                Text: =ThisItem.'Product-Item'.'Product Name'
+                Text: =ThisItem.'Product-Item'.cr431_productname
                 Width: =164
                 X: =169
                 Y: =133
@@ -405,7 +405,7 @@
                 Height: =49
                 OnSelect: =Select(Parent)
                 Size: =18
-                Text: =ThisItem.cr431_ProductItem.cr431_name
+                Text: =ThisItem.'Product-Item'.cr431_name
                 Width: =164
                 X: =466
                 Y: =83

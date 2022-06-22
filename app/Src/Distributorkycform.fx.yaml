@@ -596,7 +596,7 @@ Distributorkycform As screen:
                         =ClearCollect(
                             MyAddress,
                             {
-                                address1: datadis.'Billing Address 1'})
+                                address1: datadis.'Address 1'})
                                /* address2: datadis.'Billing Address 2',
                                 postcode: datadis.'Billing Post Code',
                                 zone: Zones,
@@ -941,8 +941,8 @@ Distributorkycform As screen:
                     Items: |-
                         =Filter(
                             'Sales Territories',
-                            'Sales Territories (Views)'.'',
-                            'Parent City'. = Dropdown3.Selected.zx_salesterritoryid
+                            'Sales Territories (Views)'.'L6 Area',
+                            'Parent City'.'Sales Territory' = Dropdown3.Selected.cr431_salesterritoryid
                         )
                         /*Filter(
                                 'Sales Territory',

@@ -73,10 +73,10 @@
                                 Sort(
                                     Filter(
                                         Visits_1,
-                                        'Created By'.User = LookUp(
+                                        'Created By'.systemuserid = LookUp(
                                             Users,
-                                            'Primary Email' = User().Email
-                                        ).User && IsToday('Visit Date')
+                                            internalemailaddress = User().Email
+                                        ).systemuserid && IsToday('Visit Date')
                                     ),
                                     'Created On',
                                     Descending
@@ -84,11 +84,11 @@
                                 Sort(
                                     Filter(
                                         Visits_1,
-                                        'Created By'.User = LookUp(
+                                        'Created By'.systemuserid = LookUp(
                                     //Subordinates,
                                             Users,
-                                            'Primary Email' = ComboBox1.Selected.internalemailaddress
-                                        ).User  && IsToday('Visit Date')
+                                            internalemailaddress = ComboBox1.Selected.internalemailaddress
+                                        ).systemuserid  && IsToday('Visit Date')
                                     ),
                                     'Created On',
                                     Descending
@@ -99,10 +99,10 @@
                                 Sort(
                                     Filter(
                                         Visits_1,
-                                        'Created By'.User = LookUp(
+                                        'Created By'.systemuserid = LookUp(
                                             Users,
-                                            'Primary Email' = User().Email
-                                        ).User && 'Visit Date' = SelectedVisitDate
+                                            internalemailaddress = User().Email
+                                        ).systemuserid && 'Visit Date' = SelectedVisitDate
                                     ),
                                     'Created On',
                                     Descending
@@ -110,11 +110,11 @@
                                 Sort(
                                     Filter(
                                         Visits_1,
-                                        'Created By'.User = LookUp(
+                                        'Created By'.systemuserid = LookUp(
                                     //Subordinates,
                                             Users,
-                                            'Primary Email' = ComboBox1.Selected.internalemailaddress
-                                        ).User && 'Visit Date' = SelectedVisitDate
+                                            internalemailaddress = ComboBox1.Selected.internalemailaddress
+                                        ).systemuserid && 'Visit Date' = SelectedVisitDate
                                     ),
                                     'Created On',
                                     Descending

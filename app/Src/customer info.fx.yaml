@@ -2780,7 +2780,7 @@
                         Height: =30
                         OnSelect: =Select(Parent)
                         Size: =13
-                        Text: =ThisItem.cr431_OrderFrom.name
+                        Text: =ThisItem.'Order From'.'Account Name (name)'
                         Width: =145
                         X: =92
                         Y: =187
@@ -2799,7 +2799,7 @@
                         Height: =27
                         OnSelect: =Select(Parent)
                         Size: =12
-                        Text: =ThisItem.cr431_OrderTo.name
+                        Text: =ThisItem.'Order To'.'Account Name (name)'
                         Width: =142
                         X: =271
                         Y: =187

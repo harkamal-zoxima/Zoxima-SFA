@@ -330,7 +330,7 @@
                 "Gallery10 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =623
-                    Items: =Filter('Expense Line','Expense Number'.'Expense Header'=ExpenseData.'Expense Header')
+                    Items: =Filter('Expense Line',cr431_ExpenseNumber.'Expense Header'=ExpenseData.'Expense Header')
                     Layout: =Layout.Vertical
                     TemplatePadding: =0
                     TemplateSize: =158
