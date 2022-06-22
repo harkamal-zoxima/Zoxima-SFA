@@ -27,7 +27,7 @@
         Width: =514
         X: =63
         Y: =82
-        ZIndex: =3
+        ZIndex: =2
 
     Image1_17 As image:
         BorderColor: =RGBA(204, 204, 204, 1)
@@ -49,7 +49,7 @@
         Width: =152
         X: =244
         Y: =202
-        ZIndex: =4
+        ZIndex: =3
 
     Label3_47 As label:
         Align: =Align.Center
@@ -68,7 +68,7 @@
         Width: =313
         X: =164
         Y: =144
-        ZIndex: =5
+        ZIndex: =4
 
     Label3_46 As label:
         Align: =Align.Center
@@ -87,7 +87,7 @@
         Width: =328
         X: =156
         Y: =108
-        ZIndex: =7
+        ZIndex: =5
 
     Icon2_8 As icon.Bell:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -107,7 +107,7 @@
         Width: =33
         X: =592
         Y: =25
-        ZIndex: =13
+        ZIndex: =6
 
     Image1_16 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -131,10 +131,7 @@
         Width: =123
         X: =259
         Y: =29
-        ZIndex: =14
-
-    "'Side Bar_27' As 'Side Bar'":
-        ZIndex: =15
+        ZIndex: =7
 
     Icon11_9 As icon.BackArrow:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -155,9 +152,9 @@
         Width: =35
         X: =95
         Y: =108
-        ZIndex: =20
+        ZIndex: =8
 
-    "'Bottom Navigation_2' As 'Bottom Navigation'":
+    mainbottomnav_4 As mainbottomnav:
         Fill: =RGBA(59, 59, 59, 1)
         NavItems: |-
             =Table(
@@ -202,7 +199,10 @@
                 }
             )
         Y: =1056
-        ZIndex: =23
+        ZIndex: =11
+
+    "'Side Bar_27' As 'Side Bar'":
+        ZIndex: =12
 
     Group3_8 As group:
         Height: =5
@@ -219,7 +219,7 @@
             Width: =416
             X: =112
             Y: =525
-            ZIndex: =21
+            ZIndex: =9
 
         Label3_37 As label:
             Align: =Align.Center
@@ -238,5 +238,5 @@
             Width: =403
             X: =115
             Y: =552
-            ZIndex: =22
+            ZIndex: =10
 
