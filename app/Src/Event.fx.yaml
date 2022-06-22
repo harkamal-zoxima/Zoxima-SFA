@@ -18,6 +18,7 @@ Event As screen:
         BorderColor: =RGBA(109, 109, 109, 1)
         DataSource: =Events
         Height: =804
+        Item: =Gallery9.Selected
         Width: =640
         Y: =111
         ZIndex: =2
@@ -1440,7 +1441,7 @@ Event As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =24
-        Text: ="New Event"
+        Text: ="Event"
         Width: =560
         X: =80
         ZIndex: =3
