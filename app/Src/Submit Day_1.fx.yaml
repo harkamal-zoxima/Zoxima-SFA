@@ -189,120 +189,39 @@
         Y: =108
         ZIndex: =20
 
-    Group2_12 As group:
-        Height: =5
-        Width: =5
-        X: =-91
-        Y: =-442
-        ZIndex: =20
-
-        HtmlText2_19 As htmlViewer:
-            Height: =123
-            HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
-            OnSelect: |
-                =Patch(
-                    Attendences,
-                    Defaults(Attendences),
-                    {
-                        'Attendance Date': Today(),
-                        'Start Time': Now(),
-                        'CheckIn Location': Concatenate(
-                            Location.Longitude,
-                            ",",
-                            Location.Latitude
-                        )
-                    }
-                );
-                Set(
-                    varAttendance,
-                    "end"
-                );
-                Navigate(
-                    'End day',
-                    ScreenTransition.Fade
-                );
-            Width: =378
-            X: =131
-            Y: =493
-            ZIndex: =16
-
-        Label3_49 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Lato
-            FontWeight: =FontWeight.Semibold
-            Height: =70
-            OnSelect: |
-                =Patch(
-                    Attendences,
-                    Defaults(Attendences),
-                    {
-                        'Attendance Date': Today(),
-                        'Start Time': Now(),
-                        'CheckIn Location': Concatenate(
-                            Location.Longitude,
-                            ",",
-                            Location.Latitude
-                        )
-                    }
-                );
-                Set(
-                    varAttendance,
-                    "end"
-                );
-                Navigate(
-                    'End day',
-                    ScreenTransition.Fade
-                );
-            Size: =24
-            Text: ="SUBMIT"
-            Width: =289
-            X: =173
-            Y: =509
-            ZIndex: =17
-
     Group3_8 As group:
         Height: =5
         Width: =5
         X: =-91
-        Y: =-442
-        ZIndex: =21
+        Y: =-459
+        ZIndex: =23
 
-        HtmlText2_18 As htmlViewer:
-            Height: =113
+        HtmlText2_13 As htmlViewer:
+            Height: =136
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
-            OnSelect: =Navigate('Select Day Type', ScreenTransition.Fade)
+                ="<div style='border-radius:10px; background-color:#F57A7C; opacity: 0.54; width:400px; height:120px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             Size: =25
-            Width: =378
-            X: =131
-            Y: =614
-            ZIndex: =18
+            Width: =416
+            X: =112
+            Y: =525
+            ZIndex: =21
 
-        Label3_48 As label:
+        Label3_37 As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(184, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
-            Height: =65
-            OnSelect: =Navigate('Select Day Type', ScreenTransition.Fade)
+            Height: =81
             Size: =24
-            Text: ="CANCEL"
-            Width: =289
-            X: =172
-            Y: =632
-            ZIndex: =19
+            Text: ="Your day has been ended."
+            Width: =403
+            X: =115
+            Y: =552
+            ZIndex: =22
 

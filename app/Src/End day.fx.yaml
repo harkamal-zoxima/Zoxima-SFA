@@ -3,108 +3,6 @@
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
-    Button9 As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(160, 0, 2, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =78
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =
-        OnSelect: |+
-            =Patch(
-                Attendences,
-                LookUp(
-                    Attendences,
-                    IsToday('Attendance Date') && 'Created By'.User = LookUp(
-                        Users,
-                        'Primary Email' = User().Email
-                    ).User
-                ),
-                {
-                    'End Time': Now(),
-                    'End Day':'End Day (Attendences)'.Yes
-                }
-            );
-            Set(
-                varAttendance,
-                "done"
-            );
-            Navigate(
-                'Day Ended',
-                ScreenTransition.Cover
-            )
-            
-        PressedBorderColor: =
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =24
-        Text: ="END"
-        Width: =360
-        X: =146
-        Y: =747
-        ZIndex: =14
-
-    Group4_1 As group:
-        Height: =5
-        Width: =5
-        X: =-91
-        Y: =-358
-        ZIndex: =18
-
-        Circle1_1 As circle:
-            BorderColor: =RGBA(109, 109, 109, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(255, 200, 61, 1)
-            DisplayMode: =DisplayMode.View
-            Fill: =RGBA(245, 122, 124, 0.54)
-            Height: =200
-            HoverFill: =
-            PressedFill: =
-            Width: =200
-            X: =220
-            Y: =436
-            ZIndex: =11
-
-        Label6_2 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(160, 0, 2, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Lato
-            FontWeight: =FontWeight.Semibold
-            Height: =160
-            Size: =20
-            Text: |-
-                =Text(
-                    LookUp(
-                        Attendences,
-                        IsToday('Attendance Date') && 'Created By'.User = LookUp(
-                            Users,
-                            'Primary Email' = User().Email
-                        ).User
-                    ).'Start Time',
-                    "dd mmm yyy hh:mm AM/PM"
-                )
-            Width: =178
-            X: =231
-            Y: =457
-            ZIndex: =12
-
     HtmlText1_72 As htmlViewer:
         Color: =RGBA(103, 204, 107, 1)
         Height: =354
@@ -115,7 +13,7 @@
         PaddingRight: =0
         PaddingTop: =0
         Width: =640
-        ZIndex: =25
+        ZIndex: =3
 
     "'Bottom Navigation_50' As 'Bottom Navigation'":
         NavItems: |-
@@ -147,7 +45,7 @@
                 }
                 )
         Y: =1056
-        ZIndex: =26
+        ZIndex: =4
 
     HtmlText1_73 As htmlViewer:
         BorderThickness: =1
@@ -161,7 +59,7 @@
         Width: =514
         X: =63
         Y: =82
-        ZIndex: =27
+        ZIndex: =5
 
     Image1_22 As image:
         BorderColor: =RGBA(204, 204, 204, 1)
@@ -183,7 +81,7 @@
         Width: =152
         X: =244
         Y: =202
-        ZIndex: =28
+        ZIndex: =6
 
     Label3_56 As label:
         Align: =Align.Center
@@ -202,7 +100,7 @@
         Width: =313
         X: =164
         Y: =144
-        ZIndex: =29
+        ZIndex: =7
 
     Label3_57 As label:
         Align: =Align.Center
@@ -221,7 +119,7 @@
         Width: =328
         X: =156
         Y: =108
-        ZIndex: =30
+        ZIndex: =8
 
     Icon2_11 As icon.Bell:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -241,7 +139,7 @@
         Width: =33
         X: =592
         Y: =25
-        ZIndex: =31
+        ZIndex: =9
 
     Image1_23 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -265,10 +163,10 @@
         Width: =123
         X: =259
         Y: =29
-        ZIndex: =32
+        ZIndex: =10
 
     "'Side Bar_30' As 'Side Bar'":
-        ZIndex: =33
+        ZIndex: =11
 
     Icon11_12 As icon.BackArrow:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -289,7 +187,103 @@
         Width: =35
         X: =95
         Y: =108
-        ZIndex: =34
+        ZIndex: =12
+
+    Button9 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(160, 0, 2, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =78
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =
+        OnSelect: |+
+            =
+            Set(VarDialog, true)
+            
+        PressedBorderColor: =
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =24
+        Text: ="END"
+        Width: =360
+        X: =146
+        Y: =747
+        ZIndex: =13
+
+    EditBackdrop_1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(230, 230, 230, 0.5)
+        FocusedBorderThickness: =4
+        Height: =1136
+        HoverFill: =
+        PressedFill: =RGBA(255, 200, 61, 1)
+        Visible: =VarDialog
+        Width: =640
+        ZIndex: =14
+
+    Group4_1 As group:
+        Height: =5
+        Width: =5
+        X: =-91
+        Y: =-358
+        ZIndex: =18
+
+        Circle1_1 As circle:
+            BorderColor: =RGBA(109, 109, 109, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(255, 200, 61, 1)
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(245, 122, 124, 0.54)
+            Height: =200
+            HoverFill: =
+            PressedFill: =
+            Width: =200
+            X: =220
+            Y: =436
+            ZIndex: =1
+
+        Label6_2 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(160, 0, 2, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =160
+            Size: =20
+            Text: |-
+                =Text(
+                    LookUp(
+                        Attendences,
+                        IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                            Users,
+                            'Primary Email' = User().Email
+                        ).User
+                    ).'Start Time',
+                    "dd mmm yyy hh:mm AM/PM"
+                )
+            Width: =178
+            X: =231
+            Y: =457
+            ZIndex: =2
 
     Group6_1 As group:
         Height: =5
@@ -304,4 +298,152 @@
         X: =40
         Y: =40
         ZIndex: =37
+
+    EditModal_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =40
+
+        Rectangle7_3 As rectangle:
+            BorderColor: =RGBA(204, 204, 204, 1)
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(237, 237, 237, 1)
+            FocusedBorderThickness: =4
+            Height: =335
+            HoverFill: =RGBA(237, 237, 237, 1)
+            OnSelect: |-
+                =If(VarDialogOpen, Patch(
+                    Visits_1,
+                    Defaults(Visits_1),
+                    {'Visit Type':'Visit Type (Visits_1)'.Unplanned,
+                    Customer: LookUp(Accounts, )}
+                );
+                )
+            PressedFill: =RGBA(237, 237, 237, 1)
+            Visible: =VarDialog
+            Width: =550
+            X: =45
+            Y: =350
+            ZIndex: =15
+
+        Icon10_3 As icon.Cancel:
+            BorderColor: =RGBA(109, 109, 109, 1)
+            Color: =RGBA(128, 128, 128, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =37
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Cancel
+            OnSelect: =Set(VarDialog, false)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =VarDialog
+            Width: =37
+            X: =543
+            Y: =363
+            ZIndex: =16
+
+        Button2_5 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(160, 0, 2, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Bold
+            Height: =45
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(31, 31, 31, 1)
+            HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
+            OnSelect: |-
+                =Patch(
+                    Attendences,
+                    LookUp(
+                        Attendences,
+                        IsToday('Attendance Date') && 'Created By'.User = LookUp(
+                            Users,
+                            'Primary Email' = User().Email
+                        ).User
+                    ),
+                    {
+                        'End Time': Now(),
+                        'End Day':'End Day (Attendences)'.Yes
+                    }
+                );
+                Set(
+                    varAttendance,
+                    "done"
+                );
+                Navigate(
+                    'Day Ended',
+                    ScreenTransition.Cover
+                );
+            PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
+            PressedColor: =RGBA(31, 31, 31, 1)
+            PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+            Size: =14
+            Text: ="CONFIRM"
+            Visible: =VarDialog
+            Width: =137
+            X: =252
+            Y: =597
+            ZIndex: =17
+
+        Label7_3 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(31, 31, 31, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =119
+            OnSelect: |
+                =Switch(
+                    varAttendance,
+                    "start",
+                    Notify(
+                        "Please start your day first",
+                        NotificationType.Warning,
+                        1000
+                    ),
+                    "end",
+                    Patch(
+                        Visits_1,
+                        LookUp(
+                            Visits_1,
+                            'Visit ID' = ClickedVisit.'Visit ID'
+                        ),
+                        {status: 'status (Visits_1)'.Started}
+                    );
+                    Navigate(
+                        'Start visit',
+                        ScreenTransition.Cover
+                    ),
+                    "done",
+                    Notify(
+                        "Your day has ended",
+                        NotificationType.Warning,
+                        1000
+                    )
+                );
+            Size: =21
+            Text: ="Do you really want to end your day?"
+            Visible: =VarDialog
+            Width: =488
+            X: =75
+            Y: =436
+            ZIndex: =18
 
