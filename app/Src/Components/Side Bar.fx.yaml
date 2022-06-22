@@ -24,6 +24,10 @@
                 screen:'Create Site'
             },
              {
+                title:"Customers",
+                screen:'Customer (Dist)_1'
+            },
+             {
                 title:"Influencer"
               //  screen:
             }
