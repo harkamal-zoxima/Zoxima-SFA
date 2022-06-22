@@ -407,20 +407,6 @@
         Height: =If(varOpen, 1136, 60)
         ZIndex: =12
 
-    Circle1_3 As circle:
-        BorderColor: =RGBA(109, 109, 109, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(255, 200, 61, 1)
-        Fill: =If(Connection.Connected, RGBA(73, 130, 5, 1), Red)
-        Height: =15
-        HoverFill: =RGBA(255, 200, 61, 1)
-        PressedFill: =RGBA(255, 200, 61, 1)
-        Width: =15
-        X: =619
-        Y: =7
-        ZIndex: =13
-
     Group14_1 As group:
         Height: =5
         Width: =5
