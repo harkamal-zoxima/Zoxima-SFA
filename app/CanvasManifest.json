@@ -85,11 +85,11 @@
     "FileID": "f3810ac6-a259-4739-953a-900ecde5af73",
     "Id": "6a8faef8-d870-45ac-bff1-429708f2e50e",
     "InstrumentationKey": "",
-    "Name": "Zoxima Product SFA (Dup-1)",
+    "Name": "Zoxima Product SFA (Complaints)",
     "OriginatingVersion": "1.324"
   },
   "PublishInfo": {
-    "AppName": "Zoxima Product SFA (Dup-1)",
+    "AppName": "Zoxima Product SFA (Complaints)",
     "BackgroundColor": "rgba(255, 255, 255, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",
