@@ -51,7 +51,7 @@
         "Name": "Rectangle10",
         "Parent": "Header Component_11",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1569,
+        "PublishOrderIndex": 1634,
         "Rules": [
           {
             "Category": "Design",
@@ -245,7 +245,7 @@
         "Name": "Label6_1",
         "Parent": "Header Component_11",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1570,
+        "PublishOrderIndex": 1635,
         "Rules": [
           {
             "Category": "Data",
@@ -545,7 +545,7 @@
         "Name": "Rectangle8",
         "Parent": "Header Component_11",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1571,
+        "PublishOrderIndex": 1636,
         "Rules": [
           {
             "Category": "Design",
