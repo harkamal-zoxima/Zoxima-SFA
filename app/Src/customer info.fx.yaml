@@ -79,7 +79,7 @@
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
-                    Default: =data2.'Account Name (name)'
+                    Default: =Customer_info.'Account Name (name)'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -128,7 +128,7 @@
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
-                    Default: =data2.'First Name'
+                    Default: =Customer_info.'First Name'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -177,7 +177,7 @@
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
-                    Default: =data2.'Last Name'
+                    Default: =Customer_info.'Last Name'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -226,7 +226,7 @@
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
-                    Default: =data2.'Main Phone'
+                    Default: =Customer_info.'Main Phone'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -275,7 +275,7 @@
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
-                    Default: =data2.'First Name'
+                    Default: =Customer_info.'First Name'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -324,7 +324,7 @@
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
-                    Default: =data2.'First Name'
+                    Default: =Customer_info.'First Name'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -423,7 +423,7 @@
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
                     Default: |-
-                        =data2.'Address 1: Name'
+                        =Customer_info.'Address 1: Name'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -479,7 +479,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -528,7 +528,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -585,7 +585,7 @@
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
                         Default: |-
-                            =data2.'Address 1: Street 1'
+                            =Customer_info.'Address 1: Street 1'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -642,7 +642,7 @@
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
                         Default: |-
-                            =data2.'Address 1: Street 1'
+                            =Customer_info.'Address 1: Street 1'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -698,7 +698,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -747,7 +747,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -803,7 +803,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -852,7 +852,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -908,7 +908,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -957,7 +957,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1014,7 +1014,7 @@
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
                         Default: |-
-                            =data2.'Address 1: Street 1'
+                            =Customer_info.'Address 1: Street 1'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1071,7 +1071,7 @@
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
                         Default: |-
-                            =data2.'Address 1: Street 1'
+                            =Customer_info.'Address 1: Street 1'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1127,7 +1127,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1176,7 +1176,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1232,7 +1232,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1281,7 +1281,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1337,7 +1337,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1386,7 +1386,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1442,7 +1442,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1491,7 +1491,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1566,7 +1566,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'First Name'
+                        Default: =Customer_info.'First Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1615,7 +1615,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1645,7 +1645,7 @@
                     BorderColor: =RGBA(109, 109, 109, 1)
                     BorderThickness: =2
                     Color: =RGBA(255, 255, 255, 1)
-                    Default: =data2.'First Name'
+                    Default: =Customer_info.'First Name'
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(128, 128, 128, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1701,7 +1701,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1757,7 +1757,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1813,7 +1813,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1869,7 +1869,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1925,7 +1925,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1981,7 +1981,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2037,7 +2037,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2093,7 +2093,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2149,7 +2149,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2205,7 +2205,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2261,7 +2261,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2317,7 +2317,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2373,7 +2373,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2429,7 +2429,7 @@
                         BorderColor: =RGBA(109, 109, 109, 1)
                         BorderThickness: =2
                         Color: =RGBA(255, 255, 255, 1)
-                        Default: =data2.'Last Name'
+                        Default: =Customer_info.'Last Name'
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(128, 128, 128, 1)
                         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -2671,7 +2671,7 @@
                 Gallery3 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =615
-                    Items: =Filter(SalesOrders,'Order Status'=customerinfo_2.Selected.Value && 'Order From'.Account = data2.Account)
+                    Items: =Filter(SalesOrders,'Order Status'=customerinfo_2.Selected.Value && 'Order From'.Account = Customer_info.Account)
                     Layout: =Layout.Vertical
                     TemplateSize: =290
                     Y: =65
@@ -2725,7 +2725,7 @@
                             OnSelect: =Select(Parent)
                             Size: =20
                             Text: |
-                                =Left(data2.'Account Name (name)',1)
+                                =Left(Customer_info.'Account Name (name)',1)
                             Width: =39
                             X: =41
                             Y: =28
@@ -3117,16 +3117,16 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
                         Height: =31
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.Name
-                        Width: =90
+                        Width: =120
                         X: =68
                         Y: =76
                         ZIndex: =3
@@ -3135,16 +3135,16 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
                         Height: =31
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.'Sales Order Number'.'Order ID'
-                        Width: =90
+                        Width: =120
                         X: =263
                         Y: =76
                         ZIndex: =4
@@ -3153,16 +3153,16 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
                         Height: =29
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.'Invoice Date'
-                        Width: =107
+                        Width: =117
                         X: =448
                         Y: =78
                         ZIndex: =5
@@ -3171,16 +3171,16 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
                         Height: =46
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.'Bill To Party'.'Account Name (name)'
-                        Width: =102
+                        Width: =177
                         X: =55
                         Y: =184
                         ZIndex: =6
@@ -3189,16 +3189,16 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
                         Height: =31
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.'Bill To Party'.'Account Name (name)'
-                        Width: =107
+                        Width: =162
                         X: =253
                         Y: =184
                         ZIndex: =7
@@ -3207,11 +3207,11 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
                         Height: =31
                         OnSelect: =Select(Parent)
                         Size: =13
@@ -3453,7 +3453,7 @@
                 Gallery7_1 As gallery.galleryVertical:
                     BorderColor: =RGBA(109, 109, 109, 1)
                     Height: =642
-                    Items: =Filter(Complaints_1,Customer.Account=data2.Account && status=customerinfo_4.Selected.Value)
+                    Items: =Filter(Complaints_1,Customer.Account=Customer_info.Account && status=customerinfo_4.Selected.Value)
                     Layout: =Layout.Vertical
                     ShowScrollbar: =false
                     TemplateSize: =298
@@ -3493,12 +3493,12 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
-                        Height: =31
+                        FontWeight: =FontWeight.Semibold
+                        Height: =51
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.Name
@@ -3511,12 +3511,12 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
-                        Height: =31
+                        FontWeight: =FontWeight.Semibold
+                        Height: =51
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.Nature
@@ -3529,12 +3529,12 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
-                        Height: =29
+                        FontWeight: =FontWeight.Semibold
+                        Height: =47
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.ComplaintDate
@@ -3547,12 +3547,12 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
-                        Height: =31
+                        FontWeight: =FontWeight.Semibold
+                        Height: =51
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.Description
@@ -3565,12 +3565,12 @@
                         BorderColor: =RGBA(0, 0, 0, 0)
                         BorderStyle: =BorderStyle.None
                         BorderThickness: =2
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: =RGBA(255, 191, 0, 1)
                         DisabledBorderColor: =RGBA(0, 0, 0, 0)
                         DisabledColor: =RGBA(166, 166, 166, 1)
                         FocusedBorderThickness: =4
-                        Font: =Font.Lato
-                        Height: =31
+                        FontWeight: =FontWeight.Semibold
+                        Height: =51
                         OnSelect: =Select(Parent)
                         Size: =13
                         Text: =ThisItem.status

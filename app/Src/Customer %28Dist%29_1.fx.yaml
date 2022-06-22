@@ -45,7 +45,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =51
             OnSelect: |-
-                =Set(data2, ThisItem);
+                =Set(Customer_info, ThisItem);
                 Navigate('customer info')
             Size: =17
             Text: =ThisItem.'Account Name (name)'

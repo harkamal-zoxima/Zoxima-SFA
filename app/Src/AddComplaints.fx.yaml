@@ -154,44 +154,45 @@ AddComplaints As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(31, 31, 31, 1)
         HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-        OnSelect: |-
+        OnSelect: |
             =If(
                 CountRows(ComboBox1_1.SelectedItems) <= 0 || IsBlank(TextInput4.Text),
                 Notify(
                     "Please fill all the fields",
-                    NotificationType.Error, 3000
+                    NotificationType.Error,
+                    3000
                 ),
                 Patch(
                     Complaints_1,
                     {
                         ComplaintDate: Today(),
-                        Customer: data2,
+                        Customer: Customer_info,
                         Nature: ComboBox1_1.Selected.item,
                         Description: TextInput4.Text,
                         status: 'status (Complaints_1)'.Pending,
                         'Account Type': If(
-                            data2.'Account Type' = 'Account Type (Accounts)'.Constructor,
+                            Customer_info.'Account Type' = 'Account Type (Accounts)'.Constructor,
                             acounttype.Constructor,
                             If(
-                                data2.'Account Type' = 'Account Type (Accounts)'.Distributer,
+                                Customer_info.'Account Type' = 'Account Type (Accounts)'.Distributer,
                                 acounttype.Distributor,
                                 If(
-                                    data2.'Account Type' = 'Account Type (Accounts)'.Influencer,
+                                    Customer_info.'Account Type' = 'Account Type (Accounts)'.Influencer,
                                     acounttype.Influencer,
                                     If(
-                                        data2.'Account Type' = 'Account Type (Accounts)'.Other,
+                                        Customer_info.'Account Type' = 'Account Type (Accounts)'.Other,
                                         acounttype.Others,
                                         If(
-                                            data2.'Account Type' = 'Account Type (Accounts)'.Plumber,
+                                            Customer_info.'Account Type' = 'Account Type (Accounts)'.Plumber,
                                             acounttype.Plumber,
                                             If(
-                                                data2.'Account Type' = 'Account Type (Accounts)'.Retailer,
+                                                Customer_info.'Account Type' = 'Account Type (Accounts)'.Retailer,
                                                 acounttype.Retailer,
                                                 If(
-                                                    data2.'Account Type' = 'Account Type (Accounts)'.Sites,
+                                                    Customer_info.'Account Type' = 'Account Type (Accounts)'.Sites,
                                                     acounttype.Sites,
                                                     If(
-                                                        data2.'Account Type' = 'Account Type (Accounts)'.Wholesaler,
+                                                        Customer_info.'Account Type' = 'Account Type (Accounts)'.Wholesaler,
                                                         acounttype.Wholesaler
                                                     )
                                                 )
@@ -203,10 +204,17 @@ AddComplaints As screen:
                         )
                     }
                 );
-                Notify("Complaint submitted successfuly!",NotificationType.Success,3000);
+                Notify(
+                    "Complaint submitted successfuly!",
+                    NotificationType.Success,
+                    3000
+                );
                 Navigate('customer info')
             );
-            Set(ClearFields, true);
+            Set(
+                ClearFields,
+                true
+            );
         PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
         PressedColor: =RGBA(31, 31, 31, 1)
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
