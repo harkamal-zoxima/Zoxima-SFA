@@ -16,6 +16,13 @@
       }
     },
     {
+      "Kind": "default.cds_cr431_area_forms",
+      "Namespace": "Areas (Forms)",
+      "Values": {
+        "Information": "a5c4fa1d-61f3-457a-a770-c4f568b15ef9"
+      }
+    },
+    {
       "Kind": "default.cds_cr431_attendence_forms",
       "Namespace": "Attendences (Forms)",
       "Values": {
@@ -55,6 +62,34 @@
       }
     },
     {
+      "Kind": "default.cds_cr431_distributoronboarding_forms",
+      "Namespace": "Distributor Onboardings (Forms)",
+      "Values": {
+        "Information": "eed74b44-e6f0-4db8-b66d-a9fb74422639"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_event_forms",
+      "Namespace": "Events (Forms)",
+      "Values": {
+        "Information": "cd6868f0-7f8f-49bd-bd4f-fd5244f99c43"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_expenseheader_forms",
+      "Namespace": "Expense Header (Forms)",
+      "Values": {
+        "Information": "d54aff83-3c61-43a9-826e-a9b184eb3a21"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_expenseline_forms",
+      "Namespace": "Expense Line (Forms)",
+      "Values": {
+        "Information": "ac448f22-720c-43b0-9768-3db01d07dad6"
+      }
+    },
+    {
       "Kind": "default.cds_cr431_invoiceline_forms",
       "Namespace": "Invoice Line (Forms)",
       "Values": {
@@ -66,6 +101,13 @@
       "Namespace": "Invoices (Forms)",
       "Values": {
         "Information": "6c6af38e-306b-43a0-aa77-e646398483d5"
+      }
+    },
+    {
+      "Kind": "default.cds_cr431_salesorder_forms",
+      "Namespace": "not requireds (Forms)",
+      "Values": {
+        "Information": "60b5fc45-b543-4525-baf0-9968ff93fcec"
       }
     },
     {
@@ -97,10 +139,19 @@
       }
     },
     {
-      "Kind": "default.cds_cr431_salesorder_forms",
-      "Namespace": "not requireds (Forms)",
+      "Kind": "default.cds_cr431_sites_forms",
+      "Namespace": "Sites (Forms)",
       "Values": {
-        "Information": "60b5fc45-b543-4525-baf0-9968ff93fcec"
+        "Information": "96d6af78-d41b-4995-9641-f05e05509a24"
+      }
+    },
+    {
+      "Kind": "default.cds_team_forms",
+      "Namespace": "Teams (Forms)",
+      "Values": {
+        "Information": "f5cfab6a-d4c2-4519-b68f-6e7485432e29",
+        "Team": "7ba7fac1-1418-4335-935f-f7f8dfd73fcc",
+        "Team form – Business": "4aabf594-b30a-490d-bf97-89c67c6777fe"
       }
     },
     {
@@ -122,50 +173,6 @@
       }
     },
     {
-      "Kind": "default.cds_cr431_expenseheader_forms",
-      "Namespace": "Expense Header (Forms)",
-      "Values": {
-        "Information": "d54aff83-3c61-43a9-826e-a9b184eb3a21"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_expenseline_forms",
-      "Namespace": "Expense Line (Forms)",
-      "Values": {
-        "Information": "ac448f22-720c-43b0-9768-3db01d07dad6"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_sites_forms",
-      "Namespace": "Sites (Forms)",
-      "Values": {
-        "Information": "96d6af78-d41b-4995-9641-f05e05509a24"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_area_forms",
-      "Namespace": "Areas (Forms)",
-      "Values": {
-        "Information": "a5c4fa1d-61f3-457a-a770-c4f568b15ef9"
-      }
-    },
-    {
-      "Kind": "default.cds_team_forms",
-      "Namespace": "Teams (Forms)",
-      "Values": {
-        "Information": "f5cfab6a-d4c2-4519-b68f-6e7485432e29",
-        "Team": "7ba7fac1-1418-4335-935f-f7f8dfd73fcc",
-        "Team form – Business": "4aabf594-b30a-490d-bf97-89c67c6777fe"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_event_forms",
-      "Namespace": "Events (Forms)",
-      "Values": {
-        "Information": "cd6868f0-7f8f-49bd-bd4f-fd5244f99c43"
-      }
-    },
-    {
       "Kind": "default.cds_cr431_salesorder_forms",
       "Namespace": "Sales Order (Forms)",
       "Values": {
@@ -177,13 +184,6 @@
       "Namespace": "Sales Orders (Forms)",
       "Values": {
         "Information": "9cee9101-066b-4fe7-8ac8-4340981754ab"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_distributoronboarding_forms",
-      "Namespace": "Distributor Onboardings (Forms)",
-      "Values": {
-        "Information": "eed74b44-e6f0-4db8-b66d-a9fb74422639"
       }
     }
   ]
