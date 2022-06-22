@@ -1,5 +1,5 @@
 StartDay As screen:
-    Fill: =RGBA(31, 31, 31, 1)
+    Fill: =RGBA(88, 103, 130, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnVisible: =Set(varOpen, false)
 
@@ -88,7 +88,7 @@ StartDay As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(65, 76, 96, 1)
+        Color: =RGBA(255, 191, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -138,25 +138,6 @@ StartDay As screen:
         X: =156
         Y: =108
         ZIndex: =7
-
-    Image5 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        Fill: =RGBA(65, 76, 96, 1)
-        FocusedBorderThickness: =4
-        Height: =570
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: ='WhatsApp Image 2022-05-13 at 1.06.35 PM'
-        ImagePosition: =ImagePosition.Fill
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =640
-        Y: =486
-        ZIndex: =8
 
     Icon2_4 As icon.Bell:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -217,7 +198,7 @@ StartDay As screen:
         HtmlText2_1 As htmlViewer:
             Height: =123
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#FFBF00; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             OnSelect: |-
                 =ClearCollect(
                     Attendance,
@@ -276,7 +257,7 @@ StartDay As screen:
         HtmlText2_2 As htmlViewer:
             Height: =113
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#FFBF00; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             Size: =25
             Width: =378
             X: =131

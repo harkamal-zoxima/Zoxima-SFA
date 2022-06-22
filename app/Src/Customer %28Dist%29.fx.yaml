@@ -17,7 +17,7 @@
     Gallery3_6 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =886
-        Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_5.Selected.Value), 'Customer Search_2'.Text in 'Account Name (name)') 
+        Items: =Filter(Filter(Accounts, 'Account Type' = Gallery4_5.Selected.Value), 'Customer Search_4'.Text in 'Account Name (name)') 
         Layout: =Layout.Vertical
         TemplateSize: =199
         Visible: =If(Gallery4_5.Selected.Value = 'Account Type (Accounts)'.Sites, false, true)

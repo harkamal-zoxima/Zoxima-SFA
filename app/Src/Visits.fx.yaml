@@ -438,7 +438,7 @@
                             !IsBlank(
                                 LookUp(
                                     Visits_1,
-                                    IsToday('Visit Date') && status = 'status (Visits_1)'.Started
+                                    IsToday('Visit Date') && status = 'status (Visits_1)'.Started && 'Created By'.'Primary Email' = User().Email
                                 )
                             ) && ThisItem.status = 'status (Visits_1)'.Open || ThisItem.status = 'status (Visits_1)'.Completed,
                             Notify(
