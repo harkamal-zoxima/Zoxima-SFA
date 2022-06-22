@@ -194,10 +194,10 @@ StartDay As screen:
         ZIndex: =17
 
         HtmlText2_1 As htmlViewer:
-            Color: =RGBA(255, 191, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
             Height: =123
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#FFBF00; opacity: 0.4; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             OnSelect: |-
                 =ClearCollect(
                     Attendance,
@@ -220,7 +220,7 @@ StartDay As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 191, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -256,7 +256,7 @@ StartDay As screen:
         HtmlText2_2 As htmlViewer:
             Height: =113
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#FFBF00; opacity: 0.4; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#A00002; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             Size: =25
             Width: =378
             X: =131
@@ -268,7 +268,7 @@ StartDay As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 191, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4

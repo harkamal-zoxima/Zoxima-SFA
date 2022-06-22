@@ -260,7 +260,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "HtmlText1_45",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3064,7 +3064,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Side Bar_7",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

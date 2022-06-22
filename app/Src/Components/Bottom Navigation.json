@@ -78,22 +78,8 @@
                 "NameMapSourceSchema": "?"
               },
               "DisabledFill",
-              {
-                "AFDDataSourceName": "",
-                "AutoRuleBindingEnabled": false,
-                "AutoRuleBindingString": "",
-                "InvariantPropertyName": "PressedFill",
-                "IsLockable": false,
-                "NameMapSourceSchema": "?"
-              },
-              {
-                "AFDDataSourceName": "",
-                "AutoRuleBindingEnabled": false,
-                "AutoRuleBindingString": "",
-                "InvariantPropertyName": "HoverFill",
-                "IsLockable": false,
-                "NameMapSourceSchema": "?"
-              },
+              "PressedFill",
+              "HoverFill",
               "BorderColor",
               "BorderStyle",
               "FocusedBorderColor",
@@ -143,13 +129,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "RGBA(103, 204, 107, 0.25)",
+                "InvariantScript": "",
                 "Property": "PressedFill",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "RGBA(103, 204, 107, 0.28)",
+                "InvariantScript": "",
                 "Property": "HoverFill",
                 "RuleProviderType": "Unknown"
               },
@@ -1089,7 +1075,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637914853827542289",
+    "LastModifiedTimestamp": "637914876785899366",
     "Name": "Bottom Navigation",
     "Rules": [
       {
@@ -1164,7 +1150,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637914853827542289",
+  "LastModifiedTimestamp": "637914876785899366",
   "Name": "b84e901362bb426a9025d47db36cd790",
   "OverridableProperties": {},
   "TemplateOriginalName": "da04feebfbed4b46acd4ea1f4394af0f",

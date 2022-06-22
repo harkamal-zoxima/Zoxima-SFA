@@ -64,9 +64,9 @@
             Fill: =If(ThisItem.Active, RGBA(0,0,0,0.6), Transparent)
             FocusedBorderThickness: =4
             Height: =70
-            HoverFill: =RGBA(103, 204, 107, 0.28)
+            HoverFill: =
             OnSelect: =Select(Parent)
-            PressedFill: =RGBA(103, 204, 107, 0.25)
+            PressedFill: =
             Width: =101
             X: =20
             ZIndex: =1

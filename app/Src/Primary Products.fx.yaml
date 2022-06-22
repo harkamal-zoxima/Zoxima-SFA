@@ -272,10 +272,6 @@
         Width: =640
         ZIndex: =2
 
-    "'Bottom Navigation_2' As 'Bottom Navigation'":
-        Y: =1056
-        ZIndex: =3
-
     Button1 As button:
         Align: =Align.Left
         BorderColor: =RGBA(0, 0, 0, 0)
