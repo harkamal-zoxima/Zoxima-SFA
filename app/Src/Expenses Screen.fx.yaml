@@ -4,7 +4,7 @@
 
     Gallery3_8 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
-        Height: =843
+        Height: =860
         Items: |-
             =//Filter(Filter(Accounts, 'Account Type' = Gallery4_5.Selected.Value), 'Customer Search_4'.Text in 'Account Name (name)')
             If(
@@ -25,7 +25,7 @@
         OnSelect: =
         ShowScrollbar: =false
         TemplateSize: =189
-        Y: =222
+        Y: =205
         ZIndex: =1
 
         HtmlText1_136 As htmlViewer:
@@ -361,7 +361,7 @@
         SelectedDateFill: =RGBA(255, 200, 61, 1)
         Width: =233
         X: =387
-        Y: =173
+        Y: =148
         ZIndex: =10
 
     "'Date Gallery_1' As gallery.galleryHorizontal":
@@ -376,7 +376,7 @@
         TemplateSize: =84
         Width: =360
         X: =20
-        Y: =166
+        Y: =141
         ZIndex: =11
 
         Button4_19 As button:
