@@ -196,7 +196,7 @@
             BorderThickness: =2
             DisabledFill: =RGBA(255, 200, 61, 1)
             DisplayMode: =DisplayMode.View
-            Fill: =RGBA(255, 191, 0, 0.32)
+            Fill: =RGBA(245, 122, 124, 0.54)
             Height: =200
             HoverFill: =
             PressedFill: =
@@ -210,7 +210,7 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 191, 0, 1)
+            Color: =RGBA(160, 0, 2, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
