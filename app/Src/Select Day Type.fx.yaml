@@ -139,24 +139,6 @@
         Y: =108
         ZIndex: =7
 
-    Image5_1 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =570
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: ='WhatsApp Image 2022-05-13 at 1.06.35 PM'
-        ImagePosition: =ImagePosition.Fill
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =640
-        Y: =486
-        ZIndex: =8
-
     Group2_5 As group:
         Height: =5
         Width: =5
@@ -167,7 +149,7 @@
         HtmlText2_3 As htmlViewer:
             Height: =65
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#FFBF00;  width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
             Width: =271
             X: =184
@@ -209,7 +191,7 @@
         HtmlText2_4 As htmlViewer:
             Height: =65
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#FFBF00; width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
             Width: =271
             X: =184
@@ -246,7 +228,7 @@
         HtmlText2_5 As htmlViewer:
             Height: =65
             HtmlText: |-
-                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                ="<div style='border-radius:10px; background-color:#FFBF00;  width:250px; height:50px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
             OnSelect: =Navigate('Submit Day', ScreenTransition.Fade)
             Width: =271
             X: =184
