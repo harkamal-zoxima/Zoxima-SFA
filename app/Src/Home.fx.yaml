@@ -1104,26 +1104,7 @@
                     FontWeight: =FontWeight.Semibold
                     Height: =36
                     Size: =17
-                    Text: |-
-                        =If(
-                            !IsBlank(
-                                LookUp(
-                                    Attendences,
-                                    IsToday('Attendance Date') && 'Created By'.User = LookUp(
-                                        Users,
-                                        'Primary Email' = User().Email
-                                    ).User
-                                ).'End Time'
-                            ),
-                                LookUp(
-                                    Attendences,
-                                    IsToday('Attendance Date') && 'Created By'.User = LookUp(
-                                        Users,
-                                        'Primary Email' = User().Email
-                                    ).User
-                                ).'Absent Reason',
-                            "No Record"
-                        )
+                    Text: ="Present"
                     Width: =126
                     X: =119
                     Y: =221
