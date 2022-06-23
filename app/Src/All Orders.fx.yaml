@@ -13,74 +13,59 @@
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =850
         Items: |-
-            =If(
-                IsBlank('Order Filter'.SelectedDate),
-                Sort(
-                        Switch(
-                            filter_2.Selected.Value,
-                            "Last 30 Days",
-                            Filter(
-                                Filter(
-                                    SalesOrders,
-                                    'Created By'.'Primary Email' = User().Email && 'Order Type' = 'Order Type1'.'254460000' && 'Order Status' = filter.Selected.Value
-                                ),
-                                'Order Date' > Today() - 30
-                            ),
-                            "Last 7 Days",
-                            Filter(
-                                Filter(
-                                    SalesOrders,
-                                    'Created By'.'Primary Email' = User().Email && 'Order Type' = 'Order Type1'.'254460000' && 'Order Status' = filter.Selected.Value
-                                ),
-                                'Order Date' > Today() - 7
-                            ),
-                            "Today's Orders",
-                            Filter(
-                                Filter(
-                                    SalesOrders,
-                                    'Created By'.'Primary Email' = User().Email && 'Order Type' = 'Order Type1'.'254460000' && 'Order Status' = filter.Selected.Value
-                                ),
-                                IsToday('Order Date')
-                            )
-                        ),
-                    'Created On',
-                    Descending
-                ),
-                Sort(
+            =If(IsBlank('Order Filter'.SelectedDate), Sort(Filter(Switch(
+                filter_2.Selected.Value,
+                "Last 30 Days",
+                Filter(
                     Filter(
-                        Switch(
-                            filter_2.Selected.Value,
-                            "Last 30 Days",
-                            Filter(
-                                Filter(
-                                    SalesOrders,
-                                    'Created By'.'Primary Email' = User().Email && 'Order Type' = 'Order Type1'.'254460000' && 'Order Status' = filter.Selected.Value
-                                ),
-                                'Order Date' > Today() - 30
-                            ),
-                            "Last 7 Days",
-                            Filter(
-                                Filter(
-                                    SalesOrders,
-                                    'Created By'.'Primary Email' = User().Email && 'Order Type' = 'Order Type1'.'254460000' && 'Order Status' = filter.Selected.Value
-                                ),
-                                'Order Date' > Today() - 7
-                            ),
-                            "Today's Orders",
-                            Filter(
-                                Filter(
-                                    SalesOrders,
-                                    'Created By'.'Primary Email' = User().Email && 'Order Type' = 'Order Type1'.'254460000' && 'Order Status' = filter.Selected.Value
-                                ),
-                                IsToday('Order Date')
-                            )
-                        ),
-                        'Order Date' = 'Order Filter'.SelectedDate
+                        SalesOrders,
+                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
                     ),
-                    'Created On',
-                    Descending
+                    'Order Date' > Today() - 30
+                ),
+                "Last 7 Days",
+                Filter(
+                    Filter(
+                        SalesOrders,
+                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
+                    ),
+                   'Order Date' > Today() - 7
+                ),
+                "Today's Orders",
+                Filter(
+                    Filter(
+                        SalesOrders,
+                       'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
+                    ),
+                    IsToday('Order Date' )
                 )
-            )
+            ), 'Order Date' = 'Order Filter'.SelectedDate), 'Created On', Descending), Sort(Filter(Switch(
+                filter_2.Selected.Value,
+                "Last 30 Days",
+                Filter(
+                    Filter(
+                        SalesOrders,
+                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
+                    ),
+                    'Order Date' > Today() - 30
+                ),
+                "Last 7 Days",
+                Filter(
+                    Filter(
+                        SalesOrders,
+                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
+                    ),
+                   'Order Date' > Today() - 7
+                ),
+                "Today's Orders",
+                Filter(
+                    Filter(
+                        SalesOrders,
+                       'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
+                    ),
+                    IsToday('Order Date' )
+                )
+            ), 'Order Date' = 'Order Filter'.SelectedDate), 'Created On', Descending))
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =201

@@ -513,37 +513,6 @@
             Y: =157
             ZIndex: =5
 
-            Rectangle4_4 As rectangle:
-                BorderColor: =RGBA(230, 230, 230, 1)
-                BorderThickness: =1
-                DisabledFill: =RGBA(166, 166, 166, 1)
-                Fill: =RGBA(237, 237, 237, 0.36)
-                FocusedBorderThickness: =4
-                Height: =201
-                HoverFill: =RGBA(255, 200, 61, 1)
-                OnSelect: =Select(Parent)
-                PressedFill: =
-                Width: =630
-                ZIndex: =1
-
-            Label13_11 As label:
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(255, 255, 255, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.Lato
-                FontWeight: =FontWeight.Semibold
-                Height: =70
-                OnSelect: =Select(Parent)
-                Size: =19
-                Text: =ThisItem.'Order Line ID'
-                Width: =377
-                X: =23
-                ZIndex: =2
-
             Label19_53 As label:
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None

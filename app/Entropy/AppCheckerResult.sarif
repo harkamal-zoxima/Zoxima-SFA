@@ -10534,7 +10534,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 458,
+                  "charOffset": 353,
                   "snippet": {
                     "text": "-"
                   }
@@ -10574,7 +10574,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 448,
+                  "charOffset": 343,
                   "snippet": {
                     "text": ">"
                   }
@@ -10614,7 +10614,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 822,
+                  "charOffset": 626,
                   "snippet": {
                     "text": "-"
                   }
@@ -10654,7 +10654,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 812,
+                  "charOffset": 616,
                   "snippet": {
                     "text": ">"
                   }
@@ -10693,10 +10693,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 21,
-                  "charOffset": 1165,
+                  "charLength": 22,
+                  "charOffset": 878,
                   "snippet": {
-                    "text": "IsToday('Order Date')"
+                    "text": "IsToday('Order Date' )"
                   }
                 }
               },
@@ -10734,7 +10734,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1696,
+                  "charOffset": 1296,
                   "snippet": {
                     "text": "-"
                   }
@@ -10774,7 +10774,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 1686,
+                  "charOffset": 1286,
                   "snippet": {
                     "text": ">"
                   }
@@ -10814,7 +10814,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2060,
+                  "charOffset": 1569,
                   "snippet": {
                     "text": "-"
                   }
@@ -10854,7 +10854,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2050,
+                  "charOffset": 1559,
                   "snippet": {
                     "text": ">"
                   }
@@ -10893,10 +10893,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 21,
-                  "charOffset": 2403,
+                  "charLength": 22,
+                  "charOffset": 1821,
                   "snippet": {
-                    "text": "IsToday('Order Date')"
+                    "text": "IsToday('Order Date' )"
                   }
                 }
               },
@@ -29091,36 +29091,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Order Info'.Gallery4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Order Info'.Gallery4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Order Info",
-                "type": "'Order Info'.Gallery4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 15
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Order Info'.Gallery4.TabIndex"
                 }
               ],
@@ -29145,6 +29115,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 16
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Order Info'.Gallery4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Order Info'.Gallery4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Order Info",
+                "type": "'Order Info'.Gallery4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 15
         },
         {
           "locations": [
