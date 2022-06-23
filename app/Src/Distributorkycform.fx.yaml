@@ -2197,7 +2197,7 @@ Distributorkycform As screen:
                         'Bank Code': TextInput3_56.Text,
                         'Bank Name': TextInput3_54.Text,
                         'Bank Address': TextInput3_55.Text,
-                        'Credit Term Pipes':TextInput3_59.Text,
+                        'Credit Term Pipes':Value(TextInput3_59),
                         'Credit Term Fittings': TextInput3_61.Text,
                         'Name of the Distributor': TextInput3_57.Text,
                         'Credit limit (In Rs.)': Value(TextInput3_60.Text),
