@@ -42,7 +42,7 @@ Profile As screen:
         Height: =152
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Image: =emp
+        Image: =User().Image
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         RadiusBottomLeft: =400
@@ -95,12 +95,12 @@ Profile As screen:
     TextInput2 As text:
         BorderColor: =RGBA(109, 109, 109, 1)
         BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(255, 191, 0, 1)
         Default: =User().Email
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayMode: =DisplayMode.Disabled
+        DisplayMode: =DisplayMode.View
         Fill: =RGBA(31, 31, 31, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
@@ -143,12 +143,12 @@ Profile As screen:
     TextInput2_1 As text:
         BorderColor: =RGBA(109, 109, 109, 1)
         BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(255, 191, 0, 1)
         Default: =User().FullName
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayMode: =DisplayMode.Disabled
+        DisplayMode: =DisplayMode.View
         Fill: =RGBA(31, 31, 31, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
@@ -191,7 +191,7 @@ Profile As screen:
     Birth As text:
         BorderColor: =RGBA(109, 109, 109, 1)
         BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(255, 191, 0, 1)
         Default: ="05-01-1999"
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(128, 128, 128, 1)
@@ -239,12 +239,12 @@ Profile As screen:
     TextInput2_3 As text:
         BorderColor: =RGBA(109, 109, 109, 1)
         BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(255, 191, 0, 1)
         Default: ="Retail"
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayMode: =DisplayMode.Disabled
+        DisplayMode: =DisplayMode.View
         Fill: =RGBA(31, 31, 31, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
@@ -278,7 +278,7 @@ Profile As screen:
         FontWeight: =FontWeight.Semibold
         Height: =46
         Size: =18
-        Text: ="Email Address"
+        Text: ="Designation"
         Width: =560
         X: =40
         Y: =832
@@ -287,12 +287,12 @@ Profile As screen:
     TextInput2_4 As text:
         BorderColor: =RGBA(109, 109, 109, 1)
         BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
-        Default: =User().Email
+        Color: =RGBA(255, 191, 0, 1)
+        Default: =LookUp(Users, 'Primary Email' = User().Email).'Designation (cr431_designation1)'
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(128, 128, 128, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayMode: =DisplayMode.Disabled
+        DisplayMode: =DisplayMode.View
         Fill: =RGBA(31, 31, 31, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
@@ -375,7 +375,7 @@ Profile As screen:
         HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.Edit
-        OnSelect: =Set(varBirthdateVisibility, DisplayMode.Edit)
+        OnSelect: =Set(varBirthdateVisibility, DisplayMode.View)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         PressedFill: =RGBA(0, 0, 0, 0)

@@ -2660,14 +2660,7 @@
     "DatePicker2": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "datadis.'Date of Birth'",
-          "InvariantPropertyName": "DefaultDate",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DefaultDate",
         "DateTimeZone",
         "Format",
         {
@@ -3006,14 +2999,7 @@
     "DatePicker2_1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "datadis.'Year of Establishment'",
-          "InvariantPropertyName": "DefaultDate",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DefaultDate",
         "DateTimeZone",
         "Format",
         "InputTextPlaceholder",
@@ -22579,14 +22565,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "datadis.'Constitution of the firm'",
-          "InvariantPropertyName": "Default",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Default",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,

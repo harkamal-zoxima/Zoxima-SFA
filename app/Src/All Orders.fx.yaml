@@ -13,7 +13,7 @@
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =850
         Items: |-
-            =Sort(Switch(
+            =If(IsBlank('Order Filter'.SelectedDate), Sort(Filter(Switch(
                 filter_2.Selected.Value,
                 "Last 30 Days",
                 Filter(
@@ -39,7 +39,33 @@
                     ),
                     IsToday('Order Date' )
                 )
-            ), 'Created On', Descending)
+            ), 'Order Date' = 'Order Filter'.SelectedDate), 'Created On', Descending), Sort(Filter(Switch(
+                filter_2.Selected.Value,
+                "Last 30 Days",
+                Filter(
+                    Filter(
+                        SalesOrders,
+                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
+                    ),
+                    'Order Date' > Today() - 30
+                ),
+                "Last 7 Days",
+                Filter(
+                    Filter(
+                        SalesOrders,
+                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
+                    ),
+                   'Order Date' > Today() - 7
+                ),
+                "Today's Orders",
+                Filter(
+                    Filter(
+                        SalesOrders,
+                       'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
+                    ),
+                    IsToday('Order Date' )
+                )
+            ), 'Order Date' = 'Order Filter'.SelectedDate), 'Created On', Descending))
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =201
@@ -590,10 +616,10 @@
         Color: =RGBA(242, 242, 242, 1)
         Height: =54
         HtmlText: |-
-            ="<div style='border-radius:10px 10px 10px 10px; background-color:#FFF; width:120px; height:40px'></div>"
+            ="<div style='border-radius:10px 10px 10px 10px; background-color:#FFF; width:100px; height:40px'></div>"
         OnSelect: =
-        Width: =131
-        X: =502
+        Width: =113
+        X: =517
         Y: =12
         ZIndex: =18
 
@@ -611,8 +637,8 @@
         Height: =26
         OnSelect: =Set(VarRetailerDialog, true)
         Text: ="New"
-        Width: =95
-        X: =520
+        Width: =84
+        X: =531
         Y: =24
         ZIndex: =19
 
@@ -647,61 +673,6 @@
                 )
         Y: =1056
         ZIndex: =20
-
-    Group10 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =20
-
-        "'Completed html_6' As htmlViewer":
-            Color: =RGBA(242, 242, 242, 1)
-            Height: =57
-            HtmlText: |-
-                ="<div style='border-radius:10px 10px 10px 10px; background-color:#FFF; width:120px; height:40px'></div>"
-            OnSelect: =
-            Width: =137
-            X: =371
-            Y: =12
-            ZIndex: =15
-
-        Label22 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Lato
-            FontWeight: =FontWeight.Semibold
-            Height: =26
-            Text: ="Filter"
-            Width: =67
-            X: =417
-            Y: =24
-            ZIndex: =16
-
-        Icon5 As icon.FilterFlat:
-            BorderColor: =RGBA(109, 109, 109, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =20
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.FilterFlat
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =20
-            X: =399
-            Y: =28
-            ZIndex: =17
 
     filter As gallery.galleryHorizontal:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -823,6 +794,28 @@
         Visible: =VarRetailerDialog
         Width: =640
         ZIndex: =25
+
+    "'Order Filter' As datepicker":
+        BorderColor: =RGBA(109, 109, 109, 1)
+        CalendarHeaderFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        Color: =RGBA(22, 22, 22, 1)
+        DefaultDate: =
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        HoverDateFill: =RGBA(144, 144, 144, 1)
+        IconBackground: =
+        IconFill: =Black
+        InputTextPlaceholder: ="Select Date"
+        PaddingTop: =5
+        SelectedDateFill: =RGBA(255, 200, 61, 1)
+        Size: =15
+        Width: =203
+        X: =305
+        Y: =18
+        ZIndex: =33
 
     Group26_1 As group:
         Height: =5
