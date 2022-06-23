@@ -3884,7 +3884,7 @@
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Value\":\"zx_territoryname\"}",
+          "NameMap": "{\"Value\":\"cr431_name\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },

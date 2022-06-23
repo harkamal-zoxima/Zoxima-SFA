@@ -7,8 +7,31 @@ DistributorOnboarding As screen:
         BorderStyle: =BorderStyle.None
         Height: =659
         Items: |-
-            =Filter(If(Gallery14.Selected.Title = "Draft", Filter('Distributor Onboardings', statusmain = 'statusmain (Distributor Onboardings)'.Draft), Gallery14.Selected.Title = "Pending for approval", Filter('Distributor Onboardings', statusmain = 'statusmain (Distributor Onboardings)'.Pending),Gallery14.Selected.Title = "Approved", Filter('Distributor Onboardings', statusmain = 'statusmain (Distributor Onboardings)'.Approved),Gallery14.Selected.Title = "Reject", Filter('Distributor Onboardings', statusmain = 'statusmain (Distributor Onboardings)'.Rejected)),
-             TextInput4.Text in 'Name of the Firm')
+            =Filter(
+                If(
+                    Gallery14.Selected.Title = "Draft",
+                    Filter(
+                        'Distributor Onboardings',
+                        statusmain = 'statusmain (Distributor Onboardings)'.Draft
+                    ),
+                    Gallery14.Selected.Title = "Pending for approval",
+                    Filter(
+                        'Distributor Onboardings',
+                        statusmain = 'statusmain (Distributor Onboardings)'.Pending
+                    ),
+                    Gallery14.Selected.Title = "Approved",
+                    Filter(
+                        'Distributor Onboardings',
+                        statusmain = 'statusmain (Distributor Onboardings)'.Approved
+                    ),
+                    Gallery14.Selected.Title = "Reject",
+                    Filter(
+                        'Distributor Onboardings',
+                        statusmain = 'statusmain (Distributor Onboardings)'.Rejected
+                    )
+                ),
+                TextInput4.Text in 'Name of the Firm'
+            )
         Layout: =Layout.Vertical
         TemplateSize: =484
         Y: =372

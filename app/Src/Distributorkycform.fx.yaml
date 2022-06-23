@@ -943,7 +943,7 @@ Distributorkycform As screen:
                     Items: |-
                         =Filter(
                             'Sales Territories',
-                            'Sales Territories (Views)'.'L6 Area',
+                            'Sales Territories (Views)'.'f60367f2-08f2-ec11-bb3c-000d3aca358f',
                             'Parent City'.'Sales Territory' = Dropdown3.Selected.cr431_salesterritoryid
                         )
                         /*Filter(
@@ -2152,128 +2152,154 @@ Distributorkycform As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(230, 71, 71, 1)
         OnSelect: |
-            =If(Create,Patch(
-                'Distributor Onboardings',
-                Defaults('Distributor Onboardings'),
-                {
-                   'Name of the Firm': TextInput3_2.Text,
-                     'Constitution of the firm': Radio1_2.Selected.Value,
-                    'First Name': Left(
-                        Label52_16.Text,
-                        Find(
-                            " ",
-                            Label52_16.Text
+            =If(
+                Create,
+                Patch(
+                    'Distributor Onboardings',
+                    Defaults('Distributor Onboardings'),
+                    {
+                        'Name of the Firm': TextInput3_2.Text,
+                        'Constitution of the firm': Radio1_2.Selected.Value,
+                        'First Name': Left(
+                            Label52_16.Text,
+                            Find(
+                                " ",
+                                Label52_16.Text
+                            )
+                        ),
+                        'Last Name': Right(
+                            Label52_16.Text,
+                            Find(
+                                " ",
+                                Label52_16.Text
+                            )
+                        ),
+                        'Date of Birth': DatePicker2.SelectedDate,
+                        'Year of Establishment': DatePicker2_1.SelectedDate,
+                        'Mobile No.': TextInput3_26.Text,
+                        'Telephone No.': TextInput3_29.Text,
+                        'Fax No.': TextInput3_62.Text,
+                        'Alt Mobile No.': TextInput3_63.Text,
+                        'Address 1': TextInput3_3.Text,
+                        'Address 2': TextInput3_64.Text,
+                        'Post Code': TextInput3_65.Text,
+                        'Gross Turnover (Per Annum)': Radio1_3.Selected.Value,
+                        'Cibil score': TextInput3_30.Text,
+                        Remarks: TextInput3_33.Text,
+                        'GST Registration Type': Dropdown2.Selected.Value,
+                        'GST No.': TextInput3_51.Text,
+                        'PAN No.': TextInput3_34.Text,
+                        'AADHAR No.': TextInput3_50.Text,
+                        'Declaration Type': ComboBox2.Selected.Value,
+                        'Account No.': TextInput3_52.Text,
+                        'IFSC Code': TextInput3_53.Text,
+                        'Bank Code': TextInput3_56.Text,
+                        'Bank Name': TextInput3_54.Text,
+                        'Bank Address': TextInput3_55.Text,
+                        // 'Credit Term Pipes':TextInput3_59.Text,
+                        'Credit Term Fittings': TextInput3_61.Text,
+                        'Name of the Distributor': TextInput3_57.Text,
+                        'Credit limit (In Rs.)': Value(TextInput3_60.Text),
+                        'Deposit Amount': Value(TextInput3_58.Text),
+                        //'Sub State': TextInput3_94.Text,
+                        statusmain: 'statusmain (Distributor Onboardings)'.Draft,
+                        'Sub State': LookUp(
+                            'Sales Territories',
+                            'Sales Territory' = Last(
+                                FirstN(
+                                    SubStates,
+                                    2
+                                )
+                            ).cr431_salesterritoryid
+                        ),
+                        // District: TextInput3_95.Text,
+                        State: LookUp(
+                            'Sales Territories',
+                            'Sales Territory' = Last(
+                                FirstN(
+                                    States,
+                                    2
+                                )
+                            ).cr431_salesterritoryid
+                        ),
+                        'City': LookUp(
+                            'Sales Territories',
+                            'Sales Territory' = Last(
+                                FirstN(
+                                    Cities,
+                                    2
+                                )
+                            ).cr431_salesterritoryid
                         )
-                    ),
-            'Last Name': Right(
-                        Label52_16.Text,
-                        Find(
-                            " ",
-                            Label52_16.Text
-                        )
-                    ),
-                    'Date of Birth': DatePicker2.SelectedDate,
-                    'Year of Establishment': DatePicker2_1.SelectedDate,
-                    'Mobile No.': TextInput3_26.Text,
-                    'Telephone No.': TextInput3_29.Text,
-                    'Fax No.': TextInput3_62.Text,
-                    'Alt Mobile No.': TextInput3_63.Text,
-                    'Address 1': TextInput3_3.Text,
-                    'Address 2': TextInput3_64.Text,
-                    'Post Code': TextInput3_65.Text,
-                  'Gross Turnover (Per Annum)': Radio1_3.Selected.Value,
-                  'Cibil score':TextInput3_30.Text,
-                   Remarks:TextInput3_33.Text,
-                   'GST Registration Type':Dropdown2.Selected.Value,
-                   'GST No.': TextInput3_51.Text,
-                   'PAN No.':TextInput3_34.Text,
-                   'AADHAR No.':TextInput3_50.Text,
-                   'Declaration Type':ComboBox2.Selected.Value,
-                   'Account No.':TextInput3_52.Text,
-                   'IFSC Code':TextInput3_53.Text,
-                   'Bank Code':TextInput3_56.Text,
-                   'Bank Name':TextInput3_54.Text,
-                   'Bank Address':TextInput3_55.Text,
-                  // 'Credit Term Pipes':TextInput3_59.Text,
-                    'Credit Term Fittings':TextInput3_61.Text,
-                    'Name of the Distributor':TextInput3_57.Text,
-                   'Credit limit (In Rs.)':Value(TextInput3_60.Text),
-                   'Deposit Amount':Value(TextInput3_58.Text),
-                    //'Sub State': TextInput3_94.Text,
-                   'Sub State': LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(SubStates,2)).cr431_salesterritoryid),
-                    // District: TextInput3_95.Text,
-                    State: LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(States,2)).cr431_salesterritoryid),
-                   'City': LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(Cities,2)).cr431_salesterritoryid)
-            
                   //  'Area': ComboBox3_5.Selected.Value
                    // 'Billing State': ComboBox3_1.Selected.Value
                     // Zone: ComboBox3.Selected.Value
                    // Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)
-                  
-                }
-                
-            );Notify("Successfuly added!")
-            ,Patch(
-                'Distributor Onboardings',
-                LookUp('Distributor Onboardings', ' Record Id' = datadis.' Record Id' ), 
-                {
-                  'Name of the Firm': TextInput3_2.Text,
-                     'Constitution of the firm': Radio1_2.Selected.Value,
-                    'First Name': Left(
-                        Label52_16.Text,
-                        Find(
-                            " ",
-                            Label52_16.Text
-                        )
+                    }
+                );
+                Notify("Successfuly added!"),
+                Patch(
+                    'Distributor Onboardings',
+                    LookUp(
+                        'Distributor Onboardings',
+                        ' Record Id' = datadis.' Record Id'
                     ),
-            'Last Name': Right(
-                        Label52_16.Text,
-                        Find(
-                            " ",
-                            Label52_16.Text
-                        )
-                    ),
-                    'Date of Birth': DatePicker2.SelectedDate,
-                    'Year of Establishment': DatePicker2_1.SelectedDate,
-                    'Mobile No.': TextInput3_26.Text,
-                    'Telephone No.': TextInput3_29.Text,
-                    'Fax No.': TextInput3_62.Text,
-                    'Alt Mobile No.': TextInput3_63.Text,
-                    'Address 1': TextInput3_3.Text,
-                    'Address 2': TextInput3_64.Text,
-                    'Post Code': TextInput3_65.Text,
-                  'Gross Turnover (Per Annum)': Radio1_3.Selected.Value,
-                  'Cibil score':TextInput3_30.Text,
-                   Remarks:TextInput3_33.Text,
-                   'GST Registration Type':Dropdown2.Selected.Value,
-                   'GST No.': TextInput3_51.Text,
-                   'PAN No.':TextInput3_34.Text,
-                   'AADHAR No.':TextInput3_50.Text,
-                   'Declaration Type':ComboBox2.Selected.Value,
-                   'Account No.':TextInput3_52.Text,
-                   'IFSC Code':TextInput3_53.Text,
-                   'Bank Code':TextInput3_56.Text,
-                   'Bank Name':TextInput3_54.Text,
-                   'Bank Address':TextInput3_55.Text,
-                  // 'Credit Term Pipes':TextInput3_59.Text,
-                    'Credit Term Fittings':TextInput3_61.Text,
-                    'Name of the Distributor':TextInput3_57.Text,
-                   'Credit limit (In Rs.)':Value(TextInput3_60.Text),
-                   'Deposit Amount':Value(TextInput3_58.Text)
-                    
+                    {
+                        'Name of the Firm': TextInput3_2.Text,
+                        'Constitution of the firm': Radio1_2.Selected.Value,
+                        'First Name': Left(
+                            Label52_16.Text,
+                            Find(
+                                " ",
+                                Label52_16.Text
+                            )
+                        ),
+                        'Last Name': Right(
+                            Label52_16.Text,
+                            Find(
+                                " ",
+                                Label52_16.Text
+                            )
+                        ),
+                        'Date of Birth': DatePicker2.SelectedDate,
+                        'Year of Establishment': DatePicker2_1.SelectedDate,
+                        'Mobile No.': TextInput3_26.Text,
+                        'Telephone No.': TextInput3_29.Text,
+                        'Fax No.': TextInput3_62.Text,
+                        'Alt Mobile No.': TextInput3_63.Text,
+                        'Address 1': TextInput3_3.Text,
+                        'Address 2': TextInput3_64.Text,
+                        'Post Code': TextInput3_65.Text,
+                        'Gross Turnover (Per Annum)': Radio1_3.Selected.Value,
+                        'Cibil score': TextInput3_30.Text,
+                        Remarks: TextInput3_33.Text,
+                        'GST Registration Type': Dropdown2.Selected.Value,
+                        'GST No.': TextInput3_51.Text,
+                        'PAN No.': TextInput3_34.Text,
+                        'AADHAR No.': TextInput3_50.Text,
+                        'Declaration Type': ComboBox2.Selected.Value,
+                        'Account No.': TextInput3_52.Text,
+                        'IFSC Code': TextInput3_53.Text,
+                        'Bank Code': TextInput3_56.Text,
+                        'Bank Name': TextInput3_54.Text,
+                        'Bank Address': TextInput3_55.Text,
+                        // 'Credit Term Pipes':TextInput3_59.Text,
+                        'Credit Term Fittings': TextInput3_61.Text,
+                        'Name of the Distributor': TextInput3_57.Text,
+                        'Credit limit (In Rs.)': Value(TextInput3_60.Text),
+                        'Deposit Amount': Value(TextInput3_58.Text)
                     //'Sub State': TextInput3_94.Text,
                    //'Sub State': LookUp('Sales Territories', 'Sales Territories' = Last(FirstN(SubStates,2)).cr431_salesterritoryid),
                     // District: TextInput3_95.Text,
                    // 'Billing State': LookUp('Sales Territories', 'Sales Territories' = Last(FirstN(States,2)).cr431_salesterritoryid),
-            
                   // 'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),
                   //  'Area': ComboBox3_5.Selected.Value
                    // 'Billing State': ComboBox3_1.Selected.Value
                     // Zone: ComboBox3.Selected.Value
                    // Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)
-                  
-                }
-            ); Notify("Update successfully")
+                    }
+                );
+                Notify("Update successfully")
             );
             Navigate(DistributorOnboarding);
         Size: =24
