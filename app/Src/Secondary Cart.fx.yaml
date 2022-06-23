@@ -285,9 +285,8 @@
                             {
                                 Quantity: Value(ThisRecord.qty),
                                 'Bill Amoount': ThisRecord.price,
-                                'Order No': LookUp(
+                                'Sales Order No': LookUp(
                                     SalesOrders, 'Order ID' = First(CreateOrderRecord).'Order ID'
-                                   // 'Order ID' = First(CreateOrderRecord).'Order ID'
                                 )
                             }
                         )
@@ -303,7 +302,7 @@
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         Size: =18
         Text: ="CONFIRM ORDER"
-        Visible: =If(CountRows(PrimaryCart)>0, true, false)
+        Visible: =If(CountRows(SecondaryCart)>0, true, false)
         Width: =278
         X: =181
         Y: =980
