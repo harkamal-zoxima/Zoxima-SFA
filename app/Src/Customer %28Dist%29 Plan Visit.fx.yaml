@@ -269,7 +269,7 @@
                         !VarDialogOpen
                     );
                     ClearCollect(
-                        VisitData,
+                        SingleNewVisit,
                         {
                             Customer: ThisItem.Account,
                             'Visit Type': 'Visit Type (Visits_1)'.Planned
@@ -303,7 +303,7 @@
                         !VarDialogOpen
                     );
                     ClearCollect(
-                        VisitData,
+                        SingleNewVisit,
                         {
                             Customer: ThisItem.Account,
                             'Visit Type': 'Visit Type (Visits_1)'.Planned
@@ -452,6 +452,7 @@
             =ColorValue("#A00002")
         IconFill: =RGBA(255,255,255,1)
         InputTextPlaceholder: ="Select Date"
+        OnChange: =Set(VarPlanVisitDate,DatePicker3_1.SelectedDate )
         PaddingTop: =5
         SelectedDateFill: =RGBA(255, 200, 61, 1)
         Width: =233
@@ -463,7 +464,7 @@
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =64
         Items: =[Today()+1, Today()+2, Today()+3, Today()+4]
-        OnSelect: =
+        OnSelect: =Set(VarPlanVisitDate, ThisItem.Value)
         ShowScrollbar: =false
         TemplateSize: =84
         Width: =360
@@ -614,7 +615,50 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(31, 31, 31, 1)
             HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-            OnSelect: =
+            OnSelect: |-
+                =If(
+                    !IsBlank(
+                        LookUp(
+                            Visits_1,
+                            Customer.Account = First(SingleNewVisit).Customer && 'Visit Date' = SelectedVisitDate && 'Created By'.'Primary Email' = LookUp(
+                                Users,
+                                'Primary Email' = User().Email
+                            ).'Primary Email'
+                        )
+                    ),
+                    Notify(
+                        "One visit is already there for this customer",
+                        NotificationType.Error,
+                        2000
+                    );
+                    Set(
+                        VarDialogOpen,
+                        false
+                    );
+                    ,
+                    Patch(
+                        Visits_1,
+                        Defaults(Visits_1),
+                        {
+                            'Visit Date': SelectedVisitDate,
+                            Customer: LookUp(
+                                Accounts,
+                                Account = First(SingleNewVisit).Customer
+                            ),
+                            'Visit Type': 'Visit Type (Visits_1)'.Planned,
+                            status: 'status (Visits_1)'.Open
+                        }
+                    );
+                    Navigate(
+                        Visits,
+                        ScreenTransition.Fade
+                    );
+                    
+                );
+                Set(
+                    VarVisit,
+                    true
+                )
             PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
             PressedColor: =RGBA(31, 31, 31, 1)
             PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
