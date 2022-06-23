@@ -1,5 +1,5 @@
 Distributorkycform As screen:
-    Fill: =RGBA(31, 31, 31, 1)
+    Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
 
     Button21 As button:
@@ -79,7 +79,7 @@ Distributorkycform As screen:
 
                 TextInput3_2 As text:
                     BorderColor: =RGBA(89, 0, 0, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =datadis.'Name of the Firm'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -88,7 +88,7 @@ Distributorkycform As screen:
                     Height: =50
                     HintText: ="Enter Firm Name"
                     HoverBorderColor: =RGBA(89, 0, 0, 1)
-                    HoverColor: =RGBA(0, 0, 0, 1)
+                    HoverColor: =RGBA(165, 165, 165, 1)
                     HoverFill: =RGBA(0, 0, 0, 0)
                     OnSelect: =Set(ClearFieldsForDO, false);
                     Reset: |+
@@ -127,7 +127,7 @@ Distributorkycform As screen:
                     ZIndex: =5
 
                 TextInput3_23 As text:
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =datadis.'First Name'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -187,7 +187,7 @@ Distributorkycform As screen:
                     ZIndex: =9
 
                 TextInput3_26 As text:
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =datadis.'Mobile No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -220,7 +220,7 @@ Distributorkycform As screen:
                     ZIndex: =11
 
                 TextInput3_29 As text:
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =datadis.'Telephone No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -242,7 +242,7 @@ Distributorkycform As screen:
                 DatePicker2 As datepicker:
                     BorderColor: =RGBA(89, 0, 0, 1)
                     CalendarHeaderFill: =RGBA(164, 38, 44, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     DefaultDate: =datadis.'Date of Birth'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -265,7 +265,7 @@ Distributorkycform As screen:
                 DatePicker2_1 As datepicker:
                     BorderColor: =RGBA(89, 0, 0, 1)
                     CalendarHeaderFill: =RGBA(164, 38, 44, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     DefaultDate: =datadis.'Year of Establishment'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -296,7 +296,7 @@ Distributorkycform As screen:
                     ZIndex: =15
 
                 TextInput3_62 As text:
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =datadis.'Fax No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -329,7 +329,7 @@ Distributorkycform As screen:
                     ZIndex: =17
 
                 TextInput3_63 As text:
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =datadis.'Alt Mobile No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -376,7 +376,7 @@ Distributorkycform As screen:
 
                 TextInput3_3 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =datadis.'Address 1'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -410,7 +410,7 @@ Distributorkycform As screen:
 
                 TextInput3_64 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =datadis.'Address 2'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -445,7 +445,7 @@ Distributorkycform As screen:
 
                 TextInput3_65 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: |-
                         =datadis.'Post Code'
                         //Filter('Sales Territory', Pare
@@ -657,7 +657,7 @@ Distributorkycform As screen:
 
                 TextInput3_66 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =If(Checkbox2_1.Value, datadis.'Address 2' )
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -690,7 +690,7 @@ Distributorkycform As screen:
 
                 TextInput3_67 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =If(Checkbox2_1.Value, TextInput3_65.Text)
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -787,7 +787,7 @@ Distributorkycform As screen:
 
                 TextInput3_4 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =If(Checkbox2_1.Value, datadis.'Address 1' )
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -807,7 +807,7 @@ Distributorkycform As screen:
 
                 TextInput3_92 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: |-
                         =//First(Distinct('Sales Territory', 'Parent Zone'))
                         //First(Distinct('Sales Territory', 'Zones'))
@@ -834,7 +834,7 @@ Distributorkycform As screen:
 
                 TextInput3_93 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =Last(FirstN(States,2)).cr431_territoryname
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -856,7 +856,7 @@ Distributorkycform As screen:
 
                 TextInput3_94 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =Last(FirstN(SubStates,2)).cr431_territoryname
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -878,7 +878,7 @@ Distributorkycform As screen:
 
                 TextInput3_95 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =Last(FirstN(Districts,2)).cr431_territoryname
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -905,6 +905,7 @@ Distributorkycform As screen:
                     ChevronDisabledFill: =RGBA(244, 244, 244, 1)
                     ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
                     ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -931,6 +932,7 @@ Distributorkycform As screen:
                     ChevronDisabledFill: =RGBA(244, 244, 244, 1)
                     ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
                     ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: =""
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -963,7 +965,7 @@ Distributorkycform As screen:
 
                 TextInput3_96 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: |-
                         =//First(Distinct('Sales Territory', 'Parent Zone'))
                         //First(Distinct('Sales Territory', 'Zones'))
@@ -989,7 +991,7 @@ Distributorkycform As screen:
 
                 TextInput3_97 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: |-
                         =//First(Distinct('Sales Territory', 'Parent Zone'))
                         //First(Distinct('Sales Territory', 'Zones'))
@@ -1015,7 +1017,7 @@ Distributorkycform As screen:
 
                 TextInput3_98 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: |-
                         =//First(Distinct('Sales Territory', 'Parent Zone'))
                         //First(Distinct('Sales Territory', 'Zones'))
@@ -1042,7 +1044,7 @@ Distributorkycform As screen:
 
                 TextInput3_99 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     Default: |-
                         =//First(Distinct('Sales Territory', 'Parent Zone'))
                         //First(Distinct('Sales Territory', 'Zones'))
@@ -1074,6 +1076,7 @@ Distributorkycform As screen:
                     ChevronDisabledFill: =RGBA(244, 244, 244, 1)
                     ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
                     ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1097,6 +1100,7 @@ Distributorkycform As screen:
                     ChevronDisabledFill: =RGBA(244, 244, 244, 1)
                     ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
                     ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(255, 0, 0, 1)
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1167,7 +1171,7 @@ Distributorkycform As screen:
 
                 TextInput3_30 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Cibil score'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1201,7 +1205,7 @@ Distributorkycform As screen:
 
                 TextInput3_33 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.Remarks
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1501,7 +1505,7 @@ Distributorkycform As screen:
                                     ZIndex: =5
 
                 Radio1_3 As radio:
-                    Color: =RGBA(164, 164, 164, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Gross Turnover (Per Annum)'
                     Height: =106
                     HoverColor: =RGBA(0, 18, 107, 1)
@@ -1509,7 +1513,7 @@ Distributorkycform As screen:
                     Layout: =Layout.Horizontal
                     OnSelect: =Set(ClearFieldsForDO, false)
                     RadioBorderColor: =RGBA(238, 49, 55, 1)
-                    RadioSelectionFill: =RGBA(238, 49, 55, 1)
+                    RadioSelectionFill: =RGBA(184, 0, 0, 1)
                     RadioSize: =40
                     Reset: =ClearFieldsForDO
                     Size: =18
@@ -1541,7 +1545,7 @@ Distributorkycform As screen:
 
                 TextInput3_34 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'PAN No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1575,7 +1579,7 @@ Distributorkycform As screen:
 
                 TextInput3_50 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'AADHAR No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1609,7 +1613,7 @@ Distributorkycform As screen:
 
                 TextInput3_51 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'GST No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1650,6 +1654,7 @@ Distributorkycform As screen:
                     ChevronFill: =RGBA(88, 103, 130, 1)
                     ChevronHoverBackground: =ColorFade(RGBA(56, 96, 178, 1), -20%)
                     ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'GST Registration Type'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1692,7 +1697,7 @@ Distributorkycform As screen:
 
                 TextInput3_52 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Account No.'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1726,7 +1731,7 @@ Distributorkycform As screen:
 
                 TextInput3_53 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'IFSC Code'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1760,7 +1765,7 @@ Distributorkycform As screen:
 
                 TextInput3_54 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Bank Code'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1794,7 +1799,7 @@ Distributorkycform As screen:
 
                 TextInput3_55 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Bank Address'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1828,7 +1833,7 @@ Distributorkycform As screen:
 
                 TextInput3_56 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Bank Code'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1849,7 +1854,7 @@ Distributorkycform As screen:
 
                 Label52_35 As label:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =50
@@ -1861,7 +1866,7 @@ Distributorkycform As screen:
 
                 TextInput3_57 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Name of the Distributor'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1895,7 +1900,7 @@ Distributorkycform As screen:
 
                 TextInput3_58 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Deposit Amount'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1929,7 +1934,7 @@ Distributorkycform As screen:
 
                 TextInput3_59 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Credit Term Pipes'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1963,7 +1968,7 @@ Distributorkycform As screen:
 
                 TextInput3_60 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Credit limit (In Rs.)'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -2004,6 +2009,7 @@ Distributorkycform As screen:
                     ChevronFill: =RGBA(88, 103, 130, 1)
                     ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
                     ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -2044,7 +2050,7 @@ Distributorkycform As screen:
 
                 TextInput3_61 As text:
                     BorderColor: =RGBA(0, 18, 107, 1)
-                    Color: =RGBA(0, 0, 0, 1)
+                    Color: =RGBA(255, 255, 255, 1)
                     Default: =datadis.'Credit Term Fittings'
                     DisabledBorderColor: =RGBA(166, 166, 166, 1)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -2175,35 +2181,35 @@ Distributorkycform As screen:
                     'Address 1': TextInput3_3.Text,
                     'Address 2': TextInput3_64.Text,
                     'Post Code': TextInput3_65.Text,
-                  'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,
-                  'Cibil Score':TextInput3_30.Text,
+                  'Gross Turnover (Per Annum)': Radio1_3.Selected.Value,
+                  'Cibil score':TextInput3_30.Text,
                    Remarks:TextInput3_33.Text,
-                   'GST Reg Type':Dropdown2.Selected.Value,
+                   'GST Registration Type':Dropdown2.Selected.Value,
                    'GST No.': TextInput3_51.Text,
                    'PAN No.':TextInput3_34.Text,
                    'AADHAR No.':TextInput3_50.Text,
-                   Declaration:ComboBox2.Selected.Value,
+                   'Declaration Type':ComboBox2.Selected.Value,
                    'Account No.':TextInput3_52.Text,
                    'IFSC Code':TextInput3_53.Text,
-                   'Branch code':TextInput3_56.Text,
-                   'Bank Name':TextInput3_54.Text,
+                   'Bank Code':TextInput3_56.Text,
+                  // 'Bank Name':TextInput3_54.Text,
                    'Bank Address':TextInput3_55.Text,
-                   'Credit term pipes':TextInput3_59.Text,
+                  // 'Credit Term Pipes':TextInput3_59.Text,
                     'Credit Term Fittings':TextInput3_61.Text,
-                    'Name of nearest Distributor with distance':TextInput3_57.Text,
-                   'Credit Limit (Base)':Value(TextInput3_60.Text),
-                   'Deposit Amount':Value(TextInput3_58.Text),
+                    'Name of the Distributor':TextInput3_57.Text,
+                   'Credit limit (In Rs.)':Value(TextInput3_60.Text),
+                   'Deposit Amount':Value(TextInput3_58.Text)
                     
                     //'Sub State': TextInput3_94.Text,
-                   'Sub State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(SubStates,2)).zx_salesterritoryid),
+                   //'Sub State': LookUp('Sales Territories', 'Sales Territories' = Last(FirstN(SubStates,2)).cr431_salesterritoryid),
                     // District: TextInput3_95.Text,
-                    'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),
+                   // 'Billing State': LookUp('Sales Territories', 'Sales Territories' = Last(FirstN(States,2)).cr431_salesterritoryid),
             
-                   'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),
+                  // 'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),
                   //  'Area': ComboBox3_5.Selected.Value
                    // 'Billing State': ComboBox3_1.Selected.Value
                     // Zone: ComboBox3.Selected.Value
-                    Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)
+                   // Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)
                   
                 }
                 
@@ -2212,7 +2218,7 @@ Distributorkycform As screen:
                 'Distributor Onboardings',
                 LookUp('Distributor Onboardings', ' Record Id' = datadis.' Record Id' ), 
                 {
-                   'Name of the Firm': TextInput3_2.Text,
+                  'Name of the Firm': TextInput3_2.Text,
                      'Constitution of the firm': Radio1_2.Selected.Value,
                     'First Name': Left(
                         Label52_16.Text,
@@ -2221,7 +2227,7 @@ Distributorkycform As screen:
                             Label52_16.Text
                         )
                     ),
-                    'Last Name': Right(
+            'Last Name': Right(
                         Label52_16.Text,
                         Find(
                             " ",
@@ -2233,39 +2239,40 @@ Distributorkycform As screen:
                     'Mobile No.': TextInput3_26.Text,
                     'Telephone No.': TextInput3_29.Text,
                     'Fax No.': TextInput3_62.Text,
-                    'Alternate Mobile No.': TextInput3_63.Text,
-                    'Billing Address 1': TextInput3_3.Text,
-                    'Billing Address 2': TextInput3_64.Text,
-                    'Billing Post Code': TextInput3_65.Text,
-                    Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid),
-                    
-                    'Billing State': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(States,2)).zx_salesterritoryid),
-                   // District: TextInput3_95.Text,
-            
-                   'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),
-            
-                  //  'Area': ComboBox3_5.Selected.Value
-                   // 'Billing State': ComboBox3_1.Selected.Value
-                  //  Zone: ComboBox3.Selected.Value
-                  'Gross Turnover(Per Annum)': Radio1_3.Selected.Value,
-                  'Cibil Score':TextInput3_30.Text,
-                  'Dealing with PVC': Radio1_4.Selected.Value,
+                    'Alt Mobile No.': TextInput3_63.Text,
+                    'Address 1': TextInput3_3.Text,
+                    'Address 2': TextInput3_64.Text,
+                    'Post Code': TextInput3_65.Text,
+                  'Gross Turnover (Per Annum)': Radio1_3.Selected.Value,
+                  'Cibil score':TextInput3_30.Text,
                    Remarks:TextInput3_33.Text,
-                   'GST Reg Type':Dropdown2.Selected.Value,
+                   'GST Registration Type':Dropdown2.Selected.Value,
                    'GST No.': TextInput3_51.Text,
                    'PAN No.':TextInput3_34.Text,
-                   'Aadhar No.':TextInput3_50.Text,
-                   Declaration:ComboBox2.Selected.Value,
+                   'AADHAR No.':TextInput3_50.Text,
+                   'Declaration Type':ComboBox2.Selected.Value,
                    'Account No.':TextInput3_52.Text,
                    'IFSC Code':TextInput3_53.Text,
-                   'Branch code':TextInput3_56.Text,
-                   'Bank Name':TextInput3_54.Text,
+                   'Bank Code':TextInput3_56.Text,
+                  // 'Bank Name':TextInput3_54.Text,
                    'Bank Address':TextInput3_55.Text,
-                   'Credit term pipes':TextInput3_59.Text,
+                  // 'Credit Term Pipes':TextInput3_59.Text,
                     'Credit Term Fittings':TextInput3_61.Text,
-                    'Name of nearest Distributor with distance':TextInput3_57.Text,
-                    'Credit Limit (Base)':Value(TextInput3_60.Text),
+                    'Name of the Distributor':TextInput3_57.Text,
+                   'Credit limit (In Rs.)':Value(TextInput3_60.Text),
                    'Deposit Amount':Value(TextInput3_58.Text)
+                    
+                    //'Sub State': TextInput3_94.Text,
+                   //'Sub State': LookUp('Sales Territories', 'Sales Territories' = Last(FirstN(SubStates,2)).cr431_salesterritoryid),
+                    // District: TextInput3_95.Text,
+                   // 'Billing State': LookUp('Sales Territories', 'Sales Territories' = Last(FirstN(States,2)).cr431_salesterritoryid),
+            
+                  // 'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid),
+                  //  'Area': ComboBox3_5.Selected.Value
+                   // 'Billing State': ComboBox3_1.Selected.Value
+                    // Zone: ComboBox3.Selected.Value
+                   // Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)
+                  
                 }
             ); Notify("Update successfully")
             );
