@@ -286,12 +286,27 @@
                                 Quantity: Value(ThisRecord.qty),
                                 'Bill Amoount': ThisRecord.price,
                                 'Sales Order No': LookUp(
-                                    SalesOrders, 'Order ID' = First(CreateOrderRecord).'Order ID'
+                                    SalesOrders,
+                                    'Order ID' = First(CreateOrderRecord).'Order ID'
                                 )
                             }
                         )
                     )
                 )
+            );
+            PowerAppsNotification.SendPushNotification(
+                {
+                    recipients: [
+                        LookUp(
+                            Accounts,
+                            Account = First(SelectedRetailerForSecOrder).'Parent Account'.Account
+                        ).Email
+                    ],
+                    message: "A new has been recieved from " & LookUp(
+                        Accounts,
+                        Account = First(SelectedRetailerForSecOrder).Account
+                    ).'Account Name (name)'
+                }
             );
             Navigate(
                 'Secondary Order Success',
