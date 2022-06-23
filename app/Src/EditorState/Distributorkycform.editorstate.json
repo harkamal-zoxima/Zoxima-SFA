@@ -29678,7 +29678,14 @@
           "NameMapSourceSchema": "?"
         },
         "Mode",
-        "Format",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Format",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VirtualKeyboardMode",
         "DelayOutput",
         "BorderColor",
