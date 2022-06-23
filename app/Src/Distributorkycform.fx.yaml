@@ -2159,7 +2159,7 @@ Distributorkycform As screen:
                     'Distributor Onboardings',
                     Defaults('Distributor Onboardings'),
                     {
-                        'Name of the Firm': TextInput3_2.Text,
+                        Name: TextInput3_2.Text,
                         'Constitution of the firm': Radio1_2.Selected.Value,
                         'First Name': Left(
                             Label52_16.Text,
@@ -2201,7 +2201,47 @@ Distributorkycform As screen:
                         'Credit Term Fittings': TextInput3_61.Text,
                         'Name of the Distributor': TextInput3_57.Text,
                         'Credit limit (In Rs.)': Value(TextInput3_60.Text),
-                        'Deposit Amount': Value(TextInput3_58.Text)
+                        'Deposit Amount': Value(TextInput3_58.Text),
+                        //'Sub State': TextInput3_94.Text,
+                        //statusmain: 'statusmain (Distributor Onboardings)'.Draft,
+            'Sub State': LookUp(
+                            'Sales Territories',
+                            'Sales Territory' = Last(
+                                FirstN(
+                                    SubStates,
+                                    2
+                                )
+                            ).cr431_salesterritoryid
+                        ),
+                        // District: TextInput3_95.Text,
+                        State: LookUp(
+                            'Sales Territories',
+                            'Sales Territory' = Last(
+                                FirstN(
+                                    States,
+                                    2
+                                )
+                            ).cr431_salesterritoryid
+                        ),
+                        City: LookUp(
+                            'Sales Territories',
+                            'Sales Territory' = Last(
+                                FirstN(
+                                    Cities,
+                                    2
+                                )
+                            ).cr431_salesterritoryid
+                        ),
+                        //  'Area': ComboBox3_5.Selected.Value
+                        Zone: LookUp(
+                            'Sales Territories',
+                            'Sales Territory' = Last(
+                                FirstN(
+                                    Zones,
+                                    2
+                                )
+                            ).cr431_salesterritoryid
+                        )
                     }
                 );
                 Notify("Successfuly added!"),
@@ -2304,7 +2344,7 @@ Distributorkycform As screen:
         Size: =24
         Text: ="SAVE"
         Width: =184
-        X: =423
-        Y: =87
+        X: =396
+        Y: =78
         ZIndex: =6
 

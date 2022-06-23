@@ -542,8 +542,8 @@ DistributorOnboarding As screen:
             =Navigate(Distributorkycform, Fade, {datadis1: {}});
             Set(variable,true)
         Width: =55
-        X: =510
-        Y: =900
+        X: =508
+        Y: =898
         ZIndex: =10
 
     Group11_6 As group:
