@@ -322,7 +322,7 @@
         Height: =70
         Size: =21
         Text: ="Your cart is empty"
-        Visible: =If(CountRows(PrimaryCart)>0, false, true)
+        Visible: =If(CountRows(SecondaryCart)>0, false, true)
         Width: =560
         X: =43
         Y: =631
@@ -347,7 +347,7 @@
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         Size: =18
         Text: ="Add some items"
-        Visible: =If(CountRows(PrimaryCart)>0, false, true)
+        Visible: =If(CountRows(SecondaryCart)>0, false, true)
         Width: =278
         X: =181
         Y: =701
@@ -412,7 +412,7 @@
         Items: =SecondaryCart
         Layout: =Layout.Vertical
         TemplateSize: =204
-        Visible: =If(CountRows(PrimaryCart)>0, true, false)
+        Visible: =If(CountRows(SecondaryCart)>0, true, false)
         Y: =355
         ZIndex: =25
 
@@ -595,7 +595,7 @@
             HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Trash
-            OnSelect: =Remove(PrimaryCart,ThisItem)
+            OnSelect: =Remove(SecondaryCart,ThisItem)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
             PressedFill: =RGBA(0, 0, 0, 0)
@@ -617,7 +617,7 @@
                     ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                 OnSelect: |-
                     =Update(
-                        PrimaryCart,
+                        SecondaryCart,
                         ThisItem,
                         {
                             qty: ThisItem.qty - 1,
@@ -646,7 +646,7 @@
                 Height: =26
                 OnSelect: |-
                     =Update(
-                        PrimaryCart,
+                        SecondaryCart,
                         ThisItem,
                         {
                             qty: ThisItem.qty - 1,
@@ -676,7 +676,7 @@
                     ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                 OnSelect: |-
                     =Update(
-                        PrimaryCart,
+                        SecondaryCart,
                         ThisItem,
                         {
                             qty: ThisItem.qty + 1,
@@ -705,7 +705,7 @@
                 Height: =26
                 OnSelect: |-
                     =Update(
-                        PrimaryCart,
+                        SecondaryCart,
                         ThisItem,
                         {
                             qty: ThisItem.qty + 1,
