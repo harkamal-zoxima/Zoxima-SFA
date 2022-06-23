@@ -37,7 +37,8 @@
             },
             {
                 title: "Distributor Onboarding",
-                screen: Distributoronboarding
+                screen: DistributorOnboarding
+            }
         ]
     Width: =If(varOpen, 320, 70)
     X: =0

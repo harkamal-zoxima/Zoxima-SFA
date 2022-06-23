@@ -406,7 +406,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =36
-            HoverBorderColor: =RGBA(53, 166, 57, 1)
+            HoverBorderColor: =RGBA(237, 237, 237, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =
             OnSelect: =Select(Parent)
