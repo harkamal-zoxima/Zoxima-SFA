@@ -77,14 +77,15 @@ DistributorOnboarding As screen:
         Label45 As label:
             BorderColor: =RGBA(237, 102, 102, 1)
             BorderStyle: =BorderStyle.None
-            Color: =RGBA(0, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =74
+            FontWeight: =FontWeight.Bold
+            Height: =71
             OnSelect: =Select(Parent)
             Size: =19
             Text: =ThisItem.'Name of the Firm'
-            Width: =218
-            X: =37
+            Width: =203
+            X: =52
             Y: =26
             ZIndex: =3
 
@@ -114,7 +115,7 @@ DistributorOnboarding As screen:
             Icon: =Icon.Edit
             OnSelect: |
                 =Navigate(Distributorkycform, Fade, {datadis1: ThisItem});
-                Set(Create,false)
+                Set(variable,false)
             PaddingBottom: =5
             PaddingLeft: =5
             PaddingRight: =5
@@ -539,7 +540,7 @@ DistributorOnboarding As screen:
         Icon: =Icon.Add
         OnSelect: |-
             =Navigate(Distributorkycform, Fade, {datadis1: {}});
-            Set(Create,true)
+            Set(variable,true)
         Width: =55
         X: =510
         Y: =900
