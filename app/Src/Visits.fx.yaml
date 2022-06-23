@@ -3,18 +3,7 @@
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
     OnHidden: =Set(VarDialogOpen, false);
     OnVisible: |-
-        =ClearCollect(
-            Subordinates,
-            ShowColumns(
-                Filter(
-                    Users,
-                    Manager.'Primary Email' = CurrentUserEmail
-                ),
-                "fullname",
-                "systemuserid",
-                "internalemailaddress"
-            )
-        );
+        =
         
         Clear(PrimaryCart);
         Set(

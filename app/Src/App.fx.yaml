@@ -54,5 +54,18 @@ App As appinfo:
                 Pincode.'Sales Territory' = First(SalesTerritoryAndUserMappingRecord).'Sales Territory'
             )
         );
+        
+        ClearCollect(
+            Subordinates,
+            ShowColumns(
+                Filter(
+                    Users,
+                    Manager.'Primary Email' = CurrentUserEmail
+                ),
+                "fullname",
+                "systemuserid",
+                "internalemailaddress"
+            )
+        );
     StartScreen: ='Start Screen'
 
