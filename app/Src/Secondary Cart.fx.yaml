@@ -322,7 +322,7 @@
         Height: =70
         Size: =21
         Text: ="Your cart is empty"
-        Visible: =If(CountRows(PrimaryCart)>0, false, true)
+        Visible: =If(CountRows(SecondaryCart)>0, false, true)
         Width: =560
         X: =43
         Y: =631
@@ -347,7 +347,7 @@
         PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
         Size: =18
         Text: ="Add some items"
-        Visible: =If(CountRows(PrimaryCart)>0, false, true)
+        Visible: =If(CountRows(SecondaryCart)>0, false, true)
         Width: =278
         X: =181
         Y: =701
@@ -412,24 +412,25 @@
         Items: =SecondaryCart
         Layout: =Layout.Vertical
         TemplateSize: =204
-        Visible: =If(CountRows(PrimaryCart)>0, true, false)
+        Visible: =If(CountRows(SecondaryCart)>0, true, false)
         Y: =355
         ZIndex: =25
 
-        Rectangle4_2 As rectangle:
+        Rectangle4_4 As rectangle:
             BorderColor: =RGBA(230, 230, 230, 1)
             BorderThickness: =1
             DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(237, 237, 237, 0.36)
+            Fill: =RGBA(237, 237, 237, 0.35)
             FocusedBorderThickness: =4
             Height: =201
-            HoverFill: =RGBA(255, 200, 61, 1)
+            HoverFill: =
             OnSelect: =Select(Parent)
             PressedFill: =
             Width: =630
+            Y: =3
             ZIndex: =1
 
-        Label13_9 As label:
+        Label13_11 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -445,14 +446,14 @@
             Text: =ThisItem.name
             Width: =377
             X: =219
-            Y: =8
+            Y: =11
             ZIndex: =2
 
-        Label19_45 As label:
+        Label19_57 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(103, 204, 107, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -464,10 +465,10 @@
             Text: ="Quantity"
             Width: =104
             X: =233
-            Y: =78
+            Y: =81
             ZIndex: =3
 
-        Label19_46 As label:
+        Label19_58 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -483,14 +484,14 @@
             Text: =ThisItem.qty
             Width: =72
             X: =337
-            Y: =78
+            Y: =81
             ZIndex: =4
 
-        Label19_47 As label:
+        Label19_59 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(103, 204, 107, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -502,10 +503,10 @@
             Text: ="Price"
             Width: =68
             X: =449
-            Y: =78
+            Y: =81
             ZIndex: =5
 
-        Label19_48 As label:
+        Label19_60 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -521,11 +522,11 @@
             Text: =Concatenate("₹", ThisItem.price)
             Width: =100
             X: =514
-            Y: =78
+            Y: =81
             ZIndex: =6
 
-        TextInput5_1 As text:
-            BorderColor: =RGBA(103, 204, 107, 1)
+        TextInput5_3 As text:
+            BorderColor: =RGBA(121, 121, 121, 1)
             Color: =RGBA(255, 255, 255, 1)
             Default: =ThisItem.qty
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -550,10 +551,10 @@
             Size: =15
             Width: =70
             X: =371
-            Y: =142
+            Y: =145
             ZIndex: =11
 
-        HtmlText1_74 As htmlViewer:
+        HtmlText1_112 As htmlViewer:
             Color: =RGBA(242, 242, 242, 1)
             Height: =191
             HtmlText: |-
@@ -561,10 +562,10 @@
             OnSelect: =Select(Parent)
             Width: =219
             X: =8
-            Y: =10
+            Y: =13
             ZIndex: =12
 
-        Image2_4 As image:
+        Image2_7 As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -580,12 +581,12 @@
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =189
             X: =18
-            Y: =17
+            Y: =20
             ZIndex: =13
 
-        Icon9_1 As icon.Trash:
+        Icon9_3 As icon.Trash:
             BorderColor: =RGBA(109, 109, 109, 1)
-            Color: =RGBA(103, 204, 107, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
@@ -601,20 +602,20 @@
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =26
             X: =588
-            Y: =10
+            Y: =13
             ZIndex: =14
 
-        Group15_6 As group:
+        Group15_10 As group:
             Height: =5
             Width: =5
             X: =-135
-            Y: =-81
-            ZIndex: =22
+            Y: =3
+            ZIndex: =15
 
-            HtmlText1_75 As htmlViewer:
+            HtmlText1_113 As htmlViewer:
                 Height: =56
                 HtmlText: |-
-                    ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                    ="<div style='border-radius:10px; background-color:#586782; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                 OnSelect: |-
                     =Update(
                         PrimaryCart,
@@ -629,15 +630,15 @@
                     )
                 Width: =90
                 X: =295
-                Y: =137
+                Y: =140
                 ZIndex: =7
 
-            Label4_9 As label:
+            Label4_16 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -660,20 +661,20 @@
                 Text: ="-"
                 Width: =41
                 X: =304
-                Y: =146
+                Y: =149
                 ZIndex: =8
 
-        Group15_7 As group:
+        Group15_11 As group:
             Height: =5
             Width: =5
             X: =-116
-            Y: =-197
-            ZIndex: =24
+            Y: =3
+            ZIndex: =16
 
-            HtmlText1_76 As htmlViewer:
+            HtmlText1_114 As htmlViewer:
                 Height: =56
                 HtmlText: |-
-                    ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                    ="<div style='border-radius:10px; background-color:#586782; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
                 OnSelect: |-
                     =Update(
                         PrimaryCart,
@@ -688,15 +689,15 @@
                     )
                 Width: =62
                 X: =455
-                Y: =137
+                Y: =140
                 ZIndex: =9
 
-            Label4_11 As label:
+            Label4_17 As label:
                 Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
-                Color: =RGBA(53, 166, 57, 1)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
@@ -719,6 +720,6 @@
                 Text: ="+"
                 Width: =26
                 X: =473
-                Y: =146
+                Y: =149
                 ZIndex: =10
 

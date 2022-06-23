@@ -6,18 +6,7 @@
     "'Product Gallery' As gallery.galleryVertical":
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =888
-        Items: |-
-            =Filter(
-                If(
-                    CountRows(FilterList) = 0,
-                    Filter(
-                        'Product Items',
-                        cr431_PG1.cr431_categoryid = CategoryFilter.Selected.cr431_categoryid
-                    ),
-                    AllProducts
-                ),
-                Search.Text in 'Product Name'
-            )
+        Items: ='Product Items'
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplateSize: =416
@@ -93,7 +82,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =37
-            Text: =Concatenate("₹", LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item').Price + 55)
+            Text: =Concatenate("₹", LookUp('Product Price List', Product.'Product Item'= ThisItem.'Product Item').Price + 55)
             Width: =109
             X: =33.5
             Y: =335
@@ -144,7 +133,7 @@
             Font: =Font.Lato
             FontWeight: =FontWeight.Semibold
             Height: =37
-            Text: =Concatenate("₹", LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item').Price)
+            Text: =Concatenate("₹", LookUp('Product Price List', Product.'Product Item'= ThisItem.'Product Item').Price)
             Width: =109
             X: =172.5
             Y: =335
@@ -204,12 +193,12 @@
                             name: ThisItem.'Product Name',
                             qty: Bag_1.Text,
                             price: LookUp(
-                                OfflinePriceList,
+                                'Product Price List',
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price * Bag_1.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
-                                OfflinePriceList,
+                                'Product Price List',
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price,
                             item: ThisItem.'Product Item'
@@ -221,12 +210,12 @@
                             name: ThisItem.'Product Name',
                             qty: Bag_1.Text,
                             price: LookUp(
-                                OfflinePriceList,
+                                'Product Price List',
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price * Bag_1.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
-                                OfflinePriceList,
+                                'Product Price List',
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price,
                             item: ThisItem.'Product Item'
