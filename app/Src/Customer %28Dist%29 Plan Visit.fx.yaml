@@ -255,6 +255,7 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =If(VarPlanVisitDate<=Today(), DisplayMode.Disabled, DisplayMode.Edit)
                 Fill: =RGBA(255, 200, 61, 1)
                 FocusedBorderColor: =ColorFade(Self.Fill, 75%)
                 Font: =Font.Lato
@@ -291,6 +292,7 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(220, 220, 220, 1)
                 DisabledFill: =RGBA(0, 0, 0, 0)
+                DisplayMode: =If(VarPlanVisitDate<=Today(), DisplayMode.Disabled, DisplayMode.Edit)
                 FocusedBorderThickness: =4
                 Height: =23
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
@@ -437,7 +439,7 @@
     DatePicker3_1 As datepicker:
         BorderColor: =RGBA(22, 22, 22, 1)
         CalendarHeaderFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-        Color: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(237, 237, 237, 1)
         DefaultDate: =
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -456,7 +458,7 @@
         PaddingTop: =5
         SelectedDateFill: =RGBA(255, 200, 61, 1)
         Width: =233
-        X: =355
+        X: =375
         Y: =150
         ZIndex: =11
 
@@ -620,7 +622,7 @@
                     !IsBlank(
                         LookUp(
                             Visits_1,
-                            Customer.Account = First(SingleNewVisit).Customer && 'Visit Date' = SelectedVisitDate && 'Created By'.'Primary Email' = LookUp(
+                            Customer.Account = First(SingleNewVisit).Customer && 'Visit Date' = VarPlanVisitDate && 'Created By'.'Primary Email' = LookUp(
                                 Users,
                                 'Primary Email' = User().Email
                             ).'Primary Email'
@@ -640,7 +642,7 @@
                         Visits_1,
                         Defaults(Visits_1),
                         {
-                            'Visit Date': SelectedVisitDate,
+                            'Visit Date': VarPlanVisitDate,
                             Customer: LookUp(
                                 Accounts,
                                 Account = First(SingleNewVisit).Customer

@@ -139,6 +139,13 @@
       }
     },
     {
+      "Kind": "default.cds_cr431_salesterritoryandusermapping_forms",
+      "Namespace": "Sales Territory and User Mappings (Forms)",
+      "Values": {
+        "Information": "465db776-f7bb-48e5-8c92-9fb300a9f9b9"
+      }
+    },
+    {
       "Kind": "default.cds_cr431_sales_order_forms",
       "Namespace": "SalesOrders (Forms)",
       "Values": {
@@ -177,13 +184,6 @@
       "Namespace": "Visits_1 (Forms)",
       "Values": {
         "Information": "572c74d3-bedf-4c59-bde0-fffb425ed89e"
-      }
-    },
-    {
-      "Kind": "default.cds_cr431_salesterritoryandusermapping_forms",
-      "Namespace": "Sales Territory and User Mappings (Forms)",
-      "Values": {
-        "Information": "465db776-f7bb-48e5-8c92-9fb300a9f9b9"
       }
     },
     {
