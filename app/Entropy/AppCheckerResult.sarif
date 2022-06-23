@@ -2484,1034 +2484,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label13_10.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label13_10.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label13_10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Image2_5.Image"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Image2_5.Image",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Image",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Image2_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 104,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_89"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 135,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_89"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 170,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_89"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_89"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 192,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "{\r\n        qty: ThisItem.qty - 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_89"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_89.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Update(\r\n    PrimaryCart,\r\n    ThisItem,\r\n    {\r\n        qty: ThisItem.qty - 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_89"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Update"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 104,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_90"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 135,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_90"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 170,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_90"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_90"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 192,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "{\r\n        qty: ThisItem.qty + 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_90"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.HtmlText1_90.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Update(\r\n    PrimaryCart,\r\n    ThisItem,\r\n    {\r\n        qty: ThisItem.qty + 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.HtmlText1_90"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Update"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 104,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_13"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 135,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_13"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 170,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_13"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_13"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 192,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "{\r\n        qty: ThisItem.qty - 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_13"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_13.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Update(\r\n    PrimaryCart,\r\n    ThisItem,\r\n    {\r\n        qty: ThisItem.qty - 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_13"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Update"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 104,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 135,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 170,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 192,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "{\r\n        qty: ThisItem.qty + 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Cart'.Gallery5_3.Label4_15.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Update(\r\n    PrimaryCart,\r\n    ThisItem,\r\n    {\r\n        qty: ThisItem.qty + 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Primary Cart",
-                "type": "'Primary Cart'.Gallery5_3.Label4_15"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Update"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Primary Cart'.Button3_4.OnSelect"
                 }
               ],
@@ -3672,2298 +2644,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 244,
-                  "snippet": {
-                    "text": "'Product Name'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Image2_6.Image"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Image2_6.Image",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Image URL'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Image",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Image2_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Image URL"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label1_10.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label1_10.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".'Product Name'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label1_10"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 75,
-                  "snippet": {
-                    "text": "item"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 80,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 216,
-                  "snippet": {
-                    "text": "item"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 231,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 297,
-                  "snippet": {
-                    "text": ".'Product Name'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 389,
-                  "snippet": {
-                    "text": "OfflinePriceList"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "OfflinePriceList"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 123,
-                  "charOffset": 364,
-                  "snippet": {
-                    "text": "LookUp(\r\n                OfflinePriceList,\r\n                Product.'Product Item' = ThisItem.'Product Item'\r\n            )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 424,
-                  "snippet": {
-                    "text": "Product"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 431,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 457,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 447,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 487,
-                  "snippet": {
-                    "text": ".Price"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 536,
-                  "snippet": {
-                    "text": ".'Image URL'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Image URL"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 599,
-                  "snippet": {
-                    "text": "OfflinePriceList"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "OfflinePriceList"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 123,
-                  "charOffset": 574,
-                  "snippet": {
-                    "text": "LookUp(\r\n                OfflinePriceList,\r\n                Product.'Product Item' = ThisItem.'Product Item'\r\n            )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 634,
-                  "snippet": {
-                    "text": "Product"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 641,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 667,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 657,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 697,
-                  "snippet": {
-                    "text": ".Price"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 732,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 841,
-                  "snippet": {
-                    "text": ".'Product Name'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 933,
-                  "snippet": {
-                    "text": "OfflinePriceList"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "OfflinePriceList"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 123,
-                  "charOffset": 908,
-                  "snippet": {
-                    "text": "LookUp(\r\n                OfflinePriceList,\r\n                Product.'Product Item' = ThisItem.'Product Item'\r\n            )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 968,
-                  "snippet": {
-                    "text": "Product"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 975,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 1001,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 991,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 1031,
-                  "snippet": {
-                    "text": ".Price"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 1080,
-                  "snippet": {
-                    "text": ".'Image URL'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Image URL"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 1143,
-                  "snippet": {
-                    "text": "OfflinePriceList"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "OfflinePriceList"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 123,
-                  "charOffset": 1118,
-                  "snippet": {
-                    "text": "LookUp(\r\n                OfflinePriceList,\r\n                Product.'Product Item' = ThisItem.'Product Item'\r\n            )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 1178,
-                  "snippet": {
-                    "text": "Product"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 1185,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 1211,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 1201,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 1241,
-                  "snippet": {
-                    "text": ".Price"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Bag_1.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 1276,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Bag_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 24,
-                  "snippet": {
-                    "text": "OfflinePriceList"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_126"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "OfflinePriceList"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 73,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_126"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 42,
-                  "snippet": {
-                    "text": "Product"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_126"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 49,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_126"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 74,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_126"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 64,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_126"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_126.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ".Price"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_126"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 24,
-                  "snippet": {
-                    "text": "OfflinePriceList"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_129"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "OfflinePriceList"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 73,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item')"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_129"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 42,
-                  "snippet": {
-                    "text": "Product"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_129"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 49,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_129"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 74,
-                  "snippet": {
-                    "text": ".'Product Item'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_129"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Product Item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 64,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_129"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ".Price"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_129"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Label2_129.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 97,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Concatenate(\"₹\", LookUp(OfflinePriceList, Product.'Product Item'= ThisItem.'Product Item').Price)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'.Label2_129"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Concatenate"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Secondary Cart'.Button3_2.OnSelect"
                 }
               ],
@@ -6038,7 +2718,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -6198,7 +2878,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadSchema-ExpectedType",
-          "ruleIndex": 11
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -6239,7 +2919,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrColumnMissing-ColName-ExpectedType",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -6726,1034 +3406,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label13_8.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label13_8.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label13_8"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Image2_2.Image"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Image2_2.Image",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Image",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Image2_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 104,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_63"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 135,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_63"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 170,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_63"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_63"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 192,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "{\r\n        qty: ThisItem.qty - 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_63"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_63.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Update(\r\n    PrimaryCart,\r\n    ThisItem,\r\n    {\r\n        qty: ThisItem.qty - 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_63"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Update"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 104,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_64"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 135,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_64"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 170,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_64"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_64"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 192,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "{\r\n        qty: ThisItem.qty + 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_64"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.HtmlText1_64.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Update(\r\n    PrimaryCart,\r\n    ThisItem,\r\n    {\r\n        qty: ThisItem.qty + 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.HtmlText1_64"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Update"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 104,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 135,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 170,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 192,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "{\r\n        qty: ThisItem.qty - 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Update(\r\n    PrimaryCart,\r\n    ThisItem,\r\n    {\r\n        qty: ThisItem.qty - 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Update"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 104,
-                  "snippet": {
-                    "text": ".image"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_7"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "image"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 135,
-                  "snippet": {
-                    "text": ".name"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_7"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "name"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 170,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_7"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 221,
-                  "snippet": {
-                    "text": ".itemPrice"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_7"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "itemPrice"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 192,
-                  "charOffset": 46,
-                  "snippet": {
-                    "text": "{\r\n        qty: ThisItem.qty + 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Cart'.Gallery5_1.Label4_7.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Update(\r\n    PrimaryCart,\r\n    ThisItem,\r\n    {\r\n        qty: ThisItem.qty + 1,\r\n        image: ThisItem.image,\r\n        name: ThisItem.name,\r\n        itemPrice: ThisItem.itemPrice,\r\n        price: ThisItem.qty * ThisItem.itemPrice\r\n    }\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Visit Cart",
-                "type": "'Visit Cart'.Gallery5_1.Label4_7"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Update"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Visit Cart'.Button3.OnSelect"
                 }
               ],
@@ -8043,46 +3695,6 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 4,
-                  "charOffset": 75,
-                  "snippet": {
-                    "text": "item"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Visit Products",
-                "type": "'Visit Products'.Gallery1_2.Bag"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Products'.Gallery1_2.Bag.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Products'.Gallery1_2.Bag.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 15,
                   "charOffset": 90,
                   "snippet": {
@@ -8139,7 +3751,7 @@
           ],
           "message": {
             "arguments": [
-              "Error",
+              "Guid",
               "Error"
             ],
             "id": "issue"
@@ -8148,47 +3760,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Visit Products'.Gallery1_2.Bag.OnChange"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Visit Products'.Gallery1_2.Bag.OnChange",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 216,
-                  "snippet": {
-                    "text": "item"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnChange",
-                "module": "Visit Products",
-                "type": "'Visit Products'.Gallery1_2.Bag"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "item"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -8260,7 +3832,7 @@
           ],
           "message": {
             "arguments": [
-              "Error",
+              "Guid",
               "Error"
             ],
             "id": "issue"
@@ -8269,7 +3841,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -8547,7 +4119,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -8862,7 +4434,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -9217,7 +4789,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -9532,7 +5104,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -9610,6 +5182,88 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Visit Products'.Gallery1_2.Bag.OnChange"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Visit Products'.Gallery1_2.Bag.OnChange",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 533,
+                  "charOffset": 768,
+                  "snippet": {
+                    "text": "Collect(\r\n        PrimaryCart,\r\n        {\r\n            name: ThisItem.'Product Name',\r\n            qty: Bag.Text,\r\n            price: LookUp(\r\n                OfflinePriceList,\r\n                Product.'Product Item' = ThisItem.'Product Item'\r\n            ).Price * Bag.Text,\r\n            image: ThisItem.'Image URL',\r\n            itemPrice: LookUp(\r\n                OfflinePriceList,\r\n                Product.'Product Item' = ThisItem.'Product Item'\r\n            ).Price,\r\n            item: ThisItem.'Product Item'\r\n        }\r\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnChange",
+                "module": "Visit Products",
+                "type": "'Visit Products'.Gallery1_2.Bag"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Collect"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Visit Products'.Gallery1_2.Bag.OnChange"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Visit Products'.Gallery1_2.Bag.OnChange",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 486,
+                  "charOffset": 808,
+                  "snippet": {
+                    "text": "{\r\n            name: ThisItem.'Product Name',\r\n            qty: Bag.Text,\r\n            price: LookUp(\r\n                OfflinePriceList,\r\n                Product.'Product Item' = ThisItem.'Product Item'\r\n            ).Price * Bag.Text,\r\n            image: ThisItem.'Image URL',\r\n            itemPrice: LookUp(\r\n                OfflinePriceList,\r\n                Product.'Product Item' = ThisItem.'Product Item'\r\n            ).Price,\r\n            item: ThisItem.'Product Item'\r\n        }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnChange",
+                "module": "Visit Products",
+                "type": "'Visit Products'.Gallery1_2.Bag"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "image",
+              "Hyperlink",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -9847,7 +5501,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -10122,7 +5776,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -12674,7 +8328,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -32749,36 +28403,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Primary Products'.'Product Gallery'.Items",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Primary Products",
-                "type": "'Primary Products'.'Product Gallery'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'customer info'"
                 }
               ],
@@ -32801,7 +28425,7 @@
             "level": "Medium"
           },
           "ruleId": "app-ScreenHasManyControls",
-          "ruleIndex": 22
+          "ruleIndex": 21
         },
         {
           "locations": [
@@ -32831,7 +28455,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -32861,7 +28485,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -32891,7 +28515,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -32921,7 +28545,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -32951,7 +28575,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -32981,7 +28605,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33011,7 +28635,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33041,7 +28665,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33071,7 +28695,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33101,7 +28725,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33131,7 +28755,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33161,7 +28785,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33191,7 +28815,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33221,7 +28845,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33251,7 +28875,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33281,7 +28905,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33311,7 +28935,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33341,7 +28965,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33371,7 +28995,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33401,7 +29025,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33431,7 +29055,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33461,7 +29085,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33491,7 +29115,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33521,7 +29145,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33551,7 +29175,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33581,7 +29205,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33611,7 +29235,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33641,7 +29265,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33671,7 +29295,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33701,7 +29325,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33731,7 +29355,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33761,7 +29385,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33791,7 +29415,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33821,7 +29445,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33851,7 +29475,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33881,7 +29505,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33911,7 +29535,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33941,7 +29565,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -33971,7 +29595,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34001,7 +29625,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34031,7 +29655,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34061,7 +29685,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34091,7 +29715,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34121,7 +29745,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34151,7 +29775,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34181,7 +29805,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34211,7 +29835,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34241,7 +29865,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34271,7 +29895,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34301,7 +29925,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34331,7 +29955,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34361,7 +29985,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34391,7 +30015,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34421,7 +30045,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34451,7 +30075,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34481,7 +30105,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34511,7 +30135,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34541,7 +30165,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34571,7 +30195,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34601,7 +30225,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34631,7 +30255,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34661,7 +30285,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34691,7 +30315,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34721,7 +30345,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34751,7 +30375,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34781,7 +30405,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34811,7 +30435,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34841,7 +30465,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34871,7 +30495,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34901,7 +30525,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34931,7 +30555,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34961,7 +30585,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -34991,7 +30615,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35021,7 +30645,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35051,7 +30675,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35081,7 +30705,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35111,7 +30735,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35141,7 +30765,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35171,7 +30795,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35201,7 +30825,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35231,7 +30855,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35261,7 +30885,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35291,7 +30915,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35321,7 +30945,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35351,7 +30975,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35381,7 +31005,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35411,7 +31035,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35441,7 +31065,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35471,7 +31095,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35501,7 +31125,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35531,7 +31155,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35561,7 +31185,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35591,7 +31215,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35621,7 +31245,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35651,7 +31275,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35681,7 +31305,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35711,7 +31335,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35741,7 +31365,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35771,7 +31395,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35801,7 +31425,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35831,7 +31455,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35861,7 +31485,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35891,7 +31515,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35921,7 +31545,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35951,7 +31575,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -35981,7 +31605,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36011,7 +31635,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36041,7 +31665,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36071,7 +31695,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36101,7 +31725,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36131,7 +31755,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36161,7 +31785,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36191,7 +31815,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36221,7 +31845,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36251,7 +31875,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36281,7 +31905,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36311,7 +31935,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36341,7 +31965,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36371,7 +31995,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36401,7 +32025,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36431,7 +32055,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36461,7 +32085,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36491,7 +32115,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36521,7 +32145,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36551,7 +32175,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36581,7 +32205,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36611,7 +32235,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36641,7 +32265,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36671,7 +32295,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36701,7 +32325,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36731,7 +32355,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36761,7 +32385,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36791,7 +32415,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36821,7 +32445,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36851,7 +32475,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36881,7 +32505,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36911,7 +32535,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36941,7 +32565,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -36971,7 +32595,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37001,7 +32625,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37031,7 +32655,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37061,7 +32685,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37091,7 +32715,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37121,7 +32745,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37151,7 +32775,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37181,7 +32805,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37211,7 +32835,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37241,7 +32865,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37271,7 +32895,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37301,7 +32925,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37331,7 +32955,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37361,7 +32985,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37391,7 +33015,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37421,7 +33045,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37451,7 +33075,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37481,7 +33105,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37511,7 +33135,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37541,7 +33165,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37571,7 +33195,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37601,7 +33225,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37631,7 +33255,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37661,7 +33285,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37691,7 +33315,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37721,7 +33345,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37751,7 +33375,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37781,7 +33405,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37811,7 +33435,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37841,7 +33465,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37871,7 +33495,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37901,7 +33525,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37931,7 +33555,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37961,7 +33585,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -37991,7 +33615,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38021,7 +33645,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38051,7 +33675,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38081,7 +33705,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38111,7 +33735,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38141,7 +33765,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38171,7 +33795,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38201,7 +33825,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38231,7 +33855,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38261,7 +33885,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38291,7 +33915,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38321,7 +33945,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38351,7 +33975,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38381,7 +34005,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38411,7 +34035,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38441,7 +34065,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38471,7 +34095,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38501,7 +34125,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38531,7 +34155,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38561,7 +34185,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38591,7 +34215,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38621,7 +34245,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         },
         {
           "locations": [
@@ -38651,7 +34275,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 21
+          "ruleIndex": 22
         }
       ],
       "tool": {
@@ -38807,23 +34431,6 @@
               }
             },
             {
-              "id": "app-ErrCollectionDoesNotAcceptThisType",
-              "messageStrings": {
-                "issue": {
-                  "text": "Incompatible type. The collection can't contain values of this type."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "You might need to convert the type of the item using, for example, a Datevalue, Text, or Value function."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
               "messageStrings": {
                 "issue": {
@@ -38866,6 +34473,23 @@
                 "componentType": "app",
                 "howToFix": [
                   "Add a column to your formula."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. The '{0}' column in the data source you’re updating expects a '{1}' type and you’re using a '{2}' type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value or a string to a number."
                 ],
                 "level": "High",
                 "primaryCategory": "formula",
@@ -39009,23 +34633,6 @@
               }
             },
             {
-              "id": "app-InefficientDelayLoading",
-              "messageStrings": {
-                "issue": {
-                  "text": "Inefficient delay loading"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Use variables, collections, and navigation context to share state across screens instead."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Controls that reference controls on other screens can slow down app loading and navigation. Doing this may force the app to load the other screens immediately, rather than waiting until the user navigates to that screen."
-              }
-            },
-            {
               "id": "app-ScreenHasManyControls",
               "messageStrings": {
                 "issue": {
@@ -39044,6 +34651,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "Each control consumes resources, and an app may become slow or unresponsive if a screen has too many controls. The estimated complexity of \"customer info\" is 511, which exceeds the maximum threshold recommended (300)."
+              }
+            },
+            {
+              "id": "app-InefficientDelayLoading",
+              "messageStrings": {
+                "issue": {
+                  "text": "Inefficient delay loading"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Use variables, collections, and navigation context to share state across screens instead."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Controls that reference controls on other screens can slow down app loading and navigation. Doing this may force the app to load the other screens immediately, rather than waiting until the user navigates to that screen."
               }
             }
           ],
