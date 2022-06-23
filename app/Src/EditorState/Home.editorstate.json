@@ -40,7 +40,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Bottom Navigation_1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -341,7 +341,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox1_2",
-      "ParentIndex": 2,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1982,7 +1982,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group9",
-      "ParentIndex": 21,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

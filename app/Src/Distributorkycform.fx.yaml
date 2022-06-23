@@ -2222,7 +2222,7 @@ Distributorkycform As screen:
                                 )
                             ).cr431_salesterritoryid
                         ),
-                        'City': LookUp(
+                        City: LookUp(
                             'Sales Territories',
                             'Sales Territory' = Last(
                                 FirstN(

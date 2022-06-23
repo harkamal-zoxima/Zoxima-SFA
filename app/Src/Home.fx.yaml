@@ -102,41 +102,6 @@
             )
         );
 
-    ComboBox1_2 As combobox:
-        BorderColor: =RGBA(109, 109, 109, 1)
-        ChevronBackground: =RGBA(0, 0, 0, 1)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(237, 237, 237, 1)
-        ChevronHoverBackground: =RGBA(79, 79, 79, 1)
-        ChevronHoverFill: =RGBA(218, 218, 218, 1)
-        Color: =RGBA(237, 237, 237, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["fullname"]
-        Fill: =RGBA(0, 0, 0, 1)
-        Font: =Font.'Segoe UI'
-        Height: =48
-        HoverBorderColor: =
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(79, 79, 79, 1)
-        InputTextPlaceholder: ="Self"
-        Items: =Subordinates
-        PressedBorderColor: =
-        PressedColor: =RGBA(31, 31, 31, 1)
-        PressedFill: =RGBA(22, 22, 22, 1)
-        SearchFields: =["fullname"]
-        SearchItems: =Search(Subordinates,ComboBox1_2.SearchText,"fullname")
-        SelectionColor: =RGBA(237, 237, 237, 1)
-        SelectionFill: =RGBA(22, 22, 22, 1)
-        SelectMultiple: =false
-        Size: =21
-        Width: =572
-        X: =24
-        Y: =385
-        ZIndex: =1
-
     Canvas1 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
         Height: =1041
@@ -1237,6 +1202,41 @@
                     Text: =ThisItem.Title
                     Width: =184
                     ZIndex: =3
+
+            ComboBox1_2 As combobox:
+                BorderColor: =RGBA(109, 109, 109, 1)
+                ChevronBackground: =RGBA(0, 0, 0, 1)
+                ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                ChevronFill: =RGBA(237, 237, 237, 1)
+                ChevronHoverBackground: =RGBA(79, 79, 79, 1)
+                ChevronHoverFill: =RGBA(218, 218, 218, 1)
+                Color: =RGBA(237, 237, 237, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayFields: =["fullname"]
+                Fill: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                Height: =48
+                HoverBorderColor: =
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(79, 79, 79, 1)
+                InputTextPlaceholder: ="Self"
+                Items: =Subordinates
+                PressedBorderColor: =
+                PressedColor: =RGBA(31, 31, 31, 1)
+                PressedFill: =RGBA(22, 22, 22, 1)
+                SearchFields: =["fullname"]
+                SearchItems: =Search(Subordinates,ComboBox1_2.SearchText,"fullname")
+                SelectionColor: =RGBA(237, 237, 237, 1)
+                SelectionFill: =RGBA(22, 22, 22, 1)
+                SelectMultiple: =false
+                Size: =21
+                Width: =572
+                X: =24
+                Y: =391
+                ZIndex: =55
 
     "'Side Bar_2' As 'Side Bar'":
         Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
