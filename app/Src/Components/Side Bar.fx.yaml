@@ -34,7 +34,10 @@
             {
                 title: "Events",
                 screen: 'Events detail'
-            }
+            },
+            {
+                title: "Distributor Onboarding",
+                screen: 'Distributoronboarding'
         ]
     Width: =If(varOpen, 320, 70)
     X: =0
