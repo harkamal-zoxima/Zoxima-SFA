@@ -2203,8 +2203,8 @@ Distributorkycform As screen:
                    'Sub State': LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(SubStates,2)).cr431_salesterritoryid),
                     // District: TextInput3_95.Text,
                     State: LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(States,2)).cr431_salesterritoryid),
-                   'Billing City': LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Cities,2)).zx_salesterritoryid)
-                   
+                   'City': LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(Cities,2)).cr431_salesterritoryid)
+            
                   //  'Area': ComboBox3_5.Selected.Value
                    // 'Billing State': ComboBox3_1.Selected.Value
                     // Zone: ComboBox3.Selected.Value
