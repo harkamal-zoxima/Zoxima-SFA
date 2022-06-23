@@ -2992,10 +2992,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 23,
-                  "charOffset": 2378,
+                  "charLength": 13,
+                  "charOffset": 1757,
                   "snippet": {
-                    "text": ".cr431_salesterritoryid"
+                    "text": "TextInput3_59"
                   }
                 }
               },
@@ -3007,16 +3007,13 @@
             }
           ],
           "message": {
-            "arguments": [
-              "LookUp"
-            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
+          "ruleId": "app-ErrNumberOrStringExpected",
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3032,10 +3029,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 2237,
+                  "charLength": 20,
+                  "charOffset": 1751,
                   "snippet": {
-                    "text": "="
+                    "text": "Value(TextInput3_59)"
                   }
                 }
               },
@@ -3048,287 +3045,7 @@
           ],
           "message": {
             "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 2703,
-                  "snippet": {
-                    "text": ".cr431_salesterritoryid"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2565,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 2981,
-                  "snippet": {
-                    "text": ".cr431_salesterritoryid"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 2843,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 3249,
-                  "snippet": {
-                    "text": ".cr431_salesterritoryid"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 3226,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 3269,
-                  "charOffset": 22,
-                  "snippet": {
-                    "text": "Patch(\r\n        'Distributor Onboardings',\r\n        Defaults('Distributor Onboardings'),\r\n        {\r\n            'Name of the Firm': TextInput3_2.Text,\r\n            'Constitution of the firm': Radio1_2.Selected.Value,\r\n            'First Name': Left(\r\n                Label52_16.Text,\r\n                Find(\r\n                    \" \",\r\n                    Label52_16.Text\r\n                )\r\n            ),\r\n            'Last Name': Right(\r\n                Label52_16.Text,\r\n                Find(\r\n                    \" \",\r\n                    Label52_16.Text\r\n                )\r\n            ),\r\n            'Date of Birth': DatePicker2.SelectedDate,\r\n            'Year of Establishment': DatePicker2_1.SelectedDate,\r\n            'Mobile No.': TextInput3_26.Text,\r\n            'Telephone No.': TextInput3_29.Text,\r\n            'Fax No.': TextInput3_62.Text,\r\n            'Alt Mobile No.': TextInput3_63.Text,\r\n            'Address 1': TextInput3_3.Text,\r\n            'Address 2': TextInput3_64.Text,\r\n            'Post Code': TextInput3_65.Text,\r\n            'Gross Turnover (Per Annum)': Radio1_3.Selected.Value,\r\n            'Cibil score': TextInput3_30.Text,\r\n            Remarks: TextInput3_33.Text,\r\n            'GST Registration Type': Dropdown2.Selected.Value,\r\n            'GST No.': TextInput3_51.Text,\r\n            'PAN No.': TextInput3_34.Text,\r\n            'AADHAR No.': TextInput3_50.Text,\r\n            'Declaration Type': ComboBox2.Selected.Value,\r\n            'Account No.': TextInput3_52.Text,\r\n            'IFSC Code': TextInput3_53.Text,\r\n            'Bank Code': TextInput3_56.Text,\r\n            'Bank Name': TextInput3_54.Text,\r\n            'Bank Address': TextInput3_55.Text,\r\n            'Credit Term Pipes':TextInput3_59.Text,\r\n            'Credit Term Fittings': TextInput3_61.Text,\r\n            'Name of the Distributor': TextInput3_57.Text,\r\n            'Credit limit (In Rs.)': Value(TextInput3_60.Text),\r\n            'Deposit Amount': Value(TextInput3_58.Text),\r\n            //'Sub State': TextInput3_94.Text,\r\n            statusmain: 'statusmain (Distributor Onboardings)'.Draft,\r\n            'Sub State': LookUp(\r\n                'Sales Territories',\r\n                'Sales Territory' = Last(\r\n                    FirstN(\r\n                        SubStates,\r\n                        2\r\n                    )\r\n                ).cr431_salesterritoryid\r\n            ),\r\n            // District: TextInput3_95.Text,\r\n            State: LookUp(\r\n                'Sales Territories',\r\n                'Sales Territory' = Last(\r\n                    FirstN(\r\n                        States,\r\n                        2\r\n                    )\r\n                ).cr431_salesterritoryid\r\n            ),\r\n            City: LookUp(\r\n                'Sales Territories',\r\n                'Sales Territory' = Last(\r\n                    FirstN(\r\n                        Cities,\r\n                        2\r\n                    )\r\n                ).cr431_salesterritoryid\r\n            ),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(Zones,2)).cr431_salesterritoryid)\r\n        }\r\n    )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
+              "Value"
             ],
             "id": "issue"
           },
@@ -3352,10 +3069,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 3164,
-                  "charOffset": 120,
+                  "charLength": 23,
+                  "charOffset": 2380,
                   "snippet": {
-                    "text": "{\r\n            'Name of the Firm': TextInput3_2.Text,\r\n            'Constitution of the firm': Radio1_2.Selected.Value,\r\n            'First Name': Left(\r\n                Label52_16.Text,\r\n                Find(\r\n                    \" \",\r\n                    Label52_16.Text\r\n                )\r\n            ),\r\n            'Last Name': Right(\r\n                Label52_16.Text,\r\n                Find(\r\n                    \" \",\r\n                    Label52_16.Text\r\n                )\r\n            ),\r\n            'Date of Birth': DatePicker2.SelectedDate,\r\n            'Year of Establishment': DatePicker2_1.SelectedDate,\r\n            'Mobile No.': TextInput3_26.Text,\r\n            'Telephone No.': TextInput3_29.Text,\r\n            'Fax No.': TextInput3_62.Text,\r\n            'Alt Mobile No.': TextInput3_63.Text,\r\n            'Address 1': TextInput3_3.Text,\r\n            'Address 2': TextInput3_64.Text,\r\n            'Post Code': TextInput3_65.Text,\r\n            'Gross Turnover (Per Annum)': Radio1_3.Selected.Value,\r\n            'Cibil score': TextInput3_30.Text,\r\n            Remarks: TextInput3_33.Text,\r\n            'GST Registration Type': Dropdown2.Selected.Value,\r\n            'GST No.': TextInput3_51.Text,\r\n            'PAN No.': TextInput3_34.Text,\r\n            'AADHAR No.': TextInput3_50.Text,\r\n            'Declaration Type': ComboBox2.Selected.Value,\r\n            'Account No.': TextInput3_52.Text,\r\n            'IFSC Code': TextInput3_53.Text,\r\n            'Bank Code': TextInput3_56.Text,\r\n            'Bank Name': TextInput3_54.Text,\r\n            'Bank Address': TextInput3_55.Text,\r\n            'Credit Term Pipes':TextInput3_59.Text,\r\n            'Credit Term Fittings': TextInput3_61.Text,\r\n            'Name of the Distributor': TextInput3_57.Text,\r\n            'Credit limit (In Rs.)': Value(TextInput3_60.Text),\r\n            'Deposit Amount': Value(TextInput3_58.Text),\r\n            //'Sub State': TextInput3_94.Text,\r\n            statusmain: 'statusmain (Distributor Onboardings)'.Draft,\r\n            'Sub State': LookUp(\r\n                'Sales Territories',\r\n                'Sales Territory' = Last(\r\n                    FirstN(\r\n                        SubStates,\r\n                        2\r\n                    )\r\n                ).cr431_salesterritoryid\r\n            ),\r\n            // District: TextInput3_95.Text,\r\n            State: LookUp(\r\n                'Sales Territories',\r\n                'Sales Territory' = Last(\r\n                    FirstN(\r\n                        States,\r\n                        2\r\n                    )\r\n                ).cr431_salesterritoryid\r\n            ),\r\n            City: LookUp(\r\n                'Sales Territories',\r\n                'Sales Territory' = Last(\r\n                    FirstN(\r\n                        Cities,\r\n                        2\r\n                    )\r\n                ).cr431_salesterritoryid\r\n            ),\r\n      //  'Area': ComboBox3_5.Selected.Value\r\n       // 'Billing State': ComboBox3_1.Selected.Value\r\n        // Zone: ComboBox3.Selected.Value\r\n        Zone: LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(Zones,2)).cr431_salesterritoryid)\r\n        }"
+                    "text": ".cr431_salesterritoryid"
                   }
                 }
               },
@@ -3368,17 +3085,295 @@
           ],
           "message": {
             "arguments": [
-              "cr431_credittermpipes",
-              "Number",
-              "Text"
+              "LookUp"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 7
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 2239,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Button6_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 2705,
+                  "snippet": {
+                    "text": ".cr431_salesterritoryid"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Button6_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 2567,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Button6_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 2983,
+                  "snippet": {
+                    "text": ".cr431_salesterritoryid"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Button6_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 2845,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Button6_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 3251,
+                  "snippet": {
+                    "text": ".cr431_salesterritoryid"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Button6_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 3228,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Button6_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -41846,14 +41841,17 @@
               }
             },
             {
-              "id": "app-ErrTypeError-Arg-Expected-Found",
+              "id": "app-ErrNumberOrStringExpected",
               "messageStrings": {
                 "issue": {
-                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
+                  "text": "Expected text or number. We expect text or a number at this point in the formula."
                 }
               },
               "properties": {
                 "componentType": "app",
+                "howToFix": [
+                  "Edit your formula so that it evaluates to text or a number at this point in the formula."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
