@@ -900,7 +900,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 2306,
+                  "charOffset": 2378,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -940,7 +940,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2170,
+                  "charOffset": 2237,
                   "snippet": {
                     "text": "="
                   }
@@ -980,7 +980,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 2621,
+                  "charOffset": 2703,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1020,7 +1020,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2488,
+                  "charOffset": 2565,
                   "snippet": {
                     "text": "="
                   }
@@ -1060,7 +1060,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 2890,
+                  "charOffset": 2981,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1100,7 +1100,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2757,
+                  "charOffset": 2843,
                   "snippet": {
                     "text": "="
                   }
@@ -1140,7 +1140,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 3209,
+                  "charOffset": 3310,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1180,7 +1180,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 3077,
+                  "charOffset": 3173,
                   "snippet": {
                     "text": "="
                   }
@@ -1220,7 +1220,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 5704,
+                  "charOffset": 5799,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1260,7 +1260,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 5568,
+                  "charOffset": 5658,
                   "snippet": {
                     "text": "="
                   }
@@ -1300,7 +1300,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 6019,
+                  "charOffset": 6124,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1340,7 +1340,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 5886,
+                  "charOffset": 5986,
                   "snippet": {
                     "text": "="
                   }
@@ -1380,7 +1380,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 6288,
+                  "charOffset": 6402,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1420,7 +1420,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 6155,
+                  "charOffset": 6264,
                   "snippet": {
                     "text": "="
                   }
@@ -1460,7 +1460,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 6691,
+                  "charOffset": 6817,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1500,7 +1500,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 6559,
+                  "charOffset": 6680,
                   "snippet": {
                     "text": "="
                   }
@@ -1524,46 +1524,6 @@
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "datadis"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "datadis"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
         },
         {
           "locations": [
@@ -15354,6 +15314,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Distributorkycform.Icon18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Icon18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Icon18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Icon18.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Icon18.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Icon18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Distributorkycform.Gallery15.AccessibleLabel"
                 }
               ],
@@ -15414,19 +15434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_57.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_57.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_57"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2"
               }
             }
           ],
@@ -15444,19 +15464,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2"
               }
             }
           ],
@@ -15474,19 +15494,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_61.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_23.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_61.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_23.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_61"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_23"
               }
             }
           ],
@@ -15504,19 +15524,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_60.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_60.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_60"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2"
               }
             }
           ],
@@ -15534,19 +15554,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_59.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_59.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_59"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2_1"
               }
             }
           ],
@@ -15564,19 +15584,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_58.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_26.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_58.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_26.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_58"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_26"
               }
             }
           ],
@@ -15594,19 +15614,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_55.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_29.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_55.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_29.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_55"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_29"
               }
             }
           ],
@@ -15624,19 +15644,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_54.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_62.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_54.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_62.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_54"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_62"
               }
             }
           ],
@@ -15654,19 +15674,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_56.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_63.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_56.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_63.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_56"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_63"
               }
             }
           ],
@@ -15684,19 +15704,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_53.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_53.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_53"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_3"
               }
             }
           ],
@@ -15714,19 +15734,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_52.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_64.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_52.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_64.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_52"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_64"
               }
             }
           ],
@@ -15744,19 +15764,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
               }
             }
           ],
@@ -15774,19 +15794,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93"
               }
             }
           ],
@@ -15804,499 +15824,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_34.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_34.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_34"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_51.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_51.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_51"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.Dropdown2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.Dropdown2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.Dropdown2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_43.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_43.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_43"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_45.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_45.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_45"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.ComboBox4_24.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.ComboBox4_24.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.ComboBox4_24"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_44.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_44.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_44"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 12
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 12
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 12
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_33.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_33.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_33"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_30.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_30.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_30"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5_1"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92"
               }
             }
           ],
@@ -16344,19 +15884,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_98.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_98.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_98"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95"
               }
             }
           ],
@@ -16374,19 +15914,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_96.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_96.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_96"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4"
               }
             }
           ],
@@ -16464,19 +16064,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_99.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_96.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_99.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_96.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_99"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_96"
               }
             }
           ],
@@ -16524,19 +16124,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_98.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_98.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_95"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_98"
               }
             }
           ],
@@ -16554,19 +16154,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_99.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_99.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3_1"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_99"
               }
             }
           ],
@@ -16584,19 +16184,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown3"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5_1"
               }
             }
           ],
@@ -16614,19 +16214,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_4"
+                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Dropdown5"
               }
             }
           ],
@@ -16644,19 +16244,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_3.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_3.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_3"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Radio1_3"
               }
             }
           ],
@@ -16674,19 +16274,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_30.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_30.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_92"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_30"
               }
             }
           ],
@@ -16704,19 +16304,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_33.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_33.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_93"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.TextInput3_33"
               }
             }
           ],
@@ -16734,19 +16334,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_65"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14"
               }
             }
           ],
@@ -16764,19 +16364,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_64.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_64.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.con1.Icon13_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_64"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1"
               }
             }
           ],
@@ -16794,19 +16424,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_63.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_63.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_63"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27"
               }
             }
           ],
@@ -16824,19 +16484,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_62.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_62.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.Icon22_27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_44.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_44.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_62"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_44"
               }
             }
           ],
@@ -16854,19 +16544,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_29.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.ComboBox4_24.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_29.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.ComboBox4_24.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_29"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.ComboBox4_24"
               }
             }
           ],
@@ -16884,19 +16574,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_26.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_45.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_26.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_45.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_26"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_45"
               }
             }
           ],
@@ -16914,19 +16604,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2_1.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_43.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2_1.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_43.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2_1"
+                "type": "Distributorkycform.Canvas7.DataCard5.FinancialContainer.Container6_2.Container13.Gallery17_1.TextInput6_43"
               }
             }
           ],
@@ -16944,19 +16634,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.Dropdown2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.Dropdown2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.DatePicker2"
+                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.Dropdown2"
               }
             }
           ],
@@ -16974,19 +16664,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_23.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_51.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_23.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_51.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_23"
+                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_51"
               }
             }
           ],
@@ -17004,19 +16694,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_34.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_34.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.Radio1_2"
+                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_34"
               }
             }
           ],
@@ -17034,19 +16724,349 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2.AccessibleLabel"
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2.AccessibleLabel",
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Distributorkycform",
-                "type": "Distributorkycform.Canvas7.DataCard5.CommunicationContainer.TextInput3_2"
+                "type": "Distributorkycform.Canvas7.DataCard5.'Tax/GSTContainer'.TextInput3_50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.ComboBox2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_52.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_52.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_52"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_53.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_53.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_53"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_56.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_56.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_56"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_54.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_54.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_54"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_55.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_55.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_55"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_58.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_58.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_58"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_59.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_59.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_59"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_60.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_60.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_60"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_61.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_61.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_61"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_57.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_57.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Distributorkycform",
+                "type": "Distributorkycform.Canvas7.DataCard5.BankContainer.TextInput3_57"
               }
             }
           ],
@@ -28193,66 +28213,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Distributorkycform.Icon17_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Icon17_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Icon17_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Icon17_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Icon17_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Icon17_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 12
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.VarVisit"
                 }
               ],
@@ -33965,6 +33925,36 @@
                 "member": "Visible",
                 "module": "customer info_1",
                 "type": "'customer info_1'.Canvas3_1.DataCard3_1.Container4_1.TextInput2_106"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 19
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DistributorOnboarding.Gallery2_6.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DistributorOnboarding.Gallery2_6.Items",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "DistributorOnboarding",
+                "type": "DistributorOnboarding.Gallery2_6"
               }
             }
           ],
