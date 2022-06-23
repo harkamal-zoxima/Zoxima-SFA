@@ -2154,7 +2154,7 @@ Distributorkycform As screen:
         HoverFill: =RGBA(88, 103, 130, 1)
         OnSelect: |
             =If(
-                Create,
+                variable,
                 Patch(
                     'Distributor Onboardings',
                     Defaults('Distributor Onboardings'),
@@ -2233,8 +2233,6 @@ Distributorkycform As screen:
                             ).cr431_salesterritoryid
                         ),
                         //  'Area': ComboBox3_5.Selected.Value
-                   // 'Billing State': ComboBox3_1.Selected.Value
-                    // Zone: ComboBox3.Selected.Value
             Zone: LookUp(
                             'Sales Territories',
                             'Sales Territory' = Last(
@@ -2297,7 +2295,6 @@ Distributorkycform As screen:
                         'Name of the Distributor': TextInput3_57.Text,
                         'Credit limit (In Rs.)': Value(TextInput3_60.Text),
                         'Deposit Amount': Value(TextInput3_58.Text),
-                        //'Sub State': TextInput3_94.Text,
                         //statusmain: 'statusmain (Distributor Onboardings)'.Draft,
             'Sub State': LookUp(
                             'Sales Territories',

@@ -114,7 +114,7 @@ DistributorOnboarding As screen:
             Icon: =Icon.Edit
             OnSelect: |
                 =Navigate(Distributorkycform, Fade, {datadis1: ThisItem});
-                Set(Create,false)
+                Set(variable,false)
             PaddingBottom: =5
             PaddingLeft: =5
             PaddingRight: =5
@@ -539,7 +539,7 @@ DistributorOnboarding As screen:
         Icon: =Icon.Add
         OnSelect: |-
             =Navigate(Distributorkycform, Fade, {datadis1: {}});
-            Set(Create,true)
+            Set(variable,true)
         Width: =55
         X: =510
         Y: =900
