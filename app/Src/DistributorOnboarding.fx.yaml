@@ -5,7 +5,7 @@ DistributorOnboarding As screen:
     Gallery2_6 As gallery.galleryVertical:
         BorderColor: =RGBA(89, 0, 0, 1)
         BorderStyle: =BorderStyle.None
-        Height: =659
+        Height: =796
         Items: |-
             =Filter(
                 If(
@@ -34,7 +34,7 @@ DistributorOnboarding As screen:
             )
         Layout: =Layout.Vertical
         TemplateSize: =484
-        Y: =372
+        Y: =239
         ZIndex: =1
 
         Button25 As button:
@@ -77,7 +77,7 @@ DistributorOnboarding As screen:
         Label45 As label:
             BorderColor: =RGBA(237, 102, 102, 1)
             BorderStyle: =BorderStyle.None
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =71
@@ -138,7 +138,7 @@ DistributorOnboarding As screen:
                 "Record Id"
             Width: =140
             X: =86
-            Y: =110
+            Y: =105
             ZIndex: =8
 
         Label46_1 As label:
@@ -154,7 +154,7 @@ DistributorOnboarding As screen:
                 "Name"
             Width: =140
             X: =86
-            Y: =148
+            Y: =158
             ZIndex: =9
 
         Label46_2 As label:
@@ -168,7 +168,7 @@ DistributorOnboarding As screen:
                 =//ThisItem.'Distributor Name'
                 //ThisItem.'Record Id';
                 "Constitution of Firm"
-            Width: =169
+            Width: =301
             X: =86
             Y: =254
             ZIndex: =10
@@ -184,9 +184,9 @@ DistributorOnboarding As screen:
                 =//ThisItem.'Distributor Name'
                 //ThisItem.'Record Id';
                 "Year of Establishment"
-            Width: =196
+            Width: =291
             X: =86
-            Y: =192
+            Y: =207
             ZIndex: =11
 
         Label46_4 As label:
@@ -207,8 +207,9 @@ DistributorOnboarding As screen:
 
         Label46_5 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =42
             OnSelect: =Select(Parent)
             Size: =19
@@ -217,14 +218,15 @@ DistributorOnboarding As screen:
                 ThisItem.' Record Id'
                 //"Record Id"
             Width: =140
-            X: =327
-            Y: =110
+            X: =377
+            Y: =105
             ZIndex: =13
 
         Label46_6 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =42
             OnSelect: =Select(Parent)
             Size: =19
@@ -232,14 +234,15 @@ DistributorOnboarding As screen:
                 =//ThisItem.'Distributor Name'
                 ThisItem.'First Name'
             Width: =140
-            X: =327
-            Y: =148
+            X: =377
+            Y: =158
             ZIndex: =14
 
         Label46_7 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =54
             OnSelect: =Select(Parent)
             Size: =19
@@ -248,14 +251,15 @@ DistributorOnboarding As screen:
                 ThisItem.'Year of Establishment'
                 //"Record Id"
             Width: =162
-            X: =327
-            Y: =190
+            X: =377
+            Y: =205
             ZIndex: =15
 
         Label46_8 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =42
             OnSelect: =Select(Parent)
             Size: =19
@@ -264,14 +268,15 @@ DistributorOnboarding As screen:
                 ThisItem.'Constitution of the firm'
                 //"Record Id"
             Width: =140
-            X: =319
-            Y: =256
+            X: =379
+            Y: =261
             ZIndex: =16
 
         Label46_9 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =42
             OnSelect: =Select(Parent)
             Size: =19
@@ -280,7 +285,7 @@ DistributorOnboarding As screen:
                 ThisItem.'Gross Turnover (Per Annum)'
                 //"Record Id"
             Width: =140
-            X: =317
+            X: =382
             Y: =323
             ZIndex: =17
 
@@ -293,17 +298,18 @@ DistributorOnboarding As screen:
 
             Circle6 As circle:
                 BorderColor: =RGBA(89, 0, 0, 1)
-                Fill: =RGBA(104, 196, 127, 1)
-                Height: =45
+                Fill: =RGBA(56, 232, 62, 1)
+                Height: =55
                 OnSelect: |-
                     =Launch("tel://"& ThisItem.'Mobile No.')
                 Width: =55
                 X: =512
-                Y: =39
+                Y: =33
                 ZIndex: =6
 
             Icon21 As icon.Phone:
                 BorderColor: =RGBA(89, 0, 0, 1)
+                Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(244, 244, 244, 1)
                 Height: =38
@@ -387,31 +393,8 @@ DistributorOnboarding As screen:
             Y: =396
             ZIndex: =20
 
-    Circle5 As circle:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Fill: =RGBA(255, 216, 119, 1)
-        Height: =82
-        OnSelect: =
-        Width: =82
-        X: =494
-        Y: =885
-        ZIndex: =2
-
-    Icon12_2 As icon.ArrowLeft:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =52
-        Icon: =Icon.ArrowLeft
-        OnSelect: =Back()
-        X: =19
-        Y: =13
-        ZIndex: =5
-
     TextInput4_1 As text:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        BorderThickness: =2
+        BorderColor: =RGBA(116, 116, 116, 1)
         Color: =RGBA(0, 0, 0, 1)
         Default: =""
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -424,10 +407,14 @@ DistributorOnboarding As screen:
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
         PaddingLeft: =90
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
         Size: =19
         Width: =490
         X: =79
-        Y: =123
+        Y: =72
         ZIndex: =6
 
     Icon16_1 As icon.Search:
@@ -442,7 +429,7 @@ DistributorOnboarding As screen:
         PaddingTop: =5
         Width: =48
         X: =90
-        Y: =129
+        Y: =78
         ZIndex: =7
 
     Group10_1 As group:
@@ -461,7 +448,7 @@ DistributorOnboarding As screen:
             Fill: =RGBA(237, 27, 36, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             FontWeight: =FontWeight.Bold
-            Height: =244
+            Height: =163
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
             RadiusBottomLeft: =90
@@ -472,14 +459,16 @@ DistributorOnboarding As screen:
             ZIndex: =3
 
         Label40 As label:
-            Align: =Align.Center
             BorderColor: =RGBA(89, 0, 0, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =70
+            FontWeight: =FontWeight.Semibold
+            Height: =47
             Size: =21
             Text: ="Distributor Onboarding"
-            Width: =560
+            Width: =481
+            X: =79
+            Y: =11
             ZIndex: =4
 
     Gallery14 As gallery.galleryHorizontal:
@@ -505,8 +494,8 @@ DistributorOnboarding As screen:
                 }
             )
         ShowScrollbar: =false
-        TemplateSize: =214
-        Y: =256
+        TemplateSize: =261
+        Y: =166
         ZIndex: =9
 
         Label41 As label:
@@ -514,11 +503,12 @@ DistributorOnboarding As screen:
             BorderColor: =RGBA(89, 0, 0, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =55
             OnSelect: =Select(Parent)
             Size: =17
             Text: =ThisItem.Title
-            Width: =188
+            Width: =257
             X: =4
             ZIndex: =1
 
@@ -528,23 +518,12 @@ DistributorOnboarding As screen:
             Height: =4
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
-            X: =23
+            X: =58
             Y: =55
             ZIndex: =2
 
-    Icon17_3 As icon.Add:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =55
-        Icon: =Icon.Add
-        OnSelect: |-
-            =Navigate(Distributorkycform, Fade, {datadis1: {}});
-            Set(variable,true)
-        Width: =55
-        X: =508
-        Y: =898
-        ZIndex: =10
+    "'Side Bar_10' As 'Side Bar'":
+        ZIndex: =11
 
     Group11_6 As group:
         Height: =5
@@ -552,4 +531,81 @@ DistributorOnboarding As screen:
         X: =40
         Y: =40
         ZIndex: =11
+
+    mainbottomnav_8 As mainbottomnav:
+        NavItems: |-
+            =Table(
+                {
+                    Title: If(
+                        varAttendance = "end",
+                        "End",
+                        varAttendance = "start",
+                        "Start",
+                        varAttendance = "done",
+                        "Ended"
+                    ),
+                    //Title: Start,
+                    Screen: If(
+                        varAttendance = "start",
+                        StartDay,
+                        varAttendance = "end",
+                        'End day',
+                        varAttendance = "done",
+                        'Day Ended'
+                    ),
+                    Icon: CalendarBlank,
+                    Active: false
+                },
+                {
+                    Title: "Visits",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Orders",
+                    Screen: 'All Orders',
+                    Icon: ShoppingCart,
+                    Active: false
+                }
+            )
+        Y: =1056
+        ZIndex: =12
+
+    Group30 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =13
+
+        Circle5 As circle:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Fill: =RGBA(255, 191, 0, 1)
+            Height: =82
+            OnSelect: =
+            Width: =82
+            X: =506
+            Y: =941
+            ZIndex: =2
+
+        Icon17_3 As icon.Add:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =55
+            Icon: =Icon.Add
+            OnSelect: |-
+                =Navigate(Distributorkycform, Fade, {datadis1: {}});
+                Set(variable,true)
+            Width: =55
+            X: =520
+            Y: =954
+            ZIndex: =10
 

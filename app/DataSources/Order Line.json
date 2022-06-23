@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_orderline",
-    "MaxGetRowsCount": 500,
     "Name": "Order Line",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
@@ -30,7 +29,6 @@
       "cr431_orderline_ProcessSession": "Process Sessions",
       "cr431_orderline_SyncErrors": "Sync Errors",
       "cr431_orderlineid": "Order Line",
-      "cr431_OrderNo": "Order No",
       "cr431_pg1": "PG1",
       "cr431_pg2": "PG2",
       "cr431_pg3": "PG3",

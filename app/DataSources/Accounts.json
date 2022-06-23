@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "account",
-    "MaxGetRowsCount": 500,
     "Name": "Accounts",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

@@ -675,7 +675,7 @@
     filter_3 As gallery.galleryHorizontal:
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =64
-        Items: =['Order Status (SalesOrders)'.Open, 'Order Status (SalesOrders)'.Accepted, 'Order Status (SalesOrders)'.'Partially Shipped', 'Order Status (SalesOrders)'.Shipped]
+        Items: =Choices('Order Status (SalesOrders)')
         OnSelect: =
         ShowScrollbar: =false
         TemplateSize: =143
