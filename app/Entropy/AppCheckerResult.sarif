@@ -35820,6 +35820,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.emp"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.emp",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "emp",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 20
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.WhatsApp Image 2022-05-13 at 1.06.35 PM"
                 }
               ],
