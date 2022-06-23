@@ -10534,7 +10534,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 305,
+                  "charOffset": 458,
                   "snippet": {
                     "text": "-"
                   }
@@ -10574,7 +10574,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 295,
+                  "charOffset": 448,
                   "snippet": {
                     "text": ">"
                   }
@@ -10614,7 +10614,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 578,
+                  "charOffset": 822,
                   "snippet": {
                     "text": "-"
                   }
@@ -10654,7 +10654,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 568,
+                  "charOffset": 812,
                   "snippet": {
                     "text": ">"
                   }
@@ -10693,10 +10693,210 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 22,
-                  "charOffset": 830,
+                  "charLength": 21,
+                  "charOffset": 1165,
                   "snippet": {
-                    "text": "IsToday('Order Date' )"
+                    "text": "IsToday('Order Date')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "All Orders",
+                "type": "'All Orders'.Orders"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 1696,
+                  "snippet": {
+                    "text": "-"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "All Orders",
+                "type": "'All Orders'.Orders"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 1686,
+                  "snippet": {
+                    "text": ">"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "All Orders",
+                "type": "'All Orders'.Orders"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 2060,
+                  "snippet": {
+                    "text": "-"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "All Orders",
+                "type": "'All Orders'.Orders"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 2050,
+                  "snippet": {
+                    "text": ">"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "All Orders",
+                "type": "'All Orders'.Orders"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Orders'.Orders.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 21,
+                  "charOffset": 2403,
+                  "snippet": {
+                    "text": "IsToday('Order Date')"
                   }
                 }
               },
@@ -35664,6 +35864,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 16
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Orders'.'Order Filter'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Orders'.'Order Filter'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "All Orders",
+                "type": "'All Orders'.'Order Filter'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 15
         },
         {
           "locations": [
