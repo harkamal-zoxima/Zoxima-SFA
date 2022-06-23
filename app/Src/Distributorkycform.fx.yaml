@@ -2,45 +2,12 @@ Distributorkycform As screen:
     Fill: =RGBA(59, 59, 59, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
 
-    Button21 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(88, 103, 130, 1)
-        DisplayMode: =DisplayMode.Disabled
-        Fill: =RGBA(164, 38, 44, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        FontWeight: =FontWeight.Semibold
-        Height: =160
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        RadiusBottomLeft: |
-            =90
-        RadiusBottomRight: |
-            =90
-        Size: =24
-        Text: =""
-        Width: =640
-        Y: =1
-        ZIndex: =1
-
-    LblAppName1 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =86
-        Size: =27
-        Text: ="KYC Form"
-        Width: =292
-        X: =67
-        Y: =1
-        ZIndex: =2
-
     Canvas7 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =858
+        Height: =908
         Width: =Parent.Width
-        Y: =239
-        ZIndex: =3
+        Y: =132
+        ZIndex: =1
 
         DataCard5 As dataCard:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -2071,24 +2038,6 @@ Distributorkycform As screen:
                     Y: =820
                     ZIndex: =23
 
-    Icon18 As icon.ArrowLeft:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =52
-        Icon: =Icon.ArrowLeft
-        OnSelect: |-
-            =//Navigate(DistributorOnboarding);
-            Back();
-            
-            Set(ClearFieldsForDO, true);
-            Set(datadis,{})
-        Width: =60
-        X: =28
-        Y: =13
-        ZIndex: =4
-
     Gallery15 As gallery.galleryHorizontal:
         BorderColor: =RGBA(89, 0, 0, 1)
         Height: =55
@@ -2114,8 +2063,8 @@ Distributorkycform As screen:
             )
         ShowScrollbar: =false
         TemplateSize: =240
-        Y: =171
-        ZIndex: =5
+        Y: =77
+        ZIndex: =2
 
         Label44 As label:
             Align: =Align.Center
@@ -2140,16 +2089,21 @@ Distributorkycform As screen:
             Y: =40
             ZIndex: =2
 
+    "'Header Component_20' As 'Header Component_11'":
+        Height: =87
+        ScreenName: ="KYC FORM"
+        ZIndex: =3
+
     Button6_6 As button:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =0
-        Color: =RGBA(164, 164, 164, 1)
+        Color: =RGBA(184, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =42
+        Height: =32
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(88, 103, 130, 1)
         OnSelect: |
@@ -2342,10 +2296,76 @@ Distributorkycform As screen:
                 Notify("Update successfully")
             );
             Navigate(DistributorOnboarding);
-        Size: =24
+        Size: =18
         Text: ="SAVE"
-        Width: =184
-        X: =396
-        Y: =78
+        Width: =157
+        X: =455
+        Y: =20
+        ZIndex: =4
+
+    Icon17_4 As icon.BackArrow:
+        BorderColor: =RGBA(109, 109, 109, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =50
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =8
+        Y: =10
+        ZIndex: =5
+
+    mainbottomnav_9 As mainbottomnav:
+        NavItems: |-
+            =Table(
+                {
+                    Title: If(
+                        varAttendance = "end",
+                        "End",
+                        varAttendance = "start",
+                        "Start",
+                        varAttendance = "done",
+                        "Ended"
+                    ),
+                    //Title: Start,
+                    Screen: If(
+                        varAttendance = "start",
+                        StartDay,
+                        varAttendance = "end",
+                        'End day',
+                        varAttendance = "done",
+                        'Day Ended'
+                    ),
+                    Icon: CalendarBlank,
+                    Active: false
+                },
+                {
+                    Title: "Visits",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Orders",
+                    Screen: 'All Orders',
+                    Icon: ShoppingCart,
+                    Active: false
+                }
+            )
+        Y: =1056
         ZIndex: =6
 

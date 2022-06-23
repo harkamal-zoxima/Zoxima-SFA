@@ -6,34 +6,11 @@ DistributorOnboarding As screen:
         BorderColor: =RGBA(89, 0, 0, 1)
         BorderStyle: =BorderStyle.None
         Height: =796
-        Items: |-
-            =Filter(
-                If(
-                    Gallery14.Selected.Title = "Draft",
-                    Filter(
-                        'Distributor Onboardings',
-                        statusmain = 'statusmain (Distributor Onboardings)'.Draft
-                    ),
-                    Gallery14.Selected.Title = "Pending for approval",
-                    Filter(
-                        'Distributor Onboardings',
-                        statusmain = 'statusmain (Distributor Onboardings)'.Pending
-                    ),
-                    Gallery14.Selected.Title = "Approved",
-                    Filter(
-                        'Distributor Onboardings',
-                        statusmain = 'statusmain (Distributor Onboardings)'.Approved
-                    ),
-                    Gallery14.Selected.Title = "Reject",
-                    Filter(
-                        'Distributor Onboardings',
-                        statusmain = 'statusmain (Distributor Onboardings)'.Rejected
-                    )
-                ),
-                TextInput4.Text in 'Name of the Firm'
-            )
+        Items: ='Distributor Onboardings'
         Layout: =Layout.Vertical
-        TemplateSize: =484
+        ShowNavigation: =true
+        ShowScrollbar: =false
+        TemplateSize: =480
         Y: =239
         ZIndex: =1
 
@@ -522,14 +499,14 @@ DistributorOnboarding As screen:
             Y: =55
             ZIndex: =2
 
-    "'Side Bar_10' As 'Side Bar'":
-        ZIndex: =11
-
     Group11_6 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
+        ZIndex: =11
+
+    "'Side Bar_10' As 'Side Bar'":
         ZIndex: =11
 
     mainbottomnav_8 As mainbottomnav:

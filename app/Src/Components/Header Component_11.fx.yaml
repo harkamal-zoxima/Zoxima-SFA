@@ -24,7 +24,7 @@
         Text: ='Header Component_11'.ScreenName
         Width: =549
         X: =72
-        Y: =4
+        Y: =2
         ZIndex: =2
 
     Rectangle8 As rectangle:
