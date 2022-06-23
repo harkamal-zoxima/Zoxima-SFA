@@ -1,6 +1,7 @@
 "'Events detail' As screen":
     Fill: =RGBA(31, 31, 31, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
+    OnVisible: =Set(varOpen, false);
 
     Gallery9 As gallery.variableTemplateHeightGallery:
         BorderColor: =RGBA(109, 109, 109, 1)

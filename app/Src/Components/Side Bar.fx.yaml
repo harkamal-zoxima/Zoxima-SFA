@@ -22,7 +22,7 @@
             },
             {
                 title: "Site",
-                screen: 'Create Site'
+                screen: 'Site List'
             },
             {
                 title: "Customers",

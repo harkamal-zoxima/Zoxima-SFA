@@ -1,6 +1,7 @@
 "'Site List' As screen":
     Fill: =RGBA(31, 31, 31, 1)
     LoadingSpinnerColor: =RGBA(255, 200, 61, 1)
+    OnVisible: =Set(varOpen, false)
 
     Gallery9_1 As gallery.variableTemplateHeightGallery:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -60,30 +61,6 @@
             X: =325
             Y: =51
             ZIndex: =2
-
-        Icon20_2 As icon.ChevronRight:
-            BorderColor: =RGBA(109, 109, 109, 1)
-            Color: =RGBA(255, 200, 61, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =29
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.ChevronRight
-            OnSelect: |-
-                =//ViewForm(Form1);
-                //Navigate('New Events',ScreenTransition.Cover,{selecteditems:Gallery9.Selected})
-                Select(Parent)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =25
-            X: =569
-            Y: =97
-            ZIndex: =4
 
         Label20_12 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
