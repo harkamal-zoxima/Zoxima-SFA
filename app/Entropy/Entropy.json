@@ -469,7 +469,6 @@
     "DistLabel_7": 1717,
     "DistLabel_8": 1720,
     "DistLabel_9": 1915,
-    "Distributor": 1534,
     "Distributor_11": 1922,
     "Distributor_12": 1930,
     "Distributor_13": 1938,
@@ -1706,7 +1705,6 @@
     "Label7_10": 1036,
     "Label7_2": 2056,
     "Label7_3": 718,
-    "Label7_4": 1532,
     "Label7_5": 1535,
     "Label7_6": 1643,
     "Label7_7": 138,
@@ -2166,7 +2164,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/23/2022 06:10:16",
+  "HeaderLastSavedDateTimeUTC": "06/23/2022 06:12:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c9c4816a-4020-432d-9280-92907bb120b2": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/3d3303b9c30543d884499e3c24ffb277\""
@@ -3133,14 +3131,12 @@
       "Label36_1": 1
     },
     "Group26": {
-      "Button2_8": 3,
-      "Distributor": 4,
+      "Button2_8": 2,
       "Icon10_5": 1,
-      "Label12": 7,
-      "Label7_4": 2,
-      "Label7_5": 5,
+      "Label12": 5,
+      "Label7_5": 3,
       "Rectangle7_5": 0,
-      "Retailer": 6
+      "Retailer": 4
     },
     "Group26_1": {
       "Button2_9": 2,
@@ -3757,7 +3753,6 @@
     "DistLabel_7": 469,
     "DistLabel_8": 472,
     "DistLabel_9": 495,
-    "Distributor": 624,
     "Distributor_11": 502,
     "Distributor_12": 510,
     "Distributor_13": 518,
@@ -4994,7 +4989,6 @@
     "Label7_10": 1757,
     "Label7_2": 785,
     "Label7_3": 340,
-    "Label7_4": 622,
     "Label7_5": 625,
     "Label7_6": 566,
     "Label7_7": 749,
@@ -5515,7 +5509,7 @@
       "typedDataCard": 68
     },
     "DeserializationLoadTime": 14.5198737,
-    "ErrorCount": 404
+    "ErrorCount": 406
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
