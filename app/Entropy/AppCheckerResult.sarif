@@ -16373,19 +16373,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.TextInput5_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.TextInput5_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.TextInput5_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.TextInput5_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Gallery5_2.TextInput5_1"
+                "type": "'Secondary Cart'.Gallery5_2.TextInput5_3"
               }
             }
           ],
@@ -28013,19 +28013,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Label4_9.TabIndex"
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Icon9_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Label4_9.TabIndex",
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Icon9_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Gallery5_2.Label4_9"
+                "type": "'Secondary Cart'.Gallery5_2.Icon9_3"
               }
             }
           ],
@@ -28043,49 +28043,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Label4_11.TabIndex"
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Icon9_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Label4_11.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Gallery5_2.Label4_11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 15
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Icon9_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Icon9_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Icon9_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Gallery5_2.Icon9_1"
+                "type": "'Secondary Cart'.Gallery5_2.Icon9_3"
               }
             }
           ],
@@ -28103,19 +28073,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Icon9_1.TabIndex"
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Label4_17.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Icon9_1.TabIndex",
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Label4_17.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Secondary Cart",
-                "type": "'Secondary Cart'.Gallery5_2.Icon9_1"
+                "type": "'Secondary Cart'.Gallery5_2.Label4_17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 15
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Label4_16.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Secondary Cart'.Gallery5_2.Label4_16.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Secondary Cart",
+                "type": "'Secondary Cart'.Gallery5_2.Label4_16"
               }
             }
           ],
