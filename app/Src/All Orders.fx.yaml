@@ -13,7 +13,7 @@
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =850
         Items: |-
-            =If(IsBlank(VarSelectedOrderDate), Sort(Filter(Switch(
+            =Sort(Switch(
                 filter_2.Selected.Value,
                 "Last 30 Days",
                 Filter(
@@ -39,33 +39,7 @@
                     ),
                     IsToday('Order Date' )
                 )
-            ), 'Order Date' = VarSelectedOrderDate), 'Created On', Descending), Sort(Filter(Switch(
-                filter_2.Selected.Value,
-                "Last 30 Days",
-                Filter(
-                    Filter(
-                        SalesOrders,
-                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
-                    ),
-                    'Order Date' > Today() - 30
-                ),
-                "Last 7 Days",
-                Filter(
-                    Filter(
-                        SalesOrders,
-                        'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
-                    ),
-                   'Order Date' > Today() - 7
-                ),
-                "Today's Orders",
-                Filter(
-                    Filter(
-                        SalesOrders,
-                       'Created By'.'Primary Email' = User().Email && 'Order Type'= 'Order Type1'.'254460000' && 'Order Status'= filter.Selected.Value
-                    ),
-                    IsToday('Order Date' )
-                )
-            ), 'Order Date' = VarSelectedOrderDate), 'Created On', Descending))
+            ), 'Created On', Descending)
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =201
@@ -794,29 +768,6 @@
         Visible: =VarRetailerDialog
         Width: =640
         ZIndex: =25
-
-    "'Order Filter' As datepicker":
-        BorderColor: =RGBA(109, 109, 109, 1)
-        CalendarHeaderFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
-        Color: =RGBA(22, 22, 22, 1)
-        DefaultDate: =
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =38
-        HoverDateFill: =RGBA(144, 144, 144, 1)
-        IconBackground: =
-        IconFill: =Black
-        InputTextPlaceholder: ="Select Date"
-        OnSelect: =Set(VarSelectedOrderDate, 'Order Filter'.SelectedDate)
-        PaddingTop: =5
-        SelectedDateFill: =RGBA(255, 200, 61, 1)
-        Size: =15
-        Width: =203
-        X: =305
-        Y: =18
-        ZIndex: =33
 
     Group26_1 As group:
         Height: =5
