@@ -4007,123 +4007,6 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 11,
-                  "charOffset": 229,
-                  "snippet": {
-                    "text": "SingleVisit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SingleVisit"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 240,
-                  "snippet": {
-                    "text": ".Customer"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 27,
-                  "charOffset": 223,
-                  "snippet": {
-                    "text": "First(SingleVisit.Customer)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "First"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 9,
                   "charOffset": 250,
                   "snippet": {
@@ -4139,13 +4022,16 @@
             }
           ],
           "message": {
+            "arguments": [
+              "LookUp"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -4177,332 +4063,15 @@
           ],
           "message": {
             "arguments": [
-              "Guid",
-              "Error"
+              "LookUp"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 521,
-                  "snippet": {
-                    "text": "SingleVisit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SingleVisit"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 515,
-                  "snippet": {
-                    "text": "First(SingleVisit)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "First"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 533,
-                  "snippet": {
-                    "text": ".Account"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 769,
-                  "snippet": {
-                    "text": "SingleVisit"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SingleVisit"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 763,
-                  "snippet": {
-                    "text": "First(SingleVisit)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "First"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 781,
-                  "snippet": {
-                    "text": ".Account"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 241,
-                  "charOffset": 628,
-                  "snippet": {
-                    "text": "Patch(\r\n        OfflineVisits,\r\n        Defaults(OfflineVisits),\r\n        {\r\n            'Visit Date': Today(),\r\n            Customer: First(SingleVisit).Account,\r\n            'Visit Type': 'Visit Type (Visits_1)'.Unplanned\r\n        }\r\n    )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist)_1'.Button2_11.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 160,
-                  "charOffset": 702,
-                  "snippet": {
-                    "text": "{\r\n            'Visit Date': Today(),\r\n            Customer: First(SingleVisit).Account,\r\n            'Visit Type': 'Visit Type (Visits_1)'.Unplanned\r\n        }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Customer (Dist)_1",
-                "type": "'Customer (Dist)_1'.Button2_11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "cr431_customer",
-              "Record",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 13
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -6211,7 +5780,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -6332,7 +5901,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -6529,7 +6098,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -6610,7 +6179,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -6647,7 +6216,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -6844,7 +6413,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -6925,7 +6494,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -6962,7 +6531,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -7199,7 +6768,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -7280,7 +6849,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -7317,7 +6886,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -7514,7 +7083,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -7595,7 +7164,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -7632,7 +7201,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -7829,7 +7398,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -7910,7 +7479,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -7947,7 +7516,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -8104,7 +7673,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -8185,7 +7754,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -8222,7 +7791,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -9611,7 +9180,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -9732,7 +9301,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -9929,7 +9498,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -10010,7 +9579,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -10047,7 +9616,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -10244,7 +9813,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -10325,7 +9894,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -10362,7 +9931,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -10599,7 +10168,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -10680,7 +10249,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -10717,7 +10286,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -10914,7 +10483,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -10995,7 +10564,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -11032,7 +10601,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -11153,7 +10722,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -11234,7 +10803,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -11591,7 +11160,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -11668,7 +11237,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -11989,7 +11558,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -12110,7 +11679,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -12307,7 +11876,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -12388,7 +11957,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -12425,7 +11994,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -12622,7 +12191,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -12703,7 +12272,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -12740,7 +12309,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -12977,7 +12546,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -13058,7 +12627,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -13095,7 +12664,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -13292,7 +12861,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -13373,7 +12942,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -13410,7 +12979,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -13607,7 +13176,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -13688,7 +13257,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -13725,7 +13294,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -13882,7 +13451,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -13963,7 +13532,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 12
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -14000,7 +13569,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 11
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -14926,26 +14495,266 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect"
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.OnVisible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect",
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.OnVisible",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 9,
-                  "charOffset": 112,
+                  "charLength": 13,
+                  "charOffset": 93,
                   "snippet": {
-                    "text": ".Customer"
+                    "text": "colMyAccounts"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colMyAccounts"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 87,
+                  "snippet": {
+                    "text": "Clear(colMyAccounts)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Clear"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 133,
+                  "snippet": {
+                    "text": "colMyAccounts"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colMyAccounts"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 65,
+                  "charOffset": 114,
+                  "snippet": {
+                    "text": "LoadData(\r\n        colMyAccounts,\r\n        \"LocalAccounts\"\r\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LoadData"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 211,
+                  "snippet": {
+                    "text": ".'Account Name (name)'"
                   }
                 }
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Customer (Dist) Plan Visit",
-                "type": "'Customer (Dist) Plan Visit'.Button2_4"
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Button2_13"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Account Name (name)"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 274,
+                  "snippet": {
+                    "text": "colMyAccounts"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Button2_13"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colMyAccounts"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 93,
+                  "charOffset": 253,
+                  "snippet": {
+                    "text": "LookUp(\r\n            colMyAccounts,\r\n            Account = ThisItem.Dealer.Account\r\n        )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Button2_13"
               }
             }
           ],
@@ -14956,27 +14765,67 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 7
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect"
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect",
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 302,
+                  "snippet": {
+                    "text": "Account"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Button2_13"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Account"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 89,
+                  "charOffset": 310,
                   "snippet": {
                     "text": "="
                   }
@@ -14984,128 +14833,171 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Customer (Dist) Plan Visit",
-                "type": "'Customer (Dist) Plan Visit'.Button2_4"
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Button2_13"
               }
             }
           ],
           "message": {
             "arguments": [
-              "LookUp"
+              "Error",
+              "Guid"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 11
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect"
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect",
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 2,
-                  "charOffset": 122,
+                  "charLength": 306,
+                  "charOffset": 50,
                   "snippet": {
-                    "text": "&&"
+                    "text": "ClearCollect(\r\n    SingleVisit,\r\n    {\r\n        Customer: ThisItem.Dealer.Account,\r\n        visitType: 'Visit Type (Visits_1)'.Unplanned,\r\n        Name: ThisItem.'Account Name (name)',\r\n        Account: LookUp(\r\n            colMyAccounts,\r\n            Account = ThisItem.Dealer.Account\r\n        )\r\n    }\r\n)"
                   }
                 }
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Customer (Dist) Plan Visit",
-                "type": "'Customer (Dist) Plan Visit'.Button2_4"
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Button2_13"
               }
             }
           ],
           "message": {
             "arguments": [
-              "LookUp"
+              "ClearCollect"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 7
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect"
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect",
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Button2_13.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 2,
-                  "charOffset": 158,
+                  "charLength": 266,
+                  "charOffset": 87,
                   "snippet": {
-                    "text": "&&"
+                    "text": "{\r\n        Customer: ThisItem.Dealer.Account,\r\n        visitType: 'Visit Type (Visits_1)'.Unplanned,\r\n        Name: ThisItem.'Account Name (name)',\r\n        Account: LookUp(\r\n            colMyAccounts,\r\n            Account = ThisItem.Dealer.Account\r\n        )\r\n    }"
                   }
                 }
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Customer (Dist) Plan Visit",
-                "type": "'Customer (Dist) Plan Visit'.Button2_4"
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Button2_13"
               }
             }
           ],
           "message": {
             "arguments": [
-              "LookUp"
+              "Name",
+              "Text",
+              "Error"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
+          "ruleId": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
+          "ruleIndex": 13
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect"
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect",
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 9,
-                  "charOffset": 734,
+                  "charLength": 13,
+                  "charOffset": 281,
                   "snippet": {
-                    "text": ".Customer"
+                    "text": "colMyAccounts"
                   }
                 }
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Customer (Dist) Plan Visit",
-                "type": "'Customer (Dist) Plan Visit'.Button2_4"
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colMyAccounts"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 93,
+                  "charOffset": 260,
+                  "snippet": {
+                    "text": "LookUp(\r\n            colMyAccounts,\r\n            Account = ThisItem.Dealer.Account\r\n        )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4"
               }
             }
           ],
@@ -15116,27 +15008,67 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 7
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect"
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Customer (Dist) Plan Visit'.Button2_4.OnSelect",
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 309,
+                  "snippet": {
+                    "text": "Account"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Account"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 711,
+                  "charOffset": 317,
                   "snippet": {
                     "text": "="
                   }
@@ -15144,22 +15076,23 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Customer (Dist) Plan Visit",
-                "type": "'Customer (Dist) Plan Visit'.Button2_4"
+                "module": "Customer (Dist) Sites",
+                "type": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4"
               }
             }
           ],
           "message": {
             "arguments": [
-              "LookUp"
+              "Error",
+              "Guid"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -15375,7 +15308,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 108,
+                  "charOffset": 161,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -15415,7 +15348,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 85,
+                  "charOffset": 141,
                   "snippet": {
                     "text": "="
                   }
@@ -15455,7 +15388,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 118,
+                  "charOffset": 171,
                   "snippet": {
                     "text": "&&"
                   }
@@ -15495,7 +15428,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 143,
+                  "charOffset": 196,
                   "snippet": {
                     "text": "&&"
                   }
@@ -15535,7 +15468,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 686,
+                  "charOffset": 851,
                   "snippet": {
                     "text": ".Customer"
                   }
@@ -15575,7 +15508,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 663,
+                  "charOffset": 831,
                   "snippet": {
                     "text": "="
                   }
@@ -35453,66 +35386,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Customer (Dist) Sites",
-                "type": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 14
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Customer (Dist) Sites",
-                "type": "'Customer (Dist) Sites'.Gallery3_7.Icon13_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 15
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.VarVisit"
                 }
               ],
@@ -35614,36 +35487,6 @@
               },
               "properties": {
                 "member": "VisitStarted",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 18
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.VarPlanVisitDate"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.VarPlanVisitDate",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "VarPlanVisitDate",
                 "module": "App",
                 "type": "App"
               }
@@ -41905,20 +41748,6 @@
               }
             },
             {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
               "messageStrings": {
                 "issue": {
@@ -41937,14 +41766,31 @@
               }
             },
             {
-              "id": "app-ErrTypeError-Arg-Expected-Found",
+              "id": "app-ErrInvalidDot",
               "messageStrings": {
                 "issue": {
-                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
+                  "text": "Invalid use of '.'"
                 }
               },
               "properties": {
                 "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrColumnTypeMismatch-ColName-ExpectedType-ActualType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. The '{0}' column in the data source you’re updating expects a '{1}' type and you’re using a '{2}' type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value or a string to a number."
+                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

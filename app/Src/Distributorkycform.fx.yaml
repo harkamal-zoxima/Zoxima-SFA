@@ -1940,6 +1940,7 @@ Distributorkycform As screen:
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
                     FocusedBorderThickness: =4
+                    Format: =TextFormat.Number
                     Height: =50
                     HintText: ="Enter Term Pipes"
                     HoverBorderColor: =RGBA(0, 18, 107, 1)
@@ -2196,7 +2197,7 @@ Distributorkycform As screen:
                         'Bank Code': TextInput3_56.Text,
                         'Bank Name': TextInput3_54.Text,
                         'Bank Address': TextInput3_55.Text,
-                        // 'Credit Term Pipes':TextInput3_59.Text,
+                        'Credit Term Pipes':TextInput3_59.Text,
                         'Credit Term Fittings': TextInput3_61.Text,
                         'Name of the Distributor': TextInput3_57.Text,
                         'Credit limit (In Rs.)': Value(TextInput3_60.Text),
@@ -2230,11 +2231,11 @@ Distributorkycform As screen:
                                     2
                                 )
                             ).cr431_salesterritoryid
-                        )
+                        ),
                   //  'Area': ComboBox3_5.Selected.Value
                    // 'Billing State': ComboBox3_1.Selected.Value
                     // Zone: ComboBox3.Selected.Value
-                   // Zone: LookUp('Sales Territory', 'Sales Territory (zx_salesterritoryid)' = Last(FirstN(Zones,2)).zx_salesterritoryid)
+                    Zone: LookUp('Sales Territories', 'Sales Territory' = Last(FirstN(Zones,2)).cr431_salesterritoryid)
                     }
                 );
                 Notify("Successfuly added!"),
@@ -2305,7 +2306,7 @@ Distributorkycform As screen:
         Size: =24
         Text: ="SAVE"
         Width: =184
-        X: =420
-        Y: =75
+        X: =423
+        Y: =87
         ZIndex: =6
 
