@@ -5,14 +5,6 @@
     OnVisible: |-
         =Set(VarDialogOpen, false);
         Set(varOpen, false);
-        If(
-            !Connection.Connected,
-            Clear(colMyAccounts);
-            LoadData(
-                colMyAccounts,
-                "LocalAccounts"
-            );
-        );
 
     Gallery3_7 As gallery.galleryVertical:
         BorderColor: =RGBA(109, 109, 109, 1)
@@ -244,18 +236,13 @@
                 OnSelect: |
                     =Set(
                         VarDialogOpen,
-                        !VarDialogOpen
+                        true
                     );
                     ClearCollect(
-                        SingleVisit,
+                        SingleNewVisit,
                         {
                             Customer: ThisItem.Dealer.Account,
-                            visitType: 'Visit Type (Visits_1)'.Unplanned,
-                            Name: ThisItem.'Account Name (name)',
-                            Account: LookUp(
-                                colMyAccounts,
-                                Account = ThisItem.Dealer.Account
-                            )
+                            visitType: 'Visit Type (Visits_1)'.Planned
                         }
                     );
                 PaddingLeft: =45
@@ -284,18 +271,13 @@
                 OnSelect: |
                     =Set(
                         VarDialogOpen,
-                        !VarDialogOpen
+                        true
                     );
                     ClearCollect(
-                        SingleVisit,
+                        SingleNewVisit,
                         {
                             Customer: ThisItem.Dealer.Account,
-                            visitType: 'Visit Type (Visits_1)'.Unplanned,
-                            Name: ThisItem.Dealer.'Account Name (name)',
-                            Account: LookUp(
-                                colMyAccounts,
-                                Account = ThisItem.Dealer.Account
-                            )
+                            visitType: 'Visit Type (Visits_1)'.Planned
                         }
                     );
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
@@ -540,73 +522,50 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(31, 31, 31, 1)
             HoverFill: =ColorFade(RGBA(255, 200, 61, 1), 10%)
-            OnSelect: |
+            OnSelect: |-
                 =If(
-                    Connection.Connected,
-                    If(
-                        !IsBlank(
-                            LookUp(
-                                Visits_1,
-                                Customer.Account = First(SingleVisit).Customer && IsToday('Visit Date') && 'Created By'.'Primary Email' = LookUp(
-                                    Users,
-                                    'Primary Email' = User().Email
-                                ).'Primary Email'
-                            )
-                        ),
-                        Notify(
-                            "One visit is already there for this customer",
-                            NotificationType.Error,
-                            2000
-                        );
-                        Set(
-                            VarDialogOpen,
-                            false
-                        );
-                        ,
-                        Patch(
+                    !IsBlank(
+                        LookUp(
                             Visits_1,
-                            Defaults(Visits_1),
-                            {
-                                'Visit Date': Today(),
-                                Customer: LookUp(
-                                    Accounts,
-                                    Account = First(SingleVisit).Customer
-                                ),
-                                'Visit Type': 'Visit Type (Visits_1)'.Unplanned,
-                                status: 'status (Visits_1)'.Open
-                            }
-                        );
-                        Navigate(
-                            Visits,
-                            ScreenTransition.Fade
-                        );
-                    );
-                    Set(
-                        VarVisit,
-                        true
+                            Customer.Account = First(SingleNewVisit).Customer && IsToday('Visit Date') && 'Created By'.'Primary Email' = LookUp(
+                                Users,
+                                'Primary Email' = User().Email
+                            ).'Primary Email'
+                        )
                     ),
-                    ClearCollect(
-                        NewVisit,
-                        {
-                            'Visit Date': Today(),
-                            Customer: First(SingleVisit).Account,
-                            'Visit Type': 'Visit Type (Visits_1)'.Unplanned
-                        }
-                    );
-                    Patch(
-                        OfflineVisits,
-                        Defaults(OfflineVisits),
-                        {
-                            'Visit Date': Today(),
-                            Customer: First(SingleVisit).Account,
-                            'Visit Type': 'Visit Type (Visits_1)'.Unplanned
-                        }
+                    Notify(
+                        "One visit is already there for this customer",
+                        NotificationType.Error,
+                        2000
                     );
                     Set(
-                        VarVisit,
+                        VarDialogOpen,
                         false
-                    )
+                    );
+                    ,
+                    Patch(
+                        Visits_1,
+                        Defaults(Visits_1),
+                        {
+                            'Visit Date': Today(),
+                            Customer: LookUp(
+                                Accounts,
+                                Account = First(SingleNewVisit).Customer
+                            ),
+                            'Visit Type': 'Visit Type (Visits_1)'.Planned,
+                            status: 'status (Visits_1)'.Open
+                        }
+                    );
+                    Navigate(
+                        Visits,
+                        ScreenTransition.Fade
+                    );
+                    
                 );
+                Set(
+                    VarVisit,
+                    true
+                )
             PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 50%)
             PressedColor: =RGBA(31, 31, 31, 1)
             PressedFill: =ColorFade(RGBA(255, 200, 61, 1), 30%)
