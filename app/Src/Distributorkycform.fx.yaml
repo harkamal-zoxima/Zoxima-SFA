@@ -2241,7 +2241,8 @@ Distributorkycform As screen:
                                     2
                                 )
                             ).cr431_salesterritoryid
-                        )
+                        ),
+                        statusmain:'statusmain (Distributor Onboardings)'.Draft
                     }
                 );
                 Notify("Successfuly added!"),
