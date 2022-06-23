@@ -58,7 +58,7 @@
         "Name": "Rectangle1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2004,
+        "PublishOrderIndex": 73,
         "Rules": [
           {
             "Category": "Design",
@@ -230,7 +230,7 @@
         "Name": "Icon1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2005,
+        "PublishOrderIndex": 74,
         "Rules": [
           {
             "Category": "Design",
@@ -455,7 +455,7 @@
         "Name": "Image3",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2006,
+        "PublishOrderIndex": 75,
         "Rules": [
           {
             "Category": "Data",
@@ -676,7 +676,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2008,
+            "PublishOrderIndex": 77,
             "Rules": [
               {
                 "Category": "Design",
@@ -836,7 +836,7 @@
             "Name": "Label5",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2009,
+            "PublishOrderIndex": 78,
             "Rules": [
               {
                 "Category": "Data",
@@ -1143,7 +1143,7 @@
             "Name": "Rectangle2",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2010,
+            "PublishOrderIndex": 79,
             "Rules": [
               {
                 "Category": "Design",
@@ -1327,7 +1327,7 @@
         "Name": "Gallery1_1",
         "Parent": "Side Bar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2007,
+        "PublishOrderIndex": 76,
         "Rules": [
           {
             "Category": "Data",
@@ -1534,12 +1534,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637915587990993016",
+    "LastModifiedTimestamp": "637915610319783201",
     "Name": "Side Bar",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "[\r\n    {\r\n        title: \"Profile\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Primary Orders\",\r\n        screen: 'All Orders'\r\n    },\r\n    {\r\n        title: \"Secondary Orders\",\r\n        screen: 'Secondary Orders'\r\n    },\r\n    {\r\n        title: \"Expense\",\r\n        screen: 'Expenses Screen'\r\n    },\r\n    {\r\n        title: \"Site\",\r\n        screen: 'Create Site'\r\n    },\r\n    {\r\n        title: \"Customers\",\r\n        screen: 'Customer (Dist)_1'\r\n    },\r\n    {title: \"Influencer\"\r\n      //  screen:\r\n},\r\n    {\r\n        title: \"Events\",\r\n        screen: 'Events detail'\r\n    },\r\n    {\r\n        title: \"Distributor Onboarding\",\r\n        screen: DistributorOnboarding\r\n    }\r\n]",
+        "InvariantScript": "[\r\n    {\r\n        title: \"Profile\",\r\n        screen: Profile\r\n    },\r\n    {\r\n        title: \"Primary Orders\",\r\n        screen: 'All Orders'\r\n    },\r\n    {\r\n        title: \"Secondary Orders\",\r\n        screen: 'Secondary Orders'\r\n    },\r\n    {\r\n        title: \"Expense\",\r\n        screen: 'Expenses Screen'\r\n    },\r\n    {\r\n        title: \"Site\",\r\n        screen: 'Site List'\r\n    },\r\n    {\r\n        title: \"Customers\",\r\n        screen: 'Customer (Dist)_1'\r\n    },\r\n    {title: \"Influencer\"\r\n      //  screen:\r\n},\r\n    {\r\n        title: \"Events\",\r\n        screen: 'Events detail'\r\n    },\r\n    {\r\n        title: \"Distributor Onboarding\",\r\n        screen: DistributorOnboarding\r\n    }\r\n]",
         "Property": "NavItems",
         "RuleProviderType": "System"
       },
@@ -1609,7 +1609,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637915587990993016",
+  "LastModifiedTimestamp": "637915610319783201",
   "Name": "69894502ba10475d874bab19096f81b6",
   "OverridableProperties": {},
   "TemplateOriginalName": "44296e90674643d98cbafda09bd9f5fa",
