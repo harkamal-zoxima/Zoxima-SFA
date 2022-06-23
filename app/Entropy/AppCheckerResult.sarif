@@ -900,7 +900,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 2320,
+                  "charOffset": 4360,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -940,7 +940,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2184,
+                  "charOffset": 4224,
                   "snippet": {
                     "text": "="
                   }
@@ -980,7 +980,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 2635,
+                  "charOffset": 4675,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1020,7 +1020,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2502,
+                  "charOffset": 4542,
                   "snippet": {
                     "text": "="
                   }
@@ -1060,7 +1060,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 2904,
+                  "charOffset": 4944,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1100,7 +1100,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2771,
+                  "charOffset": 4811,
                   "snippet": {
                     "text": "="
                   }
@@ -1140,7 +1140,7 @@
                 },
                 "region": {
                   "charLength": 23,
-                  "charOffset": 3223,
+                  "charOffset": 5347,
                   "snippet": {
                     "text": ".cr431_salesterritoryid"
                   }
@@ -1180,327 +1180,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 3091,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 5649,
-                  "snippet": {
-                    "text": ".cr431_salesterritoryid"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 5513,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 5964,
-                  "snippet": {
-                    "text": ".cr431_salesterritoryid"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 5831,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 6233,
-                  "snippet": {
-                    "text": ".cr431_salesterritoryid"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 6100,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 6636,
-                  "snippet": {
-                    "text": ".cr431_salesterritoryid"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Distributorkycform",
-                "type": "Distributorkycform.Button6_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "LookUp"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Distributorkycform.Button6_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 6504,
+                  "charOffset": 5215,
                   "snippet": {
                     "text": "="
                   }
