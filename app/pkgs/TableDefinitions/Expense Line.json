@@ -2,10 +2,6 @@
   "DatasetName": "default.cds",
   "EntityName": "Expense Line",
   "InstanceUrl": "https://org2ed0cdbd.crm8.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "cr431_expenselines",
-    "logicalName": "cr431_expenseline"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://org2ed0cdbd.crm8.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr431_expenseline')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

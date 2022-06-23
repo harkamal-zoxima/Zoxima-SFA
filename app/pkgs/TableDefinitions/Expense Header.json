@@ -2,10 +2,6 @@
   "DatasetName": "default.cds",
   "EntityName": "Expense Header",
   "InstanceUrl": "https://org2ed0cdbd.crm8.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "cr431_expenseheaders",
-    "logicalName": "cr431_expenseheader"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://org2ed0cdbd.crm8.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr431_expenseheader')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

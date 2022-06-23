@@ -235,7 +235,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button6_6",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -447,7 +447,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Canvas7",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4980,7 +4980,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery15",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5565,7 +5565,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Header Component_20",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5866,7 +5866,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon17_4",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22109,7 +22109,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "mainbottomnav_9",
-      "ParentIndex": 0,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

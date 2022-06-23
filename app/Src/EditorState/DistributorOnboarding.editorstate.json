@@ -379,7 +379,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button18",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1945,7 +1945,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Circle6",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2329,7 +2329,9 @@
         "Width",
         "Height",
         "ZIndex",
-        "Visible"
+        "Visible",
+        "ShowNavigation",
+        "ShowScrollbar"
       ],
       "GalleryTemplateChildName": "galleryTemplate2_8",
       "HasDynamicProperties": false,
@@ -2353,6 +2355,16 @@
         {
           "Category": "Data",
           "PropertyName": "WrapCount",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ShowNavigation",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ShowScrollbar",
           "RuleProviderType": "Unknown"
         },
         {
@@ -2559,7 +2571,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group10_1",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2610,7 +2622,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group11_6",
-      "ParentIndex": 9,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3720,7 +3732,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label40",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

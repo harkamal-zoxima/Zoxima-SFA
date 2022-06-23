@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr431_productitem",
-    "MaxGetRowsCount": 500,
     "Name": "Product Items",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

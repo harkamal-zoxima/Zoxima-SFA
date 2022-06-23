@@ -184,13 +184,14 @@ Expenses As screen:
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(79, 79, 79, 1)
+                IsSearchable: =false
                 Items: =Choices([@'Expense Header'].cr431_TeamID)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 PressedColor: =RGBA(31, 31, 31, 1)
                 PressedFill: =RGBA(255, 200, 61, 1)
                 SearchFields: =["name"]
-                SearchItems: =Search(Choices([@'Expense Header'].cr431_TeamID),DataCardValue4_3.SearchText,"name")
+                SearchItems: =[]
                 SelectionColor: =RGBA(31, 31, 31, 1)
                 SelectionFill: =RGBA(255, 200, 61, 1)
                 SelectMultiple: =false
@@ -302,13 +303,14 @@ Expenses As screen:
                 HoverBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(79, 79, 79, 1)
+                IsSearchable: =false
                 Items: =Choices([@'Expense Header'].cr431_ExpenseApprover)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedBorderColor: =ColorFade(RGBA(255, 200, 61, 1), 30%)
                 PressedColor: =RGBA(31, 31, 31, 1)
                 PressedFill: =RGBA(255, 200, 61, 1)
                 SearchFields: =["name"]
-                SearchItems: =Search(Choices([@'Expense Header'].cr431_ExpenseApprover),DataCardValue5_3.SearchText,"name")
+                SearchItems: =[]
                 SelectionColor: =RGBA(31, 31, 31, 1)
                 SelectionFill: =RGBA(255, 200, 61, 1)
                 SelectMultiple: =false
