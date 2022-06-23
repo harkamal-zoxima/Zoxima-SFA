@@ -5,36 +5,13 @@ DistributorOnboarding As screen:
     Gallery2_6 As gallery.galleryVertical:
         BorderColor: =RGBA(89, 0, 0, 1)
         BorderStyle: =BorderStyle.None
-        Height: =659
-        Items: |-
-            =Filter(
-                If(
-                    Gallery14.Selected.Title = "Draft",
-                    Filter(
-                        'Distributor Onboardings',
-                        statusmain = 'statusmain (Distributor Onboardings)'.Draft
-                    ),
-                    Gallery14.Selected.Title = "Pending for approval",
-                    Filter(
-                        'Distributor Onboardings',
-                        statusmain = 'statusmain (Distributor Onboardings)'.Pending
-                    ),
-                    Gallery14.Selected.Title = "Approved",
-                    Filter(
-                        'Distributor Onboardings',
-                        statusmain = 'statusmain (Distributor Onboardings)'.Approved
-                    ),
-                    Gallery14.Selected.Title = "Reject",
-                    Filter(
-                        'Distributor Onboardings',
-                        statusmain = 'statusmain (Distributor Onboardings)'.Rejected
-                    )
-                ),
-                TextInput4.Text in 'Name of the Firm'
-            )
+        Height: =730
+        Items: ='Distributor Onboardings'
         Layout: =Layout.Vertical
-        TemplateSize: =484
-        Y: =372
+        ShowNavigation: =true
+        ShowScrollbar: =false
+        TemplateSize: =480
+        Y: =326
         ZIndex: =1
 
         Button25 As button:
@@ -154,7 +131,7 @@ DistributorOnboarding As screen:
                 "Name"
             Width: =140
             X: =86
-            Y: =148
+            Y: =158
             ZIndex: =9
 
         Label46_2 As label:
@@ -168,7 +145,7 @@ DistributorOnboarding As screen:
                 =//ThisItem.'Distributor Name'
                 //ThisItem.'Record Id';
                 "Constitution of Firm"
-            Width: =169
+            Width: =283
             X: =86
             Y: =254
             ZIndex: =10
@@ -184,9 +161,9 @@ DistributorOnboarding As screen:
                 =//ThisItem.'Distributor Name'
                 //ThisItem.'Record Id';
                 "Year of Establishment"
-            Width: =196
+            Width: =291
             X: =86
-            Y: =192
+            Y: =202
             ZIndex: =11
 
         Label46_4 As label:
@@ -207,7 +184,7 @@ DistributorOnboarding As screen:
 
         Label46_5 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =42
             OnSelect: =Select(Parent)
@@ -217,13 +194,13 @@ DistributorOnboarding As screen:
                 ThisItem.' Record Id'
                 //"Record Id"
             Width: =140
-            X: =327
+            X: =377
             Y: =110
             ZIndex: =13
 
         Label46_6 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =42
             OnSelect: =Select(Parent)
@@ -232,13 +209,13 @@ DistributorOnboarding As screen:
                 =//ThisItem.'Distributor Name'
                 ThisItem.'First Name'
             Width: =140
-            X: =327
-            Y: =148
+            X: =377
+            Y: =153
             ZIndex: =14
 
         Label46_7 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =54
             OnSelect: =Select(Parent)
@@ -248,13 +225,13 @@ DistributorOnboarding As screen:
                 ThisItem.'Year of Establishment'
                 //"Record Id"
             Width: =162
-            X: =327
+            X: =377
             Y: =190
             ZIndex: =15
 
         Label46_8 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =42
             OnSelect: =Select(Parent)
@@ -264,13 +241,13 @@ DistributorOnboarding As screen:
                 ThisItem.'Constitution of the firm'
                 //"Record Id"
             Width: =140
-            X: =319
+            X: =379
             Y: =256
             ZIndex: =16
 
         Label46_9 As label:
             BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 191, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =42
             OnSelect: =Select(Parent)
@@ -280,7 +257,7 @@ DistributorOnboarding As screen:
                 ThisItem.'Gross Turnover (Per Annum)'
                 //"Record Id"
             Width: =140
-            X: =317
+            X: =377
             Y: =323
             ZIndex: =17
 
@@ -293,7 +270,7 @@ DistributorOnboarding As screen:
 
             Circle6 As circle:
                 BorderColor: =RGBA(89, 0, 0, 1)
-                Fill: =RGBA(104, 196, 127, 1)
+                Fill: =RGBA(255, 191, 0, 1)
                 Height: =45
                 OnSelect: |-
                     =Launch("tel://"& ThisItem.'Mobile No.')
@@ -387,16 +364,6 @@ DistributorOnboarding As screen:
             Y: =396
             ZIndex: =20
 
-    Circle5 As circle:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Fill: =RGBA(255, 216, 119, 1)
-        Height: =82
-        OnSelect: =
-        Width: =82
-        X: =494
-        Y: =885
-        ZIndex: =2
-
     Icon12_2 As icon.ArrowLeft:
         BorderColor: =RGBA(89, 0, 0, 1)
         Color: =RGBA(255, 255, 255, 1)
@@ -476,6 +443,7 @@ DistributorOnboarding As screen:
             BorderColor: =RGBA(89, 0, 0, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =70
             Size: =21
             Text: ="Distributor Onboarding"
@@ -532,19 +500,51 @@ DistributorOnboarding As screen:
             Y: =55
             ZIndex: =2
 
-    Icon17_3 As icon.Add:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =55
-        Icon: =Icon.Add
-        OnSelect: |-
-            =Navigate(Distributorkycform, Fade, {datadis1: {}});
-            Set(variable,true)
-        Width: =55
-        X: =510
-        Y: =900
-        ZIndex: =10
+    mainbottomnav_8 As mainbottomnav:
+        NavItems: |-
+            =Table(
+                {
+                    Title: If(
+                        varAttendance = "end",
+                        "End",
+                        varAttendance = "start",
+                        "Start",
+                        varAttendance = "done",
+                        "Ended"
+                    ),
+                    //Title: Start,
+                    Screen: If(
+                        varAttendance = "start",
+                        StartDay,
+                        varAttendance = "end",
+                        'End day',
+                        varAttendance = "done",
+                        'Day Ended'
+                    ),
+                    Icon: CalendarBlank,
+                    Active: false
+                },
+                {
+                    Title: "Visits",
+                    Screen: Visits,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Home,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Orders",
+                    Screen: 'All Orders',
+                    Icon: ShoppingCart,
+                    Active: false
+                }
+            )
+        Y: =1056
+        ZIndex: =11
 
     Group11_6 As group:
         Height: =5
@@ -552,4 +552,35 @@ DistributorOnboarding As screen:
         X: =40
         Y: =40
         ZIndex: =11
+
+    Group30 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =12
+
+        Circle5 As circle:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Fill: =RGBA(255, 216, 119, 1)
+            Height: =82
+            OnSelect: =
+            Width: =82
+            X: =504
+            Y: =955
+            ZIndex: =2
+
+        Icon17_3 As icon.Add:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =55
+            Icon: =Icon.Add
+            OnSelect: |-
+                =Navigate(Distributorkycform, Fade, {datadis1: {}});
+                Set(variable,true)
+            Width: =55
+            X: =518
+            Y: =968
+            ZIndex: =10
 

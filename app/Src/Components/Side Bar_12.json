@@ -58,7 +58,7 @@
         "Name": "Rectangle1_1",
         "Parent": "Side Bar_12",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2004,
+        "PublishOrderIndex": 2005,
         "Rules": [
           {
             "Category": "Design",
@@ -230,7 +230,7 @@
         "Name": "Icon1_5",
         "Parent": "Side Bar_12",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2005,
+        "PublishOrderIndex": 2006,
         "Rules": [
           {
             "Category": "Design",
@@ -448,7 +448,7 @@
         "Name": "Image3_1",
         "Parent": "Side Bar_12",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2006,
+        "PublishOrderIndex": 2007,
         "Rules": [
           {
             "Category": "Data",
@@ -669,7 +669,7 @@
             "Name": "galleryTemplate1_6",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2008,
+            "PublishOrderIndex": 2009,
             "Rules": [
               {
                 "Category": "Design",
@@ -822,7 +822,7 @@
             "Name": "Label5_1",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2009,
+            "PublishOrderIndex": 2010,
             "Rules": [
               {
                 "Category": "Data",
@@ -1129,7 +1129,7 @@
             "Name": "Rectangle2_1",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 2010,
+            "PublishOrderIndex": 2011,
             "Rules": [
               {
                 "Category": "Design",
@@ -1306,7 +1306,7 @@
         "Name": "Gallery1_5",
         "Parent": "Side Bar_12",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2007,
+        "PublishOrderIndex": 2008,
         "Rules": [
           {
             "Category": "Data",
@@ -1513,7 +1513,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "637915667799093334",
+    "LastModifiedTimestamp": "637915704788413888",
     "Name": "Side Bar_12",
     "Rules": [
       {
@@ -1588,7 +1588,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637915667799093334",
+  "LastModifiedTimestamp": "637915704788413888",
   "Name": "953c65dee9004befa9da357a814c570e",
   "OverridableProperties": {},
   "TemplateOriginalName": "69894502ba10475d874bab19096f81b6",
