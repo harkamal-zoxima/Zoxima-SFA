@@ -113,7 +113,7 @@ DistributorOnboarding As screen:
             Height: =39
             Icon: =Icon.Edit
             OnSelect: |
-                =Navigate(Distributorkycform, Fade, {datadis: ThisItem});
+                =Navigate(Distributorkycform, Fade, {datadis1: ThisItem});
                 Set(Create,false)
             PaddingBottom: =5
             PaddingLeft: =5
@@ -538,7 +538,7 @@ DistributorOnboarding As screen:
         Height: =55
         Icon: =Icon.Add
         OnSelect: |-
-            =Navigate(Distributorkycform, Fade, {datadis: {}});
+            =Navigate(Distributorkycform, Fade, {datadis1: {}});
             Set(Create,true)
         Width: =55
         X: =510
