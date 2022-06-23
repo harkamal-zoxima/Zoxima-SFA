@@ -495,7 +495,7 @@
                             'Visit Date': Today(),
                             Customer: LookUp(
                                 Accounts,
-                                Account = First(SingleVisit.Customer).Customer
+                                Account = First(SingleNewVisit.Customer).Customer
                             ),
                             'Visit Type': 'Visit Type (Visits_1)'.Unplanned
                         }
@@ -508,7 +508,7 @@
                         NewVisit,
                         {
                             'Visit Date': Today(),
-                            Customer: First(SingleVisit).Account,
+                            Customer: First(SingleNewVisit).Account,
                             'Visit Type': 'Visit Type (Visits_1)'.Unplanned
                         }
                     );
@@ -517,7 +517,7 @@
                         Defaults(OfflineVisits),
                         {
                             'Visit Date': Today(),
-                            Customer: First(SingleVisit).Account,
+                            Customer: First(SingleNewVisit).Account,
                             'Visit Type': 'Visit Type (Visits_1)'.Unplanned
                         }
                     );
