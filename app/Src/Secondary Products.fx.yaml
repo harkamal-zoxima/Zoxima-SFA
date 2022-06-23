@@ -6,18 +6,7 @@
     "'Product Gallery_1' As gallery.galleryVertical":
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =888
-        Items: |-
-            =Filter(
-                If(
-                    CountRows(FilterList) = 0,
-                    Filter(
-                        'Product Items',
-                        PG1.Category = CategoryFilter_1.Selected.Category
-                    ),
-                    AllProducts
-                ),
-                Search.Text in 'Product Name'
-            )
+        Items: ='Product Items'
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplateSize: =416
@@ -204,12 +193,12 @@
                             name: ThisItem.'Product Name',
                             qty: Bags.Text,
                             price: LookUp(
-                                OfflinePriceList,
+                                'Product Price List',
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price * Bags.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
-                                OfflinePriceList,
+                                'Product Price List',
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price,
                             item: ThisItem.'Product Item'
@@ -221,12 +210,12 @@
                             name: ThisItem.'Product Name',
                             qty: Bags.Text,
                             price: LookUp(
-                                OfflinePriceList,
+                                'Product Price List',
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price * Bags.Text,
                             image: ThisItem.'Image URL',
                             itemPrice: LookUp(
-                                OfflinePriceList,
+                                'Product Price List',
                                 Product.'Product Item' = ThisItem.'Product Item'
                             ).Price,
                             item: ThisItem.'Product Item'
