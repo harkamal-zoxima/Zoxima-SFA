@@ -13,7 +13,7 @@
         BorderColor: =RGBA(109, 109, 109, 1)
         Height: =850
         Items: |-
-            =If(IsBlank('Order Filter'.SelectedDate), Sort(Filter(Switch(
+            =If(IsBlank(VarSelectedOrderDate), Sort(Filter(Switch(
                 filter_2.Selected.Value,
                 "Last 30 Days",
                 Filter(
@@ -39,7 +39,7 @@
                     ),
                     IsToday('Order Date' )
                 )
-            ), 'Order Date' = 'Order Filter'.SelectedDate), 'Created On', Descending), Sort(Filter(Switch(
+            ), 'Order Date' = VarSelectedOrderDate), 'Created On', Descending), Sort(Filter(Switch(
                 filter_2.Selected.Value,
                 "Last 30 Days",
                 Filter(
@@ -65,7 +65,7 @@
                     ),
                     IsToday('Order Date' )
                 )
-            ), 'Order Date' = 'Order Filter'.SelectedDate), 'Created On', Descending))
+            ), 'Order Date' = VarSelectedOrderDate), 'Created On', Descending))
         Layout: =Layout.Vertical
         TemplateSize: =226
         Y: =201
@@ -809,6 +809,7 @@
         IconBackground: =
         IconFill: =Black
         InputTextPlaceholder: ="Select Date"
+        OnSelect: =Set(VarSelectedOrderDate, 'Order Filter'.SelectedDate)
         PaddingTop: =5
         SelectedDateFill: =RGBA(255, 200, 61, 1)
         Size: =15
