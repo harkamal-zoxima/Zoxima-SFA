@@ -264,7 +264,7 @@
                         ),
                         'Order To': LookUp(
                             Accounts,
-                            Account = First(SelectedDistributorForSecOrder).Account
+                            Account = First(SelectedRetailerForSecOrder).'Parent Account'.Account
                         ),
                         'Order From': LookUp(
                             Accounts,
