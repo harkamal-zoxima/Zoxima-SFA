@@ -18,24 +18,5 @@
     "dependencies": {},
     "dependents": [],
     "id": "c9c4816a-4020-432d-9280-92907bb120b2"
-  },
-  "fb3e11e5-ccd3-4ac3-8bb7-635b344d8f0e": {
-    "connectionParameters": {
-      "applicationId": "5a9caf3d-0560-482a-9e0e-9bc19f44e930",
-      "sku": "Enterprise"
-    },
-    "connectionRef": {
-      "displayName": "Power Apps Notification",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1539/1.0.1539.2620/powerappsnotification/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_powerappsnotification",
-      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_powerappsnotification/connections/581114cd34ab4005b8188c66a9ec966e"
-    },
-    "datasets": {},
-    "dataSources": [
-      "PowerAppsNotification"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "fb3e11e5-ccd3-4ac3-8bb7-635b344d8f0e"
   }
 }
